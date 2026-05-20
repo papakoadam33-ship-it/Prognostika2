@@ -107,7 +107,7 @@ st.markdown("""
         margin-top: 30px;
     }
     </style>
-""", unsafe_allow_whitespace=True)
+""", unsafe_allow_html=True)
 
 # --- HEADER ΕΦΑΡΜΟΓΗΣ ---
 st.markdown("""
@@ -115,7 +115,7 @@ st.markdown("""
         <p class="title-text">⚡ MARIOS PRO-BET PRO ⚡</p>
         <p class="subtitle-text">Advanced Poisson & Hybrid Prediction Engine</p>
     </div>
-""", unsafe_allow_whitespace=True)
+""", unsafe_allow_html=True)
 
 # --- ΑΝΑΓΝΩΣΗ ΔΕΔΟΜΕΝΩΝ ---
 file_path = "daily_predictions.txt"
@@ -125,16 +125,14 @@ if os.path.exists(file_path):
         lines = f.readlines()
     
     if lines:
-        # Πρώτη γραμμή: Ημερομηνία και Ώρα
         header_parts = lines[0].strip().split("|")
         if header_parts[0] == "ΗΜΕΡΟΜΗΝΙΑ" and len(header_parts) >= 3:
             date_str = header_parts[1]
             time_str = header_parts[2]
-            st.markdown(f'<div class="date-badge">📅 ΠΡΟΓΝΩΣΤΙΚΑ {date_str} | 🕒 Τελευταία Ενημέρωση: {time_str}</div>', unsafe_allow_whitespace=True)
+            st.markdown(f'<div class="date-badge">📅 ΠΡΟΓΝΩΣΤΙΚΑ {date_str} | 🕒 Τελευταία Ενημέρωση: {time_str}</div>', unsafe_allow_html=True)
         
         match_lines = lines[1:]
         
-        # Έλεγχος αν υπάρχει το INFO (άδειο σετ αγώνων)
         if len(match_lines) == 1 and "INFO" in match_lines[0]:
             st.markdown("""
                 <div class="no-matches">
@@ -142,9 +140,8 @@ if os.path.exists(file_path):
                     <h3 style="margin-top:15px; font-weight:bold;">Δεν υπάρχουν προγραμματισμένοι αγώνες για σήμερα.</h3>
                     <p style="color:#888888;">Το σύστημα ανανεώνει τις προβλέψεις αυτόματα.</p>
                 </div>
-            """, unsafe_allow_whitespace=True)
+            """, unsafe_allow_html=True)
         else:
-            # Εμφάνιση Καρτών Αγώνων
             for line in match_lines:
                 if not line.strip():
                     continue
@@ -164,10 +161,16 @@ if os.path.exists(file_path):
                             <div class="tip-box">👑 {main_tip}</div>
                             <div class="cover-box">🛡️ {cover_tip}</div>
                         </div>
-                    """, unsafe_allow_whitespace=True)
+                    """, unsafe_allow_html=True)
 else:
-    st.info("Αναμονή για την πρώτη αυτόματη δημιουργία των προγνωστικών...")
+    st.markdown("""
+        <div class="no-matches">
+            <span style="font-size: 50px;">⏳</span>
+            <h3 style="margin-top:15px; font-weight:bold;">Αναμονή για την πρώτη αυτόματη δημιουργία...</h3>
+            <p style="color:#888888;">Το αρχείο προγνωστικών δεν έχει δημιουργηθεί ακόμα στο GitHub.</p>
+        </div>
+    """, unsafe_allow_html=True)
 
 # --- FOOTER ---
-st.markdown('<div class="footer">Powered by Python & API-Football (Marios Pro-Bet Engine)</div>', unsafe_allow_whitespace=True)
+st.markdown('<div class="footer">Powered by Python & API-Football (Marios Pro-Bet Engine)</div>', unsafe_allow_html=True)
 
