@@ -6,7 +6,7 @@ import os
 # ==========================================
 # 1. ΡΥΘΜΙΣΕΙΣ & ΠΑΡΑΜΕΤΡΟΙ (CONFIGURATION)
 # ==========================================
-API_KEY = "6be0e4d0ca519a79fa4da6a9089069bf"  # Το δικό σου API Key στο API-Football
+API_KEY = "6be0e4d0ca519a79fa4da6a9089069bf"  # Το dικό σου API Key στο API-Football
 
 # Λίστα με όλα τα υποστηριζόμενα πρωταθλήματα και τα ID τους
 LEAGUES_CONFIG = {
@@ -160,7 +160,7 @@ def main():
                 home_id = item.get("teams", {}).get("home", {}).get("id")
                 away_id = item.get("teams", {}).get("away", {}).get("id")
                 
-                # ΕΞΥΠΝΟΣ ΥΠΟΛΟΓΙΣΜΟΣ ΣΕΖΟΝ: Αν είναι ευρωπαϊκό/χειμερινό πρωτάθλημα, η σεζόν είναι 2025
+                # ΕΞΥΠΝΟΣ ΥΠΟΛΟΓΙΣΜΟΣ ΣΕΖΟΝ
                 raw_season = item.get("league", {}).get("season")
                 if league_id in [2, 3, 848, 39, 40, 140, 135, 78, 61, 88, 94, 197, 332, 42, 106]:
                     season = 2025
@@ -199,4 +199,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
