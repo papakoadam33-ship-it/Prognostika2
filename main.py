@@ -9,24 +9,31 @@ import os
 # ==========================================
 API_KEY = "6be0e4d0ca519a79fa4da6a9089069bf"
 
+# Πλήρης λίστα: Χειμερινά + Καλοκαιρινά Πρωταθλήματα μαζί!
 LEAGUES_CONFIG = {
+    # Μεγάλα Ευρωπαϊκά (Χειμερινά)
     39: "🏴 ΠΡΕΜΙΕΡ ΛΙΓΚ",
     40: "🏴 ΤΣΑΜΠΙΟΝΣΙΠ",
     140: "🇪🇸 ΛΑ ΛΙΓΚΑ",
     135: "🇮🇹 ΣΕΡΙΕ Α",
     78: "🇩🇪 ΜΠΟΥΝΤΕΣΛΙΓΚΑ",
-    61: "🇫ΡΑΝΣ ΛΙΓΚ 1",
+    61: "🇫🇷 ΛΙΓΚ 1",
     88: "🇳🇱 ΟΛΛΑΝΔΙΑ",
     94: "🇵🇹 ΠΟΡΤΟΓΑΛΙΑ",
-    71: "🇧🇷 BRAZIL SERIE A",
-    13: "🏆 COPA LIBERTADORES",
-    2: "🇪🇺 ΤΣΑΜΠΙΟΝΣ ΛΙΓΚ",
     197: "🇬🇷 ΕΛΛΑΔΑ SUPER LEAGUE",
+    332: "🇨🇾 ΚΥΠΡΟΣ Α ΚΑΤΗΓΟΡΙΑ",
+    2: "🇪🇺 ΤΣΑΜΠΙΟΝΣ ΛΙΓΚ",
     3: "🇪🇺 EUROPA LEAGUE",
     848: "🇪🇺 CONFERENCE LEAGUE",
-    332: "🇨🇾 ΚΥΠΡΟΣ Α ΚΑΤΗΓΟΡΙΑ",
-    42: "🏴 LEAGUE TWO (PLAYOFFS)",
-    106: "🏴 ΣΚΩΤΙΑ PREMIERSHIP"
+    
+    # Καλοκαιρινά / Ενεργά Τώρα
+    269: "🇸🇪 ΣΟΥΗΔΙΑ ALLSVENSKAN",
+    103: "🇳🇴 ΝΟΡΒΗΓΙΑ ELITESERIEN",
+    357: "🇮🇪 ΙΡΛΑΝΔΙΑ PREMIER DIVISION",
+    365: "🇮🇸 ΙΣΛΑΝΔΙΑ PREMIER",
+    253: "🇺🇸 ΑΜΕΡΙΚΗ MLS",
+    71: "🇧🇷 ΒΡΑΖΙΛΙΑ SERIE A",
+    13: "🏆 COPA LIBERTADORES"
 }
 
 # ==========================================
@@ -104,16 +111,16 @@ def main():
         "x-rapidapi-host": "api-football-v1.p.rapidapi.com"
     }
     
-    # Εμφανίζει τη σημερινή ημερομηνία στην πορτοκαλί μπάρα
     today_display = datetime.date.today().strftime("%d/%m/%Y")
     now_time = datetime.datetime.now().strftime("%H:%M")
+    current_year = datetime.date.today().year
     
     predictions_log = []
     predictions_log.append(f"ΗΜΕΡΟΜΗΝΙΑ|{today_display}|{now_time}")
     
     match_found = False
     
-    # Ψάχνει αυτόματα για 3 ημέρες: Σήμερα (0), Αύριο (1), Μεθαύριο (2)
+    # Ψάχνει Σήμερα (0), Αύριο (1) και Μεθαύριο (2)
     for day_offset in range(3):
         target_date = datetime.date.today() + timedelta(days=day_offset)
         date_str = target_date.strftime("%Y-%m-%d")
@@ -135,15 +142,18 @@ def main():
                     raw_date = item.get("fixture", {}).get("date", "")
                     match_time = raw_date[11:16] if len(raw_date) > 16 else "00:00"
                     
-                    # Προσθήκη ημέρας στο πλάι του χρόνου (π.χ. "Πέμ" ή "Σάβ")
                     days_map = ["Σήμ", "Αύρ", "Μεθ"]
                     time_label = f"{days_map[day_offset]} {match_time}"
                     
                     home_id = item.get("teams", {}).get("home", {}).get("id")
                     away_id = item.get("teams", {}).get("away", {}).get("id")
                     
-                    url_home_stats = f"https://api-football-v1.p.rapidapi.com/v3/teams/statistics?league={league_id}&season=2025&team={home_id}"
-                    url_away_stats = f"https://api-football-v1.p.rapidapi.com/v3/teams/statistics?league={league_id}&season=2025&team={away_id}"
+                    # Αυτόματη επιλογή σωστής σεζόν ανάλογα με το πρωτάθλημα
+                    # Τα καλοκαιρινά θέλουν το τρέχον έτος, τα ευρωπαϊκά το προηγούμενο (λόγω μορφής 2025-2026)
+                    season = current_year if league_id in [269, 103, 357, 365, 253, 71, 13] else (current_year - 1)
+                    
+                    url_home_stats = f"https://api-football-v1.p.rapidapi.com/v3/teams/statistics?league={league_id}&season={season}&team={home_id}"
+                    url_away_stats = f"https://api-football-v1.p.rapidapi.com/v3/teams/statistics?league={league_id}&season={season}&team={away_id}"
                     
                     res_home = requests.get(url_home_stats, headers=headers).json().get("response", {})
                     res_away = requests.get(url_away_stats, headers=headers).json().get("response", {})
@@ -152,7 +162,7 @@ def main():
                     teams_formatted = f"{home_team} - {away_team}"
                     predictions_log.append(f"{league_name}|{teams_formatted}|{time_label}|{main_tip}|{cover_tip}")
         except Exception as e:
-            print(f"Σφάλμα την ημέρα {day_offset}: {e}")
+            print(f"Σφάλμα: {e}")
 
     if not match_found:
         predictions_log.append("INFO|Δεν υπάρχουν προγραμματισμένοι αγώνες.")
