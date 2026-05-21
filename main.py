@@ -6,12 +6,12 @@ import os
 # ==========================================
 # 1. ΡΥΘΜΙΣΕΙΣ & ΠΑΡΑΜΕΤΡΟΙ (CONFIGURATION)
 # ==========================================
-API_KEY = "6be0e4d0ca519a79fa4da6a9089069bf"  # Το dικό σου API Key στο API-Football
+API_KEY = "6be0e4d0ca519a79fa4da6a9089069bf"  # Το δικό σου API Key στο API-Football
 
 # Λίστα με όλα τα υποστηριζόμενα πρωταθλήματα και τα ID τους
 LEAGUES_CONFIG = {
-    39: "🏴" + "󠁧󠁢󠁥󠁮󠁧󠁿 ΠΡΕΜΙΕΡ ΛΙΓΚ",
-    40: "🏴" + "󠁧󠁢󠁥󠁮󠁧󠁿 ΤΣΑΜΠΙΟΝΣΙΠ",
+    39: "🏴" + "         ΠΡΕΜΙΕΡ ΛΙΓΚ",
+    40: "🏴" + "         ΤΣΑΜΠΙΟΝΣΙΠ",
     140: "🇪🇸 ΛΑ ΛΙΓΚΑ",
     135: "🇮🇹 ΣΕΡΙΕ Α",
     78: "🇩🇪 ΜΠΟΥΝΤΕΣΛΙΓΚΑ",
@@ -25,8 +25,8 @@ LEAGUES_CONFIG = {
     3: "🇪🇺 EUROPA LEAGUE",
     848: "🇪🇺 CONFERENCE LEAGUE",
     332: "🇨🇾 ΚΥΠΡΟΣ Α ΚΑΤΗΓΟΡΙΑ",
-    42: "🏴" + "󠁧󠁢󠁥󠁮󠁧󠁿 LEAGUE TWO (PLAYOFFS)",
-    106: "🏴" + "󠁧󠁢󠁳󠁣󠁴󠁿 ΣΚΩΤΙΑ PREMIERSHIP"
+    42: "🏴" + "         LEAGUE TWO (PLAYOFFS)",
+    106: "🏴" + "         ΣΚΩΤΙΑ PREMIERSHIP"
 }
 
 # ==========================================
@@ -35,7 +35,7 @@ LEAGUES_CONFIG = {
 def poisson_probability(lambd, k):
     if lambd <= 0:
         return 0.0
-    return (math.exp(-lambd) * (lambd ** k)) / math.factorial(k)
+    return (math.exp(-lambd) * (math.exp(k * math.log(lambd)) if k > 0 else 1.0)) / math.factorial(k)
 
 def analyze_match_hybrid(home_stats, away_stats):
     home_attack = home_stats.get('goals', {}).get('for', {}).get('average', {}).get('home', 1.4)
@@ -120,8 +120,8 @@ def main():
         "x-rapidapi-host": "api-football-v1.p.rapidapi.com"
     }
     
-    # Κανονική λήψη ημερομηνίας
-    today_date = datetime.date.today()
+    # ΤΕΣΤ: Κοιτάμε 2 μέρες μπροστά για να βρούμε σίγουρα αγώνες Σαββατοκύριακου
+    today_date = datetime.date.today() + datetime.timedelta(days=2)
     date_str = today_date.strftime("%Y-%m-%d")
     display_date = today_date.strftime("%d/%m/%Y")
     now_time = datetime.datetime.now().strftime("%H:%M")
@@ -199,3 +199,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
