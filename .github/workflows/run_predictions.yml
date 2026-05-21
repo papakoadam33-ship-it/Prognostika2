@@ -33,4 +33,3 @@ jobs:
         git add daily_predictions.txt
         git commit -m "Auto-updated daily predictions" || echo "No changes to commit"
         git push origin main
-
