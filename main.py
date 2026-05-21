@@ -24,8 +24,6 @@ LEAGUES_CONFIG = {
     197: "🇬🇷 ΕΛΛΑΔΑ SUPER LEAGUE",
     3: "🇪🇺 EUROPA LEAGUE",
     848: "🇪🇺 CONFERENCE LEAGUE",
-    
-    # Επιπλέον λίγκες για γεμάτο πρόγραμμα
     332: "🇨🇾 ΚΥΠΡΟΣ Α ΚΑΤΗΓΟΡΙΑ",
     42: "🏴" + "󠁧󠁢󠁥󠁮󠁧󠁿 LEAGUE TWO (PLAYOFFS)",
     106: "🏴" + "󠁧󠁢󠁳󠁣󠁴󠁿 ΣΚΩΤΙΑ PREMIERSHIP"
@@ -35,17 +33,11 @@ LEAGUES_CONFIG = {
 # 2. ΜΑΘΗΜΑΤΙΚΟΣ ΥΠΟΛΟΓΙΣΜΟΣ POISSON
 # ==========================================
 def poisson_probability(lambd, k):
-    """Υπολογίζει την πιθανότητα Poisson για k γκολ με μέσο όρο lambd"""
     if lambd <= 0:
         return 0.0
     return (math.exp(-lambd) * (lambd ** k)) / math.factorial(k)
 
 def analyze_match_hybrid(home_stats, away_stats):
-    """
-    Υβριδικός Αλγόριθμος (Poisson + Φόρμα + Επιθετική/Αμυντική Ισχύς)
-    Επιστρέφει Πιθανότητες για 1, Χ, 2 και Under/Over
-    """
-    # 1. Βασικοί Μέσοι Όροι Γκολ (Τελευταίοι 5 αγώνες)
     home_attack = home_stats.get('goals', {}).get('for', {}).get('average', {}).get('home', 1.4)
     home_defense = home_stats.get('goals', {}).get('against', {}).get('average', {}).get('home', 1.1)
     away_attack = away_stats.get('goals', {}).get('for', {}).get('average', {}).get('away', 1.1)
@@ -59,11 +51,9 @@ def analyze_match_hybrid(home_stats, away_stats):
     except:
         home_attack, home_defense, away_attack, away_defense = 1.4, 1.1, 1.1, 1.4
 
-    # 2. Υπολογισμός Expected Goals (λ και μ) με βάση την ισχύ των ομάδων
     lambda_home = (home_attack + away_defense) / 2.0
     mu_away = (away_attack + home_defense) / 2.0
     
-    # 3. Προσαρμογή βάσει πρόσφατης Φόρμας (Form %)
     home_form_str = home_stats.get('form', '50%').replace('%', '')
     away_form_str = away_stats.get('form', '50%').replace('%', '')
     try:
@@ -75,7 +65,6 @@ def analyze_match_hybrid(home_stats, away_stats):
     lambda_home *= (0.8 + (home_form * 0.4))
     mu_away *= (0.8 + (away_form * 0.4))
 
-    # 4. Υπολογισμός Πίνακα Πιθανοτήτων Σκορ (έως 5-5 γκολ)
     p_1, p_x, p_2 = 0.0, 0.0, 0.0
     p_under = 0.0
     
@@ -101,8 +90,6 @@ def analyze_match_hybrid(home_stats, away_stats):
         
     p_over = 1.0 - p_under
 
-    # 5. Λήψη Τελικών Αποφάσεων Προγνωστικών
-    # Κύριο Σημείο (Combo ή Μονό)
     if p_1 > 0.48:
         main_tip = f"1 & Over 1.5 ({int(p_1*100)}%)" if p_over > 0.55 else f"1 ({int(p_1*100)}%)"
     elif p_2 > 0.48:
@@ -115,7 +102,6 @@ def analyze_match_hybrid(home_stats, away_stats):
         else:
             main_tip = f"Over 1.5 Goals ({int(p_over*100)}%)"
 
-    # Κάλυψη (Safety Bet)
     if "1" in main_tip:
         cover_tip = f"Κάλυψη: 1X Διπλή Ευκαιρία ({int((p_1+p_x)*100)}%)"
     elif "2" in main_tip:
@@ -134,7 +120,7 @@ def main():
         "x-rapidapi-host": "api-football-v1.p.rapidapi.com"
     }
     
-    # Λήψη σημερινής ημερομηνίας σε μορφή YYYY-MM-DD
+    # Κανονική λήψη ημερομηνίας
     today_date = datetime.date.today()
     date_str = today_date.strftime("%Y-%m-%d")
     display_date = today_date.strftime("%d/%m/%Y")
@@ -143,16 +129,14 @@ def main():
     print(f"Έναρξη ανάλυσης για την ημερομηνία: {display_date} στις {now_time}")
     
     predictions_log = []
-    # Εγγραφή της πρώτης γραμμής με την ημερομηνία και ώρα ενημέρωσης
     predictions_log.append(f"ΗΜΕΡΟΜΗΝΙΑ|{display_date}|{now_time}")
     
-    # Λήψη όλων των σημερινών αγώνων
     url_fixtures = f"https://api-football-v1.p.rapidapi.com/v3/fixtures?date={date_str}"
     
     try:
         response = requests.get(url_fixtures, headers=headers)
         if response.status_code != 200:
-            print("Σφάλμα κατά την επικοινωνία με το API-Football.")
+            print("Σφάλμα κατά την επικοινωνία με το API.")
             return
             
         data = response.json()
@@ -163,26 +147,28 @@ def main():
         for item in fixtures:
             league_id = item.get("league", {}).get("id")
             
-            # Έλεγχος αν ο αγώνας ανήκει στις λίγκες μας
             if league_id in LEAGUES_CONFIG:
                 match_found = True
                 league_name = LEAGUES_CONFIG[league_id]
                 
-                fixture_id = item.get("fixture", {}).get("id")
                 home_team = item.get("teams", {}).get("home", {}).get("name")
                 away_team = item.get("teams", {}).get("away", {}).get("name")
                 
-                # Μορφοποίηση ώρας (από ISO σε HH:MM)
                 raw_date = item.get("fixture", {}).get("date", "")
                 match_time = raw_date[11:16] if len(raw_date) > 16 else "00:00"
                 
                 home_id = item.get("teams", {}).get("home", {}).get("id")
                 away_id = item.get("teams", {}).get("away", {}).get("id")
-                season = item.get("league", {}).get("season", today_date.year)
                 
-                print(f"Ανάλυση: {league_name} -> {home_team} vs {away_team}")
+                # ΕΞΥΠΝΟΣ ΥΠΟΛΟΓΙΣΜΟΣ ΣΕΖΟΝ: Αν είναι ευρωπαϊκό/χειμερινό πρωτάθλημα, η σεζόν είναι 2025
+                raw_season = item.get("league", {}).get("season")
+                if league_id in [2, 3, 848, 39, 40, 140, 135, 78, 61, 88, 94, 197, 332, 42, 106]:
+                    season = 2025
+                else:
+                    season = raw_season if raw_season else today_date.year
                 
-                # Λήψη στατιστικών Head-to-Head ή Team Statistics
+                print(f"Ανάλυση: {league_name} (Σεζόν: {season}) -> {home_team} vs {away_team}")
+                
                 url_home_stats = f"https://api-football-v1.p.rapidapi.com/v3/teams/statistics?league={league_id}&season={season}&team={home_id}"
                 url_away_stats = f"https://api-football-v1.p.rapidapi.com/v3/teams/statistics?league={league_id}&season={season}&team={away_id}"
                 
@@ -192,22 +178,19 @@ def main():
                 home_stats = res_home.get("response", {})
                 away_stats = res_away.get("response", {})
                 
-                # Υπολογισμός Προγνωστικού
                 main_tip, cover_tip = analyze_match_hybrid(home_stats, away_stats)
                 
-                # Αποθήκευση στη λίστα
                 teams_formatted = f"{home_team} - {away_team}"
                 predictions_log.append(f"{league_name}|{teams_formatted}|{match_time}|{main_tip}|{cover_tip}")
         
         if not match_found:
-            predictions_log.append("INFO|Δεν βρέθηκαν αγώνες για τις επιλεγμένες λίγκες σήμερα.")
+            predictions_log.append("INFO|Δεν υπάρχουν προγραμματισμένοι αγώνες.")
             print("Δεν βρέθηκαν προγραμματισμένοι αγώνες για σήμερα.")
             
     except Exception as e:
         print(f"Προέκυψε σφάλμα: {e}")
         predictions_log.append("INFO|Σφάλμα κατά την εκτέλεση της ανάλυσης.")
         
-    # Αποθήκευση όλων των αποτελεσμάτων στο αρχείο κειμένου
     with open("daily_predictions.txt", "w", encoding="utf-8") as f:
         for line in predictions_log:
             f.write(line + "\n")
@@ -216,3 +199,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
