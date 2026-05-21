@@ -1,3 +1,4 @@
+
 import requests
 import datetime
 from datetime import timedelta
@@ -28,7 +29,7 @@ LEAGUES_CONFIG = {
     # Καλοκαιρινά / Ενεργά Τώρα
     269: "🇸🇪 ΣΟΥΗΔΙΑ ALLSVENSKAN",
     103: "🇳🇴 ΝΟΡΒΗΓΙΑ ELITESERIEN",
-    357: "🇮Ξ ΙΡΛΑΝΔΙΑ PREMIER DIVISION",
+    357: "🇮🇪 ΙΡΛΑΝΔΙΑ PREMIER DIVISION",
     365: "🇮🇸 ΙΣΛΑΝΔΙΑ PREMIER",
     253: "🇺🇸 ΑΜΕΡΙΚΗ MLS",
     71: "🇧🇷 ΒΡΑΖΙΛΙΑ SERIE A",
@@ -44,10 +45,14 @@ def poisson_probability(lambd, k):
     return (math.exp(-lambd) * (math.exp(k * math.log(lambd)) if k > 0 else 1.0)) / math.factorial(k)
 
 def analyze_match_hybrid(home_stats, away_stats):
-    home_attack = home_stats.get('goals', {}).get('for', {}).get('average', {}).get('home', 1.4)
-    home_defense = home_stats.get('goals', {}).get('against', {}).get('average', {}).get('home', 1.1)
-    away_attack = away_stats.get('goals', {}).get('for', {}).get('average', {}).get('away', 1.1)
-    away_defense = away_stats.get('goals', {}).get('against', {}).get('away', 1.4)
+    # Ασφαλής ανάκτηση δεδομένων (Αποφυγή KeyError)
+    if not home_stats: home_stats = {}
+    if not away_stats: away_stats = {}
+    
+    home_attack = home_stats.get('goals', {}).get('for', {}).get('average', {}).get('home', 1.4) if home_stats.get('goals') else 1.4
+    home_defense = home_stats.get('goals', {}).get('against', {}).get('average', {}).get('home', 1.1) if home_stats.get('goals') else 1.1
+    away_attack = away_stats.get('goals', {}).get('for', {}).get('average', {}).get('away', 1.1) if away_stats.get('goals') else 1.1
+    away_defense = away_stats.get('goals', {}).get('against', {}).get('away', 1.4) if away_stats.get('goals') else 1.4
     
     try:
         home_attack, home_defense = float(home_attack), float(home_defense)
@@ -58,8 +63,12 @@ def analyze_match_hybrid(home_stats, away_stats):
     lambda_home = (home_attack + away_defense) / 2.0
     mu_away = (away_attack + home_defense) / 2.0
     
-    home_form_str = home_stats.get('form', '50%').replace('%', '')
-    away_form_str = away_stats.get('form', '50%').replace('%', '')
+    home_form_str = home_stats.get('form', '50%') if home_stats.get('form') else '50%'
+    away_form_str = away_stats.get('form', '50%') if away_stats.get('form') else '50%'
+    
+    if isinstance(home_form_str, str): home_form_str = home_form_str.replace('%', '')
+    if isinstance(away_form_str, str): away_form_str = away_form_str.replace('%', '')
+    
     try:
         home_form = float(home_form_str) / 100.0
         away_form = float(away_form_str) / 100.0
@@ -119,7 +128,7 @@ def main():
     
     match_found = False
     
-    # Σκανάρισμα 3 ημερών (Σήμερα, Αύριο, Μεθαύριο)
+    # Σκανάρισμα 3 ημερών
     for day_offset in range(3):
         target_date = datetime.date.today() + timedelta(days=day_offset)
         date_str = target_date.strftime("%Y-%m-%d")
@@ -147,8 +156,6 @@ def main():
                     home_id = item.get("teams", {}).get("home", {}).get("id")
                     away_id = item.get("teams", {}).get("away", {}).get("id")
                     
-                    # 🔄 ΔΥΝΑΜΙΚΟΣ ΕΛΕΓΧΟΣ ΣΕΖΟΝ (Αποφεύγει τα άδεια στατιστικά)
-                    # Δοκιμάζει τη φετινή χρονιά και αν δεν επιστρέψει δεδομένα, πάει στην προηγούμενη
                     seasons_to_try = [current_year, current_year - 1, current_year - 2]
                     res_home, res_away = {}, {}
                     
@@ -159,10 +166,10 @@ def main():
                         h_data = requests.get(url_home_stats, headers=headers).json().get("response", {})
                         a_data = requests.get(url_away_stats, headers=headers).json().get("response", {})
                         
-                        # Αν βρει έστω και κάποια στατιστικά γκολ, κρατάει αυτή τη σεζόν
-                        if h_data.get('goals', {}).get('for', {}).get('total', {}).get('home', 0) > 0:
-                            res_home, res_away = h_data, a_data
-                            break
+                        if h_data and isinstance(h_data, dict) and h_data.get('goals'):
+                            if h_data.get('goals', {}).get('for', {}).get('total', {}).get('home', 0) > 0:
+                                res_home, res_away = h_data, a_data
+                                break
                     
                     main_tip, cover_tip = analyze_match_hybrid(res_home, res_away)
                     teams_formatted = f"{home_team} - {away_team}"
@@ -179,5 +186,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-                    
