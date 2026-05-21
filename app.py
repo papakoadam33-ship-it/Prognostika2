@@ -1,183 +1,139 @@
 import streamlit as st
 import os
 
-# Ρύθμιση σελίδας για κινητά
+# Ρύθμιση σελίδας
 st.set_page_config(page_title="Marios Pro-Bet Pro", page_icon="⚡", layout="centered")
 
-# Custom CSS για το Μαύρο-Χρυσό VIP Στυλ
+# Custom CSS για πανέμορφο design (Σκούρο Θέμα & Χρυσά Blocks)
 st.markdown("""
     <style>
-    body {
-        background-color: #111216;
-    }
-    .main-title {
+    .main { background-color: #121212; }
+    .header-box {
+        background: linear-gradient(135deg, #1e1e1e 0%, #2a2a2a 100%);
+        padding: 25px;
+        border-radius: 20px;
         text-align: center;
-        font-family: 'Helvetica Neue', sans-serif;
-        color: #FFFFFF;
-        background: #1e1f24;
-        padding: 20px;
-        border-radius: 15px;
-        box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
-        margin-bottom: 20px;
-    }
-    .title-text {
-        font-size: 28px;
-        font-weight: 900;
-        letter-spacing: 1px;
-        margin: 0;
-    }
-    .subtitle-text {
-        color: #f39c12;
-        font-style: italic;
-        font-size: 16px;
-        margin-top: 10px;
-    }
-    .date-badge {
-        text-align: center;
-        background: #1e1f24;
-        border: 2px solid #f39c12;
-        padding: 10px;
-        border-radius: 10px;
-        color: #f39c12;
-        font-weight: bold;
-        font-size: 16px;
+        box-shadow: 0px 4px 15px rgba(0,0,0,0.5);
+        border: 1px solid #333;
         margin-bottom: 25px;
     }
-    .match-card {
-        background: #1a1b20;
-        border: 2px solid #f39c12;
-        border-radius: 15px;
-        padding: 20px;
-        margin-bottom: 20px;
-        box-shadow: 0px 4px 15px rgba(243, 156, 18, 0.15);
-    }
-    .league-header {
-        color: #f39c12;
-        font-size: 13px;
-        font-weight: bold;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        margin-bottom: 8px;
-    }
-    .teams-title {
-        color: #FFFFFF;
-        font-size: 20px;
-        font-weight: bold;
-        margin-bottom: 15px;
-    }
-    .time-badge {
-        background: #c0392b;
-        color: white;
-        padding: 3px 8px;
-        border-radius: 5px;
-        font-size: 12px;
-        font-weight: bold;
-        float: right;
-    }
-    .tip-box {
-        background: #d4ac0d;
+    .header-title { color: #ffffff; font-size: 26px; font-weight: bold; margin-bottom: 5px; }
+    .header-subtitle { color: #ffb300; font-size: 16px; font-style: italic; }
+    .date-bar {
+        background-color: #ff9800;
         color: #000000;
-        font-weight: bold;
+        padding: 10px;
+        border-radius: 10px;
         text-align: center;
-        padding: 12px;
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 20px;
+        box-shadow: 0px 2px 8px rgba(0,0,0,0.3);
+    }
+    .match-card {
+        background: linear-gradient(135deg, #1f1f1f 0%, #2d2d2d 100%);
+        padding: 20px;
+        border-radius: 15px;
+        margin-bottom: 15px;
+        border-left: 6px solid #ffb300;
+        box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
+    }
+    .league-title { color: #ff9800; font-size: 14px; font-weight: bold; text-transform: uppercase; }
+    .teams-title { color: #ffffff; font-size: 18px; font-weight: bold; margin: 5px 0; }
+    .time-text { color: #aaaaaa; font-size: 13px; }
+    .tip-box {
+        background-color: #2e7d32;
+        color: #ffffff;
+        padding: 8px 12px;
         border-radius: 8px;
-        font-size: 18px;
-        margin-bottom: 10px;
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 10px;
+        font-size: 14px;
     }
     .cover-box {
-        background: #e67e22;
-        color: #FFFFFF;
-        font-weight: bold;
-        text-align: center;
-        padding: 10px;
+        background-color: #1565c0;
+        color: #ffffff;
+        padding: 8px 12px;
         border-radius: 8px;
-        font-size: 15px;
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 14px;
     }
     .no-matches {
-        background: #1e1f24;
-        border-radius: 15px;
+        background-color: #1e1e1e;
         padding: 40px;
+        border-radius: 20px;
         text-align: center;
-        color: #FFFFFF;
-    }
-    .footer {
-        text-align: center;
-        color: #555555;
-        font-size: 12px;
-        margin-top: 30px;
+        border: 1px solid #333;
     }
     </style>
 """, unsafe_allow_html=True)
 
-# --- HEADER ΕΦΑΡΜΟΓΗΣ ---
+# 1. Τίτλος Εφαρμογής
 st.markdown("""
-    <div class="main-title">
-        <p class="title-text">⚡ MARIOS PRO-BET PRO ⚡</p>
-        <p class="subtitle-text">Advanced Poisson & Hybrid Prediction Engine</p>
+    <div class="header-box">
+        <div class="header-title">⚡ MARIOS PRO-BET PRO ⚡</div>
+        <div class="header-subtitle">Advanced Poisson & Hybrid Prediction Engine</div>
     </div>
 """, unsafe_allow_html=True)
 
-# --- ΑΝΑΓΝΩΣΗ ΔΕΔΟΜΕΝΩΝ ---
 file_path = "daily_predictions.txt"
 
 if os.path.exists(file_path):
-    with open(file_path, "w+", encoding="utf-8") as f:
-        # Αν το αρχείο είναι εντελώς άδειο (πρώτη φορά), γράφουμε μια βασική γραμμή πληροφορίας
-        if os.path.getsize(file_path) == 0:
-            f.write("--- ΠΡΟΓΝΩΣΤΙΚΑ ---\nΛΙΓΚΑ|ΑΓΩΝΑΣ|ΩΡΑ|ΠΡΟΒΛΕΨΗ|ΠΟΣΟΣΤΟ|ΚΑΛΥΨΗ\nINFO|Αναμονή για την επόμενη ενημέρωση...|-|-|-|-|-\n")
-            
     with open(file_path, "r", encoding="utf-8") as f:
-        lines = f.readlines()
+        lines = [line.strip() for line in f.readlines() if line.strip()]
     
     if lines:
-        # Εξαγωγή του τίτλου και της ημερομηνίας/ώρας από την 1η γραμμή
-        first_line = lines[0].strip()
-        timestamp = first_line.replace("--- ΠΡΟΓΝΩΣΤΙΚΑ ", "").replace(" ---", "")
-        if not timestamp or timestamp == "--- ΠΡΟΓΝΩΣΤΙΚΑ ---":
-            timestamp = "Αναμονή ενημέρωσης"
-            
-        st.markdown(f'<div class="date-badge">📅 ΠΡΟΓΝΩΣΤΙΚΑ: {timestamp}</div>', unsafe_allow_html=True)
-        
-        # Κρατάμε τις γραμμές των αγώνων (προσπερνάμε την πρώτη γραμμή τίτλου και τη δεύτερη γραμμή κεφαλίδας)
-        match_lines = [l.strip() for l in lines[2:] if l.strip()]
-        
-        if not match_lines or "INFO" in match_lines[0]:
+        # Διάβασμα της πρώτης γραμμής (Ημερομηνία)
+        first_line = lines[0].split("|")
+        if first_line[0] == "ΗΜΕΡΟΜΗΝΙΑ" and len(first_line) >= 3:
+            st.markdown(f'<div class="date-bar">📅 ΠΡΟΓΝΩΣΤΙΚΑ {first_line[1]} | 🕒 Τελευταία Ενημέρωση: {first_line[2]}</div>', unsafe_allow_html=True)
+            match_lines = lines[1:]
+        else:
+            st.markdown('<div class="date-bar">📅 ΠΡΟΓΝΩΣΤΙΚΑ ΣΗΜΕΡΑ</div>', unsafe_allow_html=True)
+            match_lines = lines
+
+        # Έλεγχος αν υπάρχουν αγώνες ή αν έχει γραφτεί INFO μήνυμα
+        if match_lines and "INFO" in match_lines[0]:
             st.markdown("""
                 <div class="no-matches">
-                    <span style="font-size: 50px;">⏳</span>
-                    <h3 style="margin-top:15px; font-weight:bold;">Δεν υπάρχουν προγραμματισμένοι αγώνες.</h3>
-                    <p style="color:#888888;">Το σύστημα ανανεώνει τις προβλέψεις αυτόματα.</p>
+                    <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f440/512.webp" width="60" style="margin-bottom:15px;">
+                    <h3 style="color:white; margin-bottom:10px;">Δεν υπάρχουν προγραμματισμένοι αγώνες.</h3>
+                    <p style="color:#888;">Το σύστημα ελέγχει αυτόματα για νέα μεγάλα πρωταθλήματα.</p>
                 </div>
             """, unsafe_allow_html=True)
         else:
+            # Εμφάνιση των αγώνων σε κάρτες
             for line in match_lines:
                 parts = line.split("|")
-                if len(parts) >= 6:  # Διαβάζει σωστά και τα 6 στοιχεία του Poisson κώδικα
-                    league = parts[0]
-                    teams = parts[1]
-                    m_time = parts[2]
-                    main_tip = parts[3]
-                    pct = parts[4]
-                    cover_tip = parts[5]
+                if len(parts) >= 5:
+                    league, teams, match_time, main_tip, cover_tip = parts[0], parts[1], parts[2], parts[3], parts[4]
                     
                     st.markdown(f"""
                         <div class="match-card">
-                            <span class="time-badge">⏰ {m_time}</span>
-                            <div class="league-header">🏆 {league} [VIP]</div>
-                            <div class="teams-title">{teams}</div>
-                            <div class="tip-box">👑 {main_tip} ({pct}%)</div>
-                            <div class="cover-box">🛡️ {cover_tip}</div>
+                            <div class="league-title">{league}</div>
+                            <div class="teams-title">⚽ {teams}</div>
+                            <div class="time-text">🕒 Ώρα Έναρξης: {match_time}</div>
+                            <div>
+                                <div class="tip-box">🎯 {main_tip}</div>
+                                <div class="cover-box">🛡️ {cover_tip}</div>
+                            </div>
                         </div>
                     """, unsafe_allow_html=True)
+    else:
+        st.info("Το αρχείο προβλέψεων είναι άδειο.")
 else:
+    # Εμφάνιση κλεψύδρας αν δεν υπάρχει το αρχείο ακόμα
     st.markdown("""
         <div class="no-matches">
-            <span style="font-size: 50px;">⏳</span>
-            <h3 style="margin-top:15px; font-weight:bold;">Αναμονή για την πρώτη αυτόματη δημιουργία...</h3>
-            <p style="color:#888888;">Το αρχείο προγνωστικών δεν έχει δημιουργηθεί ακόμα στο GitHub.</p>
+            <h1 style="font-size:60px; margin:0;">⏳</h1>
+            <h2 style="color: white; margin-top:20px;">Αναμονή για την πρώτη αυτόματη δημιουργία...</h2>
+            <p style="color: #888; margin-top:10px;">Το αρχείο προγνωστικών δεν έχει ενημερωθεί ακόμα στο GitHub Actions.</p>
         </div>
     """, unsafe_allow_html=True)
 
-# --- FOOTER ---
-st.markdown('<div class="footer">Powered by Python & Football-Data API (Marios Pro-Bet Engine)</div>', unsafe_allow_html=True)
-
+# Footer
+st.markdown("<br><hr><center style='color:#666; font-size:12px;'>Powered by Python & API-Football (Marios Pro-Bet Engine)</center>", unsafe_allow_html=True)
