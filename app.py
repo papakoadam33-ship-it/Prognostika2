@@ -121,44 +121,51 @@ st.markdown("""
 file_path = "daily_predictions.txt"
 
 if os.path.exists(file_path):
+    with open(file_path, "w+", encoding="utf-8") as f:
+        # Αν το αρχείο είναι εντελώς άδειο (πρώτη φορά), γράφουμε μια βασική γραμμή πληροφορίας
+        if os.path.getsize(file_path) == 0:
+            f.write("--- ΠΡΟΓΝΩΣΤΙΚΑ ---\nΛΙΓΚΑ|ΑΓΩΝΑΣ|ΩΡΑ|ΠΡΟΒΛΕΨΗ|ΠΟΣΟΣΤΟ|ΚΑΛΥΨΗ\nINFO|Αναμονή για την επόμενη ενημέρωση...|-|-|-|-|-\n")
+            
     with open(file_path, "r", encoding="utf-8") as f:
         lines = f.readlines()
     
     if lines:
-        header_parts = lines[0].strip().split("|")
-        if header_parts[0] == "ΗΜΕΡΟΜΗΝΙΑ" and len(header_parts) >= 3:
-            date_str = header_parts[1]
-            time_str = header_parts[2]
-            st.markdown(f'<div class="date-badge">📅 ΠΡΟΓΝΩΣΤΙΚΑ {date_str} | 🕒 Τελευταία Ενημέρωση: {time_str}</div>', unsafe_allow_html=True)
+        # Εξαγωγή του τίτλου και της ημερομηνίας/ώρας από την 1η γραμμή
+        first_line = lines[0].strip()
+        timestamp = first_line.replace("--- ΠΡΟΓΝΩΣΤΙΚΑ ", "").replace(" ---", "")
+        if not timestamp or timestamp == "--- ΠΡΟΓΝΩΣΤΙΚΑ ---":
+            timestamp = "Αναμονή ενημέρωσης"
+            
+        st.markdown(f'<div class="date-badge">📅 ΠΡΟΓΝΩΣΤΙΚΑ: {timestamp}</div>', unsafe_allow_html=True)
         
-        match_lines = lines[1:]
+        # Κρατάμε τις γραμμές των αγώνων (προσπερνάμε την πρώτη γραμμή τίτλου και τη δεύτερη γραμμή κεφαλίδας)
+        match_lines = [l.strip() for l in lines[2:] if l.strip()]
         
-        if len(match_lines) == 1 and "INFO" in match_lines[0]:
+        if not match_lines or "INFO" in match_lines[0]:
             st.markdown("""
                 <div class="no-matches">
-                    <span style="font-size: 50px;">⏰</span>
-                    <h3 style="margin-top:15px; font-weight:bold;">Δεν υπάρχουν προγραμματισμένοι αγώνες για σήμερα.</h3>
+                    <span style="font-size: 50px;">⏳</span>
+                    <h3 style="margin-top:15px; font-weight:bold;">Δεν υπάρχουν προγραμματισμένοι αγώνες.</h3>
                     <p style="color:#888888;">Το σύστημα ανανεώνει τις προβλέψεις αυτόματα.</p>
                 </div>
             """, unsafe_allow_html=True)
         else:
             for line in match_lines:
-                if not line.strip():
-                    continue
-                parts = line.strip().split("|")
-                if len(parts) >= 5:
+                parts = line.split("|")
+                if len(parts) >= 6:  # Διαβάζει σωστά και τα 6 στοιχεία του Poisson κώδικα
                     league = parts[0]
                     teams = parts[1]
                     m_time = parts[2]
                     main_tip = parts[3]
-                    cover_tip = parts[4]
+                    pct = parts[4]
+                    cover_tip = parts[5]
                     
                     st.markdown(f"""
                         <div class="match-card">
-                            <span class="time-badge">🕒 {m_time}</span>
+                            <span class="time-badge">⏰ {m_time}</span>
                             <div class="league-header">🏆 {league} [VIP]</div>
                             <div class="teams-title">{teams}</div>
-                            <div class="tip-box">👑 {main_tip}</div>
+                            <div class="tip-box">👑 {main_tip} ({pct}%)</div>
                             <div class="cover-box">🛡️ {cover_tip}</div>
                         </div>
                     """, unsafe_allow_html=True)
@@ -172,5 +179,5 @@ else:
     """, unsafe_allow_html=True)
 
 # --- FOOTER ---
-st.markdown('<div class="footer">Powered by Python & API-Football (Marios Pro-Bet Engine)</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">Powered by Python & Football-Data API (Marios Pro-Bet Engine)</div>', unsafe_allow_html=True)
 
