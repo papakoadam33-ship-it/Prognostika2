@@ -1,5 +1,6 @@
 import requests
 import datetime
+from datetime import timedelta
 import math
 import os
 
@@ -10,8 +11,8 @@ API_KEY = "6be0e4d0ca519a79fa4da6a9089069bf"  # Το δικό σου API Key σ�
 
 # Λίστα με όλα τα υποστηριζόμενα πρωταθλήματα και τα ID τους
 LEAGUES_CONFIG = {
-    39: "🏴" + "         ΠΡΕΜΙΕΡ ΛΙΓΚ",
-    40: "🏴" + "         ΤΣΑΜΠΙΟΝΣΙΠ",
+    39: "🏴 ΠΡΕΜΙΕΡ ΛΙΓΚ",
+    40: "🏴 ΤΣΑΜΠΙΟΝΣΙΠ",
     140: "🇪🇸 ΛΑ ΛΙΓΚΑ",
     135: "🇮🇹 ΣΕΡΙΕ Α",
     78: "🇩🇪 ΜΠΟΥΝΤΕΣΛΙΓΚΑ",
@@ -25,8 +26,8 @@ LEAGUES_CONFIG = {
     3: "🇪🇺 EUROPA LEAGUE",
     848: "🇪🇺 CONFERENCE LEAGUE",
     332: "🇨🇾 ΚΥΠΡΟΣ Α ΚΑΤΗΓΟΡΙΑ",
-    42: "🏴" + "         LEAGUE TWO (PLAYOFFS)",
-    106: "🏴" + "         ΣΚΩΤΙΑ PREMIERSHIP"
+    42: "🏴 LEAGUE TWO (PLAYOFFS)",
+    106: "🏴 ΣΚΩΤΙΑ PREMIERSHIP"
 }
 
 # ==========================================
@@ -120,10 +121,10 @@ def main():
         "x-rapidapi-host": "api-football-v1.p.rapidapi.com"
     }
     
-    # ΤΕΣΤ: Κοιτάμε 2 μέρες μπροστά για να βρούμε σίγουρα αγώνες Σαββατοκύριακου
-    today_date = datetime.date.today() + datetime.timedelta(days=2)
-    date_str = today_date.strftime("%Y-%m-%d")
-    display_date = today_date.strftime("%d/%m/%Y")
+    # Σωστός υπολογισμός ημερομηνίας (Κοιτάμε 2 μέρες μπροστά για το Σαββατοκύριακο)
+    target_date = datetime.date.today() + timedelta(days=2)
+    date_str = target_date.strftime("%Y-%m-%d")
+    display_date = target_date.strftime("%d/%m/%Y")
     now_time = datetime.datetime.now().strftime("%H:%M")
     
     print(f"Έναρξη ανάλυσης για την ημερομηνία: {display_date} στις {now_time}")
@@ -160,14 +161,9 @@ def main():
                 home_id = item.get("teams", {}).get("home", {}).get("id")
                 away_id = item.get("teams", {}).get("away", {}).get("id")
                 
-                # ΕΞΥΠΝΟΣ ΥΠΟΛΟΓΙΣΜΟΣ ΣΕΖΟΝ
-                raw_season = item.get("league", {}).get("season")
-                if league_id in [2, 3, 848, 39, 40, 140, 135, 78, 61, 88, 94, 197, 332, 42, 106]:
-                    season = 2025
-                else:
-                    season = raw_season if raw_season else today_date.year
+                season = 2025
                 
-                print(f"Ανάλυση: {league_name} (Σεζόν: {season}) -> {home_team} vs {away_team}")
+                print(f"Ανάλυση: {league_name} -> {home_team} vs {away_team}")
                 
                 url_home_stats = f"https://api-football-v1.p.rapidapi.com/v3/teams/statistics?league={league_id}&season={season}&team={home_id}"
                 url_away_stats = f"https://api-football-v1.p.rapidapi.com/v3/teams/statistics?league={league_id}&season={season}&team={away_id}"
