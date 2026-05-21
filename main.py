@@ -9,9 +9,8 @@ import os
 # ==========================================
 API_KEY = "6be0e4d0ca519a79fa4da6a9089069bf"
 
-# Πλήρης λίστα: Χειμερινά + Καλοκαιρινά Πρωταθλήματα μαζί!
 LEAGUES_CONFIG = {
-    # Μεγάλα Ευρωπαϊκά (Χειμερινά)
+    # Μεγάλα Ευρωπαϊκά
     39: "🏴 ΠΡΕΜΙΕΡ ΛΙΓΚ",
     40: "🏴 ΤΣΑΜΠΙΟΝΣΙΠ",
     140: "🇪🇸 ΛΑ ΛΙΓΚΑ",
@@ -29,7 +28,7 @@ LEAGUES_CONFIG = {
     # Καλοκαιρινά / Ενεργά Τώρα
     269: "🇸🇪 ΣΟΥΗΔΙΑ ALLSVENSKAN",
     103: "🇳🇴 ΝΟΡΒΗΓΙΑ ELITESERIEN",
-    357: "🇮🇪 ΙΡΛΑΝΔΙΑ PREMIER DIVISION",
+    357: "🇮Ξ ΙΡΛΑΝΔΙΑ PREMIER DIVISION",
     365: "🇮🇸 ΙΣΛΑΝΔΙΑ PREMIER",
     253: "🇺🇸 ΑΜΕΡΙΚΗ MLS",
     71: "🇧🇷 ΒΡΑΖΙΛΙΑ SERIE A",
@@ -103,7 +102,7 @@ def analyze_match_hybrid(home_stats, away_stats):
     return main_tip, cover_tip
 
 # ==========================================
-# 3. ΚΥΡΙΑ ΛΕΙΤΟΥΡΓΙΑ (SCANNING 3 DAYS)
+# 3. ΚΥΡΙΑ ΛΕΙΤΟΥΡΓΙΑ
 # ==========================================
 def main():
     headers = {
@@ -120,7 +119,7 @@ def main():
     
     match_found = False
     
-    # Ψάχνει Σήμερα (0), Αύριο (1) και Μεθαύριο (2)
+    # Σκανάρισμα 3 ημερών (Σήμερα, Αύριο, Μεθαύριο)
     for day_offset in range(3):
         target_date = datetime.date.today() + timedelta(days=day_offset)
         date_str = target_date.strftime("%Y-%m-%d")
@@ -148,15 +147,22 @@ def main():
                     home_id = item.get("teams", {}).get("home", {}).get("id")
                     away_id = item.get("teams", {}).get("away", {}).get("id")
                     
-                    # Αυτόματη επιλογή σωστής σεζόν ανάλογα με το πρωτάθλημα
-                    # Τα καλοκαιρινά θέλουν το τρέχον έτος, τα ευρωπαϊκά το προηγούμενο (λόγω μορφής 2025-2026)
-                    season = current_year if league_id in [269, 103, 357, 365, 253, 71, 13] else (current_year - 1)
+                    # 🔄 ΔΥΝΑΜΙΚΟΣ ΕΛΕΓΧΟΣ ΣΕΖΟΝ (Αποφεύγει τα άδεια στατιστικά)
+                    # Δοκιμάζει τη φετινή χρονιά και αν δεν επιστρέψει δεδομένα, πάει στην προηγούμενη
+                    seasons_to_try = [current_year, current_year - 1, current_year - 2]
+                    res_home, res_away = {}, {}
                     
-                    url_home_stats = f"https://api-football-v1.p.rapidapi.com/v3/teams/statistics?league={league_id}&season={season}&team={home_id}"
-                    url_away_stats = f"https://api-football-v1.p.rapidapi.com/v3/teams/statistics?league={league_id}&season={season}&team={away_id}"
-                    
-                    res_home = requests.get(url_home_stats, headers=headers).json().get("response", {})
-                    res_away = requests.get(url_away_stats, headers=headers).json().get("response", {})
+                    for s in seasons_to_try:
+                        url_home_stats = f"https://api-football-v1.p.rapidapi.com/v3/teams/statistics?league={league_id}&season={s}&team={home_id}"
+                        url_away_stats = f"https://api-football-v1.p.rapidapi.com/v3/teams/statistics?league={league_id}&season={s}&team={away_id}"
+                        
+                        h_data = requests.get(url_home_stats, headers=headers).json().get("response", {})
+                        a_data = requests.get(url_away_stats, headers=headers).json().get("response", {})
+                        
+                        # Αν βρει έστω και κάποια στατιστικά γκολ, κρατάει αυτή τη σεζόν
+                        if h_data.get('goals', {}).get('for', {}).get('total', {}).get('home', 0) > 0:
+                            res_home, res_away = h_data, a_data
+                            break
                     
                     main_tip, cover_tip = analyze_match_hybrid(res_home, res_away)
                     teams_formatted = f"{home_team} - {away_team}"
@@ -174,3 +180,4 @@ def main():
 if __name__ == "__main__":
     main()
 
+                    
