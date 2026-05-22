@@ -3,31 +3,28 @@ import requests
 
 st.title("⚽ Live Αγώνες")
 
-# Βάλε εδώ το ΚΑΙΝΟΥΡΓΙΟ κλειδί από το FootballAppFinal
 HEADERS = {
-    'x-rapidapi-key': "37046cb451msh72e76cf7c6071cdp1d37a8jsn3abe46eeefe3",
+    'x-rapidapi-key': "ΤΟ_ΝΕΟ_ΣΟΥ_ΚΛΕΙΔΙ", # <--- Βάλε εδώ το νέο σου κλειδί!
     'x-rapidapi-host': "free-api-live-football-data.p.rapidapi.com"
 }
 
-URL = "https://free-api-live-football-data.p.rapidapi.com/football-livescore"
+# Δοκιμάζουμε το endpoint 'livescores' αντί για 'football-livescore'
+# Πολλά API χρησιμοποιούν πληθυντικό
+URL = "https://free-api-live-football-data.p.rapidapi.com/livescores"
 
 if st.button("Εμφάνιση Live Αγώνων"):
     try:
         response = requests.get(URL, headers=HEADERS)
-        response.encoding = 'utf-8' # Αυτό λύνει το πρόβλημα latin-1
+        response.encoding = 'utf-8'
         
         if response.status_code == 200:
             data = response.json()
-            matches = data.get("response", [])
-            
-            if matches:
-                for match in matches:
-                    home = match.get('homeTeam', {}).get('name', 'Home')
-                    away = match.get('awayTeam', {}).get('name', 'Away')
-                    st.write(f"⚽ {home} vs {away}")
-            else:
-                st.info("Δεν βρέθηκαν live αγώνες αυτή τη στιγμή.")
+            # Ανάλογα με το τι θα επιστρέψει, ίσως χρειαστεί να αλλάξουμε το 'response'
+            st.write(data) 
+        elif response.status_code == 404:
+            st.error("Σφάλμα 404: Το URL δεν βρέθηκε. Το API ίσως έχει άλλο path.")
         else:
-            st.error(f"Σφάλμα: {response.status_code}. Δοκίμασε ξανά σε λίγο.")
+            st.error(f"Σφάλμα: {response.status_code}")
     except Exception as e:
-        st.error(f"Πρόβλημα: {e}")
+        st.error(f"Πρόβλημα: {str(e)}")
+
