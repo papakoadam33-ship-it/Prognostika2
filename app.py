@@ -4,34 +4,41 @@ import json
 
 st.set_page_config(page_title="Προγνωστικά Στοιχήματος", page_icon="⚽", layout="centered")
 
-st.title("⚽ Στατιστικά & Προγνωστικά")
+st.title("⚽ Live Αγώνες & Στατιστικά")
 st.write("Καλώς ορίσατε στην εφαρμογή προγνωστικών!")
 
 if os.path.exists("daily_predictions.txt"):
-    st.subheader("📊 Ανάλυση Επιλεγμένου Αγώνα")
-    
     with open("daily_predictions.txt", "r", encoding="utf-8") as f:
         content = f.read()
     
     try:
         data = json.loads(content)
-        match_detail = data.get("response", {}).get("detail", {})
-        match_name = match_detail.get("matchName", "Άγνουστος Αγώνας")
-        match_round = match_detail.get("matchRound", "-")
+        leagues = data.get("response", {}).get("leagues", [])
         
-        # Καθαρισμός ονόματος
-        clean_name = match_name.split("_")[0].replace("-vs-", " 🆚 ")
-        match_date = match_name.split("_")[1].replace("_", " ") if "_" in match_name else ""
-
-        st.info(f"🏆 **Διοργάνωση / Αγωνιστική:** Round {match_round}")
-        st.markdown(f"### 🔥 {clean_name}")
-        if match_date:
-            st.write(f"📅 **Ημερομηνία:** {match_date}")
+        if not leagues:
+            st.info("🕒 Δεν υπάρχουν live αγώνες αυτή τη στιγμή στο API. Δοκιμάστε αργότερα όταν θα έχει σέντρα!")
+        
+        for league in leagues:
+            league_name = league.get("name", "Πρωτάθλημα")
+            country = league.get("ccode", "Διεθνές")
             
-        st.success("💡 **Πρόβλεψη Μοντέλου:** Έτοιμη η στατιστική ανάλυση!")
-
+            st.markdown(f"### 🏆 {country.upper()} - {league_name}")
+            
+            for match in league.get("matches", []):
+                home_team = match.get("home", {}).get("name", "Home")
+                away_team = match.get("away", {}).get("name", "Away")
+                
+                # Live Σκορ
+                home_score = match.get("home", {}).get("score", "0")
+                away_score = match.get("away", {}).get("score", "0")
+                
+                # Λεπτό αγώνα ή κατάσταση
+                status_time = match.get("status", {}).get("time", "LIVE")
+                
+                st.write(f"🔴 **{home_team}** {home_score} - {away_score}  **{away_team}** |  *Λεπτό: {status_time}*")
+                
     except Exception as e:
-        # Αν το αρχείο δεν είναι σωστό JSON, δείξε απλά το κείμενο
-        st.text_area(label="Δεδομένα", value=content, height=300)
+        st.error("Σφάλμα κατά την ανάγνωση των δεδομένων.")
+        st.text_area("Δεδομένα Αρχείου", value=content, height=200)
 else:
-    st.warning("Δεν βρέθηκαν αποθηκευμένα δεδομένα αγώνων. Παρακαλώ εκτελέστε το main.py μέσω GitHub Actions.")
+    st.warning("Δεν βρέθηκαν αποθηκευμένα δεδομένα αγώνων. Παρακαλώ τρέξτε το GitHub Action.")
