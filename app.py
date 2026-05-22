@@ -61,3 +61,4 @@ else:
     st.error("⚠️ Πρόβλημα κατά την ανάκτηση των δεδομένων.")
     if data and "error" in data:
         st.code(data["error"])
+
