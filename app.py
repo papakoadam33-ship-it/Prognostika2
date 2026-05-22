@@ -4,7 +4,7 @@ import requests
 st.title("⚽ Live Αγώνες")
 
 HEADERS = {
-    'x-rapidapi-key': "ΤΟ_ΚΛΕΙΔΙ_ΣΟΥ", # Θυμήσου να βάλεις το κλειδί σου εδώ
+    'x-rapidapi-key': "ΤΟ_ΚΛΕΙΔΙ_ΣΟΥ", # 37046cb451msh72e76cf7c6071cdp1d37a8jsn3abe46eeefe3
     'x-rapidapi-host': "free-api-live-football-data.p.rapidapi.com"
 }
 URL = "https://free-api-live-football-data.p.rapidapi.com/football-livescore"
