@@ -1,27 +1,32 @@
 import streamlit as st
-import requests
+import http.client
+import json
 
 st.title("⚽ Live Αγώνες")
 
-HEADERS = {
-    "x-rapidapi-key": "37046cb451msh72e76cf7c6071cdp1d37a8jsn3abe46eeefe3", # Βάλε το κλειδί σου
-    "x-rapidapi-host": "free-api-live-football-data.p.rapidapi.com"
+# Το URL και οι κεφαλίδες από τον κώδικα που βρήκες
+conn = http.client.HTTPSConnection("free-api-live-football-data.p.rapidapi.com")
+
+headers = {
+    'x-rapidapi-key': "37046cb451msh72e76cf7c6071cdp1d37a8jsn3abe46eeefe3",
+    'x-rapidapi-host': "free-api-live-football-data.p.rapidapi.com"
 }
 
-# Το σωστό URL είναι συχνά με πληθυντικό ή διαφορετικό path
-# Δοκιμάζουμε το /livescores
-URL = "https://free-api-live-football-data.p.rapidapi.com/livescores"
-
-if st.button("Εμφάνιση Live Αγώνων"):
+if st.button("Εμφάνιση Αγώνων"):
     try:
-        response = requests.get(URL, headers=HEADERS)
+        # Χρησιμοποιούμε το endpoint που βρήκες
+        conn.request("GET", "/football-get-matches-by-date-and-league?date=20241107&league=39", headers=headers)
         
-        if response.status_code == 200:
-            st.success("Σύνδεση επιτυχής!")
-            data = response.json()
-            st.json(data) 
+        res = conn.getresponse()
+        data = res.read()
+        
+        if res.status == 200:
+            st.success("Τα δεδομένα λήφθηκαν!")
+            # Μετατρέπουμε τα δεδομένα σε μορφή που καταλαβαίνει το Streamlit
+            st.json(json.loads(data.decode("utf-8")))
         else:
-            st.error(f"Σφάλμα {response.status_code}: Το endpoint δεν βρέθηκε. Δοκίμασε το /football-livescore")
+            st.error(f"Σφάλμα {res.status}: Κάτι δεν πήγε καλά.")
+            
     except Exception as e:
         st.error(f"Πρόβλημα: {e}")
 
