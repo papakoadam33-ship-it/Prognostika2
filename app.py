@@ -51,3 +51,4 @@ if st.button("Ενημέρωση"):
             
     except Exception as e:
         st.error(f"Προέκυψε σφάλμα: {e}")
+
