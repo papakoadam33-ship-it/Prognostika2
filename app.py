@@ -8,7 +8,7 @@ st.set_page_config(page_title="Προγνωστικά Στοιχήματος", p
 st.title("⚽ Αγώνες & Στατιστικά Ημέρας")
 
 today_date = datetime.now().strftime("%Y-%m-%d")
-st.write(f"Καλώς ορίσατε! Πρόγραμμα αγώνων για σήμερα: **{today_date}**")
+st.write(f"Πρόγραμμα αγώνων για σήμερα: **{today_date}**")
 
 if os.path.exists("daily_predictions.txt"):
     with open("daily_predictions.txt", "r", encoding="utf-8") as f:
@@ -16,37 +16,39 @@ if os.path.exists("daily_predictions.txt"):
     
     try:
         data = json.loads(content)
-        leagues = data.get("response", {}).get("leagues", [])
         
-        if not leagues:
-            st.info("📅 Δεν υπάρχουν προγραμματισμένοι αγώνες στο API για σήμερα.")
+        # Προσπάθεια λήψης των αγώνων με διάφορους εναλλακτικούς τρόπους δομής JSON
+        leagues = None
+        if isinstance(data, dict):
+            leagues = data.get("response", {}).get("leagues") or data.get("leagues") or data.get("data")
         
-        for league in leagues:
-            league_name = league.get("name", "Πρωτάθλημα")
-            country = league.get("ccode", "Διεθνές")
+        if leagues and isinstance(leagues, list):
+            st.success("🔄 Τα δεδομένα ανακτήθηκαν επιτυχώς!")
+            for league in leagues:
+                if isinstance(league, dict):
+                    league_name = league.get("name", "Πρωτάθλημα")
+                    country = league.get("ccode", "Διεθνές")
+                    
+                    st.markdown(f"### 🏆 {country.upper()} - {league_name}")
+                    
+                    for match in league.get("matches", []):
+                        home_team = match.get("home", {}).get("name", "Home")
+                        away_team = match.get("away", {}).get("name", "Away")
+                        
+                        home_score = match.get("home", {}).get("score")
+                        away_score = match.get("away", {}).get("score")
+                        status_time = match.get("status", {}).get("time", "--:--")
+                        
+                        score_text = f"**{home_score} - {away_score}**" if home_score is not None else "🆚"
+                        st.write(f"⚫ **{home_team}** {score_text} **{away_team}** | 🕒 *{status_time}*")
+        else:
+            # Αν η δομή είναι διαφορετική, δείχνουμε τα δεδομένα απευθείας για έλεγχο
+            st.info("📊 Εμφάνιση διαθέσιμων δεδομένων από το API:")
+            st.json(data)
             
-            st.markdown(f"### 🏆 {country.upper()} - {league_name}")
-            
-            for match in league.get("matches", []):
-                home_team = match.get("home", {}).get("name", "Home")
-                away_team = match.get("away", {}).get("name", "Away")
-                
-                # Έλεγχος αν υπάρχουν σκορ
-                home_score = match.get("home", {}).get("score")
-                away_score = match.get("away", {}).get("score")
-                
-                # Ώρα έναρξης ή κατάσταση αγώνα
-                status_time = match.get("status", {}).get("time", "--:--")
-                
-                if home_score is not None and away_score is not None:
-                    score_text = f"**{home_score} - {away_score}**"
-                else:
-                    score_text = "🆚"
-                
-                st.write(f"⚫ **{home_team}** {score_text} **{away_team}** | 🕒 *{status_time}*")
-                
     except Exception as e:
-        st.error("Σφάλμα κατά την ανάγνωση των δεδομένων.")
-        st.text_area("Δεδομένα Αρχείου", value=content, height=200)
+        st.error(f"Σφάλμα κατά την ανάγνωση: {e}")
+        st.text_area("Αρχείο Κειμένου", value=content, height=200)
 else:
-    st.warning("Δεν βρέθηκαν αποθηκευμένα δεδομένα αγώνων. Παρακαλώ τρέξτε το GitHub Action.")
+    st.warning("Δεν βρέθηκαν αποθηκευμένα δεδομένα. Παρακαλώ τρέξτε το GitHub Action.")
+
