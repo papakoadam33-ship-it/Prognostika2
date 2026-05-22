@@ -1,9 +1,14 @@
 import json
 import requests
+from datetime import datetime
 
-def fetch_live_matches():
-    # Αυτό το endpoint φέρνει ΟΛΟΥΣ τους ζωντανούς αγώνες χωρίς να χρειάζεται ID!
-    url = "https://free-api-live-football-data.p.rapidapi.com/football-get-live-all-matches"
+def fetch_todays_matches():
+    # Παίρνουμε τη σημερινή ημερομηνία σε μορφή ΥΥΥΥ-ΜΜ-DD
+    today_date = datetime.now().strftime("%Y-%m-%d")
+    print(f"Λήψη αγώνων για τη σημερινή ημερομηνία: {today_date}")
+    
+    url = "https://free-api-live-football-data.p.rapidapi.com/football-get-all-matches-by-date"
+    querystring = {"date": today_date}
 
     headers = {
         "x-rapidapi-key": "47d5da2fb8mshde110deccc94426p115d5ajsnd9cc939fa561",
@@ -11,8 +16,7 @@ def fetch_live_matches():
     }
 
     try:
-        print("Λήψη όλων των live αγώνων...")
-        response = requests.get(url, headers=headers)
+        response = requests.get(url, headers=headers, params=querystring)
         response.raise_for_status()
         return response.json()
     except Exception as e:
@@ -20,15 +24,14 @@ def fetch_live_matches():
         return None
 
 def generate_predictions():
-    data = fetch_live_matches()
+    data = fetch_todays_matches()
     if not data:
-        print("Δεν βρέθηκαν δεδομένα live αγώνων.")
+        print("Δεν βρέθηκαν δεδομένα αγώνων.")
         return
 
-    # Αποθήκευση όλων των live αγώνων στο αρχείο
     with open("daily_predictions.txt", "w", encoding="utf-8") as f:
         f.write(json.dumps(data, indent=4, ensure_ascii=False))
-    print("Το αρχείο daily_predictions.txt ενημερώθηκε με τα live παιχνίδια!")
+    print("Το αρχείο daily_predictions.txt ενημερώθηκε με τους αγώνες της ημέρας!")
 
 if __name__ == "__main__":
     generate_predictions()
