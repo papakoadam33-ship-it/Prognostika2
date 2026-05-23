@@ -1,47 +1,10 @@
-{
-    "status": "success",
-    "response": {
-        "detail": {
-            "matchId": "4621624",
-            "matchName": "Feyenoord-vs-Salzburg_Wed, Nov 6, 2024, 20:00 UTC",
-            "matchRound": "4",
-            "teamColors": {
-                "darkMode": {
-                    "home": "#D8232A",
-                    "away": "#FFFFFF"
-                },
-                "lightMode": {
-                    "home": "#D8232A",
-                    "away": "#044F81"
-                },
-                "fontDarkMode": {
-                    "home": "rgba(255, 255, 255, 1.0)",
-                    "away": "rgba(29, 29, 29, 1.0)"
-                },
-                "fontLightMode": {
-                    "home": "rgba(255, 255, 255, 1.0)",
-                    "away": "rgba(255, 255, 255, 1.0)"
-                }
-            },
-            "leagueId": 894202,
-            "leagueName": "Champions League",
-            "leagueRoundName": "4",
-            "parentLeagueId": 42,
-            "countryCode": "INT-2",
-            "homeTeam": {
-                "name": "Feyenoord",
-                "id": 10235
-            },
-            "awayTeam": {
-                "name": "Salzburg",
-                "id": 10013
-            },
-            "coverageLevel": "xG",
-            "matchTimeUTC": "Wed, Nov 6, 2024, 20:00 UTC",
-            "matchTimeUTCDate": "2024-11-06T20:00:00.000Z",
-            "started": true,
-            "finished": true,
-            "gender": "male"
-        }
-    }
-}
+22:00 | Barcelona vs Valencia | 1.55 - 4.10 - 5.50 | 1 (Άσος) & Over 1.5
+22:00 | RC Deportivo La Coruña vs Barcelona | 1.55 - 4.10 - 5.50 | 1 (Άσος) & Over 1.5
+22:00 | Barcelona vs Real Madrid | 2.10 - 3.40 - 3.10 | Under 2.5 Γκολ
+22:00 | Barcelona vs Athletic Club | 2.10 - 3.40 - 3.10 | Under 2.5 Γκολ
+22:00 | Las Palmas vs Barcelona | 1.55 - 4.10 - 5.50 | 1 (Άσος) & Over 1.5
+22:00 | Eibar vs Barcelona | 2.10 - 3.40 - 3.10 | Under 2.5 Γκολ
+22:00 | Barcelona vs Las Palmas | 2.10 - 3.40 - 3.10 | Under 2.5 Γκολ
+22:00 | Barcelona vs Eibar | 1.55 - 4.10 - 5.50 | 1 (Άσος) & Over 1.5
+22:00 | Barcelona vs Real Betis | 2.10 - 3.40 - 3.10 | Under 2.5 Γκολ
+22:00 | Barcelona vs Villarreal | 2.10 - 3.40 - 3.10 | Under 2.5 Γκολ
