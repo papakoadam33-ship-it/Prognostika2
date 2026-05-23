@@ -44,12 +44,8 @@ display_date = target_date.strftime("%d/%m/%Y")
 
 st.write(f"📊 Εμφάνιση αγώνων για τη μέρα: **{display_date}**")
 
-# Λίστα με τα δημοφιλή League IDs που υποστηρίζει σίγουρα το API σου
-# 47 = Champions League, 48 = Premier League, 42 = Champions League Qualification, κλπ.
-POPULAR_LEAGUES = [47, 48, 42, 53, 54, 55, 57, 34]
-
 # ==========================================
-# 2. ΛΗΨΗ ΔΕΔΟΜΕΝΩΝ ΑΠΟ ΤΟ API
+# 2. ΛΗΨΗ ΟΛΩΝ ΤΩΝ ΑΓΩΝΩΝ (ΧΩΡΙΣ LEAGUE ID)
 # ==========================================
 try:
     conn = http.client.HTTPSConnection("free-api-live-football-data.p.rapidapi.com")
@@ -58,23 +54,24 @@ try:
         'x-rapidapi-host': "free-api-live-football-data.p.rapidapi.com"
     }
     
-    matches_found = False
+    # Καλούμε όλα τα ματς της ημέρας μαζικά
+    conn.request("GET", f"/football-get-all-matches-by-date?date={today_str}", headers=headers)
+    res = conn.getresponse()
+    raw_response = res.read().decode("utf-8")
+    data = json.loads(raw_response)
     
-    # Ψάχνουμε συστηματικά στα μεγάλα πρωταθλήματα για τη μέρα που διάλεξες
-    for league_id in POPULAR_LEAGUES:
-        conn.request("GET", f"/football-get-matches-by-date-and-league?date={today_str}&leagueid={league_id}", headers=headers)
-        res = conn.getresponse()
-        data = json.loads(res.read().decode("utf-8"))
-        
-        leagues = data.get("response", [])
-        
+    leagues = data.get("response", [])
+    
+    if not leagues:
+        st.info(f"📅 Δεν βρέθηκαν live αγώνες στη βάση για τις {display_date}. Δοκιμάστε άλλη ημερομηνία!")
+    else:
+        # Εμφανίζουμε τα πρωταθλήματα και τα ματς τους
         for league in leagues:
             league_name = league.get('name', 'Πρωτάθλημα')
             matches = league.get("matches", [])
             
             if matches:
-                matches_found = True
-                with st.expander(f"🏆 {league_name} ({len(matches)})", expanded=True):
+                with st.expander(f"🏆 {league_name} ({len(matches)})", expanded=False):
                     for match in matches:
                         match_id = match.get('id')
                         home = match.get('home', {}).get('name', 'Γηπεδούχος')
@@ -88,6 +85,7 @@ try:
                             </div>
                         """, unsafe_allow_html=True)
                         
+                        # Διακόπτης για τις αποδόσεις
                         show_odds = st.toggle("📊 Εμφάνιση Αποδόσεων", key=f"toggle_{match_id}")
                         
                         if show_odds:
@@ -113,9 +111,5 @@ try:
                                 st.caption("Αδυναμία φόρτωσης αποδόσεων.")
                         st.divider()
 
-    if not matches_found:
-        st.info(f"📅 Δεν βρέθηκαν live αγώνες στα μεγάλα πρωταθλήματα για τις {display_date}. Δοκιμάστε άλλη ημερομηνία!")
-
 except Exception as e:
     st.error(f"❌ Σφάλμα σύνδεσης: {e}")
-
