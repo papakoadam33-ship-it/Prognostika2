@@ -41,7 +41,15 @@ if os.path.exists(filename):
                 time_badge = f" ⏱️ {match_time}" if match_time else ""
                 st.markdown(f"**🏆 {league}** {time_badge}")
                 st.code(match_teams, language="text")
-                st.success(f"🔮 Προγνωστικό: {prediction}")
+                
+                # Έξυπνος διαχωρισμός εμφάνισης στην οθόνη
+                if "🔥 [Bookmaker]" in prediction:
+                    clean_pred = prediction.replace("🔥 [Bookmaker]", "").strip()
+                    st.error(f"🔥 Υψηλή Πιστότητα (Bookie): {clean_pred}")
+                else:
+                    clean_pred = prediction.replace("📊 [Στατιστικό]", "").strip()
+                    st.warning(f"📊 Στατιστική Πρόβλεψη: {clean_pred}")
+                    
                 st.write("---")
 else:
     st.warning("⏳ Τα προγνωστικά δημιουργούνται αυτή τη στιγμή. Παρακαλώ ανανεώστε σε 1 λεπτό!")
