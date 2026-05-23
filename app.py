@@ -1,65 +1,58 @@
 import streamlit as st
 import os
 
-# ==========================================
-# 1. ΡΥΘΜΙΣΗ ΣΕΛΙΔΑΣ & DESIGN
-# ==========================================
-st.set_page_config(page_title="Football Predictions", page_icon="⚽", layout="centered")
-
-st.markdown("""
-    <style>
-    .match-box {
-        padding: 15px;
-        border-radius: 8px;
-        background-color: #f1f5f9;
-        margin-bottom: 12px;
-        border-left: 6px solid #2563eb;
-        box-shadow: 0px 2px 4px rgba(0,0,0,0.05);
-    }
-    .odds-container {
-        display: flex;
-        justify-content: space-between;
-        background: #ffffff;
-        padding: 8px;
-        border-radius: 5px;
-        margin-top: 5px;
-        border: 1px solid #e2e8f0;
-    }
-    </style>
-""", unsafe_allow_html=True)
+# Ρύθμιση τίτλου της σελίδας
+st.set_page_config(page_title="Live Αγώνες & Προγνωστικά", page_icon="⚽", layout="centered")
 
 st.title("⚽ Live Αγώνες & Προγνωστικά")
+st.subheader("📊 Οι σημερινές αυτόματες προτάσεις:")
 
-# ==========================================
-# 2. ΑΜΕΣΟ ΔΙΑΒΑΣΜΑ ΑΡΧΕΙΟΥ (ΧΩΡΙΣ ΚΑΘΥΣΤΕΡΗΣΗ)
-# ==========================================
-FILE_NAME = "daily_predictions.txt"
+filename = "daily_predictions.txt"
 
-if os.path.exists(FILE_NAME):
-    with open(FILE_NAME, "r", encoding="utf-8") as f:
-        lines = f.readlines()
-        
-    st.write("📊 **Οι σημερινές αυτόματες προτάσεις:**")
+# Έλεγχος αν υπάρχει το αρχείο με τα προγνωστικά
+if os.path.exists(filename):
+    with open(filename, "r", encoding="utf-8") as file:
+        content = file.read()
     
-    for line in lines:
-        if line.strip() and "|" in line:
-            parts = line.split("|")
-            match_time = parts[0].strip()
-            match_teams = parts[1].strip()
-            match_odds = parts[2].strip()
-            match_tip = parts[3].strip()
-            
-            st.markdown(f"""
-                <div class="match-box">
-                    ⏰ <b>{match_time}</b> | 🏆 <b>{match_teams}</b>
-                    <div class="odds-container">
-                        <span>📈 Σετ: {match_odds}</span>
-                    </div>
-                </div>
-            """, unsafe_allow_html=True)
-            
-            with st.expander("💡 Δείτε το Προγνωστικό / Tip"):
-                st.success(f"🎯 {match_tip}")
+    # Διαχωρίζουμε το κείμενο ανά αγώνα χρησιμοποιώντας τις παύλες που βάζει το main.py
+    blocks = content.split("---------------------------------------------")
+    
+    # Εμφάνιση των στοιχείων κεφαλίδας (Ημερομηνία κτλ)
+    if blocks:
+        header = blocks[0].strip().split("\n\n")[0]
+        st.info(header)
+        
+    # Εμφάνιση των αγώνων σε ωραία πλαίσια (cards)
+    for block in blocks:
+        lines = block.strip().split("\n")
+        
+        # Ψάχνουμε τις γραμμές για Πρωτάθλημα, Αγώνα και Πρόβλεψη
+        league = ""
+        match_teams = ""
+        prediction = ""
+        
+        for line in lines:
+            if line.startswith("Πρωτάθλημα:"):
+                league = line.replace("Πρωτάθλημα:", "").strip()
+            elif line.startswith("Αγώνας:"):
+                match_teams = line.replace("Αγώνας:", "").strip()
+            elif line.startswith("🎯 Πρόβλεψη:"):
+                prediction = line.replace("🎯 Πρόβλεψη:", "").strip()
+        
+        # Αν βρήκαμε έγκυρο αγώνα, τον εμφανίζουμε σε "κουτάκι"
+        if match_teams and prediction:
+            with st.container():
+                st.markdown(f"**🏆 {league}**")
+                st.code(match_teams, language="text")
+                st.success(f"🔮 Προγνωστικό: {prediction}")
+                st.write("---")
 else:
-    st.info("🔄 Οι αγώνες προετοιμάζονται αυτόματα, δοκιμάστε μια ανανέωση σε ένα λεπτό!")
-
+    # Μήνυμα σε περίπτωση που το GitHub Actions δεν έχει προλάβει ακόμα να φτιάξει το αρχείο
+    st.warning("⏳ Τα προγνωστικά δημιουργούνται αυτή τη στιγμή από το σύστημα. Παρακαλώ ανανεώστε τη σελίδα σε 1 λεπτό!")
+    
+    # Εμφάνιση dummy δεδομένων για να μην φαίνεται άδεια η σελίδα στην πρώτη φόρτωση
+    st.info("💡 Παράδειγμα εμφάνισης μόλις ολοκληρωθεί η ροή:")
+    with st.container():
+        st.markdown("**🏆 Premier League**")
+        st.code("Arsenal vs Chelsea", language="text")
+        st.success("🔮 Προγνωστικό: Goal / Goal")
