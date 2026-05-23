@@ -18,14 +18,14 @@ def calculate_tip(odds_1, odds_x, odds_2):
 
 print("⏳ Παραγωγή αυτόματων καθημερινών αγώνων...")
 
-# Λίστα με κορυφαίες ευρωπαϊκές ομάδες για να υπάρχει ποικιλία
+# Μεγάλη λίστα με κορυφαίες ομάδες
 teams_pool = [
     "Real Madrid", "Manchester City", "Bayern Munich", "PSG", "Liverpool", 
     "Arsenal", "Inter Milan", "Juventus", "Atletico Madrid", "Dortmund",
-    "Leverkusen", "Barcelona", "AC Milan", "Aston Villa", "Sporting Lisbon"
+    "Leverkusen", "Barcelona", "AC Milan", "Aston Villa", "Sporting Lisbon",
+    "Chelsea", "Tottenham", "Napoli", "Roma", "Benfica", "Porto", "Ajax"
 ]
 
-# Πιθανά σετ αποδόσεων
 odds_pool = [
     ("1.55", "4.20", "5.50"),
     ("2.15", "3.40", "3.10"),
@@ -34,24 +34,17 @@ odds_pool = [
     ("3.20", "3.30", "2.20")
 ]
 
-# Πιθανές ώρες διεξαγωγής
 times_pool = ["17:00", "19:30", "21:45", "22:00"]
 
 try:
-    # Επιλέγουμε τυχαίους συνδυασμούς ομάδων για να αλλάζουν αυτόματα κάθε μέρα!
-    random.seed(None) # Εξασφαλίζει ότι κάθε φορά που τρέχει, οι αγώνες θα είναι διαφορετικοί
+    # Ανακατεύουμε τις ομάδες τυχαία
+    random.shuffle(teams_pool)
     
     selected_matches = []
-    used_teams = set()
-    
-    while len(selected_matches) < 8:
-        home = random.choice(teams_pool)
-        away = random.choice(teams_pool)
-        
-        if home != away and home not in used_teams and away not in used_teams:
-            selected_matches.append((home, away))
-            used_teams.add(home)
-            used_teams.add(away)
+    # Παίρνουμε ζευγάρια ανά δύο χωρίς να κολλάει ποτέ ο κώδικας
+    for i in range(0, 16, 2):
+        if i+1 < len(teams_pool):
+            selected_matches.append((teams_pool[i], teams_pool[i+1]))
 
     with open("daily_predictions.txt", "w", encoding="utf-8") as f:
         for home_team, away_team in selected_matches:
@@ -60,7 +53,6 @@ try:
             
             generated_tip = calculate_tip(m1, mx, m2)
             
-            # Εγγραφή στο αρχείο κειμένου
             line = f"{match_time} | {home_team} vs {away_team} | {m1} - {mx} - {m2} | {generated_tip}\n"
             f.write(line)
             print(f"✅ Δημιουργήθηκε: {home_team} vs {away_team} ({match_time})")
