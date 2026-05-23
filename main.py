@@ -1,90 +1,76 @@
 import urllib.request
-import xml.etree.ElementTree as ET
+import json
 from datetime import datetime
 
-def scrape_live_predictions():
-    print("Έναρξη πραγματικού Web Scraping για σημερινούς αγώνες...")
+def get_real_odds_predictions():
+    print("Σύνδεση με το The Odds API για πραγματικούς σημερινούς αγώνες...")
     today_display = datetime.now().strftime('%d/%m/%Y')
     
-    # Χρησιμοποιούμε ένα live, ανοιχτό RSS feed με σημερινά προγνωστικά και αγώνες
-    # Τα RSS feeds δεν μπλοκάρουν τους servers του GitHub
-    url = "https://www.bettingrunner.com/en/blog/feed/" 
+    # --- ΒΑΛΕ ΤΟ ΔΙΚΟ ΣΟΥ API KEY ΕΔΩ ---
+    API_KEY = "ΤΟ_ΚΛΕΙΔΙ_ΠΟΥ_ΣΟΥ_ΕΣΤΕΙΛΑΝ_ΣΤΟ_EMAIL"
     
-    # Εναλλακτικό universal αθλητικό feed αν το πρώτο καθυστερεί
-    url_alt = "https://api.foxsports.com/v1/rss/soccer"
+    # Ζητάμε τους σημερινούς αγώνες ποδοσφαίρου παγκοσμίως (soccer) μαζί με αποδόσεις
+    url = f"https://api.the-odds-api.com/v4/sports/soccer/odds/?apiKey={API_KEY}&regions=eu&markets=h2h&bookmakers=onexbet"
 
     req = urllib.request.Request(
-        url_alt, 
-        headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+        url, 
+        headers={'User-Agent': 'Mozilla/5.0'}
     )
     
     try:
         with urllib.request.urlopen(req, timeout=15) as response:
             html = response.read()
-            root = ET.fromstring(html)
-            
-            # Ψάχνουμε όλα τα "items" (αγώνες) μέσα στο XML
-            items = root.findall('.//item')
+            matches = json.loads(html.decode('utf-8'))
             
             with open("daily_predictions.txt", "w", encoding="utf-8") as file:
                 file.write(f"=== ΠΡΟΓΝΩΣΤΙΚΑ ΣΤΟΙΧΗΜΑΤΟΣ - {today_display} ===\n")
-                file.write("Πηγή: Live Sports Scraping\n")
+                file.write("Πηγή: Real-Time Odds API\n")
                 file.write("=" * 45 + "\n\n")
                 
+                if not matches or not isinstance(matches, list):
+                    file.write("Δεν βρέθηκαν διαθέσιμοι αγώνες για σήμερα στο API.\n")
+                    return
+                
                 count = 0
-                for item in items:
-                    title = item.find('title').text
-                    category = item.find('category')
-                    league = category.text if category is not None else "Διεθνείς Αγώνες"
+                for match in matches[:30]: # Παίρνουμε έως 30 πραγματικούς αγώνες
+                    home_team = match.get('home_team')
+                    away_team = match.get('away_team')
+                    league = match.get('sport_title', 'Ποδόσφαιρο')
                     
-                    # Καθαρίζουμε τον τίτλο αν περιέχει περιττές πληροφορίες
-                    if " vs " in title or " - " in title:
-                        title = title.replace(" vs ", " - ")
-                        teams = title.split(" - ")
-                        home_team = teams[0].strip()
-                        away_team = teams[1].strip()
-                    else:
-                        # Αν ο τίτλος είναι απλό κείμενο, σπάμε τις λέξεις για να μοιάζει με αγώνα
-                        words = title.split()
-                        if len(words) >= 2:
-                            home_team = words[0]
-                            away_team = words[1]
+                    # Προσπάθεια εύρεσης πραγματικών αποδόσεων για έξυπνο προγνωστικό
+                    prediction = "1X (Διπλή Ευκαιρία)" # default
+                    try:
+                        bookmaker = match.get('bookmakers', [])[0]
+                        market = bookmaker.get('markets', [])[0]
+                        outcomes = market.get('outcomes', [])
+                        
+                        # outcomes[0] = home, outcomes[1] = away, outcomes[2] = draw (συνήθως)
+                        odds_dict = {o['name']: o['price'] for o in outcomes}
+                        home_odds = odds_dict.get(home_team, 2.0)
+                        away_odds = odds_dict.get(away_team, 2.0)
+                        
+                        if home_odds < away_odds and home_odds < 1.80:
+                            prediction = f"1 (Άσσος με απόδοση {home_odds})"
+                        elif away_odds < home_odds and away_odds < 1.80:
+                            prediction = f"2 (Διπλό με απόδοση {away_odds})"
                         else:
-                            continue
+                            prediction = "Goal / Goal ή Χ (Ντέρμπι)"
+                    except:
+                        pass
                     
-                    # Έξυπνος αλγόριθμος για το σημείο
-                    factor = len(home_team) + len(away_team)
-                    if factor % 3 == 0:
-                        prediction = "1 (Νίκη Γηπεδούχου)"
-                    elif factor % 3 == 1:
-                        prediction = "Goal / Goal"
-                    else:
-                        prediction = "X2 (Διπλή Ευκαιρία)"
-                    
-                    # Γράφουμε στο αρχείο
                     file.write(f"Πρωτάθλημα: {league}\n")
                     file.write(f"Αγώνας: {home_team} vs {away_team}\n")
                     file.write(f"🎯 Πρόβλεψη: {prediction}\n")
                     file.write("-" * 45 + "\n")
                     count += 1
                     
-                    if count >= 30: # Κρατάμε μέχρι 30 σημερινούς αγώνες
-                        break
-                        
-                # Αν το RSS δεν επέστρεψε τίποτα, ας κάνουμε direct HTML scrape σε μια open-data σελίδα
-                if count == 0:
-                    raise Exception("No items found in RSS")
-                    
-            print(f"Επιτυχία! {count} πραγματικοί αγώνες αποθηκεύτηκαν.")
+            print(f"Επιτυχία! Γράφτηκαν {count} ΠΡΑΓΜΑΤΙΚΟΙ σημερινοί αγώνες.")
             
     except Exception as e:
-        print(f"Σφάλμα κατά το Scraping: {e}")
-        # Δυναμικό fallback με πραγματικά επερχόμενα μεγάλα παιχνίδια της ημέρας
+        print(f"Σφάλμα κατά την κλήση του API: {e}")
         with open("daily_predictions.txt", "w", encoding="utf-8") as file:
             file.write(f"=== ΠΡΟΓΝΩΣΤΙΚΑ ΣΤΟΙΧΗΜΑΤΟΣ - {today_display} ===\n\n")
-            file.write("Πρωτάθλημα: UEFA Nations League\nΑγώνας: France vs Italy\n🎯 Πρόβλεψη: 1X (Διπλή Ευκαιρία)\n---------------------------------------------\n")
-            file.write("Πρωτάθλημα: UEFA Nations League\nΑγώνας: Germany vs Netherlands\n🎯 Πρόβλεψη: Goal / Goal\n---------------------------------------------\n")
-            file.write("Πρωτάθλημα: England Premier League\nΑγώνας: Liverpool vs Real Madrid\n🎯 Πρόβλεψη: Under 3.5 Goals\n---------------------------------------------\n")
+            file.write("Σφάλμα σύνδεσης. Παρακαλώ ελέγξτε αν το API Key σας είναι σωστό.\n")
 
 if __name__ == "__main__":
-    scrape_live_predictions()
+    get_real_odds_predictions()
