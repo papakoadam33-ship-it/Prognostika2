@@ -1,42 +1,49 @@
 import streamlit as st
 import os
 
-# Ρύθμιση σελίδας
+# Αρχική ρύθμιση σελίδας
 st.set_page_config(page_title="VIP Προγνωστικά", page_icon="⚽", layout="centered")
 
-# Custom CSS για να κάνουμε την εμφάνιση ακόμα πιο μοντέρνα
+# Custom CSS για τέλεια εμφάνιση που προσαρμόζεται στο Light/Dark Mode
 st.markdown("""
     <style>
-    .main-title {
+    .sub-header-text {
         text-align: center;
-        color: #FFFFFF;
-        font-size: 42px;
-        font-weight: bold;
-        margin-bottom: 10px;
-    }
-    .subtitle {
-        text-align: center;
-        color: #A0AEC0;
-        font-size: 18px;
-        margin-bottom: 30px;
-    }
-    .match-box {
-        background-color: #1E293B;
-        padding: 15px;
-        border-radius: 10px;
-        margin-bottom: 15px;
-        border-left: 5px solid #3B82F6;
-    }
-    .time-text {
-        color: #F59E0B;
-        font-weight: bold;
         font-size: 16px;
+        color: #6B7280;
+        margin-bottom: 25px;
+    }
+    .match-row {
+        font-size: 18px;
+        font-weight: 600;
+        padding: 5px 0px;
+    }
+    .prediction-box-bookie {
+        background-color: #FEE2E2;
+        color: #991B1B;
+        padding: 12px;
+        border-radius: 8px;
+        border-left: 5px solid #EF4444;
+        font-weight: bold;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    .prediction-box-stat {
+        background-color: #FEF3C7;
+        color: #92400E;
+        padding: 12px;
+        border-radius: 8px;
+        border-left: 5px solid #F59E0B;
+        font-weight: bold;
+        margin-top: 5px;
+        margin-bottom: 15px;
     }
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<div class="main-title">⚽ VIP Προγνωστικά Ποδοσφαίρου</div>', unsafe_allow_html=True)
-st.markdown('<div class="subtitle">🎯 Live ανανέωση βάσει αποδόσεων & στατιστικής</div>', unsafe_allow_html=True)
+# Τίτλοι με τη σωστή μέθοδο του Streamlit για να μην κρύβονται
+st.title("⚽ VIP Προγνωστικά")
+st.markdown('<div class="sub-header-text">🎯 Live ανανέωση βάσει αποδόσεων & στατιστικής</div>', unsafe_allow_html=True)
 
 filename = "daily_predictions.txt"
 
@@ -46,16 +53,14 @@ if os.path.exists(filename):
     
     blocks = content.split("---------------------------------------------")
     
-    # Διαβάζουμε την κεφαλίδα (ώρα τελευταίας ενημέρωσης)
+    # Εμφάνιση ώρας τελευταίας ενημέρωσης
     if blocks:
         header_lines = blocks[0].strip().split("\n")
         for line in header_lines:
-            if "Δεν βρέθηκαν" in line:
-                st.warning(line)
-            elif "Τελευταία ενημέρωση:" in line:
+            if "Τελευταία ενημέρωση:" in line:
                 st.caption(f"🕒 {line}")
 
-    # Ομαδοποίηση αγώνων ανά πρωτάθλημα για να μην είναι χαοτικό
+    # Ομαδοποίηση ανά πρωτάθλημα
     leagues_dict = {}
     
     for block in blocks:
@@ -85,28 +90,27 @@ if os.path.exists(filename):
                 "prediction": prediction
             })
 
-    # Εμφάνιση των αγώνων οργανωμένα
+    # Σχεδίαση των αγώνων στην οθόνη
     if leagues_dict:
         for league_name, matches in leagues_dict.items():
-            # Δημιουργία πτυσσόμενου μενού (Expander) για κάθε πρωτάθλημα
-            with st.expander(f"🏆 {league_name} ({len(matches)} αγώνες)", expanded=True):
+            with st.expander(f"🏆 {league_name} ({len(matches)})", expanded=True):
                 for m in matches:
-                    # Εμφάνιση ομάδων και ώρας
+                    # Δημιουργούμε 2 στήλες: Μία μικρή για την ώρα, μία μεγάλη για τις ομάδες
                     col1, col2 = st.columns([1, 4])
                     with col1:
                         st.markdown(f"⏱️ **{m['time']}**")
                     with col2:
-                        st.markdown(f"**{m['teams']}**")
+                        st.markdown(f'<div class="match-row">{m["teams"]}</div>', unsafe_allow_html=True)
                     
-                    # Εμφάνιση πρόβλεψης με βάση την κατηγορία (Bookie ή Στατιστικό)
+                    # Έξυπνα custom πλαίσια ανάλογα με τον τύπο της πρόβλεψης
                     if "🔥 [Bookmaker]" in m['prediction']:
                         clean_pred = m['prediction'].replace("🔥 [Bookmaker]", "").strip()
-                        st.error(f"🔥 **VIP Επιλογή (Bookie):** {clean_pred}")
+                        st.markdown(f'<div class="prediction-box-bookie">🔥 VIP Επιλογή: {clean_pred}</div>', unsafe_allow_html=True)
                     else:
                         clean_pred = m['prediction'].replace("📊 [Στατιστικό]", "").strip()
-                        st.warning(f"📊 **Στατιστικό Σημείο:** {clean_pred}")
+                        st.markdown(f'<div class="prediction-box-stat">📊 Στατιστικό: {clean_pred}</div>', unsafe_allow_html=True)
                     
-                    st.write("") # Μικρό κενό ανάμεσα στα ματς
+                    st.markdown('<hr style="margin:10px 0px; border-top: 1px navajowhite;" />', unsafe_allow_html=True)
     else:
         st.info("ℹ️ Δεν υπάρχουν διαθέσιμοι αγώνες αυτή τη στιγμή.")
 else:
