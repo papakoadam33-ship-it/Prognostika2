@@ -1,88 +1,65 @@
 import streamlit as st
-from datetime import datetime
+import os
 
 # ==========================================
 # 1. ΡΥΘΜΙΣΗ ΣΕΛΙΔΑΣ & DESIGN
 # ==========================================
-st.set_page_config(page_title="Football Live Predictions", page_icon="⚽", layout="centered")
+st.set_page_config(page_title="Football Predictions", page_icon="⚽", layout="centered")
 
 st.markdown("""
     <style>
-    .main-title {
-        text-align: center;
-        color: #1e3a8a;
-        font-family: 'Arial', sans-serif;
-    }
-    .league-header {
-        background-color: #1e40af;
-        color: white;
-        padding: 8px 12px;
-        border-radius: 6px;
-        margin-top: 15px;
-        font-weight: bold;
-    }
     .match-box {
         padding: 15px;
         border-radius: 8px;
         background-color: #f1f5f9;
-        margin-bottom: 10px;
-        border-left: 6px solid #10b981;
+        margin-bottom: 12px;
+        border-left: 6px solid #2563eb;
         box-shadow: 0px 2px 4px rgba(0,0,0,0.05);
     }
-    .odds-text {
-        color: #2563eb;
-        font-weight: bold;
+    .odds-container {
+        display: flex;
+        justify-content: space-between;
+        background: #ffffff;
+        padding: 8px;
+        border-radius: 5px;
+        margin-top: 5px;
+        border: 1px solid #e2e8f0;
     }
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown("<h1 class='main-title'>⚽ Live Αγώνες & Προγνωστικά</h1>", unsafe_allow_html=True)
-
-# 📅 Ημερομηνία
-today_str = datetime.now().strftime("%d/%m/%Y")
-st.info(f"📅 Εμφάνιση προγραμματισμένων αγώνων για σήμερα: **{today_str}**")
+st.title("⚽ Live Αγώνες & Προγνωστικά")
 
 # ==========================================
-# 2. ΕΤΟΙΜΑ ΔΕΔΟΜΕΝΑ ΑΓΩΝΩΝ (ΧΩΡΙΣ API - 100% ΣΤΑΘΕΡΟ)
+# 2. ΑΜΕΣΟ ΔΙΑΒΑΣΜΑ ΑΡΧΕΙΟΥ (ΧΩΡΙΣ ΚΑΘΥΣΤΕΡΗΣΗ)
 # ==========================================
-football_data = {
-    "🏆 UEFA Champions League": [
-        {"home": "Real Madrid", "away": "Manchester City", "time": "22:00", "1": "2.45", "X": "3.40", "2": "2.80", "tip": "Goal/Goal & Over 2.5"},
-        {"home": "Bayern Munich", "away": "Paris Saint-Germain", "time": "22:00", "1": "2.10", "X": "3.60", "2": "3.20", "tip": "1 (Άσος)"}
-    ],
-    "🏆 Ελληνική Super League": [
-        {"home": "Ολυμπιακός", "away": "Παναθηναϊκός", "time": "19:30", "1": "2.00", "X": "3.20", "2": "3.80", "tip": "Under 2.5"},
-        {"home": "ΠΑΟΚ", "away": "ΑΕΚ", "time": "20:00", "1": "2.50", "X": "3.10", "2": "2.90", "tip": "1X Διπλή Ευκαιρία"}
-    ],
-    "🏆 Premier League (Αγγλία)": [
-        {"home": "Arsenal", "away": "Chelsea", "time": "18:00", "1": "1.65", "X": "4.00", "2": "5.25", "tip": "1 & Over 1.5"},
-        {"home": "Liverpool", "away": "Manchester United", "time": "20:15", "1": "1.50", "X": "4.50", "2": "6.00", "tip": "Over 3.5"}
-    ]
-}
+FILE_NAME = "daily_predictions.txt"
 
-# ==========================================
-# 3. ΕΜΦΑΝΙΣΗ ΣΤΗΝ ΟΘΟΝΗ
-# ==========================================
-for league, matches in football_data.items():
-    st.markdown(f"<div class='league-header'>{league}</div>", unsafe_allow_html=True)
-    st.write("") # κενό
+if os.path.exists(FILE_NAME):
+    with open(FILE_NAME, "r", encoding="utf-8") as f:
+        lines = f.readlines()
+        
+    st.write("📊 **Οι σημερινές αυτόματες προτάσεις:**")
     
-    for match in matches:
-        with st.container():
+    for line in lines:
+        if line.strip() and "|" in line:
+            parts = line.split("|")
+            match_time = parts[0].strip()
+            match_teams = parts[1].strip()
+            match_odds = parts[2].strip()
+            match_tip = parts[3].strip()
+            
             st.markdown(f"""
                 <div class="match-box">
-                    ⏰ <b>{match['time']}</b> | 🏠 <b>{match['home']}</b> vs 🏴 <b>{match['away']}</b>
+                    ⏰ <b>{match_time}</b> | 🏆 <b>{match_teams}</b>
+                    <div class="odds-container">
+                        <span>📈 Σετ: {match_odds}</span>
+                    </div>
                 </div>
             """, unsafe_allow_html=True)
             
-            # Columns για τις αποδόσεις
-            col1, col2, col3 = st.columns(3)
-            col1.metric("Άσος (1)", match["1"])
-            col2.metric("Ισοπαλία (X)", match["X"])
-            col3.metric("Διπλό (2)", match["2"])
-            
-            # Expandable για το Προγνωστικό
             with st.expander("💡 Δείτε το Προγνωστικό / Tip"):
-                st.success(f"🎯 **Πρόβλεψη:** {match['tip']}")
-            st.divider()
+                st.success(f"🎯 {match_tip}")
+else:
+    st.info("🔄 Οι αγώνες προετοιμάζονται αυτόματα, δοκιμάστε μια ανανέωση σε ένα λεπτό!")
 
