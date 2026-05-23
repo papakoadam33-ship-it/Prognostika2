@@ -8,7 +8,6 @@ from datetime import datetime
 # ==========================================
 st.set_page_config(page_title="Football Live", page_icon="⚽", layout="centered")
 
-# Όμορφο στυλ για τα κουτάκια των αγώνων
 st.markdown("""
     <style>
     .match-box {
@@ -16,107 +15,89 @@ st.markdown("""
         border-radius: 8px;
         background-color: #f0f2f6;
         margin-bottom: 10px;
-        border-left: 5px solid #0052cc;
+        border-left: 5px solid #2e7d32;
     }
     </style>
 """, unsafe_allow_html=True)
 
-st.title("⚽ Live Αγώνες & Αποδόσεις (API-Football)")
+st.title("⚽ Live Αγώνες & Αποδόσεις")
 
-# Το δικό σου API Key από το API-Football
+# Το API Key σου από το RapidAPI
 API_KEY = "37046cb451msh72e76cf7c6071cdp1d37a8jsn3abe46eeefe3"
-today_str = datetime.now().strftime("%Y-%m-%d")
+today = datetime.now().strftime("%Y%m%d")
 
-# Κουμπί για Refresh στην κορυφή
+# Κουμπί για Ανανέωση
 if st.button("🔄 Ανανέωση Δεδομένων"):
     st.rerun()
 
 # ==========================================
-# 2. ΛΗΨΗ LIVE ΑΓΩΝΩΝ ΑΠΟ API-FOOTBALL
+# 2. ΛΗΨΗ ΔΕΔΟΜΕΝΩΝ ΑΠΟ ΤΟ FREE API LIVE FOOTBALL
 # ==========================================
 try:
-    conn = http.client.HTTPSConnection("api-football-v1.p.rapidapi.com")
+    conn = http.client.HTTPSConnection("free-api-live-football-data.p.rapidapi.com")
     headers = {
         'x-rapidapi-key': API_KEY,
-        'x-rapidapi-host': "api-football-v1.p.rapidapi.com"
+        'x-rapidapi-host': "free-api-live-football-data.p.rapidapi.com"
     }
     
-    # Ζητάμε όλους τους σημερινούς αγώνες
-    conn.request("GET", f"/v3/fixtures?date={today_str}", headers=headers)
+    # Λήψη σημερινών αγώνων
+    conn.request("GET", f"/football-get-matches-by-date-and-league?date={today}", headers=headers)
     res = conn.getresponse()
-    raw_data = res.read().decode("utf-8")
-    data = json.loads(raw_data)
+    data = json.loads(res.read().decode("utf-8"))
     
-    fixtures = data.get("response", [])
+    leagues = data.get("response", [])
     
-    if not fixtures:
-        st.info("📅 Δεν βρέθηκαν live αγώνες στη βάση για σήμερα.")
+    if not leagues:
+        st.info("📅 Δεν βρέθηκαν αγώνες στη βάση δεδομένων για σήμερα.")
     else:
-        # Ομαδοποίηση των αγώνων ανά πρωτάθλημα
-        leagues_dict = {}
-        for item in fixtures:
-            league_name = item.get("league", {}).get("name", "Άλλα Πρωταθλήματα")
-            if league_name not in leagues_dict:
-                leagues_dict[league_name] = []
-            leagues_dict[league_name].append(item)
+        for league in leagues:
+            league_name = league.get('name', 'Πρωτάθλημα')
+            matches = league.get("matches", [])
             
-        # Εμφάνιση των πρωταθλημάτων (Δείχνουμε τα πρώτα 15 για να μην κολλάει το κινητό)
-        for league_name, matches in list(leagues_dict.items())[:15]:
-            with st.expander(f"🏆 {league_name} ({len(matches)})", expanded=False):
-                for match in matches:
-                    match_id = match.get("fixture", {}).get("id")
-                    home = match.get("teams", {}).get("home", {}).get("name")
-                    away = match.get("teams", {}).get("away", {}).get("name")
-                    
-                    # Σκορ και Κατάσταση Αγώνα (Live ή Ώρα έναρξης)
-                    status_short = match.get("fixture", {}).get("status", {}).get("short", "")
-                    home_goals = match.get("goals", {}).get("home")
-                    away_goals = match.get("goals", {}).get("away")
-                    
-                    if home_goals is not None and away_goals is not None:
-                        score_str = f"👉 {home_goals} - {away_goals} ({status_short})"
-                    else:
-                        match_date = match.get("fixture", {}).get("date", "")
-                        score_str = f"⏰ {match_date[11:16]}"
-
-                    # Εμφάνιση του αγώνα σε Box
-                    st.markdown(f"""
-                        <div class="match-box">
-                            🏠 <b>{home}</b> vs 🏴 <b>{away}</b><br>
-                            <span style="color:#0052cc;">{score_str}</span>
-                        </div>
-                    """, unsafe_allow_html=True)
-                    
-                    # Έξυπνος διακόπτης (Toggle) για τις αποδόσεις
-                    show_odds = st.toggle("📊 Εμφάνιση Αποδόσεων", key=f"odds_{match_id}")
-                    
-                    if show_odds:
-                        # Καλούμε τις αποδόσεις από το API-Football για το συγκεκριμένο ματς
-                        conn.request("GET", f"/v3/odds?fixture={match_id}", headers=headers)
-                        res_odds = conn.getresponse()
-                        odds_data = json.loads(res_odds.read().decode("utf-8"))
+            if matches:
+                with st.expander(f"🏆 {league_name} ({len(matches)})", expanded=True):
+                    for match in matches:
+                        match_id = match.get('id')
+                        home = match.get('home', {}).get('name', 'Γηπεδούχος')
+                        away = match.get('away', {}).get('name', 'Φιλοξενούμενος')
+                        match_time = match.get('time', '--:--')
                         
-                        odds_response = odds_data.get("response", [])
-                        odds_found = False
+                        # Εμφάνιση αγώνα
+                        st.markdown(f"""
+                            <div class="match-box">
+                                ⏳ <b>{match_time}</b><br>
+                                🏠 {home} vs 🏴 {away}
+                            </div>
+                        """, unsafe_allow_html=True)
                         
-                        if odds_response:
-                            bookmakers = odds_response[0].get("bookmakers", [])
-                            if bookmakers:
-                                markets = bookmakers[0].get("bets", [])
-                                # Ψάχνουμε το "Match Winner" (Αγορά 1-X-2)
-                                for bet in markets:
-                                    if bet.get("id") == 1: 
-                                        values = bet.get("values", [])
-                                        if values:
-                                            odds_found = True
-                                            st.write("📈 **Αποδόσεις (1-X-2):**")
-                                            cols = st.columns(3)
-                                            for idx, val in enumerate(values[:3]):
-                                                cols[idx].metric(label=f"{val.get('value')}", value=val.get('odd'))
+                        # Toggle για εμφάνιση αποδόσεων χωρίς κολλήματα
+                        show_odds = st.toggle("📊 Εμφάνιση Αποδόσεων", key=f"toggle_{match_id}")
                         
-                        if not odds_found:
-                            st.warning("⚠️ Δεν έχουν βγει ακόμα αποδόσεις για αυτό το ματς.")
-                    st.divider()
+                        if show_odds:
+                            try:
+                                # Λήψη αποδόσεων για το συγκεκριμένο event
+                                conn.request("GET", f"/football-event-odds?eventid={match_id}&countrycode=GR", headers=headers)
+                                res_odds = conn.getresponse()
+                                odds_data = json.loads(res_odds.read().decode("utf-8"))
+                                
+                                market = odds_data.get("response", {}).get("odds", {}).get("odds", {}).get("resolvedOddsMarket", {})
+                                selections = market.get("selections", [])
+                                
+                                if selections:
+                                    st.write("📈 **Αποδόσεις (1-X-2):**")
+                                    cols = st.columns(len(selections))
+                                    for i, item in enumerate(selections):
+                                        cols[i].metric(
+                                            label=f"Σημείο {item.get('name')}", 
+                                            value=item.get('oddsDecimal')
+                                        )
+                                else:
+                                    st.warning("⚠️ Δεν υπάρχουν διαθέσιμες αποδόσεις για αυτό το ματς.")
+                            except Exception as odds_err:
+                                st.caption("Αδυναμία φόρτωσης αποδόσεων.")
+                        
+                        st.divider()
 
 except Exception as e:
     st.error(f"❌ Σφάλμα σύνδεσης: {e}")
+
