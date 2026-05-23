@@ -45,7 +45,7 @@ def get_real_odds_predictions():
     today_display = datetime.now().strftime('%d/%m/%Y')
     
     # --- ΤΟ API KEY ΣΟΥ ---
-    API_KEY = "3a00f2efbe3a10972c84fd43d2c67e81" # Κρατάω αυτό που ήδη δουλεύει
+    API_KEY = "eda6dcd0115ab96a2bf0fad47945cd34" # Κρατάω αυτό που ήδη δουλεύει
     
     # Αλλάζουμε το URL για να φέρει αποδόσεις από πολλούς bookmakers (όχι μόνο 1xbet)
     url = f"https://api.the-odds-api.com/v4/sports/soccer/odds/?apiKey={API_KEY}&regions=eu&markets=h2h"
