@@ -1,37 +1,83 @@
 import json
-import requests
-from datetime import datetime
 
-def fetch_todays_matches():
-    # Παίρνουμε τη σημερινή ημερομηνία σε μορφή ΥΥΥΥ-ΜΜ-DD
-    today_date = datetime.now().strftime("%Y-%m-%d")
-    print(f"Λήψη αγώνων για τη σημερινή ημερομηνία: {today_date}")
+def calculate_tip(odds_1, odds_x, odds_2):
+    """
+    Μετατρέπει τις αποδόσεις σε καθαρές πιθανότητες % 
+    και υπολογίζει αυτόματα το καλύτερο προγνωστικό (Tip).
+    """
+    # Μετατροπή σε float για σιγουριά
+    o1 = float(odds_1)
+    ox = float(odds_x)
+    o2 = float(odds_2)
     
-    url = "https://free-api-live-football-data.p.rapidapi.com/football-get-all-matches-by-date"
-    querystring = {"date": today_date}
+    # Υπολογισμός γκανιότας και καθαρών πιθανοτήτων
+    p1 = (1 / o1) * 100
+    px = (1 / ox) * 100
+    p2 = (1 / o2) * 100
+    total = p1 + px + p2
+    
+    # Κανονικοποίηση (αφαίρεση γκανιότας) για πραγματική πιθανότητα
+    prob_1 = (p1 / total) * 100
+    prob_x = (px / total) * 100
+    prob_2 = (p2 / total) * 100
+    
+    # --- ΜΑΘΗΜΑΤΙΚΟΙ ΚΑΝΟΝΕΣ ΓΙΑ ΤΟ TIP ---
+    # 1. Αν ο Άσος είναι τεράστιο φαβορί (πάνω από 55% πιθανότητα)
+    if prob_1 > 55 and o1 < 1.70:
+        return "1 (Άσος) & Over 1.5"
+    
+    # 2. Αν το Διπλό είναι τεράστιο φαβορί
+    elif prob_2 > 55 and o2 < 1.70:
+        return "2 (Διπλό) & Over 1.5"
+    
+    # 3. Αν το ματς είναι πολύ αμφίρροπο (ντέρμπι)
+    elif abs(prob_1 - prob_2) < 8 and ox < 3.30:
+        # Αν οι αποδόσεις είναι χαμηλές, δείχνει κλειστό ματς
+        if (o1 + o2) / 2 < 2.60:
+            return "Goal/Goal (Αμφίσκορο)"
+        else:
+            return "2-3 Γκολ (Σύνολο)"
+            
+    # 4. Αν οι στοιχηματικές περιμένουν πολλά γκολ (χαμηλός άσος/διπλό αλλά υψηλό Χ)
+    elif ox > 3.60:
+        return "Over 2.5 Γκολ"
+        
+    # 5. Αν το Χ συγκεντρώνει πολλές πιθανότητες (κλειστό παιχνίδι)
+    elif prob_x > 28 or ox <= 3.10:
+        return "Under 2.5 Γκολ"
+        
+    # Γενική επιλογή αν δεν πιάνει τους κανόνες
+    else:
+        if prob_1 > prob_2:
+            return "1X (Διπλή Ευκαιρία)"
+        else:
+            return "X2 (Διπλή Ευκαιρία)"
 
-    headers = {
-        "x-rapidapi-key": "47d5da2fb8mshde110deccc94426p115d5ajsnd9cc939fa561",
-        "x-rapidapi-host": "free-api-live-football-data.p.rapidapi.com"
-    }
+# ========================================================
+# ΔΟΚΙΜΗ ΤΟΥ ΑΛΓΟΡΙΘΜΟΥ ΜΕ ΤΑ ΔΕΔΟΜΕΝΑ ΜΑΣ
+# ========================================================
+# Παράδειγμα αγώνων με τις αποδόσεις τους
+raw_matches = [
+    {"time": "22:00", "teams": "Real Madrid vs Manchester City", "1": "2.45", "X": "3.40", "2": "2.80"},
+    {"time": "22:00", "teams": "Bayern Munich vs PSG", "1": "1.50", "X": "4.50", "2": "6.00"},
+    {"time": "19:30", "teams": "Ολυμπιακός vs Παναθηναϊκός", "1": "2.00", "X": "3.10", "2": "3.80"},
+    {"time": "20:00", "teams": "ΠΑΟΚ vs ΑΕΚ", "1": "2.50", "X": "3.00", "2": "2.90"}
+]
 
-    try:
-        response = requests.get(url, headers=headers, params=querystring)
-        response.raise_for_status()
-        return response.json()
-    except Exception as e:
-        print(f"Σφάλμα κατά τη λήψη δεδομένων: {e}")
-        return None
+print("⏳ Έναρξη υπολογισμού προγνωστικών...")
 
-def generate_predictions():
-    data = fetch_todays_matches()
-    if not data:
-        print("Δεν βρέθηκαν δεδομένα αγώνων.")
-        return
+# Ανοίγουμε το αρχείο daily_predictions.txt για να γράψουμε τα αποτελέσματα
+with open("daily_predictions.txt", "w", encoding="utf-8") as f:
+    for match in raw_matches:
+        # Ο αλγόριθμος υπολογίζει το Tip
+        generated_tip = calculate_tip(match["1"], match["X"], match["2"])
+        
+        # Μορφοποίηση της γραμμής: Ώρα | Αγώνας | Αποδόσεις | Προγνωστικό
+        line = f"{match['time']} | {match['teams']} | {match['1']} - {match['X']} - {match['2']} | {generated_tip}\n"
+        
+        # Εγγραφή στο αρχείο
+        f.write(line)
+        print(f"✅ Υπολογίστηκε: {match['teams']} -> {generated_tip}")
 
-    with open("daily_predictions.txt", "w", encoding="utf-8") as f:
-        f.write(json.dumps(data, indent=4, ensure_ascii=False))
-    print("Το αρχείο daily_predictions.txt ενημερώθηκε με τους αγώνες της ημέρας!")
+print("🚀 Το αρχείο daily_predictions.txt ενημερώθηκε επιτυχώς!")
 
-if __name__ == "__main__":
-    generate_predictions()
