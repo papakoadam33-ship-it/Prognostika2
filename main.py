@@ -1,67 +1,63 @@
-import requests
+import urllib.request
+import json
 from datetime import datetime
 
 def get_free_predictions():
-    print("Έναρξη συλλογής αγώνων από όλα τα πρωταθλήματα...")
+    print("Έναρξη συλλογής αγώνων...")
     
-    # Χρησιμοποιούμε ένα 100% ελεύθερο και ανοιχτό API που επιστρέφει live/σημερινούς αγώνες
-    url = "https://api.football-data.org/v4/matches"
+    # Χρησιμοποιούμε το σταθερό, ελεύθερο open feed της ScoreBat
+    url = "https://www.scorebat.com/video-api/v3/"
     
-    # Επειδή το παραπάνω θέλει registration για πλήρη χρήση, πάμε στην απόλυτη no-key λύση:
-    # Τραβάμε δεδομένα από το ανοιχτό feed της ScoreBat που έχει όλα τα παιχνίδια live και επερχόμενα
-    url_free = "https://www.scorebat.com/video-api/v3/"
+    # Ορίζουμε το User-Agent για να μας επιτρέψει την πρόσβαση το σύστημα
+    req = urllib.request.Request(
+        url, 
+        headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+    )
     
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-    }
-
     try:
-        response = requests.get(url_free, headers=headers)
-        
-        if response.status_code == 200:
-            data = response.json()
+        # Κάνουμε την κλήση χωρίς να χρειαζόμαστε τη βιβλιοθήκη requests
+        with urllib.request.urlopen(req) as response:
+            html = response.read()
+            data = json.loads(html.decode('utf-8'))
+            
             matches = data.get('response', [])
             
-            if not matches:
-                print("Δεν βρέθηκαν αυτούσιοι αγώνες αυτή τη στιγμή.")
-                return
-                
             # Άνοιγμα και εγγραφή στο daily_predictions.txt
             with open("daily_predictions.txt", "w", encoding="utf-8") as file:
                 file.write(f"=== ΠΡΟΓΝΩΣΤΙΚΑ ΣΤΟΙΧΗΜΑΤΟΣ - {datetime.now().strftime('%d/%m/%Y')} ===\n")
-                file.write("Χωρίς Όρια & Χωρίς API Κλειδιά\n")
-                file.write("=" * 40 + "\n\n")
+                file.write("Σύστημα: Αυτόματη Αναπαραγωγή χωρίς API Keys\n")
+                file.write("=" * 45 + "\n\n")
+                
+                if not matches:
+                    file.write("Δεν βρέθηκαν διαθέσιμοι αγώνες για αυτή την ώρα.\n")
+                    print("Δεν βρέθηκαν αγώνες.")
+                    return
                 
                 count = 0
-                for match in matches[:40]: # Παίρνουμε τους πρώτους 40 αγώνες παγκοσμίως
-                    title = match.get('title', '') # Σου δίνει έτοιμο το "Team A - Team B"
-                    competition = match.get('competition', '')
+                for match in matches[:40]: # Παίρνουμε τους πρώτους 40 αγώνες
+                    title = match.get('title', '')
+                    competition = match.get('competition', 'Διεθνές Πρωτάθλημα')
                     
                     if " - " in title:
                         home_team, away_team = title.split(" - ", 1)
                     else:
                         continue
-                        
-                    # Απλός αλγόριθμος πρόβλεψης (Προγνωστικό)
-                    # Μπορείς να αλλάξεις τη λογική εδώ. Βάζουμε Goal/Goal ή 1Χ ως default.
+                    
+                    # Αλγόριθμος για το προγνωστικό (Goal/Goal ή 1Χ εναλλάξ)
                     prediction = "Goal / Goal" if count % 2 == 0 else "1X (Διπλή Ευκαιρία)"
                     
-                    # Μορφοποίηση κειμένου
-                    output = f"Πρωτάθλημα: {competition}\n"
-                    output += f"Αγώνας: {home_team} vs {away_team}\n"
-                    output += f"🎯 Πρόβλεψη: {prediction}\n"
-                    output += "-" * 40 + "\n"
-                    
-                    file.write(output)
+                    # Γράφουμε τα δεδομένα στο αρχείο
+                    file.write(f"Πρωτάθλημα: {competition}\n")
+                    file.write(f"Αγώνας: {home_team} vs {away_team}\n")
+                    file.write(f"🎯 Πρόβλεψη: {prediction}\n")
+                    file.write("-" * 45 + "\n")
                     count += 1
                     
-            print(f"Επιτυχία! {count} αγώνες αποθηκεύτηκαν στο daily_predictions.txt")
-        else:
-            print(f"Το feed απέτυχε με status code: {response.status_code}")
+            print(f"Επιτυχία! {count} αγώνες γράφτηκαν στο daily_predictions.txt")
             
     except Exception as e:
-        print(f"Σφάλμα κατά την εκτέλεση: {e}")
-        # Δημιουργία safe αρχείου σε περίπτωση που πέσει το internet ή το API
+        print(f"Προέκυψε σφάλμα: {e}")
+        # Δημιουργία safe αρχείου αν αποτύχει η σύνδεση
         with open("daily_predictions.txt", "w", encoding="utf-8") as file:
             file.write("Το σύστημα ανανεώνεται αυτόματα. Παρακαλώ ελέγξτε σε λίγο.")
 
