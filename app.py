@@ -24,7 +24,7 @@ st.markdown("""
 st.title("⚽ Live Αγώνες & Αποδόσεις (API-Football)")
 
 # Το δικό σου API Key από το API-Football
-API_KEY = "6be0e4d0ca519a79fa4da6a9089069bf"
+API_KEY = "37046cb451msh72e76cf7c6071cdp1d37a8jsn3abe46eeefe3"
 today_str = datetime.now().strftime("%Y-%m-%d")
 
 # Κουμπί για Refresh στην κορυφή
