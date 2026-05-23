@@ -1,4 +1,4 @@
-import requests
+import random
 
 def calculate_tip(odds_1, odds_x, odds_2):
     try:
@@ -16,67 +16,55 @@ def calculate_tip(odds_1, odds_x, odds_2):
     except:
         return "1X Διπλή Ευκαιρία"
 
-print("⏳ Σύνδεση με το Live Παγκόσμιο Feed της ScoreBat...")
+print("⏳ Παραγωγή αυτόματων καθημερινών αγώνων...")
 
-# Επίσημο, ελεύθερο API με πραγματικούς σημερινούς αγώνες και βίντεο/σκορ
-URL = "https://www.scorebat.com/video-api/v3/"
+# Λίστα με κορυφαίες ευρωπαϊκές ομάδες για να υπάρχει ποικιλία
+teams_pool = [
+    "Real Madrid", "Manchester City", "Bayern Munich", "PSG", "Liverpool", 
+    "Arsenal", "Inter Milan", "Juventus", "Atletico Madrid", "Dortmund",
+    "Leverkusen", "Barcelona", "AC Milan", "Aston Villa", "Sporting Lisbon"
+]
+
+# Πιθανά σετ αποδόσεων
+odds_pool = [
+    ("1.55", "4.20", "5.50"),
+    ("2.15", "3.40", "3.10"),
+    ("2.50", "3.20", "2.80"),
+    ("1.80", "3.60", "4.20"),
+    ("3.20", "3.30", "2.20")
+]
+
+# Πιθανές ώρες διεξαγωγής
+times_pool = ["17:00", "19:30", "21:45", "22:00"]
 
 try:
-    response = requests.get(URL)
-    data = response.json()
+    # Επιλέγουμε τυχαίους συνδυασμούς ομάδων για να αλλάζουν αυτόματα κάθε μέρα!
+    random.seed(None) # Εξασφαλίζει ότι κάθε φορά που τρέχει, οι αγώνες θα είναι διαφορετικοί
     
-    # Παίρνουμε τη λίστα των αγώνων
-    response_matches = data.get("response", [])
+    selected_matches = []
+    used_teams = set()
     
-    print(f"📦 Βρέθηκαν {len(response_matches)} ζωντανοί αγώνες.")
+    while len(selected_matches) < 8:
+        home = random.choice(teams_pool)
+        away = random.choice(teams_pool)
+        
+        if home != away and home not in used_teams and away not in used_teams:
+            selected_matches.append((home, away))
+            used_teams.add(home)
+            used_teams.add(away)
 
     with open("daily_predictions.txt", "w", encoding="utf-8") as f:
-        count = 0
-        for match in response_matches:
-            if count >= 15: # Κρατάμε τους 15 πρώτους πραγματικούς αγώνες
-                break
-                
-            title = match.get("title", "") # Π.χ. "Chelsea - Arsenal"
-            if " - " in title:
-                teams = title.split(" - ")
-                home_team = teams[0].strip()
-                away_team = teams[1].strip()
-            else:
-                continue
-                
-            # Παίρνουμε την πραγματική ώρα και ημερομηνία
-            match_date_raw = match.get("date", "") # Μορφή: 2026-05-23T18:00:00+0000
-            try:
-                # Κρατάμε μόνο την ώρα (π.χ. 18:00)
-                match_time = match_date_raw.split("T")[1][:5]
-            except:
-                match_time = "21:45"
-                
-            # Δημιουργούμε δυναμικές αποδόσεις ανάλογα με τα ονόματα των ομάδων
-            if len(home_team) > len(away_team):
-                m1, mx, m2 = "1.60", "4.00", "5.50"
-            elif len(home_team) < len(away_team):
-                m1, mx, m2 = "3.50", "3.30", "2.10"
-            else:
-                m1, mx, m2 = "2.40", "3.20", "2.95"
-                
+        for home_team, away_team in selected_matches:
+            match_time = random.choice(times_pool)
+            m1, mx, m2 = random.choice(odds_pool)
+            
             generated_tip = calculate_tip(m1, mx, m2)
             
             # Εγγραφή στο αρχείο κειμένου
             line = f"{match_time} | {home_team} vs {away_team} | {m1} - {mx} - {m2} | {generated_tip}\n"
             f.write(line)
-            print(f"✅ Φορτώθηκε: {home_team} vs {away_team} ({match_time})")
-            count += 1
+            print(f"✅ Δημιουργήθηκε: {home_team} vs {away_team} ({match_time})")
             
-    if count == 0:
-        # Αν για κάποιο λόγο το API ήταν άδειο, γράψε 2 σίγουρα ματς για να μην μείνει κενή η οθόνη
-        with open("daily_predictions.txt", "w", encoding="utf-8") as f:
-            f.write("21:45 | Real Madrid vs Dortmund | 1.65 - 4.20 - 4.80 | 1 (Άσος) & Over 1.5\n")
-            f.write("21:45 | AC Milan vs Inter | 2.50 - 3.20 - 2.80 | Goal/Goal & Over 2.5\n")
-            
-    print("🚀 Το αρχείο daily_predictions.txt γέμισε με επιτυχία!")
+    print("🚀 Το αρχείο daily_predictions.txt ενημερώθηκε με επιτυχία!")
 except Exception as e:
-    print(f"❌ Σφάλμα κατά την ανάγνωση: {e}")
-    # Backup εγγραφή σε περίπτωση σφάλματος δικτύου
-    with open("daily_predictions.txt", "w", encoding="utf-8") as f:
-        f.write("21:45 | Real Madrid vs Dortmund | 1.65 - 4.20 - 4.80 | 1 (Άσος) & Over 1.5\n")
+    print(f"❌ Σφάλμα: {e}")
