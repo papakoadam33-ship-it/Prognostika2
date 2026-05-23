@@ -1,7 +1,7 @@
 import streamlit as st
 import http.client
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # ==========================================
 # 1. ΡΥΘΜΙΣΗ ΣΕΛΙΔΑΣ & DESIGN
@@ -25,12 +25,25 @@ st.title("⚽ Live Αγώνες & Αποδόσεις")
 # Το API Key σου
 API_KEY = "37046cb451msh72e76cf7c6071cdp1d37a8jsn3abe46eeefe3"
 
-# Ημερομηνία ακριβώς όπως τη δική σου διάταξη που εμφάνιζε αγώνες
-today = datetime.now().strftime("%Y%m%d")
+# 📅 ΚΟΥΜΠΙΑ ΕΠΙΛΟΓΗΣ ΗΜΕΡΑΣ (Διορθωμένα για το δικό σου API)
+option = st.radio(
+    "📅 Επιλέξτε ημέρα για εμφάνιση αγώνων:",
+    ["Σήμερα", "Εχθές", "Αύριο"],
+    horizontal=True
+)
 
-# Κουμπί για Ανανέωση
-if st.button("🔄 Ανανέωση Δεδομένων"):
-    st.rerun()
+if option == "Σήμερα":
+    target_date = datetime.now()
+elif option == "Εχθές":
+    target_date = datetime.now() - timedelta(days=1)
+else:
+    target_date = datetime.now() + timedelta(days=1)
+
+# Μετατροπή στην καθαρή μορφή που ζητάει το API σου
+today_str = target_date.strftime("%Y%m%d")
+display_date = target_date.strftime("%d/%m/%Y")
+
+st.write(f"📊 Εμφάνιση αγώνων για τη μέρα: **{display_date}**")
 
 # ==========================================
 # 2. ΛΗΨΗ ΔΕΔΟΜΕΝΩΝ ΑΠΟ ΤΟ API
@@ -42,15 +55,15 @@ try:
         'x-rapidapi-host': "free-api-live-football-data.p.rapidapi.com"
     }
     
-    # Κλήση με τη σωστή μορφή ημερομηνίας
-    conn.request("GET", f"/football-get-matches-by-date-and-league?date={today}", headers=headers)
+    # Κλήση με την επιλεγμένη ημερομηνία
+    conn.request("GET", f"/football-get-matches-by-date-and-league?date={today_str}", headers=headers)
     res = conn.getresponse()
     data = json.loads(res.read().decode("utf-8"))
     
     leagues = data.get("response", [])
     
     if not leagues:
-        st.info("📅 Δεν βρέθηκαν αγώνες για σήμερα. Δοκιμάστε ξανά σε λίγο.")
+        st.info(f"📅 Δεν βρέθηκαν αγώνες για τις {display_date}. Δοκιμάστε να πατήσετε 'Εχθές' ή 'Αύριο' πιο πάνω!")
     else:
         for league in leagues:
             league_name = league.get('name', 'Πρωτάθλημα')
@@ -102,4 +115,3 @@ try:
 
 except Exception as e:
     st.error(f"❌ Σφάλμα σύνδεσης: {e}")
-
