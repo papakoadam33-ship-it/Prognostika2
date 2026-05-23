@@ -1,7 +1,7 @@
 import streamlit as st
 import http.client
 import json
-from datetime import datetime, timedelta
+from datetime import datetime
 
 # ==========================================
 # 1. ΡΥΘΜΙΣΗ ΣΕΛΙΔΑΣ & DESIGN
@@ -22,28 +22,15 @@ st.markdown("""
 
 st.title("⚽ Live Αγώνες & Αποδόσεις")
 
-# Το API Key σου από το RapidAPI
+# Το API Key σου
 API_KEY = "37046cb451msh72e76cf7c6071cdp1d37a8jsn3abe46eeefe3"
 
-# 📅 ΕΞΥΠΝΗ ΕΠΙΛΟΓΗ ΗΜΕΡΟΜΗΝΙΑΣ
-# Επιτρέπει στον Μάριο να αλλάζει μέρα αν το API δεν έχει φορτώσει ακόμα το "Σήμερα"
-option = st.radio(
-    "📅 Επιλέξτε ημέρα για εμφάνιση αγώνων:",
-    ["Σήμερα", "Εχθές", "Αύριο"],
-    horizontal=True
-)
+# Ημερομηνία ακριβώς όπως τη δική σου διάταξη που εμφάνιζε αγώνες
+today = datetime.now().strftime("%Y%m%d")
 
-if option == "Σήμερα":
-    target_date = datetime.now()
-elif option == "Εχθές":
-    target_date = datetime.now() - timedelta(days=1)
-else:
-    target_date = datetime.now() + timedelta(days=1)
-
-date_str = target_date.strftime("%Y%m%d")
-display_date = target_date.strftime("%d/%m/%Y")
-
-st.write(f"📊 Εμφάνιση για τη μέρα: **{display_date}**")
+# Κουμπί για Ανανέωση
+if st.button("🔄 Ανανέωση Δεδομένων"):
+    st.rerun()
 
 # ==========================================
 # 2. ΛΗΨΗ ΔΕΔΟΜΕΝΩΝ ΑΠΟ ΤΟ API
@@ -55,15 +42,15 @@ try:
         'x-rapidapi-host': "free-api-live-football-data.p.rapidapi.com"
     }
     
-    # Λήψη αγώνων για την επιλεγμένη ημερομηνία
-    conn.request("GET", f"/football-get-matches-by-date-and-league?date={date_str}", headers=headers)
+    # Κλήση με τη σωστή μορφή ημερομηνίας
+    conn.request("GET", f"/football-get-matches-by-date-and-league?date={today}", headers=headers)
     res = conn.getresponse()
     data = json.loads(res.read().decode("utf-8"))
     
     leagues = data.get("response", [])
     
     if not leagues:
-        st.info(f"📅 Δεν βρέθηκαν αγώνες στη βάση για τις {display_date}. Δοκιμάστε να επιλέξετε 'Εχθές' ή 'Αύριο' παραπάνω!")
+        st.info("📅 Δεν βρέθηκαν αγώνες για σήμερα. Δοκιμάστε ξανά σε λίγο.")
     else:
         for league in leagues:
             league_name = league.get('name', 'Πρωτάθλημα')
@@ -107,7 +94,7 @@ try:
                                             value=item.get('oddsDecimal')
                                         )
                                 else:
-                                    st.warning("⚠️ Δεν υπάρχουν διαθέσιμες αποδόσεις για αυτό το ματς.")
+                                    st.warning("⚠️ Δεν υπάρχουν διαθέσιμες αποδόσεις.")
                             except Exception as odds_err:
                                 st.caption("Αδυναμία φόρτωσης αποδόσεων.")
                         
@@ -115,3 +102,4 @@ try:
 
 except Exception as e:
     st.error(f"❌ Σφάλμα σύνδεσης: {e}")
+
