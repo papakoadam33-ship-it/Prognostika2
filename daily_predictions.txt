@@ -1,8 +1,164 @@
-22:00 | Sporting Lisbon vs Tottenham | 2.50 - 3.20 - 2.80 | 2-3 Γκολ
-21:45 | Barcelona vs Juventus | 1.80 - 3.60 - 4.20 | Under 2.5 Γκολ
-21:45 | Ajax vs Benfica | 1.80 - 3.60 - 4.20 | Under 2.5 Γκολ
-21:45 | Atletico Madrid vs Napoli | 2.15 - 3.40 - 3.10 | Under 2.5 Γκολ
-19:30 | Manchester City vs AC Milan | 3.20 - 3.30 - 2.20 | Under 2.5 Γκολ
-22:00 | Roma vs Arsenal | 2.50 - 3.20 - 2.80 | 2-3 Γκολ
-22:00 | Chelsea vs Bayern Munich | 3.20 - 3.30 - 2.20 | Under 2.5 Γκολ
-17:00 | Dortmund vs Porto | 1.80 - 3.60 - 4.20 | Under 2.5 Γκολ
+=== ΠΡΟΓΝΩΣΤΙΚΑ ΣΤΟΙΧΗΜΑΤΟΣ - 23/05/2026 ===
+Σύστημα: Αυτόματη Αναπαραγωγή χωρίς API Keys
+=============================================
+
+Πρωτάθλημα: FRANCE: Ligue 1
+Αγώνας: Angers vs PSG
+🎯 Πρόβλεψη: Goal / Goal
+---------------------------------------------
+Πρωτάθλημα: GERMANY: Bundesliga
+Αγώνας: Koln vs Bayer Leverkusen
+🎯 Πρόβλεψη: 1X (Διπλή Ευκαιρία)
+---------------------------------------------
+Πρωτάθλημα: SPAIN: La Liga
+Αγώνας: Atletico Madrid vs Athletic Bilbao
+🎯 Πρόβλεψη: Goal / Goal
+---------------------------------------------
+Πρωτάθλημα: SPAIN: La Liga
+Αγώνας: Getafe vs Barcelona
+🎯 Πρόβλεψη: 1X (Διπλή Ευκαιρία)
+---------------------------------------------
+Πρωτάθλημα: ENGLAND: Premier League
+Αγώνας: Liverpool vs Crystal Palace
+🎯 Πρόβλεψη: Goal / Goal
+---------------------------------------------
+Πρωτάθλημα: ENGLAND: Premier League
+Αγώνας: Arsenal vs Newcastle United
+🎯 Πρόβλεψη: 1X (Διπλή Ευκαιρία)
+---------------------------------------------
+Πρωτάθλημα: ENGLAND: Premier League
+Αγώνας: Wolves vs Tottenham Hotspur
+🎯 Πρόβλεψη: Goal / Goal
+---------------------------------------------
+Πρωτάθλημα: ITALY: Serie A
+Αγώνας: Bologna vs Roma
+🎯 Πρόβλεψη: 1X (Διπλή Ευκαιρία)
+---------------------------------------------
+Πρωτάθλημα: ENGLAND: FA Cup
+Αγώνας: Manchester City vs Southampton
+🎯 Πρόβλεψη: Goal / Goal
+---------------------------------------------
+Πρωτάθλημα: GERMANY: Bundesliga
+Αγώνας: Mainz vs Bayern Munich
+🎯 Πρόβλεψη: 1X (Διπλή Ευκαιρία)
+---------------------------------------------
+Πρωτάθλημα: BELGIUM: First Division A, Conference League Group
+Αγώνας: Westerlo vs Antwerp
+🎯 Πρόβλεψη: Goal / Goal
+---------------------------------------------
+Πρωτάθλημα: BELGIUM: First Division A, Conference League Group
+Αγώνας: Genk vs Standard
+🎯 Πρόβλεψη: 1X (Διπλή Ευκαιρία)
+---------------------------------------------
+Πρωτάθλημα: FRANCE: Ligue 1
+Αγώνας: Toulouse vs Monaco
+🎯 Πρόβλεψη: Goal / Goal
+---------------------------------------------
+Πρωτάθλημα: NETHERLANDS: Eredivisie
+Αγώνας: Twente vs NEC
+🎯 Πρόβλεψη: 1X (Διπλή Ευκαιρία)
+---------------------------------------------
+Πρωτάθλημα: ITALY: Serie A
+Αγώνας: Verona vs Lecce
+🎯 Πρόβλεψη: Goal / Goal
+---------------------------------------------
+Πρωτάθλημα: SPAIN: La Liga
+Αγώνας: Valencia vs Girona
+🎯 Πρόβλεψη: 1X (Διπλή Ευκαιρία)
+---------------------------------------------
+Πρωτάθλημα: MEXICO: Primera Division, Clausura
+Αγώνας: Pachuca vs Pumas
+🎯 Πρόβλεψη: Goal / Goal
+---------------------------------------------
+Πρωτάθλημα: MEXICO: Primera Division, Clausura
+Αγώνας: Tigres vs Mazatlan
+🎯 Πρόβλεψη: 1X (Διπλή Ευκαιρία)
+---------------------------------------------
+Πρωτάθλημα: NETHERLANDS: Eredivisie
+Αγώνας: Feyenoord vs Groningen
+🎯 Πρόβλεψη: Goal / Goal
+---------------------------------------------
+Πρωτάθλημα: NETHERLANDS: Eredivisie
+Αγώνας: NAC vs Ajax
+🎯 Πρόβλεψη: 1X (Διπλή Ευκαιρία)
+---------------------------------------------
+Πρωτάθλημα: PORTUGAL: Liga Portugal
+Αγώνας: Guimaraes vs Rio Ave
+🎯 Πρόβλεψη: Goal / Goal
+---------------------------------------------
+Πρωτάθλημα: POLAND: Ekstraklasa
+Αγώνας: Cracovia vs Pogon Szczecin
+🎯 Πρόβλεψη: 1X (Διπλή Ευκαιρία)
+---------------------------------------------
+Πρωτάθλημα: ASIA: Champions League, Playoffs
+Αγώνας: Al Ahli Jeddah vs Machida Zelvia
+🎯 Πρόβλεψη: Goal / Goal
+---------------------------------------------
+Πρωτάθλημα: CROATIA: HNL
+Αγώνας: Osijek vs Lokomotiva Zagreb
+🎯 Πρόβλεψη: 1X (Διπλή Ευκαιρία)
+---------------------------------------------
+Πρωτάθλημα: TURKEY: Super Lig
+Αγώνας: Goztepe vs Antalyaspor
+🎯 Πρόβλεψη: Goal / Goal
+---------------------------------------------
+Πρωτάθλημα: PORTUGAL: Liga Portugal
+Αγώνας: Benfica vs Moreirense
+🎯 Πρόβλεψη: 1X (Διπλή Ευκαιρία)
+---------------------------------------------
+Πρωτάθλημα: GERMANY: Bundesliga
+Αγώνας: Hamburg vs Hoffenheim
+🎯 Πρόβλεψη: Goal / Goal
+---------------------------------------------
+Πρωτάθλημα: CZECH REPUBLIC: 1. Liga
+Αγώνας: Slavia Praha vs Olomouc
+🎯 Πρόβλεψη: 1X (Διπλή Ευκαιρία)
+---------------------------------------------
+Πρωτάθλημα: POLAND: Ekstraklasa
+Αγώνας: Lechia Gdansk vs Rakow
+🎯 Πρόβλεψη: Goal / Goal
+---------------------------------------------
+Πρωτάθλημα: PORTUGAL: Liga Portugal
+Αγώνας: Tondela vs Nacional
+🎯 Πρόβλεψη: 1X (Διπλή Ευκαιρία)
+---------------------------------------------
+Πρωτάθλημα: SPAIN: La Liga
+Αγώνας: Real Betis vs Real Madrid
+🎯 Πρόβλεψη: Goal / Goal
+---------------------------------------------
+Πρωτάθλημα: ITALY: Serie A
+Αγώνας: Napoli vs Cremonese
+🎯 Πρόβλεψη: 1X (Διπλή Ευκαιρία)
+---------------------------------------------
+Πρωτάθλημα: GERMANY: National cup
+Αγώνας: Bayer Leverkusen vs Bayern Munich
+🎯 Πρόβλεψη: Goal / Goal
+---------------------------------------------
+Πρωτάθλημα: FRANCE: Ligue 1
+Αγώνας: PSG vs Nantes
+🎯 Πρόβλεψη: 1X (Διπλή Ευκαιρία)
+---------------------------------------------
+Πρωτάθλημα: SPAIN: La Liga
+Αγώνας: Elche vs Atletico Madrid
+🎯 Πρόβλεψη: Goal / Goal
+---------------------------------------------
+Πρωτάθλημα: SPAIN: La Liga
+Αγώνας: Barcelona vs Celta Vigo
+🎯 Πρόβλεψη: 1X (Διπλή Ευκαιρία)
+---------------------------------------------
+Πρωτάθλημα: ENGLAND: Premier League
+Αγώνας: Burnley vs Manchester City
+🎯 Πρόβλεψη: Goal / Goal
+---------------------------------------------
+Πρωτάθλημα: ENGLAND: Premier League
+Αγώνας: Brighton vs Chelsea
+🎯 Πρόβλεψη: 1X (Διπλή Ευκαιρία)
+---------------------------------------------
+Πρωτάθλημα: SPAIN: La Liga
+Αγώνας: Real Madrid vs Alaves
+🎯 Πρόβλεψη: Goal / Goal
+---------------------------------------------
+Πρωτάθλημα: ITALY: National cup
+Αγώνας: Inter Milan vs Como
+🎯 Πρόβλεψη: 1X (Διπλή Ευκαιρία)
+---------------------------------------------
