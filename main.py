@@ -7,7 +7,7 @@ def get_real_odds_predictions():
     today_display = datetime.now().strftime('%d/%m/%Y')
     
     # --- ΒΑΛΕ ΤΟ ΔΙΚΟ ΣΟΥ API KEY ΕΔΩ ---
-    API_KEY = "ΤΟ_ΚΛΕΙΔΙ_ΠΟΥ_ΣΟΥ_ΕΣΤΕΙΛΑΝ_ΣΤΟ_EMAIL"
+    API_KEY = "eda6dcd0115ab96a2bf0fad47945cd34"
     
     # Ζητάμε τους σημερινούς αγώνες ποδοσφαίρου παγκοσμίως (soccer) μαζί με αποδόσεις
     url = f"https://api.the-odds-api.com/v4/sports/soccer/odds/?apiKey={API_KEY}&regions=eu&markets=h2h&bookmakers=onexbet"
