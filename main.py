@@ -48,7 +48,7 @@ def get_real_odds_predictions():
     now_greece = datetime.utcnow() + timedelta(hours=3) # Τρέχουσα ώρα Ελλάδας
     today_display = now_greece.strftime('%d/%m/%Y')
     
-    API_KEY = "3a00f2efbe3a10972c84fd43d2c67e81"
+    API_KEY = "eda6dcd0115ab96a2bf0fad47945cd34"
     url = f"https://api.the-odds-api.com/v4/sports/soccer/odds/?apiKey={API_KEY}&regions=eu&markets=h2h"
 
     req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
