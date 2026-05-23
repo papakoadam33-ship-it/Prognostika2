@@ -38,7 +38,6 @@ if os.path.exists(filename):
         
         if match_teams and prediction:
             with st.container():
-                # Εμφάνιση Πρωταθλήματος και Ώρας μαζί στην ίδια γραμμή
                 time_badge = f" ⏱️ {match_time}" if match_time else ""
                 st.markdown(f"**🏆 {league}** {time_badge}")
                 st.code(match_teams, language="text")
@@ -46,4 +45,3 @@ if os.path.exists(filename):
                 st.write("---")
 else:
     st.warning("⏳ Τα προγνωστικά δημιουργούνται αυτή τη στιγμή. Παρακαλώ ανανεώστε σε 1 λεπτό!")
-
