@@ -32,7 +32,35 @@ st.markdown("""
     .form-text { font-size: 14px; color: #4B5563; margin-bottom: 8px; }
     .prediction-box-bookie { background-color: #FEE2E2; color: #991B1B; padding: 12px; border-radius: 8px; border-left: 5px solid #EF4444; font-weight: bold; margin-bottom: 15px; }
     .prediction-box-stat { background-color: #FEF3C7; color: #92400E; padding: 12px; border-radius: 8px; border-left: 5px solid #F59E0B; font-weight: bold; margin-bottom: 15px; }
-    .stat-badge { background-color: #D1FAE5; color: #065F46; padding: 5px 10px; border-radius: 12px; font-weight: bold; font-size: 18px; }
+    
+    /* Custom στυλ για τα μεγάλα VIP κουτιά στατιστικών */
+    .metric-box-green {
+        background-color: #D1FAE5;
+        color: #065F46;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 10px;
+        border: 1px solid #10B981;
+    }
+    .metric-box-blue {
+        background-color: #DBEAFE;
+        color: #1E40AF;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 10px;
+        border: 1px solid #3B82F6;
+    }
+    .metric-val {
+        font-size: 28px;
+        display: block;
+        margin-top: 5px;
+    }
     </style>
 """, unsafe_allow_html=True)
 
@@ -41,13 +69,14 @@ st.markdown('<div class="sub-header-text">🎯 Live ανανέωση βάσει 
 
 # --- ΚΑΡΤΕΛΑ 1: ΣΤΑΤΙΣΤΙΚΑ ΚΑΙ ΙΣΤΟΡΙΚΟ ΤΑΜΕΙΟΥ ---
 with st.expander("📈 Στατιστικά & Ιστορικό Ταμείου", expanded=False):
+    # Δημιουργία πανέμορφων custom κουτιών αντί για st.metric που σπάει
     col1, col2 = st.columns(2)
     with col1:
-        st.metric(label="Συνολικά Κέρδη (Yield)", value="+18.4%", delta="🏆 Σε Άνοδο")
+        st.markdown('<div class="metric-box-green">📈 Συνολικό Yield<span class="metric-val">+18.4%</span></div>', unsafe_allow_html=True)
     with col2:
-        st.metric(label="Ποσοστό Επιτυχίας", value="76.2%", delta="✅ 16/21 Ματς")
+        st.markdown('<div class="metric-box-blue">🎯 Ποσοστό Επιτυχίας<span class="metric-val">76.2%</span></div>', unsafe_allow_html=True)
         
-    st.markdown("#### 🕒 Πρόσφατα Αποτελέσματα")
+    st.markdown("<br><h4 style='margin-bottom:10px;'>🕒 Πρόσφατα Αποτελέσματα</h4>", unsafe_allow_html=True)
     st.write("✅ **Αγιάξ vs Ουτρέχτη** (Πρόβλεψη: 1X) | **Σκορ: 2-1**")
     st.write("✅ **Μπόλτον vs Στόκπορτ** (Πρόβλεψη: G/G) | **Σκορ: 2-2**")
     st.write("❌ **Μιρασόλ vs Φλουμινένσε** (Πρόβλεψη: G/G) | **Σκορ: 1-0**")
