@@ -45,8 +45,10 @@ LEAGUE_TRANSLATIONS = {
     "Brazil Série B": "Πρωτάθλημα Βραζιλίας (Série B)",
     "MLS": "Πρωτάθλημα Αμερικής (MLS)",
     "Chinese Super League": "Πρωτάθλημα Κίνας (Super League)",
+    "Super League - China": "Πρωτάθλημα Κίνας (Super League)",
     "Liga MX": "Πρωτάθλημα Μεξικού",
-    "J-League": "Πρωτάθλημα Ιαπωνίας",
+    "J-League": "Πρωτάθλημα Ιαπωνίας (J1 League)",
+    "J League": "Πρωτάθλημα Ιαπωνίας (J1 League)",
     
     # Ευρωπαϊκές Διοργανώσεις
     "UEFA Champions League": "🏆 Τσάμπιονς Λιγκ",
@@ -123,7 +125,7 @@ if os.path.exists(filename):
         
         for line in lines:
             if line.startswith("Πρωτάθλημα:"):
-                league = line.replace("Πρωτά古λημα:", "").replace("Πρωτάθλημα:", "").strip()
+                league = line.replace("Πρωτάθλημα:", "").strip()
             elif line.startswith("Ώρα:"):
                 match_time = line.replace("Ώρα:", "").strip()
             elif line.startswith("Αγώνας:"):
@@ -149,7 +151,8 @@ if os.path.exists(filename):
             # Έλεγχος μετάφρασης από το λεξικό
             greek_league_name = LEAGUE_TRANSLATIONS.get(league_name, league_name)
             
-            with st.expander(f"🏆 {greek_league_name} ({len(matches)})", expanded=True):
+            # Εδώ το "expanded=False" κρατάει τα μενού κλειστά αρχικά για να είναι καθαρή η οθόνη
+            with st.expander(f"🏆 {greek_league_name} ({len(matches)})", expanded=False):
                 for m in matches:
                     col1, col2 = st.columns([1, 4])
                     with col1:
