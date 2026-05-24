@@ -4,7 +4,7 @@ import os
 # Αρχική ρύθμιση σελίδας
 st.set_page_config(page_title="VIP Προγνωστικά", page_icon="⚽", layout="centered")
 
-# --- ΤΟ ΠΛΗΡΕΣ ΛΕΞΙΚΟ ΜΕΤΑΦΡΑΣΕΩΝ ---
+# --- ΤΟ ΑΠΟΛΥΤΟ ΛΕΞΙΚΟ ΜΕΤΑΦΡΑΣΕΩΝ (ΚΑΛΥΠΤΕΙ ΟΛΕΣ ΤΙΣ ΠΑΡΑΛΛΑΓΕΣ) ---
 LEAGUE_TRANSLATIONS = {
     # Αγγλία
     "Premier League": "Πρωτάθλημα Αγγλίας (Premier League)",
@@ -14,25 +14,33 @@ LEAGUE_TRANSLATIONS = {
     
     # Ισπανία
     "La Liga": "Πρωτάθλημα Ισπανίας (La Liga)",
+    "La Liga - Spain": "Πρωτάθλημα Ισπανίας (La Liga)",
     "La Liga 2": "Ισπανία - Segunda Division (Β')",
+    "La Liga 2 - Spain": "Ισπανία - Segunda Division (Β')",
     
     # Ιταλία
     "Serie A": "Πρωτάθλημα Ιταλίας (Serie A)",
+    "Serie A - Italy": "Πρωτάθλημα Ιταλίας (Serie A)",
     "Serie B": "Ιταλία - Serie B (Β')",
+    "Serie B - Italy": "Ιταλία - Serie B (Β')",
     
     # Γερμανία
     "Bundesliga": "Πρωτάθλημα Γερμανίας (Bundesliga)",
+    "Bundesliga - Germany": "Πρωτάθλημα Γερμανίας (Bundesliga)",
     "2. Bundesliga": "Γερμανία - 2. Bundesliga (Β')",
     
     # Γαλλία
     "Ligue 1": "Πρωτάθλημα Γαλλίας (Ligue 1)",
+    "Ligue 1 - France": "Πρωτάθλημα Γαλλίας (Ligue 1)",
     "Ligue 2": "Γαλλία - Ligue 2 (Β')",
     
-    # Άλλα Ευρωπαϊκά
+    # Σκανδιναβία & Άλλα Ευρωπαϊκά
     "Dutch Eredivisie": "Πρωτάθλημα Ολλανδίας (Eredivisie)",
     "Eredivisie": "Πρωτάθλημα Ολλανδίας (Eredivisie)",
     "Allsvenskan - Sweden": "Πρωτάθλημα Σουηδίας (Allsvenskan)",
     "Allsvenskan": "Πρωτάθλημα Σουηδίας (Allsvenskan)",
+    "Eliteserien - Norway": "Πρωτάθλημα Νορβηγίας (Eliteserien)",
+    "Eliteserien": "Πρωτάθλημα Νορβηγίας (Eliteserien)",
     "Super League - Greece": "Ελληνικό Πρωτάθλημα (Super League)",
     "Super League": "Ελληνικό Πρωτάθλημα (Super League)",
     "Belgium First Div": "Πρωτάθλημα Βελγίου (Pro League)",
@@ -45,7 +53,6 @@ LEAGUE_TRANSLATIONS = {
     "Brazil Série B": "Πρωτάθλημα Βραζιλίας (Série B)",
     "MLS": "Πρωτάθλημα Αμερικής (MLS)",
     "Chinese Super League": "Πρωτάθλημα Κίνας (Super League)",
-    "Super League - China": "Πρωτάθλημα Κίνας (Super League)",
     "Liga MX": "Πρωτάθλημα Μεξικού",
     "J-League": "Πρωτάθλημα Ιαπωνίας (J1 League)",
     "J League": "Πρωτάθλημα Ιαπωνίας (J1 League)",
@@ -151,7 +158,6 @@ if os.path.exists(filename):
             # Έλεγχος μετάφρασης από το λεξικό
             greek_league_name = LEAGUE_TRANSLATIONS.get(league_name, league_name)
             
-            # Εδώ το "expanded=False" κρατάει τα μενού κλειστά αρχικά για να είναι καθαρή η οθόνη
             with st.expander(f"🏆 {greek_league_name} ({len(matches)})", expanded=False):
                 for m in matches:
                     col1, col2 = st.columns([1, 4])
@@ -175,3 +181,4 @@ if os.path.exists(filename):
         st.info("ℹ️ Δεν υπάρχουν διαθέσιμοι αγώνες αυτή τη στιγμή.")
 else:
     st.warning("⏳ Τα προγνωστικά δημιουργούνται αυτή τη στιγμή. Παρακαλώ ανανεώστε σε 1 λεπτό!")
+
