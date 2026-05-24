@@ -1,4 +1,4 @@
-    λimport streamlit as st
+import streamlit as st
 import os
 
 st.set_page_config(page_title="VIP Προγνωστικά", page_icon="⚽", layout="centered")
@@ -75,7 +75,7 @@ if os.path.exists(filename):
         lines = block.strip().split("\n")
         
         league, match_time, match_teams, prediction = "", "", "", ""
-        home_form, away_form = "🟢🟢🟡🔴 🟢", "🔴🟡🟢🔴🔴"
+        home_form, away_form = "🟢🟢🟡🔴🟢", "🔴🟡🟢🔴🔴"
         
         for line in lines:
             if line.startswith("Πρωτάθλημα:"): league = line.replace("Πρωτάθλημα:", "").strip()
@@ -105,7 +105,6 @@ if os.path.exists(filename):
                     with col2:
                         st.markdown(f'<div class="match-row">{m["teams"]}</div>', unsafe_allow_html=True)
                         
-                        # Εμφάνιση Φόρμας Ομάδων με Κυκλάκια
                         teams = m["teams"].split(" vs ")
                         home_t = teams[0] if len(teams) > 0 else "Γηπεδούχος"
                         away_t = teams[1] if len(teams) > 1 else "Φιλοξενούμενος"
@@ -124,3 +123,4 @@ if os.path.exists(filename):
         st.info("ℹ️ Δεν υπάρχουν διαθέσιμοι αγώνες αυτή τη στιγμή.")
 else:
     st.warning("⏳ Τα προγνωστικά δημιουργούνται αυτή τη στιγμή. Παρακαλώ ανανεώστε σε 1 λεπτό!")
+
