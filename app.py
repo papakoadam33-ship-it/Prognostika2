@@ -4,7 +4,25 @@ import os
 # Αρχική ρύθμιση σελίδας
 st.set_page_config(page_title="VIP Προγνωστικά", page_icon="⚽", layout="centered")
 
-# Custom CSS για τέλεια εμφάνιση που προσαρμόζεται στο Light/Dark Mode
+# --- ΛΕΞΙΚΟ ΜΕΤΑΦΡΑΣΕΩΝ ΠΡΩΤΑΘΛΗΜΑΤΩΝ ---
+LEAGUE_TRANSLATIONS = {
+    "Brazil Série A": "Πρωτάθλημα Βραζιλίας (A')",
+    "Brazil Série B": "Πρωτάθλημα Βραζιλίας (B')",
+    "MLS": "Πρωτάθλημα Αμερικής (MLS)",
+    "Belgium First Div": "Πρωτάθλημα Βελγίου",
+    "Premier League": "Πρωτάθλημα Αγγλίας",
+    "La Liga": "Πρωτάθλημα Ισπανίας",
+    "Serie A": "Πρωτάθλημα Ιταλίας",
+    "Bundesliga": "Πρωτάθλημα Γερμανίας",
+    "Ligue 1": "Πρωτάθλημα Γαλλίας",
+    "Eredivisie": "Πρωτάθλημα Ολλανδίας",
+    "Primeira Liga": "Πρωτάθλημα Πορτογαλίας",
+    "UEFA Champions League": "Τσάμπιονς Λιγκ",
+    "UEFA Europa League": "Γιουρόπα Λιγκ",
+    "UEFA Conference League": "Κόνφερενς Λιγκ"
+}
+
+# Custom CSS για τέλεια εμφάνιση
 st.markdown("""
     <style>
     .sub-header-text {
@@ -41,7 +59,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Τίτλοι με τη σωστή μέθοδο του Streamlit για να μην κρύβονται
+# Τίτλοι
 st.title("⚽ VIP Προγνωστικά")
 st.markdown('<div class="sub-header-text">🎯 Live ανανέωση βάσει αποδόσεων & στατιστικής</div>', unsafe_allow_html=True)
 
@@ -90,19 +108,20 @@ if os.path.exists(filename):
                 "prediction": prediction
             })
 
-    # Σχεδίαση των αγώνων στην οθόνη
+    # Σχεδίαση των αγώνων στην οθόνη με Ελληνικούς Τίτλους
     if leagues_dict:
         for league_name, matches in leagues_dict.items():
-            with st.expander(f"🏆 {league_name} ({len(matches)})", expanded=True):
+            # Έλεγχος αν υπάρχει ελληνική μετάφραση για το πρωτάθλημα
+            greek_league_name = LEAGUE_TRANSLATIONS.get(league_name, league_name)
+            
+            with st.expander(f"🏆 {greek_league_name} ({len(matches)})", expanded=True):
                 for m in matches:
-                    # Δημιουργούμε 2 στήλες: Μία μικρή για την ώρα, μία μεγάλη για τις ομάδες
                     col1, col2 = st.columns([1, 4])
                     with col1:
                         st.markdown(f"⏱️ **{m['time']}**")
                     with col2:
                         st.markdown(f'<div class="match-row">{m["teams"]}</div>', unsafe_allow_html=True)
                     
-                    # Έξυπνα custom πλαίσια ανάλογα με τον τύπο της πρόβλεψης
                     if "🔥 [Bookmaker]" in m['prediction']:
                         clean_pred = m['prediction'].replace("🔥 [Bookmaker]", "").strip()
                         st.markdown(f'<div class="prediction-box-bookie">🔥 VIP Επιλογή: {clean_pred}</div>', unsafe_allow_html=True)
