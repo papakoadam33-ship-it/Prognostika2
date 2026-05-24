@@ -4,22 +4,29 @@ import os
 # Αρχική ρύθμιση σελίδας
 st.set_page_config(page_title="VIP Προγνωστικά", page_icon="⚽", layout="centered")
 
-# --- ΛΕΞΙΚΟ ΜΕΤΑΦΡΑΣΕΩΝ ΠΡΩΤΑΘΛΗΜΑΤΩΝ ---
+# --- ΠΛΗΡΕΣ ΛΕΞΙΚΟ ΜΕΤΑΦΡΑΣΕΩΝ ΠΡΩΤΑΘΛΗΜΑΤΩΝ ---
 LEAGUE_TRANSLATIONS = {
-    "Brazil Série A": "Πρωτάθλημα Βραζιλίας (A')",
-    "Brazil Série B": "Πρωτάθλημα Βραζιλίας (B')",
+    "Premier League": "Πρωτάθλημα Αγγλίας (Premier League)",
+    "La Liga": "Πρωτάθλημα Ισπανίας (La Liga)",
+    "Serie A": "Πρωτάθλημα Ιταλίας (Serie A)",
+    "Bundesliga": "Πρωτάθλημα Γερμανίας (Bundesliga)",
+    "Ligue 1": "Πρωτάθλημα Γαλλίας (Ligue 1)",
+    "Dutch Eredivisie": "Πρωτάθλημα Ολλανδίας (Eredivisie)",
+    "Eredivisie": "Πρωτάθλημα Ολλανδίας (Eredivisie)",
+    "Allsvenskan - Sweden": "Πρωτάθλημα Σουηδίας (Allsvenskan)",
+    "Allsvenskan": "Πρωτάθλημα Σουηδίας (Allsvenskan)",
+    "Super League - Greece": "Ελληνικό Πρωτάθλημα (Super League)",
+    "Super League": "Ελληνικό Πρωτάθλημα (Super League)",
+    "Brazil Série A": "Πρωτάθλημα Βραζιλίας (Série A)",
+    "Brazil Série B": "Πρωτάθλημα Βραζιλίας (Série B)",
     "MLS": "Πρωτάθλημα Αμερικής (MLS)",
-    "Belgium First Div": "Πρωτάθλημα Βελγίου",
-    "Premier League": "Πρωτάθλημα Αγγλίας",
-    "La Liga": "Πρωτάθλημα Ισπανίας",
-    "Serie A": "Πρωτάθλημα Ιταλίας",
-    "Bundesliga": "Πρωτάθλημα Γερμανίας",
-    "Ligue 1": "Πρωτάθλημα Γαλλίας",
-    "Eredivisie": "Πρωτάθλημα Ολλανδίας",
+    "Belgium First Div": "Πρωτάθλημα Βελγίου (Pro League)",
     "Primeira Liga": "Πρωτάθλημα Πορτογαλίας",
-    "UEFA Champions League": "Τσάμπιονς Λιγκ",
-    "UEFA Europa League": "Γιουρόπα Λιγκ",
-    "UEFA Conference League": "Κόνφερενς Λιγκ"
+    "Super Lig - Turkey": "Πρωτάθλημα Τουρκίας (Super Lig)",
+    "Chinese Super League": "Πρωτάθλημα Κίνας (Super League)",
+    "UEFA Champions League": "🏆 Τσάμπιονς Λιγκ",
+    "UEFA Europa League": "🏆 Γιουρόπα Λιγκ",
+    "UEFA Conference League": "🏆 Κόνφερενς Λιγκ"
 }
 
 # Custom CSS για τέλεια εμφάνιση
@@ -99,7 +106,11 @@ if os.path.exists(filename):
             elif line.startswith("🎯 Πρόβλεψη:"):
                 prediction = line.replace("🎯 Πρόβλεψη:", "").strip()
         
-        if league and match_teams and prediction:
+        if match_teams and prediction:
+            # Αν για κάποιο λόγο δεν διάβασε σωστά το πρωτάθλημα, το βάζουμε στα "Διάφορα"
+            if not league:
+                league = "Λοιπά Πρωταθλήματα"
+                
             if league not in leagues_dict:
                 leagues_dict[league] = []
             leagues_dict[league].append({
@@ -108,17 +119,20 @@ if os.path.exists(filename):
                 "prediction": prediction
             })
 
-    # Σχεδίαση των αγώνων στην οθόνη με Ελληνικούς Τίτλους
+    # Σχεδίαση των αγώνων στην οθόνη
     if leagues_dict:
         for league_name, matches in leagues_dict.items():
-            # Έλεγχος αν υπάρχει ελληνική μετάφραση για το πρωτάθλημα
+            # Έλεγχος μετάφρασης
             greek_league_name = LEAGUE_TRANSLATIONS.get(league_name, league_name)
             
             with st.expander(f"🏆 {greek_league_name} ({len(matches)})", expanded=True):
                 for m in matches:
                     col1, col2 = st.columns([1, 4])
                     with col1:
-                        st.markdown(f"⏱️ **{m['time']}**")
+                        if m['time']:
+                            st.markdown(f"⏱️ **{m['time']}**")
+                        else:
+                            st.markdown("⏱️ --:--")
                     with col2:
                         st.markdown(f'<div class="match-row">{m["teams"]}</div>', unsafe_allow_html=True)
                     
@@ -134,4 +148,3 @@ if os.path.exists(filename):
         st.info("ℹ️ Δεν υπάρχουν διαθέσιμοι αγώνες αυτή τη στιγμή.")
 else:
     st.warning("⏳ Τα προγνωστικά δημιουργούνται αυτή τη στιγμή. Παρακαλώ ανανεώστε σε 1 λεπτό!")
-
