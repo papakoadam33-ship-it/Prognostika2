@@ -4,26 +4,51 @@ import os
 # Αρχική ρύθμιση σελίδας
 st.set_page_config(page_title="VIP Προγνωστικά", page_icon="⚽", layout="centered")
 
-# --- ΠΛΗΡΕΣ ΛΕΞΙΚΟ ΜΕΤΑΦΡΑΣΕΩΝ ΠΡΩΤΑΘΛΗΜΑΤΩΝ ---
+# --- ΤΟ ΠΛΗΡΕΣ ΛΕΞΙΚΟ ΜΕΤΑΦΡΑΣΕΩΝ ---
 LEAGUE_TRANSLATIONS = {
+    # Αγγλία
     "Premier League": "Πρωτάθλημα Αγγλίας (Premier League)",
+    "Championship": "Αγγλία - Championship (Β')",
+    "League 1": "Αγγλία - League One (Γ')",
+    "League 2": "Αγγλία - League Two (Δ')",
+    
+    # Ισπανία
     "La Liga": "Πρωτάθλημα Ισπανίας (La Liga)",
+    "La Liga 2": "Ισπανία - Segunda Division (Β')",
+    
+    # Ιταλία
     "Serie A": "Πρωτάθλημα Ιταλίας (Serie A)",
+    "Serie B": "Ιταλία - Serie B (Β')",
+    
+    # Γερμανία
     "Bundesliga": "Πρωτάθλημα Γερμανίας (Bundesliga)",
+    "2. Bundesliga": "Γερμανία - 2. Bundesliga (Β')",
+    
+    # Γαλλία
     "Ligue 1": "Πρωτάθλημα Γαλλίας (Ligue 1)",
+    "Ligue 2": "Γαλλία - Ligue 2 (Β')",
+    
+    # Άλλα Ευρωπαϊκά
     "Dutch Eredivisie": "Πρωτάθλημα Ολλανδίας (Eredivisie)",
     "Eredivisie": "Πρωτάθλημα Ολλανδίας (Eredivisie)",
     "Allsvenskan - Sweden": "Πρωτάθλημα Σουηδίας (Allsvenskan)",
     "Allsvenskan": "Πρωτάθλημα Σουηδίας (Allsvenskan)",
     "Super League - Greece": "Ελληνικό Πρωτάθλημα (Super League)",
     "Super League": "Ελληνικό Πρωτάθλημα (Super League)",
-    "Brazil Série A": "Πρωτάθλημα Βραζιλίας (Série A)",
-    "Brazil Série B": "Πρωτάθλημα Βραζιλίας (Série B)",
-    "MLS": "Πρωτάθλημα Αμερικής (MLS)",
     "Belgium First Div": "Πρωτάθλημα Βελγίου (Pro League)",
     "Primeira Liga": "Πρωτάθλημα Πορτογαλίας",
     "Super Lig - Turkey": "Πρωτάθλημα Τουρκίας (Super Lig)",
+    "Scottish Premiership": "Πρωτάθλημα Σκωτίας",
+    
+    # Αμερική & Ασία
+    "Brazil Série A": "Πρωτάθλημα Βραζιλίας (Série A)",
+    "Brazil Série B": "Πρωτάθλημα Βραζιλίας (Série B)",
+    "MLS": "Πρωτάθλημα Αμερικής (MLS)",
     "Chinese Super League": "Πρωτάθλημα Κίνας (Super League)",
+    "Liga MX": "Πρωτάθλημα Μεξικού",
+    "J-League": "Πρωτάθλημα Ιαπωνίας",
+    
+    # Ευρωπαϊκές Διοργανώσεις
     "UEFA Champions League": "🏆 Τσάμπιονς Λιγκ",
     "UEFA Europa League": "🏆 Γιουρόπα Λιγκ",
     "UEFA Conference League": "🏆 Κόνφερενς Λιγκ"
@@ -98,7 +123,7 @@ if os.path.exists(filename):
         
         for line in lines:
             if line.startswith("Πρωτάθλημα:"):
-                league = line.replace("Πρωτάθλημα:", "").strip()
+                league = line.replace("Πρωτά古λημα:", "").replace("Πρωτάθλημα:", "").strip()
             elif line.startswith("Ώρα:"):
                 match_time = line.replace("Ώρα:", "").strip()
             elif line.startswith("Αγώνας:"):
@@ -107,7 +132,6 @@ if os.path.exists(filename):
                 prediction = line.replace("🎯 Πρόβλεψη:", "").strip()
         
         if match_teams and prediction:
-            # Αν για κάποιο λόγο δεν διάβασε σωστά το πρωτάθλημα, το βάζουμε στα "Διάφορα"
             if not league:
                 league = "Λοιπά Πρωταθλήματα"
                 
@@ -122,7 +146,7 @@ if os.path.exists(filename):
     # Σχεδίαση των αγώνων στην οθόνη
     if leagues_dict:
         for league_name, matches in leagues_dict.items():
-            # Έλεγχος μετάφρασης
+            # Έλεγχος μετάφρασης από το λεξικό
             greek_league_name = LEAGUE_TRANSLATIONS.get(league_name, league_name)
             
             with st.expander(f"🏆 {greek_league_name} ({len(matches)})", expanded=True):
