@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 import random
 
 # Αντικατάστησε με το δικό σου πραγματικό API Key
-API_KEY = 'YOUR_ODDS_API_KEY' 
+API_KEY = 'eda6dcd0115ab96a2bf0fad47945cd34' 
 SPORT = 'upcoming' 
 REGIONS = 'eu' 
 MARKETS = 'h2h' 
