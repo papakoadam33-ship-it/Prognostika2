@@ -1,9 +1,2 @@
---- ΠΡΟΓΝΩΣΤΙΚΑ 25/05/2026 15:51 ---
-League 2|Notts County vs Salford City|17:00|🔥 [Bookmaker] Over 2.5 (Επιθετικό Μοντέλο: 97.8%)|🔴🟡🟡🟢🟢|🟢🟡🟡🟢🔴
-Eliteserien - Norway|Tromso vs Aalesund|18:00|🔥 [Bookmaker] Over 2.5 (Επιθετικό Μοντέλο: 72.3%)|🟢🟡🟢🟢🔴|🟢🔴🟡🟢🟢
-Eliteserien - Norway|HamKam vs Lillestrom|18:00|🔥 [Bookmaker] Over 2.5 (Επιθετικό Μοντέλο: 98.8%)|🟢🔴🔴🔴🟡|🟢🟡🔴🟡🟢
-Eliteserien - Norway|KFUM vs Rosenborg|18:00|🔥 [Bookmaker] Over 2.5 (Επιθετικό Μοντέλο: 97.3%)|🟢🟢🟡🟢🟢|🟡🟢🟢🟢🟢
-Eliteserien - Norway|Sarpsborg FK vs Molde|18:00|📊 [Στατιστικό] Goal / Goal (Πιθανότητα Poisson: 63.6%)|🟡🟢🟡🟡🟢|🟡🟢🟡🟢🔴
-Austrian Football Bundesliga|Rapid Wien vs Ried|18:00|🔥 [Bookmaker] Over 2.5 (Επιθετικό Μοντέλο: 80.7%)|🟡🟡🟢🟢🟢|🟡🟡🟢🟢🟢
-Allsvenskan - Sweden|IF Elfsborg vs BK Hacken|20:00|📊 [Στατιστικό] Goal / Goal (Πιθανότητα Poisson: 63.0%)|🟢🔴🔴🟢🟢|🟢🟡🟢🟢🟢
-Allsvenskan - Sweden|IFK Goteborg vs Mjällby AIF|20:00|📊 [Στατιστικό] Goal / Goal (Πιθανότητα Poisson: 67.3%)|🟡🟢🟡🟡🟡|🟢🟢🟢🟢🟢
+STATS|78.4|21.8
+--- ΠΡΟΓΝΩΣΤΙΚΑ 25/05/05 14:02 ---
