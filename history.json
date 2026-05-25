@@ -1,5 +1,110 @@
 {
     "total": 0,
     "won": 0,
-    "predictions": {}
+    "predictions": {
+        "Sandefjord vs Fredrikstad FK": {
+            "date": "2026-05-25",
+            "league": "Eliteserien - Norway",
+            "fd_league": "NOR",
+            "tip": "Goal / Goal",
+            "status": "PENDING",
+            "score": ""
+        },
+        "SC Paderborn vs VfL Wolfsburg": {
+            "date": "2026-05-25",
+            "league": "Bundesliga - Germany",
+            "fd_league": null,
+            "tip": "Goal / Goal",
+            "status": "PENDING",
+            "score": ""
+        },
+        "Derry City vs Shelbourne Dublin": {
+            "date": "2026-05-25",
+            "league": "League of Ireland",
+            "fd_league": null,
+            "tip": "Over 2.5",
+            "status": "PENDING",
+            "score": ""
+        },
+        "Bohemians vs Shamrock Rovers": {
+            "date": "2026-05-25",
+            "league": "League of Ireland",
+            "fd_league": null,
+            "tip": "Over 2.5",
+            "status": "PENDING",
+            "score": ""
+        },
+        "St Mirren vs Partick Thistle": {
+            "date": "2026-05-25",
+            "league": "Premiership - Scotland",
+            "fd_league": null,
+            "tip": "Goal / Goal",
+            "status": "PENDING",
+            "score": ""
+        },
+        "Botafogo vs Athletic Club (MG)": {
+            "date": "2026-05-26",
+            "league": "Brazil Série B",
+            "fd_league": null,
+            "tip": "Goal / Goal",
+            "status": "PENDING",
+            "score": ""
+        },
+        "Coritiba vs Bahia": {
+            "date": "2026-05-26",
+            "league": "Brazil Série A",
+            "fd_league": null,
+            "tip": "Goal / Goal",
+            "status": "PENDING",
+            "score": ""
+        },
+        "Örebro SK vs Helsingborgs IF": {
+            "date": "2026-05-26",
+            "league": "Superettan - Sweden",
+            "fd_league": "ALL",
+            "tip": "Goal / Goal",
+            "status": "PENDING",
+            "score": ""
+        },
+        "Greuther Fürth vs Rot-Weiss Essen": {
+            "date": "2026-05-26",
+            "league": "Bundesliga 2 - Germany",
+            "fd_league": null,
+            "tip": "Goal / Goal",
+            "status": "PENDING",
+            "score": ""
+        },
+        "Saint Etienne vs Nice": {
+            "date": "2026-05-26",
+            "league": "Ligue 1 - France",
+            "fd_league": "FL1",
+            "tip": "Goal / Goal",
+            "status": "PENDING",
+            "score": ""
+        },
+        "Sao Paulo vs CA Boston River": {
+            "date": "2026-05-27",
+            "league": "Copa Sudamericana",
+            "fd_league": null,
+            "tip": "Goal / Goal",
+            "status": "PENDING",
+            "score": ""
+        },
+        "LDU Quito vs Club Always Ready": {
+            "date": "2026-05-27",
+            "league": "Copa Libertadores",
+            "fd_league": null,
+            "tip": "Over 2.5",
+            "status": "PENDING",
+            "score": ""
+        },
+        "Palestino vs Deportivo Riestra": {
+            "date": "2026-05-27",
+            "league": "Copa Sudamericana",
+            "fd_league": null,
+            "tip": "Goal / Goal",
+            "status": "PENDING",
+            "score": ""
+        }
+    }
 }
