@@ -3,7 +3,7 @@ import os
 
 st.set_page_config(page_title="MARIOS PRO-BET PRO", page_icon="⚡", layout="centered")
 
-# Custom CSS για Premium Σκοτεινό/Χρυσό Design (Όπως το screenshot σου!)
+# Custom CSS για Premium Σκοτεινό/Χρυσό Design
 st.markdown("""
     <style>
     .main { background-color: #121212; }
@@ -14,7 +14,7 @@ st.markdown("""
     .time-badge { background-color: #FF4B4B; color: white; padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: bold; }
     .team-text { color: #FFFFFF; font-size: 20px; font-weight: bold; margin-top: 10px; }
     .form-text { color: #AAAAAA; font-size: 13px; margin: 3px 0; }
-    .pred-button-vip { background: linear-gradient(90deg, #D4AF37 0%, #FFD700 100%); color: #000000; padding: 12px; border-radius: 8px; text-align: center; font-weight: bold; font-size: 16px; margin-top: 15px; }
+    .pred-button-vip { background: linear-gradient(90deg, #D4AF37 0%, #FFD700 100%); color: #000000; padding: 12px; border-radius: 8px; text-align: center; font-weight: bold; font-size: 16px; margin-top: 15px; box-shadow: 0 4px 10px rgba(255,215,0,0.2); }
     .pred-button-stat { background: linear-gradient(90deg, #CD7F32 0%, #E6C280 100%); color: #000000; padding: 12px; border-radius: 8px; text-align: center; font-weight: bold; font-size: 16px; margin-top: 15px; }
     </style>
 """, unsafe_allow_html=True)
@@ -61,7 +61,7 @@ if os.path.exists(filename):
                 
         if leagues_data:
             for league_name, matches in leagues_data.items():
-                st.markdown(f"<h3 style='color:#FFD700; border-bottom: 1px solid #FFD700; padding-bottom:5px;'>🏆 {league_name}</h3>", unsafe_allow_html=True)
+                st.markdown(f"<h3 style='color:#FFD700; border-bottom: 1px solid #FFD700; padding-bottom:5px; margin-top:20px;'>🏆 {league_name}</h3>", unsafe_allow_html=True)
                 
                 for match in matches:
                     teams = match[1]
@@ -74,7 +74,7 @@ if os.path.exists(filename):
                     home_t = team_list[0] if len(team_list) > 0 else "Home"
                     away_t = team_list[1] if len(team_list) > 1 else "Away"
                     
-                    # Κάρτα Αγώνα στυλ VIP
+                    # Κάρτα Αγώνα
                     st.markdown(f"""
                         <div class="match-card">
                             <span class="time-badge">🕒 {match_time}</span>
@@ -83,11 +83,14 @@ if os.path.exists(filename):
                             <div class="form-text">📊 Φόρμα {away_t}: {away_form}</div>
                     """, unsafe_allow_html=True)
                     
-                    # Επιλογή Στυλ Κουμπιού Πρόβλεψης
+                    # Καθαρισμός του κειμένου της πρόβλεψης για να μη φαίνονται τα εσωτερικά tags [🔥 [Bookmaker]]
+                    clean_tip = tip.replace("🔥 [Bookmaker]", "").replace("📊 [Στατιστικό]", "").strip()
+                    
+                    # Έλεγχος για το ποιο κουμπί θα εμφανιστεί
                     if "🔥" in tip:
-                        st.markdown(f'<div class="pred-button-vip">{tip}</div>', unsafe_allow_html=True)
+                        st.markdown(f'<div class="pred-button-vip">👑 VIP ΕΠΙΛΟΓΗ: {clean_tip}</div>', unsafe_allow_html=True)
                     else:
-                        st.markdown(f'<div class="pred-button-stat">{tip}</div>', unsafe_allow_html=True)
+                        st.markdown(f'<div class="pred-button-stat">📊 ΣΤΑΤΙΣΤΙΚΟ: {clean_tip}</div>', unsafe_allow_html=True)
                         
                     st.markdown("</div>", unsafe_allow_html=True)
         else:
