@@ -5,7 +5,7 @@ from datetime import datetime
 
 # --- ΡΥΘΜΙΣΕΙΣ API ΚΑΙ ΑΡΧΕΙΩΝ ---
 ODDS_API_KEY = os.getenv("ODDS_API_KEY", "eda6dcd0115ab96a2bf0fad47945cd34")
-FOOTBALL_DATA_KEY = os.getenv("FOOTBALL_DATA_KEY", "ΤΟ_FOOTBALL_DATA_KEY_ΣΟΥ")
+FOOTBALL_DATA_KEY = os.getenv("FOOTBALL_DATA_KEY", "a963742bcd5642afbe8c842d057f25ad")
 
 DATA_FILE = "daily_predictions.txt"
 HISTORY_FILE = "history.json"
