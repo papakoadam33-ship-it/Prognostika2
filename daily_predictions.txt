@@ -1,2 +1,10 @@
 STATS|78.4|21.8
---- ΠΡΟΓΝΩΣΤΙΚΑ 25/05/05 14:48 ---
+--- ΠΡΟΓΝΩΣΤΙΚΑ 25/05/2026 17:59 ---
+Eliteserien - Norway|Tromso vs Aalesund|18:00|🔥 [Bookmaker] Over 2.5 (Επιθετικό Μοντέλο: 93.6%)|🟢🟢🟢🟢🟢|🟡🟢🔴🟢🔴
+Eliteserien - Norway|HamKam vs Lillestrom|18:00|📊 [Στατιστικό] Goal / Goal (Πιθανότητα Poisson: 72.6%)|🟢🟡🟡🟢🔴|🟢🟡🟢🟢🟢
+Eliteserien - Norway|KFUM vs Rosenborg|18:00|📊 [Στατιστικό] Goal / Goal (Πιθανότητα Poisson: 69.9%)|🟢🟡🟢🟢🟢|🔴🟢🟢🟢🟡
+Eliteserien - Norway|Sarpsborg FK vs Molde|18:00|🔥 [Bookmaker] Over 2.5 (Επιθετικό Μοντέλο: 98.8%)|🟢🟢🔴🟡🟢|🔴🟢🟢🟢🟢
+Austrian Football Bundesliga|Rapid Wien vs Ried|18:00|📊 [Στατιστικό] Goal / Goal (Πιθανότητα Poisson: 59.7%)|🟡🟡🟡🟡🟡|🔴🔴🟢🟢🟡
+Allsvenskan - Sweden|IF Elfsborg vs BK Hacken|20:00|📊 [Στατιστικό] Goal / Goal (Πιθανότητα Poisson: 75.1%)|🟡🔴🟢🟢🟢|🟡🟢🟢🔴🟢
+Allsvenskan - Sweden|IFK Goteborg vs Mjällby AIF|20:00|🔥 [Bookmaker] Over 2.5 (Επιθετικό Μοντέλο: 95.1%)|🟢🟡🔴🔴🟢|🟡🟢🟢🟢🟢
+Superettan - Sweden|IFK Norrkoping vs Östers IF|20:05|📊 [Στατιστικό] Goal / Goal (Πιθανότητα Poisson: 55.6%)|🟡🟡🟢🟢🟡|🟡🟢🟢🟡🟡
