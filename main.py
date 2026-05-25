@@ -3,7 +3,7 @@ import json
 from datetime import datetime, timedelta
 import random
 
-API_KEY = 'a963742bcd5642afbe8c842d057f25ad' 
+API_KEY = 'eda6dcd0115ab96a2bf0fad47945cd34' 
 SPORT = 'upcoming' 
 REGIONS = 'eu' 
 MARKETS = 'h2h' 
