@@ -40,11 +40,17 @@ TEAM_TRANSLATIONS = {
     "Rapid Wien": "Ραπίντ Βιέννης",
     "Ried": "Ριντ",
 
-    # Σουηδία
+    # Σουηδία (Allsvenskan)
     "IF Elfsborg": "Έλφσμποργκ",
     "BK Hacken": "Χάκεν",
     "Malmo FF": "Μάλμε",
-    "AIK": "ΑΪΚ Στοκχόλμης"
+    "AIK": "ΑΪΚ Στοκχόλμης",
+    "I Goteborg": "Γκέτεμποργκ",
+    "IFK Goteborg": "Γκέτεμποργκ",
+    "Mjällby A": "Μιάλμπι",
+    "Mjallby AIF": "Μιάλμπι",
+    "Hammarby": "Χάμαρμπι",
+    "Djurgarden": "Γιουργκάρντεν"
 }
 
 def translate_teams(teams_string):
@@ -52,16 +58,25 @@ def translate_teams(teams_string):
     if " vs " in teams_string:
         parts = teams_string.split(" vs ")
         
-        # Έλεγχος στο λεξικό
-        home = TEAM_TRANSLATIONS.get(parts[0].strip(), parts[0].strip())
-        away = TEAM_TRANSLATIONS.get(parts[1].strip(), parts[1].strip())
+        home_raw = parts[0].strip()
+        away_raw = parts[1].strip()
         
-        # Αν δεν υπάρχουν, κάνε ένα βασικό clean-up στα αγγλικά tags για πιο καθαρό UI
-        for tag in ["FC", "FK", "BK", "IF", "FF", "KV"]:
-            if home == parts[0].strip():  # Σημαίνει ότι δεν μεταφράστηκε
+        # 1. Έλεγχος απευθείας στο λεξικό μεταφράσεων
+        home = TEAM_TRANSLATIONS.get(home_raw, home_raw)
+        away = TEAM_TRANSLATIONS.get(away_raw, away_raw)
+        
+        # 2. Αν δεν βρέθηκε μετάφραση, κάνε ένα έξυπνο clean-up στα ξενικά γράμματα
+        if home == home_raw:
+            for tag in ["FC", "FK", "BK", "IF", "FF", "KV", "IFK"]:
                 home = home.replace(tag, "").strip()
-            if away == parts[1].strip():
+            if home.startswith("I "): # Καθαρίζει το "I " από το "I Goteborg"
+                home = home[2:].strip()
+                
+        if away == away_raw:
+            for tag in ["FC", "FK", "BK", "IF", "FF", "KV", "AIF"]:
                 away = away.replace(tag, "").strip()
+            if away.endswith(" A"): # Καθαρίζει το " A" από το "Mjällby A"
+                away = away[:-2].strip()
                 
         return f"{home} vs {away}"
     return teams_string
@@ -160,3 +175,4 @@ if os.path.exists(filename):
             st.info("ℹ️ Το Poisson δεν εντόπισε Value Bets για τις επιλεγμένες λίγκες αυτή τη στιγμή.")
 else:
     st.warning("⏳ Υπολογισμός Μαθηματικών Μοντέλων... Παρακαλώ ανανεώστε σε 1 λεπτό.")
+
