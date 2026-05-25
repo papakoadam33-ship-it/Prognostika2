@@ -1,10 +1,5 @@
 STATS|78.4|21.8
---- ΠΡΟΓΝΩΣΤΙΚΑ 25/05/2026 19:19 ---
-Allsvenskan - Sweden|IF Elfsborg vs BK Hacken|20:00|🔥 [Bookmaker] Over 2.5 (Επιθετικό Μοντέλο: 99.2%)|🟢🔴🟢🟢🟢|🟢🟢🔴🟢🟡
-Allsvenskan - Sweden|IFK Goteborg vs Mjällby AIF|20:00|🔥 [Bookmaker] Over 2.5 (Επιθετικό Μοντέλο: 99.9%)|🟡🟡🟢🔴🔴|🟡🟢🟢🟡🟡
-Superettan - Sweden|IFK Norrkoping vs Östers IF|20:05|🔥 [Bookmaker] Over 2.5 (Επιθετικό Μοντέλο: 99.0%)|🟢🟢🟢🟢🟢|🟢🟢🟡🟢🟢
-Eliteserien - Norway|Sandefjord vs Fredrikstad FK|20:15|🔥 [Bookmaker] Over 2.5 (Επιθετικό Μοντέλο: 99.4%)|🔴🟢🟡🟡🟢|🟡🟢🟢🟢🟢
-Bundesliga - Germany|SC Paderborn vs VfL Wolfsburg|21:30|🔥 [Bookmaker] Over 2.5 (Επιθετικό Μοντέλο: 84.4%)|🟢🟢🟢🔴🟡|🟢🟢🟡🔴🟢
-League of Ireland|Derry City vs Shelbourne Dublin|21:45|📊 [Στατιστικό] Goal / Goal (Πιθανότητα Poisson: 67.0%)|🟢🟡🟢🟢🟡|🟡🟡🟡🟡🟡
-League of Ireland|Bohemians vs Shamrock Rovers|22:00|🔥 [Bookmaker] Over 2.5 (Επιθετικό Μοντέλο: 97.2%)|🟢🟢🟢🟢🟢|🟡🔴🟢🟢🟢
-Premiership - Scotland|St Mirren vs Partick Thistle|22:00|📊 [Στατιστικό] Goal / Goal (Πιθανότητα Poisson: 63.8%)|🟡🔴🟡🟢🟡|🔴🟢🔴🟡🟢
+--- ΠΡΟΓΝΩΣΤΙΚΑ 25/05/2026 21:37 ---
+Λεαγκουε οφ Ιρελανντ|Ντερρυ Κιτυ vs Σχελμπουρνε Ντουμπλιν|21:45|🔥 [Bookmaker] Over 2.5 (Επιθετικό Μοντέλο: 80.2%)|🟢🟢🟢🟢🟡|🔴🟢🟢🟢🟢
+Λεαγκουε οφ Ιρελανντ|Μποχεμιανσ vs Σχαμροκκ Ροβερσ|22:00|📊 [Στατιστικό] Goal / Goal (Πιθανότητα Poisson: 76.4%)|🔴🔴🟢🟢🟢|🔴🟢🟡🟡🟢
+Πρεμιερσιπ - Σκοτλανντ|Στ Μιρρεν vs Παρτικκ Τχιστλε|22:00|🔥 [Bookmaker] Over 2.5 (Επιθετικό Μοντέλο: 99.1%)|🟢🟢🟢🟢🟢|🟢🟢🔴🟢🟢
