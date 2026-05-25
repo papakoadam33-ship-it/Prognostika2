@@ -7,6 +7,7 @@ LEAGUE_TRANSLATIONS = {
     "Premier League": "Πρωτάθλημα Αγγλίας (Premier League)",
     "Championship": "Αγγλία - Championship (Β')",
     "League 1": "Αγγλία - League One (Γ')",
+    "League 2": "Αγγλία - League Two (Δ')",
     "La Liga": "Πρωτάθλημα Ισπανίας (La Liga)",
     "La Liga 2 - Spain": "Ισπανία - Segunda Division (Β')",
     "Serie A - Italy": "Πρωτάθλημα Ιταλίας (Serie A)",
@@ -15,13 +16,9 @@ LEAGUE_TRANSLATIONS = {
     "Dutch Eredivisie": "Πρωτάθλημα Ολλανδίας (Eredivisie)",
     "Allsvenskan - Sweden": "Πρωτάθλημα Σουηδίας (Allsvenskan)",
     "Eliteserien - Norway": "Πρωτάθλημα Νορβηγίας (Eliteserien)",
+    "Austrian Football Bundesliga": "Πρωτάθλημα Αυστρίας",
     "Brazil Série A": "Πρωτάθλημα Βραζιλίας (Série A)",
-    "MLS": "Πρωτάθλημα Αμερικής (MLS)",
-    "Chinese Super League": "Πρωτάθλημα Κίνας (Super League)",
-    "Super League - China": "Πρωτάθλημα Κίνας (Super League)",
-    "J-League": "Πρωτάθλημα Ιαπωνίας (J1 League)",
-    "J League": "Πρωτάθλημα Ιαπωνίας (J1 League)",
-    "Belgium First Div": "Πρωτάθλημα Βελγίου (Pro League)"
+    "MLS": "Πρωτάθλημα Αμερικής (MLS)"
 }
 
 st.markdown("""
@@ -107,7 +104,6 @@ if os.path.exists(filename):
                         st.markdown(f'<div class="form-text">📊 Φόρμα {home_t}: {m["home_form"]}</div>', unsafe_allow_html=True)
                         st.markdown(f'<div class="form-text">📊 Φόρμα {away_t}: {m["away_form"]}</div>', unsafe_allow_html=True)
                     
-                    # 🔥 ΕΔΩ ΕΜΦΑΝΙΖΕΤΑΙ ΤΟ ΣΩΣΤΟ ΔΥΝΑΜΙΚΟ ΚΕΙΜΕΝΟ
                     if "🔥 [Bookmaker]" in m['prediction']:
                         clean_pred = m['prediction'].replace("🔥 [Bookmaker]", "").strip()
                         st.markdown(f'<div class="prediction-box-bookie">🔥 VIP Επιλογή: {clean_pred}</div>', unsafe_allow_html=True)
@@ -120,4 +116,3 @@ if os.path.exists(filename):
         st.info("ℹ️ Δεν υπάρχουν διαθέσιμοι αγώνες αυτή τη στιγμή.")
 else:
     st.warning("⏳ Τα προγνωστικά δημιουργούνται αυτή τη στιγμή. Παρακαλώ ανανεώστε σε 1 λεπτό!")
-
