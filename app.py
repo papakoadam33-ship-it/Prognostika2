@@ -20,7 +20,7 @@ LEAGUE_TRANSLATIONS = {
 
 # --- ΛΕΞΙΚΟ ΜΕΤΑΦΡΑΣΗΣ ΟΜΑΔΩΝ ---
 TEAM_TRANSLATIONS = {
-    # Νορβηγία (Eliteserien)
+    # Νορβηγία
     "KFUM": "ΚΦΟΥΜ Όσλο",
     "Rosenborg": "Ρόζενμποργκ",
     "Sarpsborg FK": "Σάρπσμποργκ",
@@ -32,21 +32,37 @@ TEAM_TRANSLATIONS = {
     "IK Start": "Σταρτ",
     "Vålerenga": "Βαλερένγκα",
     
-    # Αγγλία (League 2 / Championship κλπ)
-    "Notts County": "Νοτς Κάουντι",
+    # Αγγλία
+    "Notts County": "Νοτς Kάουντι",
     "Salford City": "Σάλφορντ Σίτι",
     
     # Αυστρία
     "Rapid Wien": "Ραπίντ Βιέννης",
-    "Ried": "Ριντ"
+    "Ried": "Ριντ",
+
+    # Σουηδία
+    "IF Elfsborg": "Έλφσμποργκ",
+    "BK Hacken": "Χάκεν",
+    "Malmo FF": "Μάλμε",
+    "AIK": "ΑΪΚ Στοκχόλμης"
 }
 
 def translate_teams(teams_string):
-    """Μεταφράζει τα ονόματα των ομάδων αν υπάρχουν στο λεξικό"""
+    """Μεταφράζει τις ομάδες ή καθαρίζει τα αγγλικά ακρωνύμια αν δεν υπάρχουν στο λεξικό"""
     if " vs " in teams_string:
         parts = teams_string.split(" vs ")
+        
+        # Έλεγχος στο λεξικό
         home = TEAM_TRANSLATIONS.get(parts[0].strip(), parts[0].strip())
         away = TEAM_TRANSLATIONS.get(parts[1].strip(), parts[1].strip())
+        
+        # Αν δεν υπάρχουν, κάνε ένα βασικό clean-up στα αγγλικά tags για πιο καθαρό UI
+        for tag in ["FC", "FK", "BK", "IF", "FF", "KV"]:
+            if home == parts[0].strip():  # Σημαίνει ότι δεν μεταφράστηκε
+                home = home.replace(tag, "").strip()
+            if away == parts[1].strip():
+                away = away.replace(tag, "").strip()
+                
         return f"{home} vs {away}"
     return teams_string
 
@@ -108,7 +124,6 @@ if os.path.exists(filename):
                 
         if leagues_data:
             for league_name, matches in leagues_data.items():
-                # Μετάφραση Λίγκας
                 greek_league = LEAGUE_TRANSLATIONS.get(league_name.strip(), league_name.strip())
                 st.markdown(f"<h3 style='color:#FFD700; border-bottom: 1px solid #FFD700; padding-bottom:5px; margin-top:20px;'>🏆 {greek_league}</h3>", unsafe_allow_html=True)
                 
@@ -119,7 +134,6 @@ if os.path.exists(filename):
                     home_form = match[4]
                     away_form = match[5]
                     
-                    # Μετάφραση Ομάδων στην κάρτα
                     greek_teams = translate_teams(teams)
                     team_list = greek_teams.split(" vs ")
                     home_t = team_list[0] if len(team_list) > 0 else "Γηπεδούχος"
@@ -134,10 +148,8 @@ if os.path.exists(filename):
                             <div class="form-text">📊 Φόρμα {away_t}: {away_form}</div>
                     """, unsafe_allow_html=True)
                     
-                    # Καθαρισμός του κειμένου της πρόβλεψης
                     clean_tip = tip.replace("🔥 [Bookmaker]", "").replace("📊 [Στατιστικό]", "").strip()
                     
-                    # Έλεγχος για το ποιο κουμπί θα εμφανιστεί
                     if "🔥" in tip:
                         st.markdown(f'<div class="pred-button-vip">👑 VIP ΕΠΙΛΟΓΗ: {clean_tip}</div>', unsafe_allow_html=True)
                     else:
