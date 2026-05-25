@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 import random
 
 # --- ΡΥΘΜΙΣΕΙΣ API ---
-ODDS_API_KEY = 'a963742bcd5642afbe8c842d057f25ad' 
+ODDS_API_KEY = 'eda6dcd0115ab96a2bf0fad47945cd34' 
 FOOTBALL_DATA_API_KEY = 'a963742bcd5642afbe8c842d057f25ad' # Το κλειδί σου για τα στατιστικά
 
 def poisson_probability(lmbda, k):
