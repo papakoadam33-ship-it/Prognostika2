@@ -25,7 +25,6 @@ LEAGUE_MAPPING = {
 }
 
 def auto_translate(text):
-    """Έξυπνος Αυτόματος Μεταφραστής με φίλτρο εξομάλυνσης για Pro εμφάνιση"""
     if not text: return ""
     hardcoded = {
         "English Premier League": "Πρωτάθλημα Αγγλίας (Premier League)",
@@ -130,7 +129,6 @@ def get_football_predictions():
     except: return []
 
 def extract_best_odds(match, tip_type):
-    """Εξάγει την καλύτερη διαθέσιμη απόδοση για το σημείο από τους bookmakers"""
     try:
         bookmakers = match.get('bookmakers', [])
         if not bookmakers: return 1.80
@@ -173,39 +171,39 @@ def analyze_matches():
         
         try: match_time = datetime.strptime(commence_time_str, "%Y-%m-%dT%H:%M:%SZ") + timedelta(hours=3)
         except: continue
-        if match_time.date() != now_athens.date() or match_time < now_athens: continue
-            
+        
+        # 🟢 ΔΙΟΡΘΩΣΗ: Πρώτα υπολογίζουμε και αποθηκεύουμε το ματς στο Ιστορικό
         prob_under, prob_gg = calculate_match_probabilities(random.uniform(1.0, 2.5), random.uniform(0.5, 1.8), random.uniform(0.8, 2.0), random.uniform(0.6, 2.2), 1.5, 1.2)
         
-        if prob_under > 58:
-            short_tip = "Under 2.5"
-            best_odd = extract_best_odds(match, short_tip)
+        if prob_under > 58: short_tip = "Under 2.5"
+        elif prob_gg > 55: short_tip = "Goal / Goal"
+        else: short_tip = "Over 2.5"
+            
+        match_key = f"{home_team} vs {away_team}"
+        if match_key not in history["predictions"]:
+            history["predictions"][match_key] = {
+                "date": match_time.strftime('%Y-%m-%d'), "league": league, "fd_league": LEAGUE_MAPPING.get(league, None),
+                "tip": short_tip, "status": "PENDING", "score": ""
+            }
+            
+        # 🛑 ΤΩΡΑ φιλτράρουμε αν το ματς ανήκει στο σημερινό κουπόνι για την οθόνη
+        if match_time.date() != now_athens.date() or match_time < now_athens: continue
+            
+        best_odd = extract_best_odds(match, short_tip)
+        if short_tip == "Under 2.5":
             prediction = f"📊 [Στατιστικό] Under 2.5 (Πιθανότητα: {prob_under:.1f}% | Απόδοση: {best_odd:.2f})"
-        elif prob_gg > 55:
-            short_tip = "Goal / Goal"
-            best_odd = extract_best_odds(match, short_tip)
+        elif short_tip == "Goal / Goal":
             prediction = f"📊 [Στατιστικό] Goal / Goal (Πιθανότητα: {prob_gg:.1f}% | Απόδοση: {best_odd:.2f})"
         else:
-            short_tip = "Over 2.5"
-            best_odd = extract_best_odds(match, short_tip)
             prediction = f"🔥 [Bookmaker] Over 2.5 (Μοντέλο: {(100-prob_under):.1f}% | Απόδοση: {best_odd:.2f})"
             
         home_form = "".join(random.choices(['🟢', '🟢', '🟡', '🔴', '🟢'], k=5))
         away_form = "".join(random.choices(['🟢', '🟢', '🟡', '🔴', '🟢'], k=5))
         
-        match_key = f"{home_team} vs {away_team}"
-        if match_key not in history["predictions"]:
-            history["predictions"][match_key] = {
-                "date": now_athens.strftime('%Y-%m-%d'), "league": league, "fd_league": LEAGUE_MAPPING.get(league, None),
-                "tip": short_tip, "status": "PENDING", "score": ""
-            }
-        
         output_lines.append(f"{auto_translate(league)}|{auto_translate(home_team)} vs {auto_translate(away_team)}|{match_time.strftime('%H:%M')}|{prediction}|{home_form}|{away_form}")
         
-    # --- ΝΕΟ SECTION: ΠΡΟΣΘΗΚΗ ΠΡΟΣΦΑΤΩΝ ΑΠΟΤΕΛΕΣΜΑΤΩΝ ΣΤΟ ΤΕΛΟΣ ΤΟΥ ΑΡΧΕΙΟΥ ---
     output_lines.append("--- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---")
     completed_matches = [m for m in history["predictions"].items() if m[1]["status"] in ["WON", "LOST"]]
-    # Παίρνουμε τα 5 πιο πρόσφατα
     completed_matches = sorted(completed_matches, key=lambda x: x[1]["date"], reverse=True)[:5]
     
     if not completed_matches:
@@ -219,7 +217,7 @@ def analyze_matches():
     save_history(history)
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(output_lines))
-    print("🎯 Το app αναβαθμίστηκε με αποδόσεις και πρόσφατα αποτελέσματα!")
+    print("🎯 Το app διορθώθηκε και είναι έτοιμο να καταγράψει τα αυριανά ταμεία!")
 
 if __name__ == "__main__":
     analyze_matches()
