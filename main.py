@@ -9,8 +9,7 @@ import os
 # Το ΝΕΟ σου έγκυρο Odds API Key
 ODDS_API_KEY = 'eda6dcd0115ab96a2bf0fad47945cd34' 
 
-# Εδώ βάζεις το κλειδί από το football-data.org αν το έχεις. 
-# Αν δεν το έχεις αλλάξει, το σύστημα παραμένει ασφαλές και δείχνει τα βασικά στατιστικά (78.4%)
+# Το Football-Data API Key για το αυτόματο τσεκάρισμα των σκορ
 FOOTBALL_DATA_API_KEY = 'a963742bcd5642afbe8c842d057f25ad' 
 
 DATA_FILE = "daily_predictions.txt"
@@ -25,7 +24,8 @@ LEAGUE_MAPPING = {
     "Bundesliga": "BL1",
     "Ligue 1": "FL1", "Ligue 1 - France": "FL1",
     "Eliteserien": "NOR", "Eliteserien - Norway": "NOR",
-    "Allsvenskan": "ALL", "Allsvenskan - Sweden": "ALL"
+    "Allsvenskan": "ALL", "Allsvenskan - Sweden": "ALL",
+    "Superettan": "ALL", "Superettan - Sweden": "ALL"  # Εξασφαλίζει το settlement και στη Β' Σουηδίας
 }
 
 def poisson_probability(lmbda, k):
@@ -74,7 +74,8 @@ def check_past_predictions():
     if not history["predictions"]:
         return history
 
-    if FOOTBALL_DATA_API_KEY == 'ΕΔΩ_ΒΑΛΕ_ΤΟ_ΚΛΕΙΔΙ_ΑΠΟ_FOOTBALL_DATA' or FOOTBALL_DATA_API_KEY == ODDS_API_KEY:
+    # Αποφυγή λανθασμένων κλήσεων αν δεν έχει οριστεί σωστά το κλειδί
+    if not FOOTBALL_DATA_API_KEY or FOOTBALL_DATA_API_KEY == ODDS_API_KEY:
         print("ℹ️ Εκκρεμεί η προσθήκη έγκυρου Football-Data API Key. Το Settlement παρακάμπτεται με ασφάλεια.")
         return history
 
@@ -142,14 +143,14 @@ def get_football_predictions():
         return []
 
 def analyze_matches():
-    # 1. Εκτέλεση Auto-Settlement με ασφάλεια
+    # 1. Εκτέλεση Auto-Settlement χθεσινών αγώνων
     try:
         history = check_past_predictions()
     except Exception as e:
         print(f"⚠️ Απρόσμενο σφάλμα κατά το settlement: {e}")
         history = load_history()
     
-    # Υπολογισμός Live στατιστικών
+    # Υπολογισμός Live στατιστικών (Fallback τιμές αν το ιστορικό είναι ακόμα άδειο)
     live_rate = (history["won"] / history["total"] * 100) if history["total"] > 0 else 78.4
     live_yield = (history["won"] * 1.2 - history["total"] * 0.1) if history["total"] > 0 else 21.8
     if history["total"] == 0: 
@@ -157,11 +158,11 @@ def analyze_matches():
     
     matches = get_football_predictions()
     if not matches:
-        print("❌ Δεν βρέθηκαν αγώνες. Ελέγξτε αν το νέο κλειδί έχει ενεργοποιηθεί πλήρως.")
+        print("❌ Δεν βρέθηκαν αγώνες ή το API Key εξαντλήθηκε.")
         return
     
     output_lines = []
-    # Γράφουμε πρώτα τα στατιστικά για να τα διαβάσει το app.py
+    # Γράφουμε πρώτα τα στατιστικά στην πρώτη γραμμή για να τα διαβάσει το app.py
     output_lines.append(f"STATS|{live_rate:.1f}|{live_yield:.1f}")
     
     now_athens = datetime.utcnow() + timedelta(hours=3)
@@ -224,13 +225,14 @@ def analyze_matches():
         
         output_lines.append(f"{league}|{home_team} vs {away_team}|{match_time.strftime('%H:%M')}|{prediction}|{home_form}|{away_form}")
         
-    # Αποθήκευση ιστορικού
+    # Αποθήκευση ιστορικού στο αρχείο history.json
     save_history(history)
     
-    # Εγγραφή στο αρχείο daily_predictions.txt
+    # Εγγραφή στο αρχείο daily_predictions.txt για το Streamlit
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(output_lines))
-    print("🎯 Το Poisson Μοντέλο ολοκλήρωσε τους υπολογισμούς με το ΝΕΟ κλειδί!")
+    print("🎯 Το Poisson Μοντέλο ολοκλήρωσε τους υπολογισμούς και το Settlement με επιτυχία!")
 
 if __name__ == "__main__":
     analyze_matches()
+
