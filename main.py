@@ -3,7 +3,7 @@ import json
 from datetime import datetime, timedelta
 import random
 
-API_KEY = 'eda6dcd0115ab96a2bf0fad47945cd34' 
+API_KEY = 'a963742bcd5642afbe8c842d057f25ad' 
 SPORT = 'upcoming' 
 REGIONS = 'eu' 
 MARKETS = 'h2h' 
@@ -39,7 +39,7 @@ def analyze_matches():
     
     output_lines = []
     now_utc = datetime.utcnow()
-    athens_offset = timedelta(hours=3) # Ελλάδος
+    athens_offset = timedelta(hours=3)
     now_athens = now_utc + athens_offset
     
     output_lines.append(f"Τελευταία ενημέρωση: {now_athens.strftime('%d/%m/%Y %H:%M')}")
@@ -77,7 +77,7 @@ def analyze_matches():
         if not home_odds or not away_odds or not draw_odds:
             continue
             
-        # 🔥 ΔΥΝΑΜΙΚΟΣ ΑΛΓΟΡΙΘΜΟΣ ΠΡΟΓΝΩΣΤΙΚΩΝ (ΤΕΛΟΣ ΣΤΟ HARDCODED)
+        # --- ΔΥΝΑΜΙΚΟΣ ΑΛΓΟΡΙΘΜΟΣ ΠΡΟΓΝΩΣΤΙΚΩΝ ---
         if home_odds < 1.45:
             prediction = f"🔥 [Bookmaker] 1 (Φαβορί ο Άσσος στο {home_odds})"
         elif away_odds < 1.45:
@@ -87,14 +87,13 @@ def analyze_matches():
         elif 1.45 <= away_odds <= 1.85:
             prediction = f"🔥 [Bookmaker] X2 (Διπλή Ευκαιρία για το Διπλό στο {away_odds})"
         else:
-            # Μετατροπή αποδόσεων σε μαθηματική πιθανότητα για την ισοπαλία/ντέρμπι
-            draw_prob = (1 / draw_odds) * 100
-            if draw_prob > 28:
-                prediction = "📊 [Στατιστικό] Under 2.5 (Κλειστό Ντέρμπι Τακτικής)"
-            elif (home_odds + away_odds) / 2 < 2.30:
-                prediction = "📊 [Στατιστικό] Goal / Goal (Ανοιχτό Παιχνίδι με Ρυθμό)"
+            # Όταν είναι καθαρό ντέρμπι, παράγουμε δυναμικό στατιστικό ανάλογα με τις αποδόσεις
+            if home_odds < away_odds:
+                prediction = f"📊 [Στατιστικό] 1X & Under 3.5 (Προβάδισμα έδρας στο {home_odds})"
+            elif away_odds < home_odds:
+                prediction = f"📊 [Στατιστικό] X2 & Under 3.5 (Προβάδισμα φιλοξενούμενου στο {away_odds})"
             else:
-                prediction = "📊 [Στατιστικό] Over 2.5 (Υψηλή Επιθετική Δραστηριότητα)"
+                prediction = "📊 [Στατιστικό] Goal / Goal (Αμφίρροπο Ντέρμπι με ίσες αποδόσεις)"
             
         home_form = generate_random_form()
         away_form = generate_random_form()
@@ -109,4 +108,7 @@ def analyze_matches():
         
     with open("daily_predictions.txt", "w", encoding="utf-8") as f:
         f.write("\n".join(output_lines))
-    print("Τα προγνωστικά ενημερώθηκαν δυναμικά!")
+    print("Τα προγνωστικά ενημερώθηκαν επιτυχώς!")
+
+if __name__ == "__main__":
+    analyze_matches()
