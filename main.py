@@ -25,27 +25,44 @@ LEAGUE_MAPPING = {
 }
 
 def auto_translate(text):
-    """Αυτόματος κανόνας μετατροπής ξένων ονομάτων σε Ελληνικά για να μην αλλάζεις κώδικα"""
+    """Έξυπνος Αυτόματος Μεταφραστής με φίλτρο εξομάλυνσης για Pro εμφάνιση"""
     if not text:
         return ""
         
-    # Λεξικό για ειδικές γνωστές ομάδες/λίγκες που θέλουμε τέλεια μετάφραση
+    # 1. Άμεσες διορθώσεις για στάνταρ ονόματα / λίγκες
     hardcoded = {
         "English Premier League": "Πρωτάθλημα Αγγλίας (Premier League)",
         "Premier League": "Πρωτάθλημα Αγγλίας (Premier League)",
         "Allsvenskan": "Πρωτάθλημα Σουηδίας (Allsvenskan)",
         "Superettan": "Β' Σουηδίας (Superettan)",
+        "Superettan - Sweden": "Β' Σουηδίας (Superettan)",
         "Eliteserien": "Πρωτάθλημα Νορβηγίας (Eliteserien)",
         "Bundesliga": "Πρωτάθλημα Γερμανίας (Bundesliga)",
         "La Liga": "Πρωτάθλημα Ισπανίας (La Liga)",
         "Serie A": "Πρωτάθλημα Ιταλίας (Serie A)",
-        "Ligue 1": "Πρωτάθλημα Γαλλίας (Ligue 1)"
+        "Ligue 1": "Πρωτάθλημα Γαλλίας (Ligue 1)",
+        "Premiership - Scotland": "Πρωτάθλημα Σκωτίας (Premiership)",
+        "League of Ireland": "Πρωτάθλημα Ιρλανδίας",
+        "Derry City": "Ντέρι Σίτι",
+        "Shelbourne": "Σέλμπουρν",
+        "Shelbourne Dublin": "Σέλμπουρν",
+        "Shamrock Rovers": "Σάμροκ Ρόβερς",
+        "Bohemians": "Μποέμιανς",
+        "St Mirren": "Σεντ Μίρεν",
+        "Partick Thistle": "Πάρτικ Θιστλ"
     }
     
     if text in hardcoded:
         return hardcoded[text]
         
-    # Αυτόματος αλγόριθμος μετατροπής χαρακτήρων (Phonetic Transliteration)
+    # Προ-επεξεργασία για να διορθώνουμε γνωστές αγγλικές καταλήξεις/λέξεις πριν τη μεταγραφή
+    clean_text = text
+    clean_text = clean_text.replace("City", "Σίτι").replace("city", "Σίτι")
+    clean_text = clean_text.replace("Town", "Τάουν").replace("town", "Τάουν")
+    clean_text = clean_text.replace("United", "Γιουνάιτεντ").replace("united", "Γιουνάιτεντ")
+    clean_text = clean_text.replace("Rovers", "Ρόβερς").replace("rovers", "Ρόβερς")
+    
+    # 2. Φωνητικός αλγόριθμος (Greeklish to Greek)
     trans_dict = {
         'sh': 'σ', 'ch': 'τσ', 'th': 'θ', 'ph': 'φ', 'kh': 'χ', 'wh': 'χου',
         'ae': 'αι', 'oe': 'ε', 'ou': 'ου', 'oo': 'ου',
@@ -60,24 +77,24 @@ def auto_translate(text):
         'å': 'ο', 'ä': 'α', 'ö': 'ε', 'æ': 'αι', 'ø': 'ε', 'É': 'Ε', 'é': 'ε'
     }
     
-    # Πρώτα αντικαθιστούμε τα διπλά γράμματα (sh, ch κλπ)
-    result = text
+    # Αντικατάσταση διπλών συμφώνων/φωνηέντων
     for key in ['sh', 'ch', 'th', 'ph', 'kh', 'wh', 'ae', 'oe', 'ou', 'oo']:
-        if key in result:
-            result = result.replace(key, trans_dict[key])
+        if key in clean_text:
+            clean_text = clean_text.replace(key, trans_dict[key])
             
-    # Μετά όλα τα υπόλοιπα γράμματα ένα-ένα
     final_text = ""
-    for char in result:
+    for char in clean_text:
         final_text += trans_dict.get(char, char)
         
-    # Μικροδιορθώσεις για να ακούγεται πιο φυσικό
+    # 3. Φίλτρο εξομάλυνσης για φυσικό ήχο στα ελληνικά
     final_text = final_text.replace("γκκ", "γκ").replace("μπμπ", "μπ").replace("ντντ", "ντ")
+    final_text = final_text.replace("ουε", "ε").replace("ουι", "ι").replace("ουα", "α")
+    final_text = final_text.replace("ρρυ", "ρι").replace("τυ", "τι").replace("ρκε", "ρκε")
+    
     return final_text
 
 def poisson_probability(lmbda, k):
-    if lmbda <= 0:
-        return 0
+    if lmbda <= 0: return 0
     return (math.exp(-lmbda) * (lmbda ** k)) / math.factorial(k)
 
 def calculate_match_probabilities(home_attack, home_defense, away_attack, away_defense, league_avg_home, league_avg_away):
@@ -85,26 +102,20 @@ def calculate_match_probabilities(home_attack, home_defense, away_attack, away_d
     lambda_away = away_attack * home_defense * league_avg_away
     prob_under_25 = 0
     prob_gg = 0
-    
     for h in range(6):
         for a in range(6):
             p_h = poisson_probability(lambda_home, h)
             p_a = poisson_probability(lambda_away, a)
             p_score = p_h * p_a
-            if h + a < 3:
-                prob_under_25 += p_score
-            if h > 0 and a > 0:
-                prob_gg += p_score
-                
+            if h + a < 3: prob_under_25 += p_score
+            if h > 0 and a > 0: prob_gg += p_score
     return prob_under_25 * 100, prob_gg * 100
 
 def load_history():
     if os.path.exists(HISTORY_FILE):
         with open(HISTORY_FILE, "r", encoding="utf-8") as f:
-            try:
-                return json.load(f)
-            except:
-                pass
+            try: return json.load(f)
+            except: pass
     return {"total": 0, "won": 0, "predictions": {}}
 
 def save_history(history):
@@ -113,11 +124,8 @@ def save_history(history):
 
 def check_past_predictions():
     history = load_history()
-    if not history["predictions"]:
-        return history
-
-    if not FOOTBALL_DATA_API_KEY or FOOTBALL_DATA_API_KEY == ODDS_API_KEY:
-        return history
+    if not history["predictions"]: return history
+    if not FOOTBALL_DATA_API_KEY or FOOTBALL_DATA_API_KEY == ODDS_API_KEY: return history
 
     headers = {"X-Auth-Token": FOOTBALL_DATA_API_KEY}
     updated_any = False
@@ -167,22 +175,18 @@ def get_football_predictions():
     try:
         response = requests.get(url, params=params, timeout=10)
         return response.json() if response.status_code == 200 else []
-    except:
-        return []
+    except: return []
 
 def analyze_matches():
-    try:
-        history = check_past_predictions()
-    except:
-        history = load_history()
+    try: history = check_past_predictions()
+    except: history = load_history()
     
     live_rate = (history["won"] / history["total"] * 100) if history["total"] > 0 else 78.4
     live_yield = (history["won"] * 1.2 - history["total"] * 0.1) if history["total"] > 0 else 21.8
     if history["total"] == 0: live_yield = 21.8
     
     matches = get_football_predictions()
-    if not matches:
-        return
+    if not matches: return
     
     output_lines = []
     output_lines.append(f"STATS|{live_rate:.1f}|{live_yield:.1f}")
@@ -190,26 +194,19 @@ def analyze_matches():
     now_athens = datetime.utcnow() + timedelta(hours=3)
     output_lines.append(f"--- ΠΡΟΓΝΩΣΤΙΚΑ {now_athens.strftime('%d/%m/%Y %H:%M')} ---")
     
-    league_avg_home = 1.5
-    league_avg_away = 1.2
+    league_avg_home, league_avg_away = 1.5, 1.2
     
     for match in matches:
-        home_team = match.get('home_team')
-        away_team = match.get('away_team')
-        league = match.get('sport_title')
-        commence_time_str = match.get('commence_time')
+        home_team, away_team = match.get('home_team'), match.get('away_team')
+        league, commence_time_str = match.get('sport_title'), match.get('commence_time')
         
-        try:
-            match_time = datetime.strptime(commence_time_str, "%Y-%m-%dT%H:%M:%SZ") + timedelta(hours=3)
+        try: match_time = datetime.strptime(commence_time_str, "%Y-%m-%dT%H:%M:%SZ") + timedelta(hours=3)
         except: continue
             
-        if match_time.date() != now_athens.date() or match_time < now_athens:
-            continue
+        if match_time.date() != now_athens.date() or match_time < now_athens: continue
             
-        home_attack = random.uniform(1.0, 2.5)
-        home_defense = random.uniform(0.5, 1.8)
-        away_attack = random.uniform(0.8, 2.0)
-        away_defense = random.uniform(0.6, 2.2)
+        home_attack, home_defense = random.uniform(1.0, 2.5), random.uniform(0.5, 1.8)
+        away_attack, away_defense = random.uniform(0.8, 2.0), random.uniform(0.6, 2.2)
         
         prob_under, prob_gg = calculate_match_probabilities(
             home_attack, home_defense, away_attack, away_defense, league_avg_home, league_avg_away
@@ -227,8 +224,7 @@ def analyze_matches():
             short_tip = "Over 2.5"
             
         options = ['🟢', '🟢', '🟡', '🔴', '🟢']
-        home_form = "".join(random.choices(options, k=5))
-        away_form = "".join(random.choices(options, k=5))
+        home_form, away_form = "".join(random.choices(options, k=5)), "".join(random.choices(options, k=5))
         
         match_key = f"{home_team} vs {away_team}"
         if match_key not in history["predictions"]:
@@ -238,7 +234,7 @@ def analyze_matches():
                 "tip": short_tip, "status": "PENDING", "score": ""
             }
         
-        # --- ΕΔΩ ΓΙΝΕΤΑΙ Η ΑΥΤΟΜΑΤΗ ΜΕΤΑΦΡΑΣΗ ΠΡΙΝ ΤΗΝ ΕΓΓΡΑΦΗ ---
+        # Εφαρμογή της αναβαθμισμένης αυτόματης μετάφρασης
         greek_league = auto_translate(league)
         greek_home = auto_translate(home_team)
         greek_away = auto_translate(away_team)
@@ -248,7 +244,7 @@ def analyze_matches():
     save_history(history)
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(output_lines))
-    print("🎯 Το Poisson ολοκληρώθηκε με 100% αυτόματη μετάφραση!")
+    print("🎯 Η Pro-Μετάφραση ολοκληρώθηκε!")
 
 if __name__ == "__main__":
     analyze_matches()
