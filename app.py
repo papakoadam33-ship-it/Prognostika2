@@ -3,12 +3,10 @@ import os
 
 st.set_page_config(page_title="VIP Προγνωστικά", page_icon="⚽", layout="centered")
 
-# --- ΛΕΞΙΚΟ ΜΕΤΑΦΡΑΣΕΩΝ ---
 LEAGUE_TRANSLATIONS = {
     "Premier League": "Πρωτάθλημα Αγγλίας (Premier League)",
     "Championship": "Αγγλία - Championship (Β')",
     "League 1": "Αγγλία - League One (Γ')",
-    "League 2": "Αγγλία - League Two (Δ')",
     "La Liga": "Πρωτάθλημα Ισπανίας (La Liga)",
     "La Liga 2 - Spain": "Ισπανία - Segunda Division (Β')",
     "Serie A - Italy": "Πρωτάθλημα Ιταλίας (Serie A)",
@@ -17,7 +15,6 @@ LEAGUE_TRANSLATIONS = {
     "Dutch Eredivisie": "Πρωτάθλημα Ολλανδίας (Eredivisie)",
     "Allsvenskan - Sweden": "Πρωτάθλημα Σουηδίας (Allsvenskan)",
     "Eliteserien - Norway": "Πρωτάθλημα Νορβηγίας (Eliteserien)",
-    "Austrian Football Bundesliga": "Πρωτάθλημα Αυστρίας",
     "Brazil Série A": "Πρωτάθλημα Βραζιλίας (Série A)",
     "MLS": "Πρωτάθλημα Αμερικής (MLS)",
     "Chinese Super League": "Πρωτάθλημα Κίνας (Super League)",
@@ -34,49 +31,20 @@ st.markdown("""
     .form-text { font-size: 14px; color: #4B5563; margin-bottom: 8px; }
     .prediction-box-bookie { background-color: #FEE2E2; color: #991B1B; padding: 12px; border-radius: 8px; border-left: 5px solid #EF4444; font-weight: bold; margin-bottom: 15px; }
     .prediction-box-stat { background-color: #FEF3C7; color: #92400E; padding: 12px; border-radius: 8px; border-left: 5px solid #F59E0B; font-weight: bold; margin-bottom: 15px; }
-    
-    .metric-box-green {
-        background-color: #D1FAE5;
-        color: #065F46;
-        padding: 15px;
-        border-radius: 10px;
-        text-align: center;
-        font-weight: bold;
-        font-size: 20px;
-        margin-bottom: 10px;
-        border: 1px solid #10B981;
-    }
-    .metric-box-blue {
-        background-color: #DBEAFE;
-        color: #1E40AF;
-        padding: 15px;
-        border-radius: 10px;
-        text-align: center;
-        font-weight: bold;
-        font-size: 20px;
-        margin-bottom: 10px;
-        border: 1px solid #3B82F6;
-    }
-    .metric-val {
-        font-size: 28px;
-        display: block;
-        margin-top: 5px;
-    }
     </style>
 """, unsafe_allow_html=True)
 
 st.title("⚽ VIP Προγνωστικά")
 st.markdown('<div class="sub-header-text">🎯 Live ανανέωση βάσει αποδόσεων & στατιστικής</div>', unsafe_allow_html=True)
 
-# --- ΚΑΡΤΕΛΑ 1: ΣΤΑΤΙΣΤΙΚΑ ΚΑΙ ΙΣΤΟΡΙΚΟ ΤΑΜΕΙΟΥ ---
 with st.expander("📈 Στατιστικά & Ιστορικό Ταμείου", expanded=False):
     col1, col2 = st.columns(2)
     with col1:
-        st.markdown('<div class="metric-box-green">📈 Συνολικό Yield<span class="metric-val">+18.4%</span></div>', unsafe_allow_html=True)
+        st.metric(label="Συνολικά Κέρδη (Yield)", value="+18.4%", delta="🏆 Σε Άνοδο")
     with col2:
-        st.markdown('<div class="metric-box-blue">🎯 Ποσοστό Επιτυχίας<span class="metric-val">76.2%</span></div>', unsafe_allow_html=True)
+        st.metric(label="Ποσοστό Επιτυχίας", value="76.2%", delta="✅ 16/21 Ματς")
         
-    st.markdown("<br><h4 style='margin-bottom:10px;'>🕒 Πρόσφατα Αποτελέσματα</h4>", unsafe_allow_html=True)
+    st.markdown("#### 🕒 Πρόσφατα Αποτελέσματα")
     st.write("✅ **Αγιάξ vs Ουτρέχτη** (Πρόβλεψη: 1X) | **Σκορ: 2-1**")
     st.write("✅ **Μπόλτον vs Στόκπορτ** (Πρόβλεψη: G/G) | **Σκορ: 2-2**")
     st.write("❌ **Μιρασόλ vs Φλουμινένσε** (Πρόβλεψη: G/G) | **Σκορ: 1-0**")
@@ -102,7 +70,6 @@ if os.path.exists(filename):
     
     for block in blocks:
         lines = block.strip().split("\n")
-        
         league, match_time, match_teams, prediction = "", "", "", ""
         home_form, away_form = "🟢🟢🟡🔴🟢", "🔴🟡🟢🔴🔴"
         
@@ -126,7 +93,7 @@ if os.path.exists(filename):
         for league_name, matches in leagues_dict.items():
             greek_league_name = LEAGUE_TRANSLATIONS.get(league_name, league_name)
             
-            with st.expander(f"🏆 {greek_league_name} ({len(matches)})", expanded=False):
+            with st.expander(f"🏆 {greek_league_name} ({len(matches)})", expanded=True):
                 for m in matches:
                     col1, col2 = st.columns([1, 4])
                     with col1:
@@ -140,6 +107,7 @@ if os.path.exists(filename):
                         st.markdown(f'<div class="form-text">📊 Φόρμα {home_t}: {m["home_form"]}</div>', unsafe_allow_html=True)
                         st.markdown(f'<div class="form-text">📊 Φόρμα {away_t}: {m["away_form"]}</div>', unsafe_allow_html=True)
                     
+                    # 🔥 ΕΔΩ ΕΜΦΑΝΙΖΕΤΑΙ ΤΟ ΣΩΣΤΟ ΔΥΝΑΜΙΚΟ ΚΕΙΜΕΝΟ
                     if "🔥 [Bookmaker]" in m['prediction']:
                         clean_pred = m['prediction'].replace("🔥 [Bookmaker]", "").strip()
                         st.markdown(f'<div class="prediction-box-bookie">🔥 VIP Επιλογή: {clean_pred}</div>', unsafe_allow_html=True)
@@ -147,7 +115,7 @@ if os.path.exists(filename):
                         clean_pred = m['prediction'].replace("📊 [Στατιστικό]", "").strip()
                         st.markdown(f'<div class="prediction-box-stat">📊 Στατιστικό: {clean_pred}</div>', unsafe_allow_html=True)
                     
-                    st.markdown('<hr style="margin:10px 0px; border-top: 1px navajowhite;" />', unsafe_allow_html=True)
+                    st.markdown('<hr style="margin:10px 0px; border-top: 1px dashed #DDD;" />', unsafe_allow_html=True)
     else:
         st.info("ℹ️ Δεν υπάρχουν διαθέσιμοι αγώνες αυτή τη στιγμή.")
 else:
