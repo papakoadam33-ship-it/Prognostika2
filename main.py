@@ -11,7 +11,7 @@ ODDS_API_KEY = 'eda6dcd0115ab96a2bf0fad47945cd34'
 
 # Εδώ βάζεις το κλειδί από το football-data.org αν το έχεις. 
 # Αν δεν το έχεις αλλάξει, το σύστημα παραμένει ασφαλές και δείχνει τα βασικά στατιστικά (78.4%)
-FOOTBALL_DATA_API_KEY = 'ΕΔΩ_ΒΑΛΕ_ΤΟ_ΚΛΕΙΔΙ_ΑΠΟ_FOOTBALL_DATA' 
+FOOTBALL_DATA_API_KEY = 'a963742bcd5642afbe8c842d057f25ad' 
 
 DATA_FILE = "daily_predictions.txt"
 HISTORY_FILE = "history.json"
