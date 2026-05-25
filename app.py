@@ -1,8 +1,8 @@
 import streamlit as st
 import os
 
-# Ρύθμιση Σελίδας
-st.set_page_config(page_title="Marios Pro-Bet Pro", page_icon="⚡", layout="vertical")
+# Ρύθμιση Σελίδας (Διορθωμένο Layout)
+st.set_page_config(page_title="Marios Pro-Bet Pro", page_icon="⚡", layout="centered")
 
 # CSS για Επαγγελματικό Στοιχηματικό Design (Dark Mode & Gold)
 st.markdown("""
@@ -37,6 +37,7 @@ st.markdown("""
         border-radius: 8px;
         border-left: 5px solid #28a745;
         margin-bottom: 8px;
+        color: #63e6be;
     }
     .result-card-lost {
         background-color: #2b1616;
@@ -44,6 +45,7 @@ st.markdown("""
         border-radius: 8px;
         border-left: 5px solid #dc3545;
         margin-bottom: 8px;
+        color: #ff8787;
     }
     .tip-box {
         background: linear-gradient(90deg, #ffd700 0%, #ffaa00 100%);
@@ -64,7 +66,7 @@ st.markdown("""
         margin-top: 8px;
     }
     </style>
-""", unsafe_allow_value=True)
+""", unsafe_allow_html=True)
 
 # --- HEADER ΕΦΑΡΜΟΓΗΣ ---
 st.markdown("""
@@ -72,7 +74,7 @@ st.markdown("""
         <h1 style="color: #ffffff; margin: 0; font-size: 28px; letter-spacing: 1px;">⚡ MARIOS PRO-BET PRO ⚡</h1>
         <p style="color: #ffd700; margin: 5px 0 0 0; font-style: italic; font-size: 14px;">Poisson Distribution Model</p>
     </div>
-""", unsafe_allow_value=True)
+""", unsafe_allow_html=True)
 
 DATA_FILE = "daily_predictions.txt"
 
@@ -137,21 +139,19 @@ st.markdown(f"""
         <h2 style="color: #ffffff; margin: 5px 0; font-size: 28px;">{live_rate}</h2>
         <span style="background-color: #233d28; color: #63e6be; padding: 3px 8px; border-radius: 5px; font-size: 12px;">↑ 📊 Ζωντανά Δεδομένα</span>
     </div>
-""", unsafe_allow_value=True)
+""", unsafe_allow_html=True)
 
 if predictions_date:
     st.subheader(f"📅 {predictions_date}")
 
 # --- SECTION 1: ΖΩΝΤΑΝΑ/ΜΕΛΛΟΝΤΙΚΑ ΜΑΤΣ ---
 if current_matches:
-    # Ομαδοποίηση ανά λίγκα
     leagues = set(m["league"] for m in current_matches)
     for league in leagues:
-        st.markdown(f"<h3 style='color: #ffd700; margin-top: 20px; font-size: 20px;'>🏆 {league}</h3>", unsafe_allow_value=True)
+        st.markdown(f"<h3 style='color: #ffd700; margin-top: 20px; font-size: 20px;'>🏆 {league}</h3>", unsafe_allow_html=True)
         
         for m in current_matches:
             if m["league"] == league:
-                # Έλεγχος αν είναι VIP ή Στατιστικό σημείο για το σωστό χρώμα στο κουτάκι
                 box_class = "tip-box" if "🔥" in m["prediction"] else "stat-box"
                 clean_pred = m["prediction"].replace("🔥 [Bookmaker] ", "").replace("📊 [Στατιστικό] ", "")
                 
@@ -162,24 +162,21 @@ if current_matches:
                         <p style="color: #aaaaaa; margin: 0 0 10px 0; font-size: 13px;">📊 Φόρμα: {m["home_form"]} vs {m["away_form"]}</p>
                         <div class="{box_class}">{clean_pred}</div>
                     </div>
-                """, unsafe_allow_value=True)
+                """, unsafe_allow_html=True)
 else:
     st.info("⏳ Δεν υπάρχουν άλλα ενεργά ματς για σήμερα. Το μοντέλο θα ανανεωθεί αυτόματα στην επόμενη προγραμματισμένη ώρα!")
 
 st.markdown("---")
 
 # --- SECTION 2: ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
-st.markdown("<h3 style='color: #ffffff; font-size: 20px;'>🏁 Πρόσφατα Ταμεία (Results)</h3>", unsafe_allow_value=True)
+st.markdown("<h3 style='color: #ffffff; font-size: 20px;'>🏁 Πρόσφατα Ταμεία (Results)</h3>", unsafe_allow_html=True)
 
 if past_results:
     for res in past_results:
-        # Καθαρισμός του κειμένου "🏁"
         clean_res = res.replace("🏁", "").strip()
-        # Έλεγχος αν κέρδισε ή έχασε για το σωστό background (πράσινο/κόκκινο)
         if "✅" in clean_res:
-            st.markdown(f'<div class="result-card-won">{clean_res}</div>', unsafe_allow_value=True)
+            st.markdown(f'<div class="result-card-won">{clean_res}</div>', unsafe_allow_html=True)
         else:
             st.markdown(f'<div class="result-card-lost">{clean_res}</div>', unsafe_allow_value=True)
 else:
     st.write("ℹ️ Τα αποτελέσματα των αγώνων θα εμφανιστούν εδώ μόλις γίνει το live settlement.")
-
