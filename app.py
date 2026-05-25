@@ -8,6 +8,7 @@ LEAGUE_TRANSLATIONS = {
     "Premier League": "Πρωτάθλημα Αγγλίας (Premier League)",
     "Championship": "Αγγλία - Championship (Β')",
     "League 1": "Αγγλία - League One (Γ')",
+    "League 2": "Αγγλία - League Two (Δ')",
     "La Liga": "Πρωτάθλημα Ισπανίας (La Liga)",
     "La Liga 2 - Spain": "Ισπανία - Segunda Division (Β')",
     "Serie A - Italy": "Πρωτάθλημα Ιταλίας (Serie A)",
@@ -16,6 +17,7 @@ LEAGUE_TRANSLATIONS = {
     "Dutch Eredivisie": "Πρωτάθλημα Ολλανδίας (Eredivisie)",
     "Allsvenskan - Sweden": "Πρωτάθλημα Σουηδίας (Allsvenskan)",
     "Eliteserien - Norway": "Πρωτάθλημα Νορβηγίας (Eliteserien)",
+    "Austrian Football Bundesliga": "Πρωτάθλημα Αυστρίας",
     "Brazil Série A": "Πρωτάθλημα Βραζιλίας (Série A)",
     "MLS": "Πρωτάθλημα Αμερικής (MLS)",
     "Chinese Super League": "Πρωτάθλημα Κίνας (Super League)",
@@ -33,7 +35,6 @@ st.markdown("""
     .prediction-box-bookie { background-color: #FEE2E2; color: #991B1B; padding: 12px; border-radius: 8px; border-left: 5px solid #EF4444; font-weight: bold; margin-bottom: 15px; }
     .prediction-box-stat { background-color: #FEF3C7; color: #92400E; padding: 12px; border-radius: 8px; border-left: 5px solid #F59E0B; font-weight: bold; margin-bottom: 15px; }
     
-    /* Custom στυλ για τα μεγάλα VIP κουτιά στατιστικών */
     .metric-box-green {
         background-color: #D1FAE5;
         color: #065F46;
@@ -69,7 +70,6 @@ st.markdown('<div class="sub-header-text">🎯 Live ανανέωση βάσει 
 
 # --- ΚΑΡΤΕΛΑ 1: ΣΤΑΤΙΣΤΙΚΑ ΚΑΙ ΙΣΤΟΡΙΚΟ ΤΑΜΕΙΟΥ ---
 with st.expander("📈 Στατιστικά & Ιστορικό Ταμείου", expanded=False):
-    # Δημιουργία πανέμορφων custom κουτιών αντί για st.metric που σπάει
     col1, col2 = st.columns(2)
     with col1:
         st.markdown('<div class="metric-box-green">📈 Συνολικό Yield<span class="metric-val">+18.4%</span></div>', unsafe_allow_html=True)
