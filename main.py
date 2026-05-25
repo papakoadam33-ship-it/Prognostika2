@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 
 # --- ΡΥΘΜΙΣΕΙΣ API ΚΑΙ ΑΡΧΕΙΩΝ ---
-ODDS_API_KEY = os.getenv("ODDS_API_KEY", "ΤΟ_ODDS_API_KEY_ΣΟΥ")
+ODDS_API_KEY = os.getenv("ODDS_API_KEY", "eda6dcd0115ab96a2bf0fad47945cd34")
 FOOTBALL_DATA_KEY = os.getenv("FOOTBALL_DATA_KEY", "ΤΟ_FOOTBALL_DATA_KEY_ΣΟΥ")
 
 DATA_FILE = "daily_predictions.txt"
@@ -123,3 +123,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
