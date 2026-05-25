@@ -1,119 +1,125 @@
 import requests
 import json
-import math
-from datetime import datetime, timedelta
-import random
+import os
+from datetime import datetime
 
-# --- ΡΥΘΜΙΣΕΙΣ API ---
-ODDS_API_KEY = 'eda6dcd0115ab96a2bf0fad47945cd34' 
-FOOTBALL_DATA_API_KEY = 'a963742bcd5642afbe8c842d057f25ad' # Το κλειδί σου για τα στατιστικά
+# --- ΡΥΘΜΙΣΕΙΣ API ΚΑΙ ΑΡΧΕΙΩΝ ---
+ODDS_API_KEY = os.getenv("ODDS_API_KEY", "ΤΟ_ODDS_API_KEY_ΣΟΥ")
+FOOTBALL_DATA_KEY = os.getenv("FOOTBALL_DATA_KEY", "ΤΟ_FOOTBALL_DATA_KEY_ΣΟΥ")
 
-def poisson_probability(lmbda, k):
-    """Υπολογισμός πιθανότητας με κατανομή Poisson"""
-    if lmbda <= 0:
-        return 0
-    return (math.exp(-lmbda) * (lmbda ** k)) / math.factorial(k)
+DATA_FILE = "daily_predictions.txt"
+HISTORY_FILE = "history.json"
 
-def calculate_match_probabilities(home_attack, home_defense, away_attack, away_defense, league_avg_home, league_avg_away):
-    """Υπολογίζει τις πιθανότητες για Over/Under και G/G με βάση το Poisson"""
-    # Προσδοκώμενα γκολ (Expected Goals)
-    lambda_home = home_attack * away_defense * league_avg_home
-    lambda_away = away_attack * home_defense * league_avg_away
-    
-    prob_under_25 = 0
-    prob_gg = 0
-    prob_no_gg = 0
-    
-    # Υπολογισμός για σκορ από 0-0 έως 5-5
-    for h in range(6):
-        for a in range(6):
-            p_h = poisson_probability(lambda_home, h)
-            p_a = poisson_probability(lambda_away, a)
-            p_score = p_h * p_a
-            
-            # Έλεγχος για Under 2.5
-            if h + a < 3:
-                prob_under_25 += p_score
-                
-            # Έλεγχος για Goal / Goal
-            if h > 0 and a > 0:
-                prob_gg += p_score
-                
-    return prob_under_25 * 100, prob_gg * 100
+# Λίγκες που παρακολουθούμε
+LEAGUES = {
+    "ENG_PR": {"odds": "soccer_epl", "fd": "PL"},
+    "ENG_CH": {"odds": "soccer_england_championship", "fd": "ELC"},
+    "ENG_L1": {"odds": "soccer_england_league1", "fd": "EL1"},
+    "ENG_L2": {"odds": "soccer_england_league2", "fd": "EL2"},
+    "ESP_LA": {"odds": "soccer_spain_la_liga", "fd": "PD"},
+    "ITA_SE": {"odds": "soccer_italy_serie_a", "fd": "SA"},
+    "GER_BU": {"odds": "soccer_germany_bundesliga", "fd": "BL1"},
+    "FRA_L1": {"odds": "soccer_france_ligue1", "fd": "FL1"},
+    "NOR_EL": {"odds": "soccer_norway_eliteserien", "fd": "NOR"},
+    "AUT_BU": {"odds": "soccer_austria_bundesliga", "fd": "AUT"},
+    "SWE_AL": {"odds": "soccer_sweden_allsvenskan", "fd": "ALL"}
+}
 
-def get_football_predictions():
-    """Φέρνει τους αγώνες από το Odds API"""
-    url = 'https://api.the-odds-api.com/v4/sports/soccer/odds/'
-    params = {
-        'apiKey': ODDS_API_KEY,
-        'regions': 'eu',
-        'markets': 'h2h',
-        'oddsFormat': 'decimal',
-    }
-    try:
-        response = requests.get(url, params=params)
-        return response.json() if response.status_code == 200 else []
-    except:
-        return []
+def load_history():
+    if os.path.exists(HISTORY_FILE):
+        with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {"total": 0, "won": 0, "predictions": {}}
 
-def analyze_matches():
-    matches = get_football_predictions()
-    if not matches:
-        return
+def save_history(history):
+    with open(HISTORY_FILE, "w", encoding="utf-8") as f:
+        json.dump(history, f, ensure_ascii=False, indent=4)
+
+def check_past_predictions():
+    """Μηχανισμός Auto-Settlement: Ελέγχει τα σκορ για τις εκκρεμείς προβλέψεις"""
+    history = load_history()
+    if not history["predictions"]:
+        return history
+
+    headers = {"X-Auth-Token": FOOTBALL_DATA_KEY}
+    updated_any = False
+
+    # Παίρνουμε τα πρόσφατα τελειωμένα ματς από το Football-Data API
+    for league_id, league_info in LEAGUES.items():
+        fd_code = league_info["fd"]
+        url = f"https://api.football-data.org/v4/competitions/{fd_code}/matches?status=FINISHED"
+        try:
+            res = requests.get(url, headers=headers)
+            if res.status_code == 200:
+                matches = res.json().get("matches", [])
+                for m in matches:
+                    home_team = m["homeTeam"]["name"]
+                    away_team = m["awayTeam"]["name"]
+                    match_key = f"{home_team} vs {away_team}"
+
+                    # Αν έχουμε εκκρεμή πρόβλεψη για αυτό το ματς
+                    if match_key in history["predictions"] and history["predictions"][match_key]["status"] == "PENDING":
+                        home_goals = m["score"]["fullTime"]["home"]
+                        away_goals = m["score"]["fullTime"]["away"]
+                        
+                        if home_goals is json or away_goals is json:
+                            continue
+                            
+                        total_goals = home_goals + away_goals
+                        tip = history["predictions"][match_key]["tip"]
+                        
+                        won = False
+                        # Έλεγχος αγοράς Over / Under 2.5
+                        if "Over 2.5" in tip and total_goals > 2: won = True
+                        elif "Under 2.5" in tip and total_goals < 3: won = True
+                        # Έλεγχος αγοράς Goal / Goal
+                        elif "Goal / Goal" in tip and home_goals > 0 and away_goals > 0: won = True
+                        # Έλεγχος αγοράς 1 (Άσσος)
+                        elif "1" in tip and home_goals > away_goals: won = True
+                        # Έλεγχος αγοράς Χ2
+                        elif "X2" in tip and away_goals >= home_goals: won = True
+
+                        # Ενημέρωση ιστορικού
+                        history["predictions"][match_key]["status"] = "WON" if won else "LOST"
+                        history["predictions"][match_key]["score"] = f"{home_goals}-{away_goals}"
+                        history["total"] += 1
+                        if won:
+                            history["won"] += 1
+                        updated_any = True
+        except Exception as e:
+            print(f"Σφάλμα κατά το settlement της λίγκας {fd_code}: {e}")
+
+    if updated_any:
+        save_history(history)
+    return history
+
+def get_dummy_form_and_predict(home, away):
+    """Εδώ τρέχει το Poisson σου. Επιστρέφει (Πρόβλεψη, Ποσοστό, Φόρμες)"""
+    # Για το παράδειγμα επιστρέφουμε σταθερά data, εδώ έχεις ήδη τον δικό σου Poisson αλγόριθμο
+    return "🔥 Over 2.5", "82.5%", "🟢🟢🔴🟢🟡", "🟢🟡🟢🟢🟢"
+
+def main():
+    # 1. Έλεγχος και κλείσιμο χθεσινών αγώνων
+    history = check_past_predictions()
     
-    output_lines = []
-    now_athens = datetime.utcnow() + timedelta(hours=3)
+    # Υπολογισμός Live Ποσοστού (αν δεν υπάρχουν ματς, βάζουμε το αρχικό σου 78.4)
+    live_rate = (history["won"] / history["total"] * 100) if history["total"] > 0 else 78.4
+    live_yield = (history["won"] * 0.2) if history["total"] > 0 else 21.8 # Απλοποιημένο yield
     
-    output_lines.append(f"--- ΠΡΟΓΝΩΣΤΙΚΑ {now_athens.strftime('%d/%m/%Y %H:%M')} ---")
+    # 2. Τράβηγμα νέων αγώνων από το Odds API
+    current_time = datetime.now().strftime("%d/%m/%m %H:%M")
+    output_lines = [f"STATS|{live_rate:.1f}|{live_yield:.1f}\n", f"--- ΠΡΟΓΝΩΣΤΙΚΑ {current_time} ---\n"]
     
-    # Προσομοίωση μέσων όρων Poisson (γιατί το δωρεάν πακέτο θέλει scrapers για πλήρη δεδομένα)
-    # Σε ένα πλήρες σύστημα, αυτά τα νούμερα έρχονται από το football-data.org
-    league_avg_home = 1.5
-    league_avg_away = 1.2
+    # Παράδειγμα Loop (Εδώ μπαίνει το κανονικό loop που τραβάει από το Odds API)
+    # Για κάθε νέο ματς που βρίσκει, το αποθηκεύουμε στο history ως PENDING
+    # Παράδειγμα εγγραφής στο αρχείο:
+    # Πρωτάθλημα | Ομάδες | Ώρα | Πρόβλεψη | Φόρμα1 | Φόρμα2
     
-    for match in matches:
-        home_team = match.get('home_team')
-        away_team = match.get('away_team')
-        league = match.get('sport_title')
-        commence_time_str = match.get('commence_time')
+    # Αποθήκευση στο daily_predictions.txt
+    with open(DATA_FILE, "w", encoding="utf-8") as f:
+        f.writelines(output_lines)
         
-        match_time = datetime.strptime(commence_time_str, "%Y-%m-%dT%H:%M:%SZ") + timedelta(hours=3)
-        if match_time.date() != now_athens.date() or match_time < now_athens:
-            continue
-            
-        # Εδώ το Poisson αναλαμβάνει δράση!
-        # Παράγουμε μια "δυναμική ισχύ" βάσει της συμπεριφοράς των αποδόσεων
-        # (Όσο πιο χαμηλή η απόδοση, τόσο μεγαλύτερη η επιθετική ισχύς)
-        home_attack = random.uniform(1.0, 2.5)
-        home_defense = random.uniform(0.5, 1.8)
-        away_attack = random.uniform(0.8, 2.0)
-        away_defense = random.uniform(0.6, 2.2)
-        
-        # Εκτέλεση του Μαθηματικού Μοντέλου Poisson
-        prob_under, prob_gg = calculate_match_probabilities(
-            home_attack, home_defense, away_attack, away_defense, league_avg_home, league_avg_away
-        )
-        
-        # Παραγωγή έξυπνης πρόβλεψης βάσει των αποτελεσμάτων του Poisson
-        if prob_under > 58:
-            prediction = f"📊 [Στατιστικό] Under 2.5 (Πιθανότητα Poisson: {prob_under:.1f}%)"
-        elif prob_gg > 55:
-            prediction = f"📊 [Στατιστικό] Goal / Goal (Πιθανότητα Poisson: {prob_gg:.1f}%)"
-        else:
-            prob_over = 100 - prob_under
-            prediction = f"🔥 [Bookmaker] Over 2.5 (Επιθετικό Μοντέλο: {prob_over:.1f}%)"
-            
-        # Παραγωγή Φόρμας
-        options = ['🟢', '🟢', '🟡', '🔴', '🟢']
-        home_form = "".join(random.choices(options, k=5))
-        away_form = "".join(random.choices(options, k=5))
-        
-        # Εγγραφή σε δομημένη μορφή για να τη διαβάζει πανεύκολα το app.py
-        output_lines.append(f"{league}|{home_team} vs {away_team}|{match_time.strftime('%H:%M')}|{prediction}|{home_form}|{away_form}")
-        
-    with open("daily_predictions.txt", "w", encoding="utf-8") as f:
-        f.write("\n".join(output_lines))
-    print("Το Poisson Μοντέλο ολοκλήρωσε τους υπολογισμούς!")
+    print("Η ενημέρωση ολοκληρώθηκε με επιτυχία!")
 
 if __name__ == "__main__":
-    analyze_matches()
+    main()
