@@ -58,20 +58,22 @@ st.markdown("""
     .tip-box {
         background: linear-gradient(90deg, #ffd700 0%, #ffaa00 100%);
         color: black !important;
-        padding: 10px;
+        padding: 12px;
         border-radius: 8px;
         font-weight: bold;
         text-align: center;
         margin-top: 8px;
+        font-size: 16px;
     }
     .stat-box {
         background: linear-gradient(90deg, #d4af37 0%, #aa7c11 100%);
         color: black !important;
-        padding: 10px;
+        padding: 12px;
         border-radius: 8px;
         font-weight: bold;
         text-align: center;
         margin-top: 8px;
+        font-size: 16px;
     }
     </style>
 """, unsafe_allow_html=True)
@@ -83,6 +85,14 @@ st.markdown("""
         <p style="color: #ffd700; margin: 5px 0 0 0; font-style: italic; font-size: 14px;">Poisson Distribution Model</p>
     </div>
 """, unsafe_allow_html=True)
+
+def clean_league_name(text):
+    hardcoded = {
+        "Λίγκε 1 - Φράνκε": "Λιγκ 1 (Γαλλία)",
+        "Μπουντεσλίγκα 2 - Γκερμανυ": "Β' Γερμανίας (Bundesliga 2)",
+        "Β' Σουηδίας (Superettan)": "Β' Σουηδίας (Superettan)"
+    }
+    return hardcoded.get(text.strip(), text)
 
 DATA_FILE = "daily_predictions.txt"
 
@@ -124,18 +134,25 @@ if os.path.exists(DATA_FILE):
         else:
             if "|" in line:
                 parts = line.split("|")
-                # Ευέλικτο διάβασμα: αν λείπουν πεδία, βάζει προεπιλογές αντί να κρασάρει
                 if len(parts) >= 4:
-                    league = parts[0]
+                    league = clean_league_name(parts[0])
                     teams = parts[1]
                     time_val = parts[2] if ":" in parts[2] else "📅 Σήμερα"
                     pred = parts[3] if ":" in parts[2] else parts[2]
-                    h_form = parts[4] if len(parts) > 4 else "🟢🟢🟡"
-                    a_form = parts[5] if len(parts) > 5 else "🟢🔴🟢"
+                    
+                    # Καθαρισμός των emojis της φόρμας για να μην μπερδεύονται με κείμενα
+                    raw_home_form = parts[4] if len(parts) > 4 else "🟢🟢🟡🔴🟢"
+                    raw_away_form = parts[5] if len(parts) > 5 else "🟢🔴🟢🟢🟡"
+                    
+                    home_emojis = "".join([c for c in raw_home_form if c in ['🟢', '🔴', '🟡']])
+                    away_emojis = "".join([c for c in raw_away_form if c in ['🟢', '🔴', '🟡']])
+                    
+                    if not home_emojis: home_emojis = "🟢🟢🟡🔴🟢"
+                    if not away_emojis: away_emojis = "🟢🔴🟢🟢🟡"
                     
                     current_matches.append({
                         "league": league, "teams": teams, "time": time_val,
-                        "prediction": pred, "home_form": h_form, "away_form": a_form
+                        "prediction": pred, "home_form": home_emojis, "away_form": away_emojis
                     })
 
 # --- ΕΜΦΑΝΙΣΗ LIVE ΣΤΑΤΙΣΤΙΚΩΝ ---
@@ -157,9 +174,9 @@ if predictions_date:
 
 # --- SECTION 1: ΖΩΝΤΑΝΑ/ΜΕΛΛΟΝΤΙΚΑ ΜΑΤΣ ---
 if current_matches:
-    leagues = set(m["league"] for m in current_matches)
+    leagues = sorted(list(set(m["league"] for m in current_matches)))
     for league in leagues:
-        st.markdown(f"<h3 style='color: #ffd700; margin-top: 20px; font-size: 20px;'>🏆 {league}</h3>", unsafe_allow_html=True)
+        st.markdown(f"<h3 style='color: #ffd700; margin-top: 25px; font-size: 20px;'>🏆 {league}</h3>", unsafe_allow_html=True)
         
         for m in current_matches:
             if m["league"] == league:
@@ -170,7 +187,7 @@ if current_matches:
                     <div class="match-card">
                         <span style="background-color: #dc3545; color: white; padding: 3px 8px; border-radius: 5px; font-size: 11px; font-weight: bold;">🕒 {m["time"]}</span>
                         <h4 style="color: #ffffff; margin: 10px 0 5px 0; font-size: 18px;">{m["teams"]}</h4>
-                        <p style="color: #aaaaaa; margin: 0 0 10px 0; font-size: 13px;">📊 Φόρμα: {m["home_form"]} vs {m["away_form"]}</p>
+                        <p style="color: #aaaaaa; margin: 0 0 12px 0; font-size: 13px;">📊 Φόρμα: {m["home_form"]} vs {m["away_form"]}</p>
                         <div class="{box_class}">{clean_pred}</div>
                     </div>
                 """, unsafe_allow_html=True)
@@ -190,5 +207,5 @@ if past_results:
         else:
             st.markdown(f'<div class="result-card-lost">{clean_res}</div>', unsafe_allow_html=True)
 else:
-    st.write("ℹ️ Τα αποτελέσματα των αγώνων θα εμφανιστούν εδώ μόλις γίνει το live settlement.")
+    st.info("Τα αποτελέσματα των αγώνων θα εμφανιστούν εδώ μόλις γίνει το live settlement.")
 
