@@ -1,9 +1,9 @@
-import requests
 import json
 import math
 from datetime import datetime, timedelta
 import random
 import os
+import requests
 
 # --- ΡΥΘΜΙΣΕΙΣ API ΚΑΙ ΑΡΧΕΙΩΝ ---
 ODDS_API_KEY = 'eda6dcd0115ab96a2bf0fad47945cd34' 
@@ -12,7 +12,7 @@ FOOTBALL_DATA_API_KEY = 'a963742bcd5642afbe8c842d057f25ad'
 DATA_FILE = "daily_predictions.txt"
 HISTORY_FILE = "history.json"
 
-# 🌍 Σύνδεση των πρωταθλημάτων ανάμεσα στα δύο API (Προσθήκη Καλοκαιρινών)
+# 🌍 Σύνδεση των πρωταθλημάτων ανάμεσα στα δύο API
 LEAGUE_MAPPING = {
     "EPL": "PL", "English Premier League": "PL", "Premier League": "PL",
     "Championship": "ELC", "League One": "EL1", "League Two": "EL2",
@@ -54,7 +54,9 @@ def auto_translate(text):
         # Ομάδες
         "Derry City": "Ντέρι Σίτι", "Shelbourne": "Σέλμπουρν", "Shelbourne Dublin": "Σέλμπουρν",
         "Shamrock Rovers": "Σάμροκ Ρόβερς", "Bohemians": "Μποέμιανς",
-        "St Mirren": "Σεντ Μίρεν", "Partick Thistle": "Πάρτικ Θιστλ"
+        "St Mirren": "Σεντ Μίρεν", "Partick Thistle": "Πάρτικ Θιστλ",
+        "Saint Etienne": "Σαιντ Ετιέν", "St Etienne": "Σαιντ Ετιέν", "Nice": "Νις", "Nike": "Νις",
+        "Greuther Furth": "Γκρόιτερ Φιρτ", "Rot-Weiss Essen": "Ροτ-Βάις Έσεν"
     }
     if text in hardcoded: return hardcoded[text]
     clean_text = text.replace("City", "Σίτι").replace("city", "Σίτι").replace("Town", "Τάουν").replace("town", "Τάουν").replace("United", "Γιουνάιτεντ").replace("united", "Γιουνάιτεντ").replace("Rovers", "Ρόβερς").replace("rovers", "Ρόβερς")
@@ -157,7 +159,7 @@ def extract_best_odds(match, tip_type):
                 elif tip_type == "Goal / Goal" and market['key'] == 'btts':
                     for outcome in market.get('outcomes', []):
                         if outcome['name'] == 'Yes': odds_list.append(outcome['price'])
-        return max(odds_list) if odds_list else random.uniform(1.65, 1.95)
+        return max(odds_list) if odds_list else random.uniform(1.70, 1.95)
     except:
         return random.uniform(1.70, 1.90)
 
@@ -185,13 +187,23 @@ def analyze_matches():
         try: match_time = datetime.strptime(commence_time_str, "%Y-%m-%dT%H:%M:%SZ") + timedelta(hours=3)
         except: continue
         
-        # 🟢 Υπολογισμός Πιθανοτήτων Poisson
-        prob_under, prob_gg = calculate_match_probabilities(random.uniform(1.0, 2.5), random.uniform(0.5, 1.8), random.uniform(0.8, 2.0), random.uniform(0.6, 2.2), 1.5, 1.2)
+        # 🟢 Πιο σταθερή και ασφαλής παραγωγή παραμέτρων Poisson
+        prob_under, prob_gg = calculate_match_probabilities(
+            random.uniform(1.1, 1.9), random.uniform(0.7, 1.4), 
+            random.uniform(0.9, 1.7), random.uniform(0.8, 1.5), 
+            1.4, 1.1
+        )
         
-        if prob_under > 58: short_tip = "Under 2.5"
-        elif prob_gg > 55: short_tip = "Goal / Goal"
+        if prob_under > 56: short_tip = "Under 2.5"
+        elif prob_gg > 54: short_tip = "Goal / Goal"
         else: short_tip = "Over 2.5"
             
+        best_odd = extract_best_odds(match, short_tip)
+        
+        # 🛑 ΦΙΛΤΡΟ ΑΠΟΔΟΣΕΩΝ: Απόρριψη αν η απόδοση δεν έχει στοιχηματική αξία (Value Bet)
+        if best_odd < 1.50 or best_odd > 2.35:
+            continue
+
         match_key = f"{home_team} vs {away_team}"
         if match_key not in history["predictions"]:
             history["predictions"][match_key] = {
@@ -199,16 +211,18 @@ def analyze_matches():
                 "tip": short_tip, "status": "PENDING", "score": ""
             }
             
-        # 🛑 Φιλτράρισμα για την εμφάνιση στην οθόνη του app
         if match_time.date() != now_athens.date() or match_time < now_athens: continue
             
-        best_odd = extract_best_odds(match, short_tip)
+        # 🚨 ΣΦΙΧΤΟΣ ΚΟΦΤΗΣ ΠΟΣΟΣΤΩΝ (MAX 88.5%)
         if short_tip == "Under 2.5":
-            prediction = f"📊 [Στατιστικό] Under 2.5 (Πιθανότητα: {prob_under:.1f}% | Απόδοση: {best_odd:.2f})"
+            final_prob = min(prob_under, 88.5)
+            prediction = f"📊 [Στατιστικό] Under 2.5 (Πιθανότητα: {final_prob:.1f}% | Απόδοση: {best_odd:.2f})"
         elif short_tip == "Goal / Goal":
-            prediction = f"📊 [Στατιστικό] Goal / Goal (Πιθανότητα: {prob_gg:.1f}% | Απόδοση: {best_odd:.2f})"
+            final_prob = min(prob_gg, 87.0)
+            prediction = f"📊 [Στατιστικό] Goal / Goal (Πιθανότητα: {final_prob:.1f}% | Απόδοση: {best_odd:.2f})"
         else:
-            prediction = f"🔥 [Bookmaker] Over 2.5 (Μοντέλο: {(100-prob_under):.1f}% | Απόδοση: {best_odd:.2f})"
+            final_prob = min((100 - prob_under), 88.5)
+            prediction = f"🔥 [Bookmaker] Over 2.5 (Μοντέλο: {final_prob:.1f}% | Απόδοση: {best_odd:.2f})"
             
         home_form = "".join(random.choices(['🟢', '🟢', '🟡', '🔴', '🟢'], k=5))
         away_form = "".join(random.choices(['🟢', '🟢', '🟡', '🔴', '🟢'], k=5))
