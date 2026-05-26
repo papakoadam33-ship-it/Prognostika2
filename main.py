@@ -12,33 +12,46 @@ FOOTBALL_DATA_API_KEY = 'a963742bcd5642afbe8c842d057f25ad'
 DATA_FILE = "daily_predictions.txt"
 HISTORY_FILE = "history.json"
 
+# 🌍 Σύνδεση των πρωταθλημάτων ανάμεσα στα δύο API (Προσθήκη Καλοκαιρινών)
 LEAGUE_MAPPING = {
     "EPL": "PL", "English Premier League": "PL", "Premier League": "PL",
     "Championship": "ELC", "League One": "EL1", "League Two": "EL2",
     "La Liga": "PD", "Primera Division": "PD",
     "Serie A": "SA", "Serie A - Italy": "SA",
-    "Bundesliga": "BL1",
+    "Bundesliga": "BL1", "Bundesliga 2": "BL2",
     "Ligue 1": "FL1", "Ligue 1 - France": "FL1",
     "Eliteserien": "NOR", "Eliteserien - Norway": "NOR",
     "Allsvenskan": "ALL", "Allsvenskan - Sweden": "ALL",
-    "Superettan": "ALL", "Superettan - Sweden": "ALL"
+    "Superettan": "SE", "Superettan - Sweden": "SE",
+    "MLS": "MLS", "Major League Soccer": "MLS",
+    "Campeonato Brasileiro Serie A": "BSA", "Primera Division - Argentina": "ASD"
 }
 
 def auto_translate(text):
     if not text: return ""
     hardcoded = {
-        "English Premier League": "Πρωτάθλημα Αγγλίας (Premier League)",
-        "Premier League": "Πρωτάθλημα Αγγλίας (Premier League)",
-        "Allsvenskan": "Πρωτάθλημα Σουηδίας (Allsvenskan)",
-        "Superettan": "Β' Σουηδίας (Superettan)",
-        "Superettan - Sweden": "Β' Σουηδίας (Superettan)",
-        "Eliteserien": "Πρωτάθλημα Νορβηγίας (Eliteserien)",
-        "Bundesliga": "Πρωτάθλημα Γερμανίας (Bundesliga)",
-        "La Liga": "Πρωτάθλημα Ισπανίας (La Liga)",
-        "Serie A": "Πρωτάθλημα Ιταλίας (Serie A)",
-        "Ligue 1": "Πρωτάθλημα Γαλλίας (Ligue 1)",
-        "Premiership - Scotland": "Πρωτάθλημα Σκωτίας (Premiership)",
-        "League of Ireland": "Πρωτάθλημα Ιρλανδίας",
+        "English Premier League": "Αγγλία - Premier League 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "Premier League": "Αγγλία - Premier League 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "Championship": "Αγγλία - Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "Allsvenskan": "Σουηδία - Allsvenskan 🇸🇪",
+        "Superettan": "Σουηδία - Superettan 🇸🇪",
+        "Superettan - Sweden": "Σουηδία - Superettan 🇸🇪",
+        "Eliteserien": "Νορβηγία - Eliteserien 🇳🇴",
+        "Eliteserien - Norway": "Νορβηγία - Eliteserien 🇳🇴",
+        "Bundesliga": "Γερμανία - Bundesliga 🇩🇪",
+        "Bundesliga 2": "Γερμανία - Bundesliga 2 🇩🇪",
+        "Μπουνντεσλίγκα 2 - Γκερμανυ": "Γερμανία - Bundesliga 2 🇩🇪",
+        "La Liga": "Ισπανία - La Liga 🇪🇸",
+        "Serie A": "Ιταλία - Serie A 🇮🇹",
+        "Ligue 1": "Γαλλία - Ligue 1 🇫🇷",
+        "Λίγκε 1 - Φράνκε": "Γαλλία - Ligue 1 🇫🇷",
+        "Premiership - Scotland": "Σκωτία - Premiership 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "League of Ireland": "Ιρλανδία - Premier Division 🇮🇪",
+        "Major League Soccer": "ΗΠΑ - MLS 🇺🇸",
+        "MLS": "ΗΠΑ - MLS 🇺🇸",
+        "Campeonato Brasileiro Serie A": "Βραζιλία - Serie A 🇧🇷",
+        "Primera Division - Argentina": "Αργεντινή - Primera Division 🇦🇷",
+        # Ομάδες
         "Derry City": "Ντέρι Σίτι", "Shelbourne": "Σέλμπουρν", "Shelbourne Dublin": "Σέλμπουρν",
         "Shamrock Rovers": "Σάμροκ Ρόβερς", "Bohemians": "Μποέμιανς",
         "St Mirren": "Σεντ Μίρεν", "Partick Thistle": "Πάρτικ Θιστλ"
@@ -122,7 +135,7 @@ def check_past_predictions():
 
 def get_football_predictions():
     url = 'https://api.the-odds-api.com/v4/sports/soccer/odds/'
-    params = {'apiKey': ODDS_API_KEY, 'regions': 'eu', 'markets': 'h2h,totals', 'oddsFormat': 'decimal'}
+    params = {'apiKey': ODDS_API_KEY, 'regions': 'eu', 'markets': 'h2h,totals,btts', 'oddsFormat': 'decimal'}
     try:
         res = requests.get(url, params=params, timeout=10)
         return res.json() if res.status_code == 200 else []
@@ -172,7 +185,7 @@ def analyze_matches():
         try: match_time = datetime.strptime(commence_time_str, "%Y-%m-%dT%H:%M:%SZ") + timedelta(hours=3)
         except: continue
         
-        # 🟢 ΔΙΟΡΘΩΣΗ: Πρώτα υπολογίζουμε και αποθηκεύουμε το ματς στο Ιστορικό
+        # 🟢 Υπολογισμός Πιθανοτήτων Poisson
         prob_under, prob_gg = calculate_match_probabilities(random.uniform(1.0, 2.5), random.uniform(0.5, 1.8), random.uniform(0.8, 2.0), random.uniform(0.6, 2.2), 1.5, 1.2)
         
         if prob_under > 58: short_tip = "Under 2.5"
@@ -186,7 +199,7 @@ def analyze_matches():
                 "tip": short_tip, "status": "PENDING", "score": ""
             }
             
-        # 🛑 ΤΩΡΑ φιλτράρουμε αν το ματς ανήκει στο σημερινό κουπόνι για την οθόνη
+        # 🛑 Φιλτράρισμα για την εμφάνιση στην οθόνη του app
         if match_time.date() != now_athens.date() or match_time < now_athens: continue
             
         best_odd = extract_best_odds(match, short_tip)
@@ -217,7 +230,7 @@ def analyze_matches():
     save_history(history)
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(output_lines))
-    print("🎯 Το app διορθώθηκε και είναι έτοιμο να καταγράψει τα αυριανά ταμεία!")
+    print("🎯 Το έξυπνο main.py ενημερώθηκε και είναι έτοιμο!")
 
 if __name__ == "__main__":
     analyze_matches()
