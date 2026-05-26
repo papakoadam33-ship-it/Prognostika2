@@ -211,7 +211,8 @@ def analyze_matches():
                 "tip": short_tip, "status": "PENDING", "score": ""
             }
             
-        if match_time.date() != now_athens.date() or match_time < now_athens: continue
+        # 🚨 ΑΦΑΙΡΕΘΗΚΕ ΠΡΟΣΩΡΙΝΑ Ο ΚΟΦΤΗΣ ΩΡΑΣ ΓΙΑ ΝΑ ΞΕΚΟΛΛΗΣΕΙ ΤΟ APP
+        # if match_time.date() != now_athens.date() or match_time < now_athens: continue
             
         # 🚨 ΣΦΙΧΤΟΣ ΚΟΦΤΗΣ ΠΟΣΟΣΤΩΝ (MAX 88.5%)
         if short_tip == "Under 2.5":
@@ -248,3 +249,4 @@ def analyze_matches():
 
 if __name__ == "__main__":
     analyze_matches()
+
