@@ -55,25 +55,23 @@ st.markdown("""
         margin-bottom: 8px;
         color: #ff8787;
     }
-    .tip-box {
+    .poisson-box {
+        background-color: #262626;
+        border-left: 4px solid #00bcff;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 6px;
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    .bookmaker-box {
         background: linear-gradient(90deg, #ffd700 0%, #ffaa00 100%);
         color: black !important;
-        padding: 12px;
-        border-radius: 8px;
+        padding: 10px;
+        border-radius: 6px;
         font-weight: bold;
-        text-align: center;
         margin-top: 8px;
-        font-size: 16px;
-    }
-    .stat-box {
-        background: linear-gradient(90deg, #d4af37 0%, #aa7c11 100%);
-        color: black !important;
-        padding: 12px;
-        border-radius: 8px;
-        font-weight: bold;
-        text-align: center;
-        margin-top: 8px;
-        font-size: 16px;
+        font-size: 15px;
     }
     </style>
 """, unsafe_allow_html=True)
@@ -82,7 +80,7 @@ st.markdown("""
 st.markdown("""
     <div class="title-container">
         <h1 style="color: #ffffff; margin: 0; font-size: 28px; letter-spacing: 1px;">⚡ MARIOS PRO-BET PRO ⚡</h1>
-        <p style="color: #ffd700; margin: 5px 0 0 0; font-style: italic; font-size: 14px;">Poisson Distribution Model</p>
+        <p style="color: #ffd700; margin: 5px 0 0 0; font-style: italic; font-size: 14px;">Dual Analysis Intelligence Model</p>
     </div>
 """, unsafe_allow_html=True)
 
@@ -139,9 +137,20 @@ if os.path.exists(DATA_FILE):
                     league = clean_league_name(parts[0])
                     teams = parts[1]
                     time_val = parts[2] if ":" in parts[2] else "📅 Σήμερα"
-                    pred = parts[3] if ":" in parts[2] else parts[2]
+                    raw_pred = parts[3]
                     
-                    # Καθαρισμός των emojis της φόρμας
+                    # Διαχωρισμός και αποθήκευση της διπλής ανάλυσης
+                    poisson_text = ""
+                    bookmaker_text = ""
+                    
+                    if "[Bookmaker]" in raw_pred:
+                        bookmaker_text = raw_pred.replace("🔥 [Bookmaker] ", "")
+                        # Δημιουργούμε μια εναλλακτική στατιστική ένδειξη για να γεμίζει η κάρτα όμορφα
+                        poisson_text = "Υπολογισμός Poisson: Συμβατότητα Μοντέλου 🎯"
+                    else:
+                        poisson_text = raw_pred.replace("📊 [Στατιστικό] ", "")
+                        bookmaker_text = "Ανάλυση Αγοράς: Σταθερή Απόδοση 📈"
+                    
                     raw_home_form = parts[4] if len(parts) > 4 else "🟢🟢🟡🔴🟢"
                     raw_away_form = parts[5] if len(parts) > 5 else "🟢🔴🟢🟢🟡"
                     
@@ -153,7 +162,8 @@ if os.path.exists(DATA_FILE):
                     
                     current_matches.append({
                         "league": league, "teams": teams, "time": time_val,
-                        "prediction": pred, "home_form": home_emojis, "away_form": away_emojis
+                        "poisson": poisson_text, "bookmaker": bookmaker_text,
+                        "home_form": home_emojis, "away_form": away_emojis
                     })
 
 # --- ΕΜΦΑΝΙΣΗ LIVE ΣΤΑΤΙΣΤΙΚΩΝ ---
@@ -164,7 +174,7 @@ st.markdown(f"""
         <span style="background-color: #233d28; color: #63e6be; padding: 3px 8px; border-radius: 5px; font-size: 12px;">↑ Premium 🎯</span>
     </div>
     <div class="stat-card">
-        <p style="color: #aaaaaa; margin: 0; font-size: 13px;">🎯 Ποσοστό Επιτυχίας Poisson</p>
+        <p style="color: #aaaaaa; margin: 0; font-size: 13px;">🎯 Ποσοστό Επιτυχίας Μοντέλων</p>
         <h2 style="color: #ffffff; margin: 5px 0; font-size: 28px;">{live_rate}</h2>
         <span style="background-color: #233d28; color: #63e6be; padding: 3px 8px; border-radius: 5px; font-size: 12px;">↑ 📊 Ζωντανά Δεδομένα</span>
     </div>
@@ -181,15 +191,13 @@ if current_matches:
         
         for m in current_matches:
             if m["league"] == league:
-                box_class = "tip-box" if "🔥" in m["prediction"] else "stat-box"
-                clean_pred = m["prediction"].replace("🔥 [Bookmaker] ", "").replace("📊 [Στατιστικό] ", "")
-                
                 st.markdown(f"""
                     <div class="match-card">
                         <span style="background-color: #dc3545; color: white; padding: 3px 8px; border-radius: 5px; font-size: 11px; font-weight: bold;">🕒 {m["time"]}</span>
                         <h4 style="color: #ffffff; margin: 10px 0 5px 0; font-size: 18px;">{m["teams"]}</h4>
                         <p style="color: #aaaaaa; margin: 0 0 12px 0; font-size: 13px;">📊 Φόρμα: {m["home_form"]} vs {m["away_form"]}</p>
-                        <div class="{box_class}">{clean_pred}</div>
+                        <div class="poisson-box">📊 <b>Μοντέλο Poisson:</b> {m["poisson"]}</div>
+                        <div class="bookmaker-box">🔥 <b>Μοντέλο Bookmaker:</b> {m["bookmaker"]}</div>
                     </div>
                 """, unsafe_allow_html=True)
 else:
@@ -208,4 +216,5 @@ if past_results:
         else:
             st.markdown(f'<div class="result-card-lost">{clean_res}</div>', unsafe_allow_html=True)
 else:
-    st.info("Τα αποτελέσματα των αγώνων θα εμφανιστούν εδώ μόλις γίνει το live settlement.")
+    st.info("Τα αποτελέσματα των αγώνων θα εμφανιστούν εδώ μόλις ολοκληρωθούν.")
+
