@@ -86,11 +86,12 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
+# --- ΣΥΝΑΡΤΗΣΗ ΚΑΘΑΡΙΣΜΟΥ ΟΝΟΜΑΤΩΝ ΠΡΩΤΑΘΛΗΜΑΤΩΝ ---
 def clean_league_name(text):
     hardcoded = {
-        "Λίγκε 1 - Φράνκε": "Λιγκ 1 (Γαλλία)",
-        "Μπουντεσλίγκα 2 - Γκερμανυ": "Β' Γερμανίας (Bundesliga 2)",
-        "Β' Σουηδίας (Superettan)": "Β' Σουηδίας (Superettan)"
+        "Λίγκε 1 - Φράνκε": "Γαλλία - Ligue 1 🇫🇷",
+        "Μπουνντεσλίγκα 2 - Γκερμανυ": "Γερμανία - Bundesliga 2 🇩🇪",
+        "Β' Σουηδίας (Superettan)": "Σουηδία - Superettan 🇸🇪"
     }
     return hardcoded.get(text.strip(), text)
 
@@ -140,7 +141,7 @@ if os.path.exists(DATA_FILE):
                     time_val = parts[2] if ":" in parts[2] else "📅 Σήμερα"
                     pred = parts[3] if ":" in parts[2] else parts[2]
                     
-                    # Καθαρισμός των emojis της φόρμας για να μην μπερδεύονται με κείμενα
+                    # Καθαρισμός των emojis της φόρμας
                     raw_home_form = parts[4] if len(parts) > 4 else "🟢🟢🟡🔴🟢"
                     raw_away_form = parts[5] if len(parts) > 5 else "🟢🔴🟢🟢🟡"
                     
@@ -208,4 +209,3 @@ if past_results:
             st.markdown(f'<div class="result-card-lost">{clean_res}</div>', unsafe_allow_html=True)
 else:
     st.info("Τα αποτελέσματα των αγώνων θα εμφανιστούν εδώ μόλις γίνει το live settlement.")
-
