@@ -10,11 +10,13 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write
+      contents: write  # Δίνει ρητά δικαίωμα εγγραφής στο token του job
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        persist-credentials: true  # Κρατάει τα δικαιώματα για το push
 
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -29,14 +31,10 @@ jobs:
     - name: Run prediction script
       run: python main.py
 
-    # 🔑 ΚΑΘΑΡΟ PUSH ΜΕ ΤΟ ΕΤΟΙΜΟ ΚΛΕΙΔΙ ΑΣΦΑΛΕΙΑΣ ΤΟΥ GITHUB
     - name: Commit and Push changes
-      env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
         git add daily_predictions.txt history.json || true
         git commit -m "Auto-update predictions & statistics" || true
-        git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git main
-
+        git push origin main
