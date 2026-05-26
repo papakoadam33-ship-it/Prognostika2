@@ -3,7 +3,9 @@ name: Daily Football Predictions
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 5 * * *'
+    # Ώρες Ελλάδας (EEST): 08:00, 12:00, 16:00, 20:00
+    # Μετατροπή σε UTC (3 ώρες πίσω): 05:00, 09:00, 13:00, 17:00
+    - cron: '0 5,9,13,17 * * *'
 
 jobs:
   build:
@@ -29,7 +31,6 @@ jobs:
     - name: Run prediction script
       run: python main.py
 
-    # 🚀 Ο απόλυτος τρόπος push που δεν κολλάει ποτέ σε σφάλματα 128 / 403
     - name: Upload updated files
       uses: mikeal/publish-to-github-action@master
       env:
