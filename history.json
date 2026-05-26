@@ -105,6 +105,22 @@
             "tip": "Goal / Goal",
             "status": "PENDING",
             "score": ""
+        },
+        "Grêmio vs Montevideo City Torque": {
+            "date": "2026-05-27",
+            "league": "Copa Sudamericana",
+            "fd_league": null,
+            "tip": "Goal / Goal",
+            "status": "PENDING",
+            "score": ""
+        },
+        "Lanus vs Mirassol": {
+            "date": "2026-05-27",
+            "league": "Copa Libertadores",
+            "fd_league": null,
+            "tip": "Over 2.5",
+            "status": "PENDING",
+            "score": ""
         }
     }
 }
