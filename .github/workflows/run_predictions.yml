@@ -10,13 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write  # Δίνει ρητά δικαίωμα εγγραφής στο token του job
+      contents: write
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-      with:
-        persist-credentials: true  # Κρατάει τα δικαιώματα για το push
 
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -31,10 +29,8 @@ jobs:
     - name: Run prediction script
       run: python main.py
 
-    - name: Commit and Push changes
-      run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add daily_predictions.txt history.json || true
-        git commit -m "Auto-update predictions & statistics" || true
-        git push origin main
+    # 🚀 Ο απόλυτος τρόπος push που δεν κολλάει ποτέ σε σφάλματα 128 / 403
+    - name: Upload updated files
+      uses: mikeal/publish-to-github-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
