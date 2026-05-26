@@ -1,8 +1,16 @@
 import streamlit as st
 import os
 
-# Ρύθμιση Σελίδας (Διορθωμένο Layout)
+# Ρύθμιση Σελίδας
 st.set_page_config(page_title="Marios Pro-Bet Pro", page_icon="⚡", layout="centered")
+
+# Injection κώδικα για αλλαγή του εικονιδίου στην αρχική οθόνη του κινητού (Αστραπή)
+st.markdown("""
+    <head>
+        <link rel="icon" type="image/png" href="https://img.icons8.com/emoji/96/000000/high-voltage-emoji.png" sizes="192x192">
+        <link rel="apple-touch-icon" href="https://img.icons8.com/emoji/96/000000/high-voltage-emoji.png">
+    </head>
+""", unsafe_allow_html=True)
 
 # CSS για Επαγγελματικό Στοιχηματικό Design (Dark Mode & Gold)
 st.markdown("""
@@ -78,7 +86,6 @@ st.markdown("""
 
 DATA_FILE = "daily_predictions.txt"
 
-# Αρχικές τιμές (Backups)
 live_yield = "+21.8%"
 live_rate = "78.4%"
 predictions_date = ""
@@ -96,7 +103,6 @@ if os.path.exists(DATA_FILE):
         line = line.strip()
         if not line: continue
         
-        # 1. Διάβασμα Στατιστικών (Yield / Rate)
         if line.startswith("STATS|"):
             parts = line.split("|")
             if len(parts) >= 3:
@@ -104,27 +110,32 @@ if os.path.exists(DATA_FILE):
                 live_yield = f"+{parts[2]}%" if float(parts[2]) > 0 else f"{parts[2]}%"
             continue
             
-        # 2. Διάβασμα Ημερομηνίας Προγνωστικών
         if line.startswith("--- ΠΡΟΓΝΩΣΤΙΚΑ"):
             predictions_date = line.replace("---", "").strip()
             continue
             
-        # 3. Εντοπισμός Section Αποτελεσμάτων
         if "ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ" in line:
             is_results_section = True
             continue
             
-        # 4. Διαχωρισμός ανάμεσα σε Ματς και Αποτελέσματα
         if is_results_section:
             if line.startswith("🏁"):
                 past_results.append(line)
         else:
             if "|" in line:
                 parts = line.split("|")
-                if len(parts) == 6:
+                # Ευέλικτο διάβασμα: αν λείπουν πεδία, βάζει προεπιλογές αντί να κρασάρει
+                if len(parts) >= 4:
+                    league = parts[0]
+                    teams = parts[1]
+                    time_val = parts[2] if ":" in parts[2] else "📅 Σήμερα"
+                    pred = parts[3] if ":" in parts[2] else parts[2]
+                    h_form = parts[4] if len(parts) > 4 else "🟢🟢🟡"
+                    a_form = parts[5] if len(parts) > 5 else "🟢🔴🟢"
+                    
                     current_matches.append({
-                        "league": parts[0], "teams": parts[1], "time": parts[2],
-                        "prediction": parts[3], "home_form": parts[4], "away_form": parts[5]
+                        "league": league, "teams": teams, "time": time_val,
+                        "prediction": pred, "home_form": h_form, "away_form": a_form
                     })
 
 # --- ΕΜΦΑΝΙΣΗ LIVE ΣΤΑΤΙΣΤΙΚΩΝ ---
@@ -177,6 +188,7 @@ if past_results:
         if "✅" in clean_res:
             st.markdown(f'<div class="result-card-won">{clean_res}</div>', unsafe_allow_html=True)
         else:
-            st.markdown(f'<div class="result-card-lost">{clean_res}</div>', unsafe_allow_value=True)
+            st.markdown(f'<div class="result-card-lost">{clean_res}</div>', unsafe_allow_html=True)
 else:
     st.write("ℹ️ Τα αποτελέσματα των αγώνων θα εμφανιστούν εδώ μόλις γίνει το live settlement.")
+
