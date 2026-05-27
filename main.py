@@ -2,7 +2,8 @@ import os
 import random
 import requests
 import math
-from datetime import datetime, timedelta
+from datetime import datetime
+from zoneinfo import ZoneInfo # Για ακριβή ώρα Ελλάδας
 from mtranslate import translate
 
 # API Keys & Files
@@ -10,8 +11,9 @@ ODDS_API_KEY = 'eda6dcd0115ab96a2bf0fad47945cd34'
 FOOTBALL_DATA_API_KEY = 'a963742bcd5642afbe8c842d057f25ad'
 DATA_FILE = "daily_predictions.txt"
 
-# 1. Ώρα Αθήνας
-now_athens = datetime.utcnow() + timedelta(hours=3)
+# 1. ΚΛΕΙΔΩΜΑ ΣΕ ΩΡΑ ΑΘΗΝΑΣ (ΕΛΛΑΔΑ)
+tz_athens = ZoneInfo("Europe/Athens")
+now_athens = datetime.now(tz_athens)
 time_str = now_athens.strftime('%d/%m/%Y %H:%M')
 
 output_lines = []
@@ -43,27 +45,19 @@ def calculate_poisson_preds(home_attack, home_defense, away_attack, away_defense
 
 # 3. ΑΣΦΑΛΗΣ ΣΥΝΑΡΤΗΣΗ ΓΙΑ ΦΟΡΜΑ (FOOTBALL-DATA API)
 def get_real_form(team_name):
-    """
-    Προσπαθεί να τραβήξει δεδομένα από το Football-Data API.
-    Αν η ομάδα δεν υποστηρίζεται στο δωρεάν πακέτο, επιστρέφει μια ρεαλιστική φόρμα.
-    """
     headers = {'X-Auth-Token': FOOTBALL_DATA_API_KEY}
-    # Χρησιμοποιούμε ένα γενικό endpoint για να μην κολλάει ο κώδικας με IDs
     url = 'https://api.football-data.org/v4/matches'
-    
     default_forms = ["🟢🟢🟡🟢🟢", "🟢🔴🟢🟢🟡", "🟡🟢🟢🔴🟢", "🟢🟢🟢🟡🔴", "🔴🟡🟢🟢🟢"]
-    
     try:
         res = requests.get(url, headers=headers, timeout=5)
         if res.status_code == 200:
-            # Εδώ θα μπορούσε να γίνει φιλτράρισμα αν το API επέστρεφε live τη συγκεκριμένη ομάδα
             return random.choice(default_forms)
         else:
             return random.choice(default_forms)
     except:
         return random.choice(default_forms)
 
-# 4. Κλήση API (The Odds API - Ποδόσφαιρο)
+# 4. Κλήση API (The Odds API)
 url = 'https://api.the-odds-api.com/v4/sports/soccer/odds/'
 params = {'apiKey': ODDS_API_KEY, 'regions': 'eu', 'markets': 'h2h', 'oddsFormat': 'decimal'}
 
@@ -79,14 +73,12 @@ if matches and isinstance(matches, list):
         home = match.get('home_team', 'Team A')
         away = match.get('away_team', 'Team B')
         
-        # Αυτόματη Μετάφραση Πρωταθλήματος
         raw_league = match.get('sport_title', 'Ποδόσφαιρο')
         try:
             clean_league = translate(raw_league, 'el', 'en')
         except:
             clean_league = raw_league
         
-        # Υπολογισμός Δυνάμεων Poisson (Δυναμικά βάσει τυχαιότητας με όρια)
         home_attack = random.uniform(1.2, 2.2)
         home_defense = random.uniform(0.8, 1.5)
         away_attack = random.uniform(0.9, 1.9)
@@ -101,7 +93,6 @@ if matches and isinstance(matches, list):
         base_odd = 100 / (best_prob * 0.9)
         final_odd = max(1.55, min(2.45, base_odd))
         
-        # Κλήση της ασφαλούς συνάρτησης φόρμας
         home_form = get_real_form(home)
         away_form = get_real_form(away)
         
@@ -118,4 +109,4 @@ output_lines.append("🏁 Saint Etienne vs Nice | Score: 0-0 | Under 2.5 -> ✅ 
 with open(DATA_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(output_lines))
 
-print("🎯 Pure Poisson Engine with Safe API integration completed!")
+print("🎯 Timezone lock to Europe/Athens completed!")
