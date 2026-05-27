@@ -1,12 +1,12 @@
 STATS|81.4|26.2
---- ΠΡΟΓΝΩΣΤΙΚΑ 27/05/2026 20:09 ---
-Test Matches|Ireland vs New Zealand|20:45|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 76% | Απόδοση: 1.80)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
-WTA French Open|Jasmine Paolini vs Solana Sierra|20:45|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 76% | Απόδοση: 1.80)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
-ATP French Open|Valentin Royer vs Novak Djokovic|20:45|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 76% | Απόδοση: 1.80)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
-WTA French Open|Hailey Baptiste vs Xiyu Wang|20:45|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 76% | Απόδοση: 1.80)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
-IPL|Sunrisers Hyderabad vs Rajasthan Royals|20:45|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 76% | Απόδοση: 1.80)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
-ATP French Open|James Duckworth vs Rafael Jodar|20:45|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 76% | Απόδοση: 1.80)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
-ATP French Open|Ugo Humbert vs Quentin Halys|20:45|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 76% | Απόδοση: 1.80)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
-ATP French Open|Nishesh Basavareddy vs Alex Michelsen|20:45|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 76% | Απόδοση: 1.80)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+--- ΠΡΟΓΝΩΣΤΙΚΑ 27/05/2026 20:48 ---
+UEFA Europa Conference League|Crystal Palace vs Rayo Vallecano|20:45|📊 [Στατιστικό] Under 2.5 (Πιθανότητα: 71.9% | Απόδοση: 1.98)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+Copa Sudamericana|Olimpia Asunción vs Audax Italiano|20:45|📊 [Στατιστικό] Under 2.5 (Πιθανότητα: 63.1% | Απόδοση: 1.99)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+Copa Sudamericana|Vasco da Gama vs Barracas Central|20:45|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 69.5% | Απόδοση: 1.73)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+Copa Sudamericana|Caracas FC vs Botafogo|20:45|📊 [Στατιστικό] Under 2.5 (Πιθανότητα: 67.0% | Απόδοση: 2.12)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+Copa Sudamericana|Club Cienciano vs CA Juventud|20:45|📊 [Στατιστικό] Goal / Goal (Πιθανότητα: 74.7% | Απόδοση: 1.74)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+Copa Sudamericana|Racing Club vs Club Independiente Petrolero|20:45|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 75.2% | Απόδοση: 1.84)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+Copa Sudamericana|Clube Atlético Mineiro vs Puerto Cabello|20:45|📊 [Στατιστικό] Under 2.5 (Πιθανότητα: 70.3% | Απόδοση: 1.95)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+Copa Libertadores|Independiente del Valle vs Rosario Central|20:45|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 75.6% | Απόδοση: 1.89)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Saint Etienne vs Nice | Score: 0-0 | Under 2.5 -> ✅ ΔΙΚΑΙΩΘΗΚΕ
