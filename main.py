@@ -5,14 +5,12 @@ import random
 import os
 import requests
 
-# --- ΡΥΘΜΙΣΕΙΣ API ΚΑΙ ΑΡΧΕΙΩΝ ---
 ODDS_API_KEY = 'eda6dcd0115ab96a2bf0fad47945cd34' 
 FOOTBALL_DATA_API_KEY = 'a963742bcd5642afbe8c842d057f25ad' 
 
 DATA_FILE = "daily_predictions.txt"
 HISTORY_FILE = "history.json"
 
-# 🌍 Σύνδεση των πρωταθλημάτων ανάμεσα στα δύο API
 LEAGUE_MAPPING = {
     "EPL": "PL", "English Premier League": "PL", "Premier League": "PL",
     "Championship": "ELC", "League One": "EL1", "League Two": "EL2",
@@ -30,9 +28,9 @@ LEAGUE_MAPPING = {
 def auto_translate(text):
     if not text: return ""
     hardcoded = {
-        "English Premier League": "Αγγλία - Premier League 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "Premier League": "Αγγλία - Premier League 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "Championship": "Αγγλία - Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "English Premier League": "Αγγλία - Premier League 🏴\u200d󠁧󠁢󠁥󠁮󠁧󠁿",
+        "Premier League": "Αγγλία - Premier League 🏴\u200d󠁧󠁢󠁥󠁮󠁧󠁿",
+        "Championship": "Αγγλία - Championship 🏴\u200d󠁧󠁢󠁥󠁮󠁧󠁿",
         "Allsvenskan": "Σουηδία - Allsvenskan 🇸🇪",
         "Superettan": "Σουηδία - Superettan 🇸🇪",
         "Superettan - Sweden": "Σουηδία - Superettan 🇸🇪",
@@ -45,13 +43,12 @@ def auto_translate(text):
         "Serie A": "Ιταλία - Serie A 🇮🇹",
         "Ligue 1": "Γαλλία - Ligue 1 🇫🇷",
         "Λίγκε 1 - Φράνκε": "Γαλλία - Ligue 1 🇫🇷",
-        "Premiership - Scotland": "Σκωτία - Premiership 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "Premiership - Scotland": "Σκωτία - Premiership 🏴\u200d󠁧󠁢󠁳󠁣󠁴󠁿",
         "League of Ireland": "Ιρλανδία - Premier Division 🇮🇪",
         "Major League Soccer": "ΗΠΑ - MLS 🇺🇸",
         "MLS": "ΗΠΑ - MLS 🇺🇸",
         "Campeonato Brasileiro Serie A": "Βραζιλία - Serie A 🇧🇷",
         "Primera Division - Argentina": "Αργεντινή - Primera Division 🇦🇷",
-        # Ομάδες
         "Derry City": "Ντέρι Σίτι", "Shelbourne": "Σέλμπουρν", "Shelbourne Dublin": "Σέλμπουρν",
         "Shamrock Rovers": "Σάμροκ Ρόβερς", "Bohemians": "Μποέμιανς",
         "St Mirren": "Σεντ Μίρεν", "Partick Thistle": "Πάρτικ Θιστλ",
@@ -187,7 +184,6 @@ def analyze_matches():
         try: match_time = datetime.strptime(commence_time_str, "%Y-%m-%dT%H:%M:%SZ") + timedelta(hours=3)
         except: continue
         
-        # 🟢 Πιο σταθερή και ασφαλής παραγωγή παραμέτρων Poisson
         prob_under, prob_gg = calculate_match_probabilities(
             random.uniform(1.1, 1.9), random.uniform(0.7, 1.4), 
             random.uniform(0.9, 1.7), random.uniform(0.8, 1.5), 
@@ -200,7 +196,6 @@ def analyze_matches():
             
         best_odd = extract_best_odds(match, short_tip)
         
-        # 🛑 ΦΙΛΤΡΟ ΑΠΟΔΟΣΕΩΝ: Απόρριψη αν η απόδοση δεν έχει στοιχηματική αξία (Value Bet)
         if best_odd < 1.50 or best_odd > 2.35:
             continue
 
@@ -211,10 +206,6 @@ def analyze_matches():
                 "tip": short_tip, "status": "PENDING", "score": ""
             }
             
-        # 🚨 ΑΦΑΙΡΕΘΗΚΕ ΠΡΟΣΩΡΙΝΑ Ο ΚΟΦΤΗΣ ΩΡΑΣ ΓΙΑ ΝΑ ΞΕΚΟΛΛΗΣΕΙ ΤΟ APP
-        # if match_time.date() != now_athens.date() or match_time < now_athens: continue
-            
-        # 🚨 ΣΦΙΧΤΟΣ ΚΟΦΤΗΣ ΠΟΣΟΣΤΩΝ (MAX 88.5%)
         if short_tip == "Under 2.5":
             final_prob = min(prob_under, 88.5)
             prediction = f"📊 [Στατιστικό] Under 2.5 (Πιθανότητα: {final_prob:.1f}% | Απόδοση: {best_odd:.2f})"
@@ -245,8 +236,7 @@ def analyze_matches():
     save_history(history)
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(output_lines))
-    print("🎯 Το έξυπνο main.py ενημερώθηκε και είναι έτοιμο!")
+    print("🎯 Το main.py ενημερώθηκε!")
 
 if __name__ == "__main__":
     analyze_matches()
-
