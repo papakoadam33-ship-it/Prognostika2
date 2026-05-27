@@ -11,7 +11,7 @@ ODDS_API_KEY = 'eda6dcd0115ab96a2bf0fad47945cd34'
 FOOTBALL_DATA_API_KEY = 'a963742bcd5642afbe8c842d057f25ad'
 DATA_FILE = "daily_predictions.txt"
 
-# 1. ΚΛΕΙΔΩΜΑ ΣΕ ΩΡΑ ΑΘΗΝΑΣ (ΕΛΛΑΔΑ)
+# 1. ΚΛΕΙΔΩΜΑ ΣΕ ΩΡΑ ΑΘΗΝΑΣ (ΕΛΛΑΔΑ) ΓΙΑ ΤΗΝ ΚΟΡΥΦΗ
 tz_athens = ZoneInfo("Europe/Athens")
 now_athens = datetime.now(tz_athens)
 time_str = now_athens.strftime('%d/%m/%Y %H:%M')
@@ -43,7 +43,7 @@ def calculate_poisson_preds(home_attack, home_defense, away_attack, away_defense
     under_25_prob = 1.0 - over_25_prob
     return over_25_prob * 100, under_25_prob * 100, gg_prob * 100
 
-# 3. ΑΣΦΑΛΗΣ ΣΥΝΑΡΤΗΣΗ ΓΙΑ ΦΟΡΜΑ (FOOTBALL-DATA API)
+# 3. ΑΣΦΑΛΗΣ ΣΥΝΑΡΤΗΣΗ ΓΙΑ ΦΟΡΜΑ
 def get_real_form(team_name):
     headers = {'X-Auth-Token': FOOTBALL_DATA_API_KEY}
     url = 'https://api.football-data.org/v4/matches'
@@ -73,6 +73,20 @@ if matches and isinstance(matches, list):
         home = match.get('home_team', 'Team A')
         away = match.get('away_team', 'Team B')
         
+        # ΑΥΤΟΜΑΤΗ ΜΕΤΑΤΡΟΠΗ ΩΡΑΣ ΑΓΩΝΑ ΣΕ ΩΡΑ ΕΛΛΑΔΑΣ
+        commence_time_raw = match.get('commence_time') # Παίρνουμε την ώρα UTC από το API
+        match_time_str = "20:45" # Fallback αν δεν υπάρχει η ώρα
+        
+        if commence_time_raw:
+            try:
+                # Μετατροπή του κειμένου "2026-05-27T22:00:00Z" σε αντικείμενο datetime
+                utc_time = datetime.strptime(commence_time_raw, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=ZoneInfo("UTC"))
+                # Μετατροπή της ώρας UTC σε ώρα Ελλάδας (Athens)
+                athens_time = utc_time.astimezone(tz_athens)
+                match_time_str = athens_time.strftime("%H:%M") # Κρατάμε μόνο το "01:00" π.χ.
+            except:
+                match_time_str = "20:45"
+
         raw_league = match.get('sport_title', 'Ποδόσφαιρο')
         try:
             clean_league = translate(raw_league, 'el', 'en')
@@ -97,7 +111,8 @@ if matches and isinstance(matches, list):
         away_form = get_real_form(away)
         
         prediction = f"📊 [Στατιστικό] {best_tip} (Πιθανότητα: {best_prob:.1f}% | Απόδοση: {final_odd:.2f})"
-        output_lines.append(f"🏆 {clean_league}|{home} vs {away}|20:45|{prediction}|{home_form}|{away_form}")
+        # Εδώ μπαίνει η δυναμική match_time_str αντί για το σταθερό "20:45"
+        output_lines.append(f"🏆 {clean_league}|{home} vs {away}|{match_time_str}|{prediction}|{home_form}|{away_form}")
 else:
     output_lines.append("🏆 Αγγλία - Premier League|Manchester City vs Liverpool|21:00|📊 [Στατιστικό] Goal / Goal (Πιθανότητα: 78.0% | Απόδοση: 1.72)|🟢🟢🟢🔴🟢|🟢🟡🔴🟢🟢")
 
@@ -109,4 +124,4 @@ output_lines.append("🏁 Saint Etienne vs Nice | Score: 0-0 | Under 2.5 -> ✅ 
 with open(DATA_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(output_lines))
 
-print("🎯 Timezone lock to Europe/Athens completed!")
+print("🎯 Match time dynamic conversion to Europe/Athens completed successfully!")
