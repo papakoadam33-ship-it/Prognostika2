@@ -1,8 +1,12 @@
 STATS|81.4|26.2
---- ΠΡΟΓΝΩΣΤΙΚΑ 27/05/2026 20:15 ---
-Διεθνή Φιλικά 🏆|Ομάδα Α vs Ομάδα Β|21:00|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 78.5% | Απόδοση: 1.85)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
-Σουηδία - Allsvenskan 🇸🇪|Μάλμε vs Χάμαρμπι|21:45|📊 [Στατιστικό] Goal / Goal (Πιθανότητα: 72.0% | Απόδοση: 1.75)|🟢🟢🟢🔴🟢|🟢🟡🔴🟢🟢
-Νορβηγία - Eliteserien 🇳🇴|Μπόντο Γκλιμτ vs Μόλντε|22:00|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 84.0% | Απόδοση: 1.68)|🟢🟢🟢🟢🟡|🟢🔴🟢🟢🟡
+--- ΠΡΟΓΝΩΣΤΙΚΑ 27/05/2026 20:09 ---
+Test Matches|Ireland vs New Zealand|20:45|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 76% | Απόδοση: 1.80)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+WTA French Open|Jasmine Paolini vs Solana Sierra|20:45|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 76% | Απόδοση: 1.80)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+ATP French Open|Valentin Royer vs Novak Djokovic|20:45|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 76% | Απόδοση: 1.80)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+WTA French Open|Hailey Baptiste vs Xiyu Wang|20:45|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 76% | Απόδοση: 1.80)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+IPL|Sunrisers Hyderabad vs Rajasthan Royals|20:45|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 76% | Απόδοση: 1.80)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+ATP French Open|James Duckworth vs Rafael Jodar|20:45|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 76% | Απόδοση: 1.80)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+ATP French Open|Ugo Humbert vs Quentin Halys|20:45|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 76% | Απόδοση: 1.80)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+ATP French Open|Nishesh Basavareddy vs Alex Michelsen|20:45|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 76% | Απόδοση: 1.80)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Saint Etienne vs Nice | Score: 0-0 | Under 2.5 -> ✅ ΔΙΚΑΙΩΘΗΚΕ
-🏁 Greuther Furth vs Rot-Weiss Essen | Score: 2-0 | Under 2.5 -> ✅ ΔΙΚΑΙΩΘΗΚΕ
