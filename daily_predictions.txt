@@ -1,12 +1,12 @@
 STATS|81.4|26.2
---- ΠΡΟΓΝΩΣΤΙΚΑ 27/05/2026 23:03 ---
-🏆 UEFA Europa Conference League|Crystal Palace vs Rayo Vallecano|22:01|📊 [Στατιστικό] Goal / Goal (Πιθανότητα: 66.8% | Απόδοση: 1.66)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
-🏆 Copa Sudamericana|Olimpia Asunción vs Audax Italiano|01:00|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 69.2% | Απόδοση: 1.61)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
-🏆 Copa Sudamericana|Vasco da Gama vs Barracas Central|01:00|📊 [Στατιστικό] Goal / Goal (Πιθανότητα: 63.2% | Απόδοση: 1.76)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
-🏆 Copa Sudamericana|Caracas FC vs Botafogo|01:00|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 66.3% | Απόδοση: 1.67)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
-🏆 Copa Sudamericana|Club Cienciano vs CA Juventud|01:00|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 69.4% | Απόδοση: 1.60)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
-🏆 Copa Sudamericana|Racing Club vs Club Independiente Petrolero|01:00|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 78.1% | Απόδοση: 1.55)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
-🏆 Copa Sudamericana|Clube Atlético Mineiro vs Puerto Cabello|01:00|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 58.0% | Απόδοση: 1.91)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
-🏆 Κόπα Λιμπερταδόρες|Independiente del Valle vs Rosario Central|01:00|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 76.1% | Απόδοση: 1.55)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
+--- ΠΡΟΓΝΩΣΤΙΚΑ 27/05/2026 23:27 ---
+🏆 UEFA Europa Conference League|Crystal Palace vs Rayo Vallecano|22:01|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 76.7% | Απόδοση: 1.55)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
+🏆 Copa Sudamericana|Olimpia Asunción vs Audax Italiano|01:00|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 69.9% | Απόδοση: 1.59)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
+🏆 Copa Sudamericana|Vasco da Gama vs Barracas Central|01:00|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 73.6% | Απόδοση: 1.55)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
+🏆 Copa Sudamericana|Caracas FC vs Botafogo|01:00|📊 [Στατιστικό] Goal / Goal (Πιθανότητα: 65.3% | Απόδοση: 1.70)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
+🏆 Copa Sudamericana|Club Cienciano vs CA Juventud|01:00|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 66.6% | Απόδοση: 1.67)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
+🏆 Copa Sudamericana|Racing Club vs Club Independiente Petrolero|01:00|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 69.1% | Απόδοση: 1.61)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 Copa Sudamericana|Clube Atlético Mineiro vs Puerto Cabello|01:00|📊 [Στατιστικό] Goal / Goal (Πιθανότητα: 59.7% | Απόδοση: 1.86)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
+🏆 Κόπα Λιμπερταδόρες|Independiente del Valle vs Rosario Central|01:00|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 78.9% | Απόδοση: 1.55)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Saint Etienne vs Nice | Score: 0-0 | Under 2.5 -> ✅ ΔΙΚΑΙΩΘΗΚΕ
