@@ -2,6 +2,7 @@ import os
 import random
 import requests
 from datetime import datetime, timedelta
+from mtranslate import translate
 
 # API Keys & Files
 ODDS_API_KEY = 'eda6dcd0115ab96a2bf0fad47945cd34'
@@ -15,22 +16,6 @@ time_str = now_athens.strftime('%d/%m/%Y %H:%M')
 output_lines = []
 output_lines.append("STATS|81.4|26.2")
 output_lines.append(f"--- ΠΡΟΓΝΩΣΤΙΚΑ {time_str} ---")
-
-# Λεξικό Μετάφρασης ΜΟΝΟ για Πρωταθλήματα
-LEAGUE_TRANSLATIONS = {
-    "⚽ English Premier League": "Αγγλία - Premier League 🏴\u200d󠁢󠁥󠁮󠁧󠁿",
-    "Premier League": "Αγγλία - Premier League 🏴\u200d󠁢󠁥󠁮󠁧󠁿",
-    "Championship": "Αγγλία - Championship 🏴\u200d󠁢󠁥󠁮󠁧󠁿",
-    "La Liga": "Ισπανία - La Liga 🇪🇸",
-    "Primera Division": "Ισπανία - La Liga 🇪🇸",
-    "Serie A": "Ιταλία - Serie A 🇮🇹",
-    "Bundesliga": "Γερμανία - Bundesliga 🇩🇪",
-    "Bundesliga 2": "Γερμανία - Bundesliga 2 🇩🇪",
-    "Ligue 1": "Γαλλία - Ligue 1 🇫🇷",
-    "Allsvenskan": "Σουηδία - Allsvenskan 🇸🇪",
-    "Superettan": "Σουηδία - Superettan 🇸🇪",
-    "Eliteserien": "Νορβηγία - Eliteserien 🇳🇴"
-}
 
 # 3. Κλήση API - Κλειδωμένο στο Ποδόσφαιρο (soccer)
 url = 'https://api.the-odds-api.com/v4/sports/soccer/odds/'
@@ -55,9 +40,12 @@ if matches and isinstance(matches, list):
         home = match.get('home_team', 'Team A')
         away = match.get('away_team', 'Team B')
         
-        # Μετάφραση Πρωταθλήματος (αν υπάρχει στο λεξικό, αλλιώς κρατάει το αγγλικό)
+        # AYTOMATH ΜΕΤΑΦΡΑΣΗ ΠΡΩΤΑΘΛΗΜΑΤΟΣ ΣΤΑ ΕΛΛΗΝΙΚΑ
         raw_league = match.get('sport_title', 'Ποδόσφαιρο')
-        clean_league = LEAGUE_TRANSLATIONS.get(raw_league, raw_league)
+        try:
+            clean_league = translate(raw_league, 'el', 'en')
+        except:
+            clean_league = raw_league # Fallback αν αποτύχει η μετάφραση
         
         # Επιλογή τυχαίου στοιχηματικού σημείου
         selected_option = random.choice(prediction_options)
@@ -66,10 +54,9 @@ if matches and isinstance(matches, list):
         odd = random.uniform(selected_option["odd_min"], selected_option["odd_max"])
         
         prediction = f"📊 [Στατιστικό] {tip} (Πιθανότητα: {prob:.1f}% | Απόδοση: {odd:.2f})"
-        output_lines.append(f"{clean_league}|{home} vs {away}|20:45|{prediction}|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡")
+        output_lines.append(f"🏆 {clean_league}|{home} vs {away}|20:45|{prediction}|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡")
 else:
-    output_lines.append("Αγγλία - Premier League 🏴\u200d󠁢󠁥󠁮󠁧󠁿|Manchester City vs Liverpool|21:00|📊 [Στατιστικό] Goal / Goal (Πιθανότητα: 78.0% | Απόδοση: 1.72)|🟢🟢🟢|🟢🟡🔴")
-    output_lines.append("Ισπανία - La Liga 🇪🇸|Real Madrid vs Barcelona|22:00|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 81.5% | Απόδοση: 1.68)|🟢🟢🟡|🟢🟢🔴")
+    output_lines.append("🏆 Αγγλία - Premier League|Manchester City vs Liverpool|21:00|📊 [Στατιστικό] Goal / Goal (Πιθανότητα: 78.0% | Απόδοση: 1.72)|🟢🟢🟢|🟢🟡🔴")
 
 # 5. Αποτελέσματα
 output_lines.append("--- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---")
@@ -79,4 +66,4 @@ output_lines.append("🏁 Saint Etienne vs Nice | Score: 0-0 | Under 2.5 -> ✅ 
 with open(DATA_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(output_lines))
 
-print("🎯 Football update with league translation completed!")
+print("🎯 Dynamic update with live translation completed!")
