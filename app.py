@@ -139,17 +139,20 @@ if os.path.exists(DATA_FILE):
                     time_val = parts[2] if ":" in parts[2] else "📅 Σήμερα"
                     raw_pred = parts[3]
                     
-                    # Διαχωρισμός και αποθήκευση της διπλής ανάλυσης
+                    # Έξυπνος διαχωρισμός Τελικού Αποτελέσματος και Ημιχρόνου
                     poisson_text = ""
-                    bookmaker_text = ""
+                    halftime_text = ""
                     
-                    if "[Bookmaker]" in raw_pred:
-                        bookmaker_text = raw_pred.replace("🔥 [Bookmaker] ", "")
-                        # Δημιουργούμε μια εναλλακτική στατιστική ένδειξη για να γεμίζει η κάρτα όμορφα
-                        poisson_text = "Υπολογισμός Poisson: Συμβατότητα Μοντέλου 🎯"
+                    # Καθαρίζουμε το αρχικό πρόθεμα αν υπάρχει
+                    clean_pred = raw_pred.replace("📊 [Στατιστικό] ", "").replace("📊 ", "")
+                    
+                    if "✨" in clean_pred:
+                        pred_parts = clean_pred.split("✨")
+                        poisson_text = pred_parts[0].strip()
+                        halftime_text = f"✨ {pred_parts[1].strip()}"
                     else:
-                        poisson_text = raw_pred.replace("📊 [Στατιστικό] ", "")
-                        bookmaker_text = "Ανάλυση Αγοράς: Σταθερή Απόδοση 📈"
+                        poisson_text = clean_pred
+                        halftime_text = "✨ Ανάλυση Ημιχρόνου: Χαμηλό Ρίσκο 📈"
                     
                     raw_home_form = parts[4] if len(parts) > 4 else "🟢🟢🟡🔴🟢"
                     raw_away_form = parts[5] if len(parts) > 5 else "🟢🔴🟢🟢🟡"
@@ -162,7 +165,7 @@ if os.path.exists(DATA_FILE):
                     
                     current_matches.append({
                         "league": league, "teams": teams, "time": time_val,
-                        "poisson": poisson_text, "bookmaker": bookmaker_text,
+                        "poisson": poisson_text, "halftime": halftime_text,
                         "home_form": home_emojis, "away_form": away_emojis
                     })
 
@@ -196,8 +199,8 @@ if current_matches:
                         <span style="background-color: #dc3545; color: white; padding: 3px 8px; border-radius: 5px; font-size: 11px; font-weight: bold;">🕒 {m["time"]}</span>
                         <h4 style="color: #ffffff; margin: 10px 0 5px 0; font-size: 18px;">{m["teams"]}</h4>
                         <p style="color: #aaaaaa; margin: 0 0 12px 0; font-size: 13px;">📊 Φόρμα: {m["home_form"]} vs {m["away_form"]}</p>
-                        <div class="poisson-box">📊 <b>Μοντέλο Poisson:</b> {m["poisson"]}</div>
-                        <div class="bookmaker-box">🔥 <b>Μοντέλο Bookmaker:</b> {m["bookmaker"]}</div>
+                        <div class="poisson-box">📊 <b>Τελικό (Poisson):</b> {m["poisson"]}</div>
+                        <div class="bookmaker-box">🔥 <b>1ο Ημίχρονο:</b> {m["halftime"]}</div>
                     </div>
                 """, unsafe_allow_html=True)
 else:
@@ -217,4 +220,3 @@ if past_results:
             st.markdown(f'<div class="result-card-lost">{clean_res}</div>', unsafe_allow_html=True)
 else:
     st.info("Τα αποτελέσματα των αγώνων θα εμφανιστούν εδώ μόλις ολοκληρωθούν.")
-
