@@ -98,14 +98,13 @@ if matches and isinstance(matches, list):
         if valid_count >= 18:
             break
             
-        # 🕰️ ΑΠΟΛΥΤΟΣ ΕΛΕΓΧΟΣ ΩΡΑΣ ΜΕ TIMESTAMP
         commence_time_str = match.get('commence_time')
         if commence_time_str:
             try:
                 match_utc = datetime.strptime(commence_time_str, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=ZoneInfo("UTC"))
                 match_timestamp = match_utc.timestamp()
                 
-                # Αν η τρέχουσα παγκόσμια ώρα είναι μεγαλύτερη από την ώρα έναρξης, το ματς ξεκίνησε -> ΠΡΟΣΠΕΡΑΣΗ!
+                # ⏰ ΕΔΩ ΓΙΝΕΤΑΙ Η ΜΑΓΕΙΑ: Αν το ματς έχει ήδη ξεκινήσει, προσπέρασέ το!
                 if current_timestamp > match_timestamp:
                     continue
                 
@@ -185,5 +184,5 @@ for result in PAST_RESULTS:
 with open(DATA_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(output_lines))
 
-print("🎯 Fixed and ready! Action will now complete successfully.")
+print("🎯 Success! Matches that have started are filtered out out completely.")
 
