@@ -1,5 +1,12 @@
 STATS|81.4|26.2
---- ΠΡΟΓΝΩΣΤΙΚΑ 28/05/2026 15:33 ---
-❌ Δεν βρέθηκαν live αγώνες ή το Odds API Key είναι λάθος.
---- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ ---
-🏁 Manchester City vs Arsenal | Score: 2-1 | Goal / Goal ✅
+--- ΠΡΟΓΝΩΣΤΙΚΑ 28/05/2026 15:46 ---
+🏆 Κόπα Λιμπερταδόρες|Cerro Porteño vs Sporting Cristal|01:00|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 77.3% | Απόδοση: 1.55)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 Κόπα Λιμπερταδόρες|Palmeiras-SP vs Junior FC|01:00|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 64.4% | Απόδοση: 1.72)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
+🏆 Copa Sudamericana|CA Tigre BA vs Alianza Atlético|03:30|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 69.2% | Απόδοση: 1.61)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
+🏆 Copa Sudamericana|América de Cali vs Macará|03:30|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 70.5% | Απόδοση: 1.58)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 Κόπα Λιμπερταδόρες|Cruzeiro vs Barcelona SC|03:30|📊 [Στατιστικό] Goal / Goal (Πιθανότητα: 67.9% | Απόδοση: 1.64)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
+🏆 Κόπα Λιμπερταδόρες|Boca Juniors vs Universidad Católica (CHI)|03:30|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 71.5% | Απόδοση: 1.55)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
+🏆 Super League - Κίνα|Liaoning Tieren FC vs Shanghai SIPG FC|14:35|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 73.4% | Απόδοση: 1.55)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
+🏆 Eliteserien - Νορβηγία|Aalesund vs HamKam|20:00|📊 [Στατιστικό] Goal / Goal (Πιθανότητα: 64.0% | Απόδοση: 1.74)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
+--- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
+🏁 Saint Etienne vs Nice | Score: 0-0 | Under 2.5 -> ✅ ΔΙΚΑΙΩΘΗΚΕ
