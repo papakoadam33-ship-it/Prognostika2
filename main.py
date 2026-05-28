@@ -52,7 +52,8 @@ def calculate_advanced_preds(home_attack, home_defense, away_attack, away_defens
     for h in range(6):
         for a in range(6):
             p_home_ft = poisson_probability(home_lambda_full, h)
-            p_away_ft = p_home_ft * poisson_probability(away_lambda_full, a)
+            p_away_ft = poisson_probability(away_lambda_full, a)
+            p_score_ft = p_home_ft * p_away_ft
             
             if (h + a) > 2:
                 over_25_prob += p_score_ft
@@ -62,7 +63,8 @@ def calculate_advanced_preds(home_attack, home_defense, away_attack, away_defens
     for h in range(4):
         for a in range(4):
             p_home_ht = poisson_probability(home_lambda_half, h)
-            p_away_ht = p_home_ht * poisson_probability(away_lambda_half, a)
+            p_away_ht = poisson_probability(away_lambda_half, a)
+            p_score_ht = p_home_ht * p_away_ht
             
             if h == 0 and a == 0:
                 ht_00_prob = p_score_ht  
@@ -100,7 +102,6 @@ if matches and isinstance(matches, list):
         commence_time_str = match.get('commence_time')
         if commence_time_str:
             try:
-                # Μετατροπή της ώρας έναρξης του API σε timestamp
                 match_utc = datetime.strptime(commence_time_str, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=ZoneInfo("UTC"))
                 match_timestamp = match_utc.timestamp()
                 
@@ -184,5 +185,5 @@ for result in PAST_RESULTS:
 with open(DATA_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(output_lines))
 
-print("🎯 Bulletproof timestamp filter applied successfully!")
+print("🎯 Fixed and ready! Action will now complete successfully.")
 
