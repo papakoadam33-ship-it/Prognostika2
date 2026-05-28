@@ -137,32 +137,47 @@ if os.path.exists(DATA_FILE):
                     league = clean_league_name(parts[0])
                     teams = parts[1]
                     time_val = parts[2] if ":" in parts[2] else "📅 Σήμερα"
-                    raw_pred = parts[3]
+                    
+                    # 🎯 ΕΝΩΝΟΥΜΕ ΟΛΑ ΤΑ ΥΠΟΛΟΙΠΑ PARTS ΓΙΑ ΝΑ ΜΗΝ ΧΑΝΟΥΜΕ ΤΟ ΗΜΙΧΡΟΝΟ ΛΟΓΩ ΤΟΥ PIPE '|'
+                    full_prediction_text = " ".join(parts[3:])
                     
                     poisson_text = ""
                     halftime_text = ""
                     
-                    # Καθαρισμός αρχικών ετικετών στατιστικού
-                    clean_pred = raw_pred.replace("📊 [Στατιστικό] ", "").replace("📊 ", "")
+                    # Καθαρισμός αρχικών ετικετών
+                    clean_pred = full_prediction_text.replace("📊 [Στατιστικό] ", "").replace("📊 ", "")
                     
-                    # 🎯 ΔΙΑΧΩΡΙΣΜΟΣ ΜΕ ΒΑΣΗ ΚΕΙΜΕΝΟΥ (ΟΧΙ EMOJIS)
+                    # Διαχωρισμός με βάση το "1ο Ημίχ."
                     if "1ο Ημίχ." in clean_pred:
                         pred_parts = clean_pred.split("1ο Ημίχ.")
                         
-                        # Παίρνουμε το αριστερό κομμάτι (Τελικό) και αφαιρούμε οποιοδήποτε emoji έχει μείνει στο τέλος του
                         poisson_raw = pred_parts[0].strip()
-                        # Καθαρίζει space, τελείες, και "ύποπτα" emojis στο τέλος της πρόβλεψης του τελικού
+                        # Καθαρισμός τυχόν συμβόλων ή pipe που έμειναν στο τέλος του Poisson
                         while poisson_raw and (not poisson_raw[-1].isalnum() and poisson_raw[-1] not in [')', ']']):
                             poisson_raw = poisson_raw[:-1].strip()
                         
                         poisson_text = poisson_raw
-                        halftime_text = f"✨ 1ο Ημίχ. {pred_parts[1].strip()}"
+                        
+                        # Παίρνουμε το κομμάτι του ημιχρόνου και καθαρίζουμε τυχόν φόρμες (κυκλάκια) που κολλάνε στο τέλος
+                        halftime_raw = pred_parts[1].strip()
+                        if "🟢" in halftime_raw or "🔴" in halftime_raw or "🟡" in halftime_raw:
+                            # Κόβουμε οτιδήποτε ξεκινάει με κυκλάκι
+                            for circle in ["🟢", "🔴", "🟡"]:
+                                if circle in halftime_raw:
+                                    halftime_raw = halftime_raw.split(circle)[0].strip()
+                        
+                        # Καθαρισμός από τελικά pipes
+                        while halftime_raw and halftime_raw.endswith("|"):
+                            halftime_raw = halftime_raw[:-1].strip()
+                            
+                        halftime_text = f"✨ 1ο Ημίχ. {halftime_raw}"
                     else:
                         poisson_text = clean_pred
                         halftime_text = "✨ Ανάλυση Ημιχρόνου: Κανονική Ροή Αγώνα 📈"
                     
-                    raw_home_form = parts[4] if len(parts) > 4 else "🟢🟢🟡🔴🟢"
-                    raw_away_form = parts[5] if len(parts) > 5 else "🟢🔴🟢🟢🟡"
+                    # Ανίχνευση φόρμας στα τελευταία στοιχεία της αρχικής γραμμής
+                    raw_home_form = parts[-2] if len(parts) > 4 else "🟢🟢🟡🔴🟢"
+                    raw_away_form = parts[-1] if len(parts) > 5 else "🟢🔴🟢🟢🟡"
                     
                     home_emojis = "".join([c for c in raw_home_form if c in ['🟢', '🔴', '🟡']])
                     away_emojis = "".join([c for c in raw_away_form if c in ['🟢', '🔴', '🟡']])
