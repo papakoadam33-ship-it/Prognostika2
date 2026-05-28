@@ -139,20 +139,26 @@ if os.path.exists(DATA_FILE):
                     time_val = parts[2] if ":" in parts[2] else "📅 Σήμερα"
                     raw_pred = parts[3]
                     
-                    # Έξυπνος διαχωρισμός Τελικού Αποτελέσματος και Ημιχρόνου
                     poisson_text = ""
                     halftime_text = ""
                     
-                    # Καθαρίζουμε το αρχικό πρόθεμα αν υπάρχει
+                    # Καθαρισμός προθεμάτων
                     clean_pred = raw_pred.replace("📊 [Στατιστικό] ", "").replace("📊 ", "")
                     
+                    # Ελέγχουμε και για τα δύο εικονίδια αστεριών (διπλό και μονό)
+                    split_char = None
                     if "✨" in clean_pred:
-                        pred_parts = clean_pred.split("✨")
+                        split_char = "✨"
+                    elif "✨" in clean_pred:
+                        split_char = "✨"
+                    
+                    if split_char:
+                        pred_parts = clean_pred.split(split_char)
                         poisson_text = pred_parts[0].strip()
                         halftime_text = f"✨ {pred_parts[1].strip()}"
                     else:
                         poisson_text = clean_pred
-                        halftime_text = "✨ Ανάλυση Ημιχρόνου: Χαμηλό Ρίσκο 📈"
+                        halftime_text = "✨ Ανάλυση Ημιχρόνου: Κανονική Ροή Αγώνα 📈"
                     
                     raw_home_form = parts[4] if len(parts) > 4 else "🟢🟢🟡🔴🟢"
                     raw_away_form = parts[5] if len(parts) > 5 else "🟢🔴🟢🟢🟡"
@@ -220,3 +226,4 @@ if past_results:
             st.markdown(f'<div class="result-card-lost">{clean_res}</div>', unsafe_allow_html=True)
 else:
     st.info("Τα αποτελέσματα των αγώνων θα εμφανιστούν εδώ μόλις ολοκληρωθούν.")
+
