@@ -1,12 +1,12 @@
 STATS|81.4|26.2
---- ΠΡΟΓΝΩΣΤΙΚΑ 28/05/2026 16:05 ---
-🏆 Κόπα Λιμπερταδόρες|Cerro Porteño vs Sporting Cristal|01:00|📊 Over 2.5 (68.2% | 1.63) ✨ 1ο Ημίχ. Over 1.5 (46.8%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
-🏆 Κόπα Λιμπερταδόρες|Palmeiras-SP vs Junior FC|01:00|📊 Over 2.5 (61.1% | 1.82) ✨ 1ο Ημίχ. Over 1.5 (41.2%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
-🏆 Copa Sudamericana|CA Tigre BA vs Alianza Atlético|03:30|📊 Over 2.5 (71.4% | 1.56) ✨ 1ο Ημίχ. Over 1.5 (49.7%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
-🏆 Copa Sudamericana|América de Cali vs Macará|03:30|📊 Over 2.5 (63.7% | 1.74) ✨ 1ο Ημίχ. Over 1.5 (43.3%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
-🏆 Κόπα Λιμπερταδόρες|Cruzeiro vs Barcelona SC|03:30|📊 Over 2.5 (70.1% | 1.59) ✨ 1ο Ημίχ. Over 1.5 (49.5%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
-🏆 Κόπα Λιμπερταδόρες|Boca Juniors vs Universidad Católica (CHI)|03:30|📊 Over 2.5 (63.4% | 1.75) ✨ 1ο Ημίχ. Over 1.5 (43.0%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
-🏆 Super League - Κίνα|Liaoning Tieren FC vs Shanghai SIPG FC|14:35|📊 Over 2.5 (72.0% | 1.55) ✨ 1ο Ημίχ. Over 1.5 (50.7%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
-🏆 Eliteserien - Νορβηγία|Aalesund vs HamKam|20:00|📊 Over 2.5 (63.0% | 1.76) ✨ 1ο Ημίχ. Over 1.5 (43.8%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
+--- ΠΡΟΓΝΩΣΤΙΚΑ 28/05/2026 16:43 ---
+🏆 Κόπα Λιμπερταδόρες|Cerro Porteño vs Sporting Cristal|01:00|📊 Under 2.5 (73.8% | 1.55) ✨ 1ο Ημίχ. Over 0.5 (55.0%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
+🏆 Κόπα Λιμπερταδόρες|Palmeiras-SP vs Junior FC|01:00|📊 Over 2.5 (77.6% | 1.55) ✨ 1ο Ημίχ. Over 1.5 (62.7%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
+🏆 Copa Sudamericana|CA Tigre BA vs Alianza Atlético|03:30|📊 Goal / Goal (58.3% | 1.91) ✨ 1ο Ημίχ. Over 0.5 (73.8%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
+🏆 Copa Sudamericana|América de Cali vs Macará|03:30|📊 Under 2.5 (75.7% | 1.55) ✨ 1ο Ημίχ. Over 0.5 (53.5%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 Κόπα Λιμπερταδόρες|Cruzeiro vs Barcelona SC|03:30|📊 Goal / Goal (60.1% | 1.85) ✨ 1ο Ημίχ. Over 1.5 (38.4%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 Κόπα Λιμπερταδόρες|Boca Juniors vs Universidad Católica (CHI)|03:30|📊 Under 2.5 (71.6% | 1.55) ✨ 1ο Ημίχ. Over 0.5 (56.7%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
+🏆 Super League - Κίνα|Liaoning Tieren FC vs Shanghai SIPG FC|14:35|📊 Over 2.5 (78.0% | 1.55) ✨ 1ο Ημίχ. Over 1.5 (62.3%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
+🏆 Eliteserien - Νορβηγία|Aalesund vs HamKam|20:00|📊 Over 2.5 (77.0% | 1.55) ✨ 1ο Ημίχ. Over 1.5 (65.5%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Saint Etienne vs Nice | Score: 0-0 | Under 2.5 -> ✅ ΔΙΚΑΙΩΘΗΚΕ
