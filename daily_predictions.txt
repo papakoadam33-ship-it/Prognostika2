@@ -1,12 +1,12 @@
-STATS|81.4|26.2
---- ΠΡΟΓΝΩΣΤΙΚΑ 28/05/2026 17:09 ---
-🏆 Κόπα Λιμπερταδόρες|Cerro Porteño vs Sporting Cristal|01:00|📊 Under 2.5 (84.9% | 1.55) ✨ 1ο Ημίχ. Over 0.5 (45.1%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
-🏆 Κόπα Λιμπερταδόρες|Palmeiras-SP vs Junior FC|01:00|📊 Over 2.5 (75.0% | 1.55) ✨ 1ο Ημίχ. Over 1.5 (64.3%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
-🏆 Copa Sudamericana|CA Tigre BA vs Alianza Atlético|03:30|📊 Goal / Goal (58.4% | 1.90) ✨ 1ο Ημίχ. Over 0.5 (73.2%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
-🏆 Copa Sudamericana|América de Cali vs Macará|03:30|📊 Under 2.5 (79.8% | 1.55) ✨ 1ο Ημίχ. Over 0.5 (50.1%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
-🏆 Κόπα Λιμπερταδόρες|Cruzeiro vs Barcelona SC|03:30|📊 Goal / Goal (59.8% | 1.86) ✨ 1ο Ημίχ. Over 1.5 (39.7%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
-🏆 Κόπα Λιμπερταδόρες|Boca Juniors vs Universidad Católica (CHI)|03:30|📊 Under 2.5 (68.4% | 1.63) ✨ 1ο Ημίχ. Over 0.5 (59.0%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
-🏆 Super League - Κίνα|Liaoning Tieren FC vs Shanghai SIPG FC|14:35|📊 Over 2.5 (77.2% | 1.55) ✨ 1ο Ημίχ. Over 1.5 (64.8%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
-🏆 Eliteserien - Νορβηγία|Aalesund vs HamKam|20:00|📊 Over 2.5 (79.0% | 1.55) ✨ 1ο Ημίχ. Over 1.5 (62.3%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
+STATS|82.5|28.4
+--- ΠΡΟΓΝΩΣΤΙΚΑ 28/05/2026 17:18 ---
+🏆 Κόπα Λιμπερταδόρες|Cerro Porteño vs Sporting Cristal|01:00|📊 Under 2.5 (74.7% | 1.55) ✨ 1ο Ημίχ. Over 0.5 (54.3%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
+🏆 Κόπα Λιμπερταδόρες|Palmeiras-SP vs Junior FC|01:00|📊 Over 2.5 (75.9% | 1.55) ✨ 1ο Ημίχ. Over 1.5 (66.0%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
+🏆 Copa Sudamericana|CA Tigre BA vs Alianza Atlético|03:30|📊 Under 2.5 (53.1% | 2.09) ✨ 1ο Ημίχ. Over 0.5 (68.5%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
+🏆 Copa Sudamericana|América de Cali vs Macará|03:30|📊 Under 2.5 (71.8% | 1.55) ✨ 1ο Ημίχ. Over 0.5 (56.5%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
+🏆 Κόπα Λιμπερταδόρες|Cruzeiro vs Barcelona SC|03:30|📊 Goal / Goal (61.7% | 1.80) ✨ 1ο Ημίχ. Over 1.5 (41.4%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
+🏆 Κόπα Λιμπερταδόρες|Boca Juniors vs Universidad Católica (CHI)|03:30|📊 Under 2.5 (66.0% | 1.68) ✨ 1ο Ημίχ. Over 0.5 (60.5%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
+🏆 Super League - Κίνα|Liaoning Tieren FC vs Shanghai SIPG FC|14:35|📊 Over 2.5 (77.1% | 1.55) ✨ 1ο Ημίχ. Over 1.5 (66.2%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
+🏆 Eliteserien - Νορβηγία|Aalesund vs HamKam|20:00|📊 Over 2.5 (78.8% | 1.55) ✨ 1ο Ημίχ. Over 1.5 (64.6%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
-🏁 Saint Etienne vs Nice | Score: 0-0 | Under 2.5 -> ✅ ΔΙΚΑΙΩΘΗΚΕ
+🏁 Saint Etienne vs Nice | Score: 0-0 | Under 2.5 -> ✅ ΤΑΜΕΙΟ
