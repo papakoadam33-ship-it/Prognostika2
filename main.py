@@ -25,7 +25,7 @@ tz_athens = ZoneInfo("Europe/Athens")
 now_athens = datetime.now(tz_athens)
 time_str = now_athens.strftime('%d/%m/%Y %H:%M')
 
-# Τρέχον timestamp (UTC) για απόλυτη σύγκριση
+# Τρέχον timestamp σε δευτερόλεπτα (UTC / Global)
 current_timestamp = datetime.now(ZoneInfo("UTC")).timestamp()
 
 output_lines = []
@@ -98,22 +98,26 @@ if matches and isinstance(matches, list):
         if valid_count >= 18:
             break
             
+        # 🕰️ ΕΛΕΓΧΟΣ ΩΡΑΣ (ΑΛΑΝΘΑΣΤΟΣ ΜΕ ISO FORMAT)
         commence_time_str = match.get('commence_time')
         if commence_time_str:
             try:
-                match_utc = datetime.strptime(commence_time_str, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=ZoneInfo("UTC"))
+                # Αντικατάσταση του 'Z' με '+00:00' για να το διαβάσει σωστά η Python σε όλες τις εκδόσεις
+                clean_time_str = commence_time_str.replace('Z', '+00:00')
+                match_utc = datetime.fromisoformat(clean_time_str)
                 match_timestamp = match_utc.timestamp()
                 
-                # ⏰ ΕΔΩ ΓΙΝΕΤΑΙ Η ΜΑΓΕΙΑ: Αν το ματς έχει ήδη ξεκινήσει, προσπέρασέ το!
+                # Φίλτρο: Αν το ματς έχει ήδη ξεκινήσει, το πετάμε έξω!
                 if current_timestamp > match_timestamp:
                     continue
                 
                 match_athens = match_utc.astimezone(tz_athens)
                 match_time = match_athens.strftime("%H:%M")
-            except:
-                match_time = "20:45"
+            except Exception as e:
+                print(f"Error parsing time: {e}")
+                continue  # Αν αποτύχει η ώρα, προσπέρασε το ματς για ασφάλεια
         else:
-            match_time = "20:45"
+            continue
             
         home = match.get('home_team', 'Team A')
         away = match.get('away_team', 'Team B')
@@ -184,5 +188,5 @@ for result in PAST_RESULTS:
 with open(DATA_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(output_lines))
 
-print("🎯 Success! Matches that have started are filtered out out completely.")
+print("🎯 Absolute ISO-timestamp filter applied successfully!")
 
