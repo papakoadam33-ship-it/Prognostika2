@@ -9,7 +9,7 @@ from mtranslate import translate
 # API KEYS (Βάλε τα κλειδιά σου εδώ!)
 # =====================================================================
 ODDS_API_KEY = "eda6dcd0115ab96a2bf0fad47945cd34"
-FOOTBALL_DATA_API_KEY = "ΕΔΩ_ΒΑΖΕΙΣ_ΤΟ_FOOTBALL_DATA_KEY"
+FOOTBALL_DATA_API_KEY = "37046cb451msh72e76cf7c6071cdp1d37a8jsn3abe46eeefe3"
 
 # =====================================================================
 # SETTINGS & TIMEZONES
