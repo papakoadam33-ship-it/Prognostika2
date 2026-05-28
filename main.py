@@ -76,6 +76,7 @@ def get_real_form(team_name):
 # ODDS API REQUEST (GLOBAL)
 # =========================
 url = 'https://api.the-odds-api.com/v4/sports/soccer/odds/'
+# Ζητάμε h2h (σημεία) αλλά το Poisson μας βγάζει Over/Under & GG
 params = {'apiKey': ODDS_API_KEY, 'regions': 'eu', 'markets': 'h2h', 'oddsFormat': 'decimal'}
 
 try:
@@ -88,21 +89,21 @@ except:
 # PROCESS MATCHES
 # =========================
 if matches and isinstance(matches, list):
-    for match in matches[:8]:
+    # Αυξήσαμε το όριο στα 18 ματς για να "χωράνε" οι Σουηδοί και οι υπόλοιποι Βόρειοι
+    for match in matches[:18]:
         home = match.get('home_team', 'Team A')
         away = match.get('away_team', 'Team B')
         
-        # Καθαρή μετατροπή ώρας από τη συνάρτηση
         match_time = convert_to_athens_time(match.get('commence_time'))
         
-        # Μετάφραση
+        # Μετάφραση Πρωταθλήματος
         raw_league = match.get('sport_title', 'Ποδόσφαιρο')
         try:
             clean_league = translate(raw_league, 'el', 'en')
         except:
             clean_league = raw_league
         
-        # Υπολογισμοί Poisson & Αποδόσεων (Οι δικοί σου, οι δοκιμασμένοι!)
+        # Υπολογισμοί Poisson
         home_attack = random.uniform(1.2, 2.2)
         home_defense = random.uniform(0.8, 1.5)
         away_attack = random.uniform(0.9, 1.9)
@@ -134,5 +135,4 @@ output_lines.append("🏁 Saint Etienne vs Nice | Score: 0-0 | Under 2.5 -> ✅ 
 with open(DATA_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(output_lines))
 
-print("🎯 The ultimate structured Poisson Engine is live!")
-
+print("🎯 Global Scandinavian-ready Poisson Engine deployed!")
