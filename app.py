@@ -142,20 +142,20 @@ if os.path.exists(DATA_FILE):
                     poisson_text = ""
                     halftime_text = ""
                     
-                    # Καθαρισμός προθεμάτων
+                    # Καθαρισμός βασικών συμβόλων
                     clean_pred = raw_pred.replace("📊 [Στατιστικό] ", "").replace("📊 ", "")
                     
-                    # Ελέγχουμε και για τα δύο εικονίδια αστεριών (διπλό και μονό)
-                    split_char = None
-                    if "✨" in clean_pred:
-                        split_char = "✨"
-                    elif "✨" in clean_pred:
-                        split_char = "✨"
-                    
-                    if split_char:
-                        pred_parts = clean_pred.split(split_char)
-                        poisson_text = pred_parts[0].strip()
-                        halftime_text = f"✨ {pred_parts[1].strip()}"
+                    # Έξυπνο split με βάση τη λέξη κλειδί "1ο Ημίχ." για να πιάνει κάθε emoji (ραβδιά, αστέρια κλπ)
+                    if "1ο Ημίχ." in clean_pred:
+                        pred_parts = clean_pred.split("1ο Ημίχ.")
+                        # Κρατάμε το αριστερό κομμάτι και καθαρίζουμε τυχόν ξεμεινεμένα emojis στο τέλος του
+                        poisson_raw = pred_parts[0].strip()
+                        if poisson_raw.endswith("🪄") or poisson_raw.endswith("✨") or poisson_raw.endswith("✨"):
+                            poisson_text = poisson_raw[:-1].strip()
+                        else:
+                            poisson_text = poisson_raw
+                            
+                        halftime_text = f"✨ 1ο Ημίχ.{pred_parts[1].strip()}"
                     else:
                         poisson_text = clean_pred
                         halftime_text = "✨ Ανάλυση Ημιχρόνου: Κανονική Ροή Αγώνα 📈"
@@ -226,4 +226,3 @@ if past_results:
             st.markdown(f'<div class="result-card-lost">{clean_res}</div>', unsafe_allow_html=True)
 else:
     st.info("Τα αποτελέσματα των αγώνων θα εμφανιστούν εδώ μόλις ολοκληρωθούν.")
-
