@@ -9,7 +9,7 @@ from zoneinfo import ZoneInfo
 # API KEYS
 # ============================================
 
-ODDS_API_KEY = os.getenv("ODDS_API_KEY")
+ODDS_API_KEY = os.getenv("eda6dcd0115ab96a2bf0fad47945cd34")
 FOOTBALL_DATA_API_KEY = os.getenv("FOOTBALL_DATA_API_KEY")
 
 # ============================================
