@@ -50,6 +50,25 @@ st.markdown("""
         margin-top: 8px;
         font-size: 15px;
     }
+    /* Στυλ για το Κουμπί Χειροκίνητης Ανανέωσης */
+    .refresh-btn {
+        display: block;
+        width: 100%;
+        text-align: center;
+        background: linear-gradient(90deg, #dc3545 0%, #b21f2d 100%);
+        color: white !important;
+        padding: 12px;
+        border-radius: 8px;
+        font-weight: bold;
+        text-decoration: none;
+        margin-bottom: 25px;
+        box-shadow: 0px 4px 10px rgba(220, 53, 69, 0.3);
+        transition: 0.3s;
+    }
+    .refresh-btn:hover {
+        background: linear-gradient(90deg, #b21f2d 0%, #dc3545 100%);
+        box-shadow: 0px 4px 15px rgba(220, 53, 69, 0.5);
+    }
     </style>
 """, unsafe_allow_html=True)
 
@@ -59,6 +78,15 @@ st.markdown("""
         <h1 style="color: #ffffff; margin: 0; font-size: 28px; letter-spacing: 1px;">⚡ MARIOS PRO-BET PRO ⚡</h1>
         <p style="color: #ffd700; margin: 5px 0 0 0; font-style: italic; font-size: 14px;">Dual Analysis Intelligence Model</p>
     </div>
+""", unsafe_allow_html=True)
+
+# --- 🔄 ΚΟΥΜΠΙ ΧΕΙΡΟΚΙΝΗΤΗΣ ΑΝΑΝΕΩΣΗΣ (ΣΥΝΔΕΔΕΜΕΝΟ ΜΕ ΤΟ REPO ΣΟΥ) ---
+github_actions_url = "https://github.com/Papakoadam33-ship-it/Prognostika2/actions"
+
+st.markdown(f"""
+    <a href="{github_actions_url}" target="_blank" class="refresh-btn">
+        🔄 ΑΜΕΣΗ ΑΝΑΝΕΩΣΗ ΑΓΩΝΩΝ (Run Actions)
+    </a>
 """, unsafe_allow_html=True)
 
 # --- ΣΥΝΑΡΤΗΣΗ ΚΑΘΑΡΙΣΜΟΥ ΟΝΟΜΑΤΩΝ ΠΡΩΤΑΘΛΗΜΑΤΩΝ ---
@@ -160,4 +188,3 @@ if current_matches:
                 """, unsafe_allow_html=True)
 else:
     st.info("⏳ Δεν υπάρχουν άλλα ενεργά ματς για σήμερα. Το μοντέλο θα ανανεωθεί αυτόματα στην επόμενη προγραμματισμένη ώρα!")
-
