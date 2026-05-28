@@ -1,12 +1,12 @@
 STATS|81.4|26.2
---- ΠΡΟΓΝΩΣΤΙΚΑ 27/05/2026 23:27 ---
-🏆 UEFA Europa Conference League|Crystal Palace vs Rayo Vallecano|22:01|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 76.7% | Απόδοση: 1.55)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
-🏆 Copa Sudamericana|Olimpia Asunción vs Audax Italiano|01:00|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 69.9% | Απόδοση: 1.59)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
-🏆 Copa Sudamericana|Vasco da Gama vs Barracas Central|01:00|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 73.6% | Απόδοση: 1.55)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
-🏆 Copa Sudamericana|Caracas FC vs Botafogo|01:00|📊 [Στατιστικό] Goal / Goal (Πιθανότητα: 65.3% | Απόδοση: 1.70)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
-🏆 Copa Sudamericana|Club Cienciano vs CA Juventud|01:00|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 66.6% | Απόδοση: 1.67)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
-🏆 Copa Sudamericana|Racing Club vs Club Independiente Petrolero|01:00|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 69.1% | Απόδοση: 1.61)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
-🏆 Copa Sudamericana|Clube Atlético Mineiro vs Puerto Cabello|01:00|📊 [Στατιστικό] Goal / Goal (Πιθανότητα: 59.7% | Απόδοση: 1.86)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
-🏆 Κόπα Λιμπερταδόρες|Independiente del Valle vs Rosario Central|01:00|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 78.9% | Απόδοση: 1.55)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
+--- ΠΡΟΓΝΩΣΤΙΚΑ 28/05/2026 11:49 ---
+🏆 Κόπα Λιμπερταδόρες|Cerro Porteño vs Sporting Cristal|01:00|📊 [Στατιστικό] Goal / Goal (Πιθανότητα: 63.4% | Απόδοση: 1.75)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 Κόπα Λιμπερταδόρες|Palmeiras-SP vs Junior FC|01:00|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 66.1% | Απόδοση: 1.68)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
+🏆 Copa Sudamericana|CA Tigre BA vs Alianza Atlético|03:30|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 65.9% | Απόδοση: 1.69)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
+🏆 Copa Sudamericana|América de Cali vs Macará|03:30|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 51.3% | Απόδοση: 2.17)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
+🏆 Κόπα Λιμπερταδόρες|Cruzeiro vs Barcelona SC|03:30|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 68.5% | Απόδοση: 1.62)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
+🏆 Κόπα Λιμπερταδόρες|Boca Juniors vs Universidad Católica (CHI)|03:30|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 76.9% | Απόδοση: 1.55)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+🏆 Super League - Κίνα|Liaoning Tieren FC vs Shanghai SIPG FC|14:35|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 74.5% | Απόδοση: 1.55)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
+🏆 Eliteserien - Νορβηγία|Aalesund vs HamKam|20:00|📊 [Στατιστικό] Over 2.5 (Πιθανότητα: 76.7% | Απόδοση: 1.55)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Saint Etienne vs Nice | Score: 0-0 | Under 2.5 -> ✅ ΔΙΚΑΙΩΘΗΚΕ
