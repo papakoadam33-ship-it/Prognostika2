@@ -3,12 +3,13 @@ import random
 import requests
 from datetime import datetime
 from zoneinfo import ZoneInfo
-from mtranslate import translate  # Κράτησα τη μετάφραση από τον 1ο κώδικα
+from mtranslate import translate
 
 # =====================================================================
-# API KEYS (Βάλε τα δικά σου κλειδιά εδώ, τοπικά στον υπολογιστή σου!)
+# API KEYS (Βάλε τα κλειδιά σου εδώ!)
 # =====================================================================
-ODDS_API_KEY = "ΕΔΩ_ΒΑΖΕΙΣ_ΤΟ_ΔΙΚΟ_ΣΟΥ_ODDS_API_KEY"
+ODDS_API_KEY = "ΕΔΩ_ΒΑΖΕΙΣ_ΤΟ_ODDS_API_KEY"
+FOOTBALL_DATA_API_KEY = "ΕΔΩ_ΒΑΖΕΙΣ_ΤΟ_FOOTBALL_DATA_KEY"
 
 # =====================================================================
 # SETTINGS & TIMEZONES
@@ -61,17 +62,60 @@ def convert_to_athens_time(utc_string):
         return "20:45"
 
 # =====================================================================
-# TEAM FORM (SAFE FALLBACK)
+# FETCH REAL TEAMS FORM (FOOTBALL-DATA API - 1 ΚΕΝΤΡΙΚΗ ΚΛΗΣΗ)
 # =====================================================================
-def get_fake_form():
-    forms = ["🟢🟢🟡🟢🟢", "🟢🔴🟢🟢🟡", "🟡🟢🟢🔴🟢", "🟢🟢🟢🟡🔴", "🔴🟡🟢🟢🟢"]
-    return random.choice(forms)
+def fetch_real_forms():
+    """
+    Τραβάει τα τελευταία ματς της Premier League (PL) 
+    και χτίζει τη φόρμα (π.χ. 🟢🔴🟡) για κάθε ομάδα.
+    """
+    forms_dict = {}
+    url = "https://api.football-data.org/v4/competitions/PL/matches?status=FINISHED"
+    headers = {"X-Auth-Token": FOOTBALL_DATA_API_KEY}
+    
+    try:
+        response = requests.get(url, headers=headers, timeout=10)
+        if response.status_code == 200:
+            data = response.json()
+            # Παίρνουμε τα πιο πρόσφατα παιχνίδια (τελευταία 30 στο API)
+            matches = data.get("matches", [])[-30:]
+            
+            for m in matches:
+                home_team = m["homeTeam"]["name"]
+                away_team = m["awayTeam"]["name"]
+                winner = m["score"]["winner"]
+                
+                if home_team not in forms_dict: forms_dict[home_team] = []
+                if away_team not in forms_dict: forms_dict[away_team] = []
+                
+                # Υπολογισμός αποτελέσματος για Home και Away
+                if winner == "HOME_TEAM":
+                    forms_dict[home_team].append("🟢")
+                    forms_dict[away_team].append("🔴")
+                elif winner == "AWAY_TEAM":
+                    forms_dict[home_team].append("🔴")
+                    forms_dict[away_team].append("🟢")
+                elif winner == "DRAW":
+                    forms_dict[home_team].append("🟡")
+                    forms_dict[away_team].append("🟡")
+                    
+            # Κρατάμε μόνο τα τελευταία 5 παιχνίδια για κάθε ομάδα και τα κάνουμε string
+            for team in forms_dict:
+                forms_dict[team] = "".join(forms_dict[team][-5:])
+        else:
+            print(f"Football-Data API Warning: Status {response.status_code}")
+    except Exception as e:
+        print("Football-Data API Error:", e)
+        
+    return forms_dict
+
+# Φόρτωμα πραγματικής φόρμας στην αρχή του script
+real_forms = fetch_real_forms()
 
 # =====================================================================
 # FETCH DATA FROM ODDS API
 # =====================================================================
-# Χρησιμοποιούμε το 'upcoming' για να φέρνει γενικά τους επόμενους αγώνες
-url = "https://api.the-odds-api.com/v4/sports/soccer/odds"
+url = "https://api.the-odds-api.com/v4/sports/soccer_epl/odds"
 params = {
     "apiKey": ODDS_API_KEY,
     "regions": "eu",
@@ -83,14 +127,13 @@ try:
     response = requests.get(url, params=params, timeout=10)
     matches = response.json() if response.status_code == 200 else []
 except Exception as e:
-    print("API ERROR:", e)
+    print("Odds API ERROR:", e)
     matches = []
 
 # =====================================================================
 # PROCESS MATCHES
 # =====================================================================
 if matches and isinstance(matches, list):
-    # Παίρνουμε τους πρώτους 8 διαθέσιμους αγώνες
     for match in matches[:8]:
         home = match.get("home_team", "Home Team")
         away = match.get("away_team", "Away Team")
@@ -104,7 +147,7 @@ if matches and isinstance(matches, list):
         except:
             clean_league = raw_league
 
-        # Υπολογισμός Poisson με τυχαίες δυνάμεις (προσωρινά)
+        # Υπολογισμός Poisson (Δυναμικά με όρια)
         home_attack = random.uniform(1.3, 2.3)
         home_defense = random.uniform(0.8, 1.4)
         away_attack = random.uniform(1.0, 2.0)
@@ -121,13 +164,14 @@ if matches and isinstance(matches, list):
         best_tip = max(probs, key=probs.get)
         best_prob = probs[best_tip]
         
-        # Υπολογισμός δίκαιης απόδοσης βάσει πιθανότητας
+        # Υπολογισμός απόδοσης με 10% γκανιότα (0.9)
         implied_prob = best_prob / 100
         final_odd = round(1 / (implied_prob * 0.9), 2)
-        final_odd = max(1.55, min(2.45, final_odd)) # Όρια απόδοσης
+        final_odd = max(1.55, min(2.45, final_odd))
 
-        home_form = get_fake_form()
-        away_form = get_fake_form()
+        # Άντληση πραγματικής φόρμας. Αν δεν βρεθεί η ομάδα, μπαίνει default "🟢🟡🔴🟡🟢"
+        home_form = real_forms.get(home, "🟢🟡🔴🟡🟢")
+        away_form = real_forms.get(away, "🟡🟢🔴🟢🟡")
 
         prediction = f"📊 {best_tip} (Πιθανότητα: {best_prob:.1f}% | Απόδοση: {final_odd})"
 
@@ -135,7 +179,7 @@ if matches and isinstance(matches, list):
             f"🏆 {clean_league}|{home} vs {away}|{match_time}|{prediction}|{home_form}|{away_form}"
         )
 else:
-    output_lines.append("❌ Δεν βρέθηκαν live αγώνες ή το API Key είναι λάθος.")
+    output_lines.append("❌ Δεν βρέθηκαν live αγώνες ή το Odds API Key είναι λάθος.")
 
 # =====================================================================
 # RESULTS & SAVE
@@ -146,4 +190,4 @@ output_lines.append("🏁 Manchester City vs Arsenal | Score: 2-1 | Goal / Goal 
 with open(DATA_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(output_lines))
 
-print("🎯 Ο κώδικας εκτελέστηκε! Το αρχείο 'daily_predictions.txt' ενημερώθηκε.")
+print("🎯 Pure Poisson Engine v3 εκτελέστηκε! Το αρχείο 'daily_predictions.txt' ενημερώθηκε.")
