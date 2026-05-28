@@ -142,20 +142,21 @@ if os.path.exists(DATA_FILE):
                     poisson_text = ""
                     halftime_text = ""
                     
-                    # Καθαρισμός βασικών συμβόλων
+                    # Καθαρισμός αρχικών ετικετών στατιστικού
                     clean_pred = raw_pred.replace("📊 [Στατιστικό] ", "").replace("📊 ", "")
                     
-                    # Έξυπνο split με βάση τη λέξη κλειδί "1ο Ημίχ." για να πιάνει κάθε emoji (ραβδιά, αστέρια κλπ)
+                    # 🎯 ΔΙΑΧΩΡΙΣΜΟΣ ΜΕ ΒΑΣΗ ΚΕΙΜΕΝΟΥ (ΟΧΙ EMOJIS)
                     if "1ο Ημίχ." in clean_pred:
                         pred_parts = clean_pred.split("1ο Ημίχ.")
-                        # Κρατάμε το αριστερό κομμάτι και καθαρίζουμε τυχόν ξεμεινεμένα emojis στο τέλος του
+                        
+                        # Παίρνουμε το αριστερό κομμάτι (Τελικό) και αφαιρούμε οποιοδήποτε emoji έχει μείνει στο τέλος του
                         poisson_raw = pred_parts[0].strip()
-                        if poisson_raw.endswith("🪄") or poisson_raw.endswith("✨") or poisson_raw.endswith("✨"):
-                            poisson_text = poisson_raw[:-1].strip()
-                        else:
-                            poisson_text = poisson_raw
-                            
-                        halftime_text = f"✨ 1ο Ημίχ.{pred_parts[1].strip()}"
+                        # Καθαρίζει space, τελείες, και "ύποπτα" emojis στο τέλος της πρόβλεψης του τελικού
+                        while poisson_raw and (not poisson_raw[-1].isalnum() and poisson_raw[-1] not in [')', ']']):
+                            poisson_raw = poisson_raw[:-1].strip()
+                        
+                        poisson_text = poisson_raw
+                        halftime_text = f"✨ 1ο Ημίχ. {pred_parts[1].strip()}"
                     else:
                         poisson_text = clean_pred
                         halftime_text = "✨ Ανάλυση Ημιχρόνου: Κανονική Ροή Αγώνα 📈"
