@@ -25,6 +25,9 @@ tz_athens = ZoneInfo("Europe/Athens")
 now_athens = datetime.now(tz_athens)
 time_str = now_athens.strftime('%d/%m/%Y %H:%M')
 
+# Τρέχον timestamp (UTC) για απόλυτη σύγκριση
+current_timestamp = datetime.now(ZoneInfo("UTC")).timestamp()
+
 output_lines = []
 output_lines.append(f"STATS|{WIN_RATE}|{TOTAL_YIELD}")
 output_lines.append(f"--- ΠΡΟΓΝΩΣΤΙΚΑ {time_str} ---")
@@ -49,8 +52,7 @@ def calculate_advanced_preds(home_attack, home_defense, away_attack, away_defens
     for h in range(6):
         for a in range(6):
             p_home_ft = poisson_probability(home_lambda_full, h)
-            p_away_ft = poisson_probability(away_lambda_full, a)
-            p_score_ft = p_home_ft * p_away_ft
+            p_away_ft = p_home_ft * poisson_probability(away_lambda_full, a)
             
             if (h + a) > 2:
                 over_25_prob += p_score_ft
@@ -60,8 +62,7 @@ def calculate_advanced_preds(home_attack, home_defense, away_attack, away_defens
     for h in range(4):
         for a in range(4):
             p_home_ht = poisson_probability(home_lambda_half, h)
-            p_away_ht = poisson_probability(away_lambda_half, a)
-            p_score_ht = p_home_ht * p_away_ht
+            p_away_ht = p_home_ht * poisson_probability(away_lambda_half, a)
             
             if h == 0 and a == 0:
                 ht_00_prob = p_score_ht  
@@ -95,17 +96,19 @@ if matches and isinstance(matches, list):
         if valid_count >= 18:
             break
             
-        # 🕰️ ΕΛΕΓΧΟΣ ΩΡΑΣ: Μετατροπή commence_time σε datetime αντικείμενο με ώρα Ελλάδας
+        # 🕰️ ΑΠΟΛΥΤΟΣ ΕΛΕΓΧΟΣ ΩΡΑΣ ΜΕ TIMESTAMP
         commence_time_str = match.get('commence_time')
         if commence_time_str:
             try:
+                # Μετατροπή της ώρας έναρξης του API σε timestamp
                 match_utc = datetime.strptime(commence_time_str, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=ZoneInfo("UTC"))
-                match_athens = match_utc.astimezone(tz_athens)
+                match_timestamp = match_utc.timestamp()
                 
-                # Αν το ματς έχει ήδη ξεκινήσει (η τρέχουσα ώρα είναι μεγαλύτερη), το προσπερνάμε!
-                if now_athens > match_athens:
+                # Αν η τρέχουσα παγκόσμια ώρα είναι μεγαλύτερη από την ώρα έναρξης, το ματς ξεκίνησε -> ΠΡΟΣΠΕΡΑΣΗ!
+                if current_timestamp > match_timestamp:
                     continue
                 
+                match_athens = match_utc.astimezone(tz_athens)
                 match_time = match_athens.strftime("%H:%M")
             except:
                 match_time = "20:45"
@@ -164,7 +167,6 @@ if matches and isinstance(matches, list):
         except:
             clean_league = raw_league
             
-        # Default φόρμα
         default_forms = ["🟢🟢🟡🟢🟢", "🟢🔴🟢🟢🟡", "🟡🟢🟢🔴🟢", "🟢🟢🟢🟡🔴", "🔴🟡🟢🟢🟢"]
         home_form = random.choice(default_forms)
         away_form = random.choice(default_forms)
@@ -182,5 +184,4 @@ for result in PAST_RESULTS:
 with open(DATA_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(output_lines))
 
-print("🎯 Time filter applied! Live/Started matches are now automatically hidden.")
-
+print("🎯 Bulletproof timestamp filter applied successfully!")
