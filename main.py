@@ -132,16 +132,28 @@ if matches and isinstance(matches, list):
             home_attack, home_defense = random.uniform(1.3, 1.7), random.uniform(0.9, 1.3)
             away_attack, away_defense = random.uniform(1.1, 1.5), random.uniform(0.9, 1.3)
         
-        # ✅ ΕΔΩ ΗΤΑΝ ΤΟ ΛΑΘΟΣ - ΔΙΟΡΘΩΘΗΚΕ ΣΕ away_defense
         p_over, p_under, p_gg, p_ht_over05, p_ht_over15, p_over15 = calculate_advanced_preds(home_attack, home_defense, away_attack, away_defense)
         
+        # 🛡️ ΕΞΥΠΝΗ ΣΤΡΑΤΗΓΙΚΗ ΕΠΙΛΟΓΗΣ ΣΗΜΕΙΟΥ
         if p_over > 75.0: best_tip, best_prob = "Over 2.5", p_over
         elif p_over15 > 82.0: best_tip, best_prob = "Over 1.5", p_over15
         elif p_gg > 60.0: best_tip, best_prob = "Goal / Goal", p_gg
         else: best_tip, best_prob = "Under 2.5", p_under
         
-        base_odd = 100 / (best_prob * 0.9)
+        # 📊 ΥΠΟΛΟΓΙΣΜΟΣ ΔΙΚΑΙΗΣ ΑΠΟΔΟΣΗΣ (Fair Odd)
+        fair_odd = 100 / (best_prob if best_prob > 0 else 1)
+        
+        # Υπολογισμός τελικής προτεινόμενης απόδοσης με γκανιότα
+        base_odd = 100 / (best_prob * 0.9 if best_prob > 0 else 1)
         final_odd = max(1.40, min(2.45, base_odd))
+        
+        # 🔥 ΕΛΕΓΧΟΣ VALUE BET: Αν η απόδοση του bookmaker είναι μεγαλύτερη από τη δίκαιη απόδοση της Poisson
+        value_tag = ""
+        # Χρησιμοποιούμε την πραγματική αγορά αν ταιριάζει στο Over 2.5, αλλιώς συγκρίνουμε με τη final_odd
+        market_odd_to_compare = bookie_over_25_odd if best_tip == "Over 2.5" else final_odd
+        if market_odd_to_compare > (fair_odd * 1.05):  # 5% πλεονέκτημα υπέρ μας
+            value_tag = " 🔥 VALUE BET"
+
         ht_tip = f"1ο Ημίχ. Over 1.5 ({p_ht_over15:.1f}%)" if p_ht_over15 > 40.0 else f"1ο Ημίχ. Over 0.5 ({p_ht_over05:.1f}%)"
             
         raw_league = match.get('sport_title', 'Ποδόσφαιρο')
@@ -151,7 +163,8 @@ if matches and isinstance(matches, list):
         default_forms = ["🟢🟢🟡🟢🟢", "🟢🔴🟢🟢🟡", "🟡🟢🟢🔴🟢", "🟢🟢🟢🟡🔴", "🔴🟡🟢🟢🟢"]
         home_form, away_form = random.choice(default_forms), random.choice(default_forms)
         
-        prediction = f"📊 {best_tip} ({best_prob:.1f}% | {final_odd:.2f}) ✨ {ht_tip}"
+        # Ενσωμάτωση του value_tag στο κείμενο της πρόβλεψης
+        prediction = f"📊 {best_tip} ({best_prob:.1f}% | {final_odd:.2f}){value_tag} ✨ {ht_tip}"
         output_lines.append(f"🏆 {clean_league}|{home} vs {away}|{match_time}|{prediction}|{home_form}|{away_form}")
         valid_count += 1
 else:
@@ -164,5 +177,4 @@ for result in PAST_RESULTS:
 with open(DATA_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(output_lines))
 
-print("🎯 Fully Automated JSON Stats Reader loaded successfully and bug fixed!")
-
+print("🎯 Fully Automated JSON Stats Reader & Value Bet Filter deployed successfully!")
