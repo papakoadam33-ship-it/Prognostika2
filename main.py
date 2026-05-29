@@ -132,9 +132,9 @@ if matches and isinstance(matches, list):
             home_attack, home_defense = random.uniform(1.3, 1.7), random.uniform(0.9, 1.3)
             away_attack, away_defense = random.uniform(1.1, 1.5), random.uniform(0.9, 1.3)
         
-        p_over, p_under, p_gg, p_ht_over05, p_ht_over15, p_over15 = calculate_advanced_preds(home_attack, home_defense, away_attack, defense_away=away_defense) # Διόρθωση ονόματος παραμέτρου
+        # ✅ ΕΔΩ ΗΤΑΝ ΤΟ ΛΑΘΟΣ - ΔΙΟΡΘΩΘΗΚΕ ΣΕ away_defense
+        p_over, p_under, p_gg, p_ht_over05, p_ht_over15, p_over15 = calculate_advanced_preds(home_attack, home_defense, away_attack, away_defense)
         
-        # 🛡️ ΕΞΥΠΝΗ ΣΤΡΑΤΗΓΙΚΗ ΔΙΑΧΕΙΡΙΣΗΣ ΡΙΣΚΟΥ
         if p_over > 75.0: best_tip, best_prob = "Over 2.5", p_over
         elif p_over15 > 82.0: best_tip, best_prob = "Over 1.5", p_over15
         elif p_gg > 60.0: best_tip, best_prob = "Goal / Goal", p_gg
@@ -164,4 +164,5 @@ for result in PAST_RESULTS:
 with open(DATA_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(output_lines))
 
-print("🎯 Fully Automated JSON Stats Reader loaded successfully!")
+print("🎯 Fully Automated JSON Stats Reader loaded successfully and bug fixed!")
+
