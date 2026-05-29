@@ -7,13 +7,15 @@ from zoneinfo import ZoneInfo
 from mtranslate import translate
 
 # =========================================================================
-# 📊 ΤΑ ΖΩΝΤΑΝΑ ΣΤΑΤΙΣΤΙΚΑ ΣΟΥ
+# 📊 ΤΑ ΖΩΝΤΑΝΑ ΣΤΑΤΙΣΤΙΚΑ ΣΟΥ (Ανανεωμένα μετά το δελτίο)
 # =========================================================================
-WIN_RATE = "82.5"  
-TOTAL_YIELD = "28.4"  
+WIN_RATE = "78.2"  
+TOTAL_YIELD = "22.1"  
 
 PAST_RESULTS = [
-    "🏁 Saint Etienne vs Nice | Score: 0-0 | Under 2.5 -> ✅ ΤΑΜΕΙΟ"
+    "🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ",
+    "🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς",
+    "🏁 Palmeiras vs Atletico Jr | Score: 4-1 | Over 2.5 -> ✅ ΤΑΜΕΙΟ"
 ]
 # =========================================================================
 
@@ -24,9 +26,6 @@ DATA_FILE = "daily_predictions.txt"
 tz_athens = ZoneInfo("Europe/Athens")
 now_athens = datetime.now(tz_athens)
 time_str = now_athens.strftime('%d/%m/%Y %H:%M')
-
-# Τρέχον timestamp σε δευτερόλεπτα (UTC / Global)
-current_timestamp = datetime.now(ZoneInfo("UTC")).timestamp()
 
 output_lines = []
 output_lines.append(f"STATS|{WIN_RATE}|{TOTAL_YIELD}")
@@ -45,6 +44,7 @@ def calculate_advanced_preds(home_attack, home_defense, away_attack, away_defens
     away_lambda_half = away_lambda_full * 0.45
     
     over_25_prob = 0.0
+    over_15_prob = 0.0
     gg_prob = 0.0
     ht_00_prob = 0.0  
     ht_over15_prob = 0.0 
@@ -57,6 +57,8 @@ def calculate_advanced_preds(home_attack, home_defense, away_attack, away_defens
             
             if (h + a) > 2:
                 over_25_prob += p_score_ft
+            if (h + a) > 1:
+                over_15_prob += p_score_ft
             if h > 0 and a > 0:
                 gg_prob += p_score_ft
 
@@ -79,7 +81,8 @@ def calculate_advanced_preds(home_attack, home_defense, away_attack, away_defens
         under_25_prob * 100, 
         gg_prob * 100, 
         ht_over05_prob * 100, 
-        ht_over15_prob * 100
+        ht_over15_prob * 100,
+        over_15_prob * 100
     )
 
 # ODDS API
@@ -98,24 +101,21 @@ if matches and isinstance(matches, list):
         if valid_count >= 18:
             break
             
-        # 🕰️ ΕΛΕΓΧΟΣ ΩΡΑΣ (ΑΛΑΝΘΑΣΤΟΣ ΜΕ ISO FORMAT)
         commence_time_str = match.get('commence_time')
         if commence_time_str:
             try:
-                # Αντικατάσταση του 'Z' με '+00:00' για να το διαβάσει σωστά η Python σε όλες τις εκδόσεις
                 clean_time_str = commence_time_str.replace('Z', '+00:00')
                 match_utc = datetime.fromisoformat(clean_time_str)
-                match_timestamp = match_utc.timestamp()
+                match_athens = match_utc.astimezone(tz_athens)
                 
-                # Φίλτρο: Αν το ματς έχει ήδη ξεκινήσει, το πετάμε έξω!
-                if current_timestamp > match_timestamp:
+                if match_athens.date() != now_athens.date():
+                    continue
+                if now_athens > match_athens:
                     continue
                 
-                match_athens = match_utc.astimezone(tz_athens)
                 match_time = match_athens.strftime("%H:%M")
-            except Exception as e:
-                print(f"Error parsing time: {e}")
-                continue  # Αν αποτύχει η ώρα, προσπέρασε το ματς για ασφάλεια
+            except:
+                continue
         else:
             continue
             
@@ -149,18 +149,28 @@ if matches and isinstance(matches, list):
             away_attack = random.uniform(1.1, 1.5)
             away_defense = random.uniform(0.9, 1.3)
         
-        p_over, p_under, p_gg, p_ht_over05, p_ht_over15 = calculate_advanced_preds(
+        p_over, p_under, p_gg, p_ht_over05, p_ht_over15, p_over15 = calculate_advanced_preds(
             home_attack, home_defense, away_attack, away_defense
         )
         
-        probs_dict = {"Over 2.5": p_over, "Under 2.5": p_under, "Goal / Goal": p_gg}
-        best_tip = max(probs_dict, key=probs_dict.get)
-        best_prob = probs_dict[best_tip]
+        # 🛡️ ΕΞΥΠΝΗ ΣΤΡΑΤΗΓΙΚΗ ΔΙΑΧΕΙΡΙΣΗΣ ΡΙΣΚΟΥ
+        if p_over > 75.0:
+            best_tip = "Over 2.5"
+            best_prob = p_over
+        elif p_over15 > 82.0:
+            best_tip = "Over 1.5"
+            best_prob = p_over15
+        elif p_gg > 60.0:
+            best_tip = "Goal / Goal"
+            best_prob = p_gg
+        else:
+            best_tip = "Under 2.5"
+            best_prob = p_under
         
         base_odd = 100 / (best_prob * 0.9)
-        final_odd = max(1.55, min(2.45, base_odd))
+        final_odd = max(1.40, min(2.45, base_odd))
         
-        if p_ht_over15 > 38.0:
+        if p_ht_over15 > 40.0:
             ht_tip = f"1ο Ημίχ. Over 1.5 ({p_ht_over15:.1f}%)"
         else:
             ht_tip = f"1ο Ημίχ. Over 0.5 ({p_ht_over05:.1f}%)"
@@ -188,5 +198,5 @@ for result in PAST_RESULTS:
 with open(DATA_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(output_lines))
 
-print("🎯 Absolute ISO-timestamp filter applied successfully!")
+print("🎯 Safe-bet strategies and modern filters successfully active!")
 
