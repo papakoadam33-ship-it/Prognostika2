@@ -1,12 +1,14 @@
-STATS|82.5|28.4
---- ΠΡΟΓΝΩΣΤΙΚΑ 29/05/2026 10:50 ---
-🏆 Super League - Κίνα|Liaoning Tieren FC vs Shanghai SIPG FC|14:35|📊 Over 2.5 (75.4% | 1.55) ✨ 1ο Ημίχ. Over 1.5 (64.2%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
-🏆 Eliteserien - Νορβηγία|Aalesund vs HamKam|20:00|📊 Over 2.5 (71.7% | 1.55) ✨ 1ο Ημίχ. Over 1.5 (66.7%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
-🏆 Eliteserien - Νορβηγία|Rosenborg vs Bodø/Glimt|20:00|📊 Goal / Goal (52.7% | 2.11) ✨ 1ο Ημίχ. Over 0.5 (69.5%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
-🏆 Eliteserien - Νορβηγία|Fredrikstad FK vs IK Start|20:00|📊 Over 2.5 (77.3% | 1.55) ✨ 1ο Ημίχ. Over 1.5 (65.9%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
-🏆 Allsvenskan - Σουηδία|Örgryte IS vs IF Elfsborg|20:00|📊 Goal / Goal (67.4% | 1.65) ✨ 1ο Ημίχ. Over 1.5 (45.8%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
-🏆 Eliteserien - Νορβηγία|KFUM vs Tromso|20:00|📊 Goal / Goal (66.3% | 1.67) ✨ 1ο Ημίχ. Over 1.5 (44.6%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
-🏆 Eliteserien - Νορβηγία|Vålerenga vs Kristiansund BK|20:00|📊 Under 2.5 (52.4% | 2.12) ✨ 1ο Ημίχ. Over 0.5 (68.9%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
-🏆 Eliteserien - Νορβηγία|SK Brann vs Sarpsborg FK|20:00|📊 Under 2.5 (53.5% | 2.08) ✨ 1ο Ημίχ. Over 0.5 (68.2%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+STATS|78.2|22.1
+--- ΠΡΟΓΝΩΣΤΙΚΑ 29/05/2026 15:22 ---
+🏆 Eliteserien - Νορβηγία|Aalesund vs HamKam|20:00|📊 Over 2.5 (76.8% | 1.45) ✨ 1ο Ημίχ. Over 1.5 (65.9%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
+🏆 Eliteserien - Νορβηγία|Rosenborg vs Bodø/Glimt|20:00|📊 Under 2.5 (48.8% | 2.28) ✨ 1ο Ημίχ. Over 0.5 (71.0%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 Eliteserien - Νορβηγία|Fredrikstad FK vs IK Start|20:00|📊 Over 2.5 (78.4% | 1.42) ✨ 1ο Ημίχ. Over 1.5 (64.3%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
+🏆 Allsvenskan - Σουηδία|Örgryte IS vs IF Elfsborg|20:00|📊 Under 2.5 (43.2% | 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.3%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
+🏆 Eliteserien - Νορβηγία|KFUM vs Tromso|20:00|📊 Goal / Goal (61.8% | 1.80) ✨ 1ο Ημίχ. Over 1.5 (40.6%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
+🏆 Eliteserien - Νορβηγία|Vålerenga vs Kristiansund BK|20:00|📊 Over 1.5 (83.0% | 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.7%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
+🏆 Eliteserien - Νορβηγία|SK Brann vs Sarpsborg FK|20:00|📊 Over 1.5 (82.3% | 1.40) ✨ 1ο Ημίχ. Over 1.5 (41.9%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
+🏆 Serie B - Ιταλία|Monza vs US Catanzaro 1929|21:00|📊 Under 2.5 (45.8% | 2.42) ✨ 1ο Ημίχ. Over 0.5 (72.6%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
-🏁 Saint Etienne vs Nice | Score: 0-0 | Under 2.5 -> ✅ ΤΑΜΕΙΟ
+🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
+🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
+🏁 Palmeiras vs Atletico Jr | Score: 4-1 | Over 2.5 -> ✅ ΤΑΜΕΙΟ
