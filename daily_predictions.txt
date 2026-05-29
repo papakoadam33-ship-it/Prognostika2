@@ -1,12 +1,12 @@
 STATS|82.5|28.4
---- ΠΡΟΓΝΩΣΤΙΚΑ 29/05/2026 02:09 ---
-🏆 Copa Sudamericana|CA Tigre BA vs Alianza Atlético|03:30|📊 Goal / Goal (59.8% | 1.86) ✨ 1ο Ημίχ. Over 1.5 (38.6%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
-🏆 Copa Sudamericana|América de Cali vs Macará|03:30|📊 Under 2.5 (76.0% | 1.55) ✨ 1ο Ημίχ. Over 0.5 (53.3%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
-🏆 Κόπα Λιμπερταδόρες|Cruzeiro vs Barcelona SC|03:30|📊 Goal / Goal (59.0% | 1.88) ✨ 1ο Ημίχ. Over 0.5 (73.7%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
-🏆 Κόπα Λιμπερταδόρες|Boca Juniors vs Universidad Católica (CHI)|03:30|📊 Goal / Goal (61.7% | 1.80) ✨ 1ο Ημίχ. Over 1.5 (40.2%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
-🏆 Super League - Κίνα|Liaoning Tieren FC vs Shanghai SIPG FC|14:35|📊 Over 2.5 (79.3% | 1.55) ✨ 1ο Ημίχ. Over 1.5 (61.4%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
-🏆 Eliteserien - Νορβηγία|Aalesund vs HamKam|20:00|📊 Over 2.5 (76.2% | 1.55) ✨ 1ο Ημίχ. Over 1.5 (64.2%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
-🏆 Eliteserien - Νορβηγία|Rosenborg vs Bodø/Glimt|20:00|📊 Goal / Goal (59.8% | 1.86) ✨ 1ο Ημίχ. Over 1.5 (39.7%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
-🏆 Eliteserien - Νορβηγία|Fredrikstad FK vs IK Start|20:00|📊 Over 2.5 (78.0% | 1.55) ✨ 1ο Ημίχ. Over 1.5 (61.0%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
+--- ΠΡΟΓΝΩΣΤΙΚΑ 29/05/2026 05:44 ---
+🏆 Super League - Κίνα|Liaoning Tieren FC vs Shanghai SIPG FC|14:35|📊 Over 2.5 (78.3% | 1.55) ✨ 1ο Ημίχ. Over 1.5 (61.2%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
+🏆 Eliteserien - Νορβηγία|Aalesund vs HamKam|20:00|📊 Over 2.5 (78.4% | 1.55) ✨ 1ο Ημίχ. Over 1.5 (59.0%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
+🏆 Eliteserien - Νορβηγία|Rosenborg vs Bodø/Glimt|20:00|📊 Goal / Goal (55.5% | 2.00) ✨ 1ο Ημίχ. Over 0.5 (71.6%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+🏆 Eliteserien - Νορβηγία|Fredrikstad FK vs IK Start|20:00|📊 Over 2.5 (78.6% | 1.55) ✨ 1ο Ημίχ. Over 1.5 (60.0%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
+🏆 Allsvenskan - Σουηδία|Örgryte IS vs IF Elfsborg|20:00|📊 Over 2.5 (69.7% | 1.59) ✨ 1ο Ημίχ. Over 1.5 (48.1%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
+🏆 Eliteserien - Νορβηγία|KFUM vs Tromso|20:00|📊 Goal / Goal (65.8% | 1.69) ✨ 1ο Ημίχ. Over 1.5 (44.0%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 Eliteserien - Νορβηγία|Vålerenga vs Kristiansund BK|20:00|📊 Goal / Goal (53.0% | 2.09) ✨ 1ο Ημίχ. Over 0.5 (69.6%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 Eliteserien - Νορβηγία|SK Brann vs Sarpsborg FK|20:00|📊 Goal / Goal (58.2% | 1.91) ✨ 1ο Ημίχ. Over 0.5 (73.0%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Saint Etienne vs Nice | Score: 0-0 | Under 2.5 -> ✅ ΤΑΜΕΙΟ
