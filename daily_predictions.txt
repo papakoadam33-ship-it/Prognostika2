@@ -1,13 +1,11 @@
 STATS|78.2|22.1
---- ΠΡΟΓΝΩΣΤΙΚΑ 29/05/2026 17:04 ---
-🏆 Eliteserien - Νορβηγία|Aalesund vs HamKam|20:00|📊 Under 2.5 (47.5% | 2.34) ✨ 1ο Ημίχ. Over 0.5 (71.7%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
-🏆 Eliteserien - Νορβηγία|Rosenborg vs Bodø/Glimt|20:00|📊 Over 2.5 (79.4% | 1.40) ✨ 1ο Ημίχ. Over 1.5 (60.6%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
-🏆 Eliteserien - Νορβηγία|Fredrikstad FK vs IK Start|20:00|📊 Goal / Goal (61.1% | 1.82) ✨ 1ο Ημίχ. Over 0.5 (75.2%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
-🏆 Allsvenskan - Σουηδία|Örgryte IS vs IF Elfsborg|20:00|📊 Goal / Goal (60.8% | 1.83) ✨ 1ο Ημίχ. Over 0.5 (75.2%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
-🏆 Eliteserien - Νορβηγία|KFUM vs Tromso|20:00|📊 Under 2.5 (65.6% | 1.69) ✨ 1ο Ημίχ. Over 0.5 (60.9%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
-🏆 Eliteserien - Νορβηγία|Vålerenga vs Kristiansund BK|20:00|📊 Over 2.5 (79.5% | 1.40) ✨ 1ο Ημίχ. Over 1.5 (62.5%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
-🏆 Eliteserien - Νορβηγία|SK Brann vs Sarpsborg FK|20:00|📊 Over 2.5 (78.7% | 1.41) ✨ 1ο Ημίχ. Over 1.5 (62.3%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
-🏆 Serie B - Ιταλία|Monza vs US Catanzaro 1929|21:00|📊 Under 2.5 (46.9% | 2.37) ✨ 1ο Ημίχ. Over 0.5 (72.1%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
+--- ΠΡΟΓΝΩΣΤΙΚΑ 29/05/2026 21:29 ---
+🏆 Λιγκ της Ιρλανδίας|Sligo Rovers vs Bohemians|21:45|📊 Under 2.5 (40.3% | 2.45) ✨ 1ο Ημίχ. Over 1.5 (40.3%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 Λιγκ της Ιρλανδίας|Dundalk vs Derry City|21:45|📊 Goal / Goal (62.7% | 1.77) ✨ 1ο Ημίχ. Over 1.5 (41.2%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
+🏆 Λιγκ της Ιρλανδίας|Drogheda United vs Waterford FC|21:45|📊 Over 1.5 (82.3% | 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.2%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 Λιγκ της Ιρλανδίας|Shelbourne Dublin vs Galway United|21:45|📊 Under 2.5 (43.7% | 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.8%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 Ligue 1 - Γαλλία|Nice vs Saint Etienne|21:45|📊 Under 2.5 (71.3% | 1.56) ✨ 1ο Ημίχ. Over 0.5 (56.9%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 Λιγκ της Ιρλανδίας|Shamrock Rovers vs St Patricks Athletic|22:00|📊 Under 2.5 (84.2% | 1.40) ✨ 1ο Ημίχ. Over 0.5 (45.9%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
