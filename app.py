@@ -63,8 +63,8 @@ st.markdown("""
         color: #fff;
     }
 
-    .pred-box { background: #1e293b; padding: 10px; border-radius: 8px; margin-top: 10px; font-size: 14px; }
-    .form-dots { font-size: 16px; margin-top: 5px; }
+    .pred-box { background: #1e293b; padding: 10px; border-radius: 8px; margin-top: 10px; font-size: 14px; color: #fff; }
+    .form-dots { font-size: 14px; margin-top: 10px; color: #94a3b8; }
     </style>
     """, unsafe_allow_html=True)
 
@@ -88,6 +88,7 @@ if os.path.exists(DATA_FILE):
     for line in lines[1:]:
         if line.startswith("🏆"):
             parts = line.strip().split("|")
+            if len(parts) < 6: continue
             league = parts[0].replace("🏆 ", "")
             teams = parts[1]
             m_time = parts[2]
@@ -98,15 +99,15 @@ if os.path.exists(DATA_FILE):
             is_value = "VALUE BET" in prediction
             prediction_clean = prediction.replace("🔥 VALUE BET", "").strip()
 
-            with st.container():
-                st.markdown(f"""
-                    <div class="match-card">
-                        <div class="league-tag">{league} • {m_time}</div>
-                        <div class="teams">{teams}</div>
-                        {"<div class='value-bet-alert'>🔥 VALUE BET IDENTIFIED</div>" if is_value else ""}
-                        <div class="pred-box">{prediction_clean}</div>
-                        <div class="form-dots">Φόρμα: {h_form} vs {a_form}</div>
-                    </div>
-                """, unsafe_allow_html=True)
+            st.markdown(f"""
+                <div class="match-card">
+                    <div class="league-tag">{league} • {m_time}</div>
+                    <div class="teams">{teams}</div>
+                    {"<div class='value-bet-alert'>🔥 VALUE BET IDENTIFIED</div>" if is_value else ""}
+                    <div class="pred-box">{prediction_clean}</div>
+                    <div class="form-dots">Φόρμα: {h_form} vs {a_form}</div>
+                </div>
+            """, unsafe_allow_html=True)
 else:
     st.info("🔄 Πατήστε 'Ανανέωση' για να φορτώσουν οι αγώνες.")
+
