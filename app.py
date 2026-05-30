@@ -1,18 +1,15 @@
 import streamlit as st
 import os
 
-# --- CUSTOM CSS ΓΙΑ "POP" ΕΜΦΑΝΙΣΗ ---
 st.set_page_config(page_title="MARIOS PRO-BET PRO", layout="centered")
 
 st.markdown("""
     <style>
-    /* Background & Main Container */
     .stApp {
         background-color: #020617;
         color: #f8fafc;
     }
     
-    /* Header Styling */
     .main-header {
         text-align: center;
         padding: 20px;
@@ -31,7 +28,6 @@ st.markdown("""
         margin: 0;
     }
     
-    /* Stats Box */
     .stats-container {
         display: flex;
         justify-content: space-around;
@@ -46,21 +42,17 @@ st.markdown("""
     .stat-value { font-size: 24px; font-weight: 700; color: #10b981; }
     .stat-label { font-size: 12px; color: #94a3b8; text-transform: uppercase; }
 
-    /* Match Card */
     .match-card {
         background: #0f172a;
         border: 1px solid #1e293b;
         padding: 20px;
         border-radius: 15px;
         margin-bottom: 15px;
-        transition: transform 0.2s;
     }
-    .match-card:hover { border-color: #334155; transform: scale(1.01); }
     
     .league-tag { color: #f59e0b; font-size: 12px; font-weight: 700; margin-bottom: 5px; }
     .teams { font-size: 18px; font-weight: 700; color: #fff; margin-bottom: 10px; }
     
-    /* 🔥 VALUE BET ALERT BOX 🔥 */
     .value-bet-alert {
         background: linear-gradient(90deg, rgba(245, 158, 11, 0.2) 0%, rgba(245, 158, 11, 0.05) 100%);
         border-left: 5px solid #f59e0b;
@@ -69,25 +61,19 @@ st.markdown("""
         margin: 10px 0;
         font-weight: 700;
         color: #fff;
-        display: flex;
-        align-items: center;
-        gap: 10px;
     }
 
-    /* Prediction Details */
     .pred-box { background: #1e293b; padding: 10px; border-radius: 8px; margin-top: 10px; font-size: 14px; }
     .form-dots { font-size: 16px; margin-top: 5px; }
     </style>
     """, unsafe_allow_html=True)
 
-# --- LOGIC ΓΙΑ ΤΟ ΔΙΑΒΑΣΜΑ ΤΩΝ ΑΓΩΝΩΝ ---
 DATA_FILE = "daily_predictions.txt"
 
 if os.path.exists(DATA_FILE):
     with open(DATA_FILE, "r", encoding="utf-8") as f:
         lines = f.readlines()
 
-    # Header & Stats
     st.markdown('<div class="main-header"><h1>⚡ MARIOS PRO-BET PRO</h1></div>', unsafe_allow_html=True)
     
     if lines and lines[0].startswith("STATS"):
@@ -99,7 +85,6 @@ if os.path.exists(DATA_FILE):
             </div>
         """, unsafe_allow_html=True)
 
-    # Loop through matches
     for line in lines[1:]:
         if line.startswith("🏆"):
             parts = line.strip().split("|")
@@ -110,7 +95,6 @@ if os.path.exists(DATA_FILE):
             h_form = parts[4]
             a_form = parts[5]
             
-            # Έλεγχος αν είναι Value Bet
             is_value = "VALUE BET" in prediction
             prediction_clean = prediction.replace("🔥 VALUE BET", "").strip()
 
@@ -126,10 +110,3 @@ if os.path.exists(DATA_FILE):
                 """, unsafe_allow_html=True)
 else:
     st.info("🔄 Πατήστε 'Ανανέωση' για να φορτώσουν οι αγώνες.")
-
-**Τι άλλαξε:**
-1. **Glass Design:** Οι κάρτες έχουν πλέον βάθος και σκιές.
-2. **Value Bet Alert:** Όταν υπάρχει Value Bet, εμφανίζεται ένα **χρυσό πλαίσιο** με ένδειξη που "φωνάζει" από μακριά.
-3. **Stats Dashboard:** Τα ποσοστά σου (Win Rate/Yield) είναι πλέον μέσα σε ένα καθαρό, επαγγελματικό πλαίσιο στην κορυφή.
-
-Πώς σου φαίνεται; Αν το περάσεις τώρα, το app σου θα μοιάζει με πληρωμένη εφαρμογή του App Store!
