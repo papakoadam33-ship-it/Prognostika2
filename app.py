@@ -53,41 +53,47 @@ if os.path.exists(DATA_FILE):
             teams = parts[1]
             m_time = parts[2]
             prediction = parts[3]
-            raw_home_form = parts[4]
-            raw_away_form = parts[5]
+            raw_home_form = parts[4].strip()
+            raw_away_form = parts[5].strip()
             
             is_value = "VALUE BET" in prediction
             
-            # --- ΕΞΥΠΝΟΣ ΔΙΑΧΩΡΙΣΜΟΣ ΗΜΙΧΡΟΝΟΥ & ΑΠΟΔΟΣΗΣ ---
+            # --- 1. ΚΑΘΑΡΙΣΜΟΣ ΣΗΜΕΙΟΥ & ΗΜΙΧΡΟΝΟΥ ---
             prediction_clean = prediction.replace("🔥 VALUE BET", "").strip()
-            
-            # Αν το ημίχρονο ξέμεινε κατά λάθος στη στήλη της φόρμας
             ht_tip = ""
+            
+            # Έλεγχος αν το Ημίχρονο κρύβεται στη στήλη της φόρμας
             if "✨" in raw_home_form:
                 form_parts = raw_home_form.split("✨")
-                # Κρατάμε ό,τι περίσσεψε από την απόδοση
                 extra_odd = form_parts[0].strip()
-                if extra_odd and not extra_odd.startswith("🟢") and not extra_odd.startswith("🔴") and not extra_odd.startswith("🟡"):
+                if extra_odd and not any(c in extra_odd for c in ["🟢", "🔴", "🟡"]):
                     prediction_clean += " " + extra_odd
                 ht_tip = form_parts[1].strip()
-                # Η πραγματική φόρμα είναι στην επόμενη στήλη
-                home_form = raw_away_form
-                away_form = "Δεν είναι διαθέσιμη" # Safe fallback
+                combined_forms = raw_away_form
             elif "✨" in prediction_clean:
                 pred_parts = prediction_clean.split("✨")
                 prediction_clean = pred_parts[0].strip()
                 ht_tip = pred_parts[1].strip()
-                home_form = raw_home_form
-                away_form = raw_away_form
+                combined_forms = raw_home_form
             else:
-                home_form = raw_home_form
-                away_form = raw_away_form
+                combined_forms = raw_home_form
 
-            # Αν η φόρμα της μίας ομάδας περιέχει και τις δύο (παλιό string format)
-            if "🟢" in home_form and "vs" in home_form:
-                vs_parts = home_form.split("vs")
-                home_form = vs_parts[0].strip()
-                away_form = vs_parts[1].strip()
+            # --- 2. ΧΕΙΡΟΥΡΓΙΚΟΣ ΔΙΑΧΩΡΙΣΜΟΣ ΦΟΡΜΑΣ (5-5 ΚΥΚΛΑΚΙΑ) ---
+            # Καθαρίζουμε το string από λέξεις όπως "vs" αν υπάρχουν
+            combined_forms = combined_forms.replace("vs", "").replace(" ", "")
+            
+            # Μετράμε τα emoji για να σπάσουμε τη σειρά στη μέση
+            all_emojis = [char for char in combined_forms if char in ["🟢", "🔴", "🟡"]]
+            
+            if len(all_emojis) >= 10:
+                home_form = "".join(all_emojis[:5])
+                away_form = "".join(all_emojis[5:10])
+            elif len(all_emojis) == 5:
+                home_form = "".join(all_emojis)
+                away_form = "🟡🟡🟡🟡🟡"
+            else:
+                home_form = "🟡🟡🟡🟡🟡"
+                away_form = "🟡🟡🟡🟡🟡"
 
             with st.container(border=True):
                 st.subheader(teams)
@@ -96,21 +102,18 @@ if os.path.exists(DATA_FILE):
                 if is_value:
                     st.markdown('<div class="value-box">🔥 VALUE BET IDENTIFIED</div>', unsafe_allow_html=True)
                 
-                # Κύριο Σημείο
                 st.info(f"**Κύριο Σημείο:** {prediction_clean}")
                 
-                # Combo Ημίχρονο
                 if ht_tip:
                     st.warning(f"**⚡ Combo Tip:** {ht_tip}")
                 
                 st.divider()
                 
-                # Εμφάνιση Φόρμας
-                if "🟢" in home_form or "🔴" in home_form:
-                    col_h, col_a = st.columns(2)
-                    with col_h:
-                        st.markdown(f"<span class='info-label'>🏠 Εντός:</span> {home_form}", unsafe_allow_html=True)
-                    with col_a:
-                        st.markdown(f"<span class='info-label'>🚀 Εκτός:</span> {away_form}", unsafe_allow_html=True)
+                col_h, col_a = st.columns(2)
+                with col_h:
+                    st.markdown(f"<span class='info-label'>🏠 Εντός:</span> {home_form}", unsafe_allow_html=True)
+                with col_a:
+                    st.markdown(f"<span class='info-label'>🚀 Εκτός:</span> {away_form}", unsafe_allow_html=True)
 else:
     st.info("🔄 Πατήστε 'Ανανέωση' για να φορτώσουν οι αγώνες.")
+
