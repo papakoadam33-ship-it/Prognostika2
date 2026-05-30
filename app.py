@@ -53,20 +53,41 @@ if os.path.exists(DATA_FILE):
             teams = parts[1]
             m_time = parts[2]
             prediction = parts[3]
-            h_form = parts[4]
-            a_form = parts[5]
+            raw_home_form = parts[4]
+            raw_away_form = parts[5]
             
             is_value = "VALUE BET" in prediction
             
-            # Καθαρισμός κύριου σημείου και εξαγωγή του Ημιχρόνου (αν υπάρχει)
+            # --- ΕΞΥΠΝΟΣ ΔΙΑΧΩΡΙΣΜΟΣ ΗΜΙΧΡΟΝΟΥ & ΑΠΟΔΟΣΗΣ ---
             prediction_clean = prediction.replace("🔥 VALUE BET", "").strip()
+            
+            # Αν το ημίχρονο ξέμεινε κατά λάθος στη στήλη της φόρμας
             ht_tip = ""
-            if "✨" in prediction_clean:
+            if "✨" in raw_home_form:
+                form_parts = raw_home_form.split("✨")
+                # Κρατάμε ό,τι περίσσεψε από την απόδοση
+                extra_odd = form_parts[0].strip()
+                if extra_odd and not extra_odd.startswith("🟢") and not extra_odd.startswith("🔴") and not extra_odd.startswith("🟡"):
+                    prediction_clean += " " + extra_odd
+                ht_tip = form_parts[1].strip()
+                # Η πραγματική φόρμα είναι στην επόμενη στήλη
+                home_form = raw_away_form
+                away_form = "Δεν είναι διαθέσιμη" # Safe fallback
+            elif "✨" in prediction_clean:
                 pred_parts = prediction_clean.split("✨")
-                prediction_main = pred_parts[0].strip()
+                prediction_clean = pred_parts[0].strip()
                 ht_tip = pred_parts[1].strip()
+                home_form = raw_home_form
+                away_form = raw_away_form
             else:
-                prediction_main = prediction_clean
+                home_form = raw_home_form
+                away_form = raw_away_form
+
+            # Αν η φόρμα της μίας ομάδας περιέχει και τις δύο (παλιό string format)
+            if "🟢" in home_form and "vs" in home_form:
+                vs_parts = home_form.split("vs")
+                home_form = vs_parts[0].strip()
+                away_form = vs_parts[1].strip()
 
             with st.container(border=True):
                 st.subheader(teams)
@@ -75,20 +96,21 @@ if os.path.exists(DATA_FILE):
                 if is_value:
                     st.markdown('<div class="value-box">🔥 VALUE BET IDENTIFIED</div>', unsafe_allow_html=True)
                 
-                # Κύριο Σημείο (π.χ. Under 2.5 / Over 2.5)
-                st.info(f"**Κύριο Σημείο:** {prediction_main}")
+                # Κύριο Σημείο
+                st.info(f"**Κύριο Σημείο:** {prediction_clean}")
                 
-                # Ειδικό Στόχημα Ημιχρόνου (Αν υπάρχει)
+                # Combo Ημίχρονο
                 if ht_tip:
                     st.warning(f"**⚡ Combo Tip:** {ht_tip}")
                 
                 st.divider()
                 
-                # Καθαρή εμφάνιση Φόρμας χωρίς παρεμβολές
-                col_h, col_a = st.columns(2)
-                with col_h:
-                    st.markdown(f"<span class='info-label'>🏠 Εντός:</span> {h_form}", unsafe_allow_html=True)
-                with col_a:
-                    st.markdown(f"<span class='info-label'>🚀 Εκτός:</span> {a_form}", unsafe_allow_html=True)
+                # Εμφάνιση Φόρμας
+                if "🟢" in home_form or "🔴" in home_form:
+                    col_h, col_a = st.columns(2)
+                    with col_h:
+                        st.markdown(f"<span class='info-label'>🏠 Εντός:</span> {home_form}", unsafe_allow_html=True)
+                    with col_a:
+                        st.markdown(f"<span class='info-label'>🚀 Εκτός:</span> {away_form}", unsafe_allow_html=True)
 else:
     st.info("🔄 Πατήστε 'Ανανέωση' για να φορτώσουν οι αγώνες.")
