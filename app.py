@@ -19,6 +19,10 @@ st.markdown("""
         margin-bottom: 5px;
         color: #fff;
     }
+    .info-label {
+        font-weight: bold;
+        color: #94a3b8;
+    }
     </style>
     """, unsafe_allow_html=True)
 
@@ -53,7 +57,16 @@ if os.path.exists(DATA_FILE):
             a_form = parts[5]
             
             is_value = "VALUE BET" in prediction
+            
+            # Καθαρισμός κύριου σημείου και εξαγωγή του Ημιχρόνου (αν υπάρχει)
             prediction_clean = prediction.replace("🔥 VALUE BET", "").strip()
+            ht_tip = ""
+            if "✨" in prediction_clean:
+                pred_parts = prediction_clean.split("✨")
+                prediction_main = pred_parts[0].strip()
+                ht_tip = pred_parts[1].strip()
+            else:
+                prediction_main = prediction_clean
 
             with st.container(border=True):
                 st.subheader(teams)
@@ -62,9 +75,20 @@ if os.path.exists(DATA_FILE):
                 if is_value:
                     st.markdown('<div class="value-box">🔥 VALUE BET IDENTIFIED</div>', unsafe_allow_html=True)
                 
-                st.info(prediction_clean)
+                # Κύριο Σημείο (π.χ. Under 2.5 / Over 2.5)
+                st.info(f"**Κύριο Σημείο:** {prediction_main}")
                 
-                # Καθαρός διαχωρισμός φόρμας
-                st.markdown(f"**📈 Φόρμα Ομάδων:** {h_form}  vs  {a_form}")
+                # Ειδικό Στόχημα Ημιχρόνου (Αν υπάρχει)
+                if ht_tip:
+                    st.warning(f"**⚡ Combo Tip:** {ht_tip}")
+                
+                st.divider()
+                
+                # Καθαρή εμφάνιση Φόρμας χωρίς παρεμβολές
+                col_h, col_a = st.columns(2)
+                with col_h:
+                    st.markdown(f"<span class='info-label'>🏠 Εντός:</span> {h_form}", unsafe_allow_html=True)
+                with col_a:
+                    st.markdown(f"<span class='info-label'>🚀 Εκτός:</span> {a_form}", unsafe_allow_html=True)
 else:
     st.info("🔄 Πατήστε 'Ανανέωση' για να φορτώσουν οι αγώνες.")
