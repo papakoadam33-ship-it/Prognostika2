@@ -1,10 +1,8 @@
 import streamlit as st
 import os
 
-# Ρύθμιση σελίδας
 st.set_page_config(page_title="MARIOS PRO-BET PRO", layout="centered")
 
-# Σκοτεινό στυλ και custom χρώματα για τις κάρτες
 st.markdown("""
     <style>
     .stApp {
@@ -17,7 +15,9 @@ st.markdown("""
         padding: 10px;
         border-radius: 5px;
         font-weight: bold;
-        margin-bottom: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        color: #fff;
     }
     </style>
     """, unsafe_allow_html=True)
@@ -28,10 +28,8 @@ if os.path.exists(DATA_FILE):
     with open(DATA_FILE, "r", encoding="utf-8") as f:
         lines = f.readlines()
 
-    # Τίτλος Εφαρμογής
     st.title("⚡ MARIOS PRO-BET PRO")
     
-    # Εμφάνιση Στατιστικών στην κορυφή
     if lines and lines[0].startswith("STATS"):
         _, wr, yld = lines[0].strip().split("|")
         col1, col2 = st.columns(2)
@@ -42,7 +40,6 @@ if os.path.exists(DATA_FILE):
     
     st.divider()
 
-    # Εμφάνιση Αγώνων
     for line in lines[1:]:
         if line.startswith("🏆"):
             parts = line.strip().split("|")
@@ -58,16 +55,16 @@ if os.path.exists(DATA_FILE):
             is_value = "VALUE BET" in prediction
             prediction_clean = prediction.replace("🔥 VALUE BET", "").strip()
 
-            # Δημιουργία καθαρής κάρτας αγώνα με το Streamlit
             with st.container(border=True):
                 st.subheader(teams)
-                st.caption(f"🏆 {league} • ⏰ {m_time}")
+                st.caption(f"🏆 {league}  •  ⏰ Ώρα: {m_time}")
                 
-                # Αν είναι Value Bet, εμφάνισε το χρυσό πλαίσιο
                 if is_value:
                     st.markdown('<div class="value-box">🔥 VALUE BET IDENTIFIED</div>', unsafe_allow_html=True)
                 
                 st.info(prediction_clean)
-                st.text(f"📊 Φόρμα: {h_form} vs {a_form}")
+                
+                # Καθαρός διαχωρισμός φόρμας
+                st.markdown(f"**📈 Φόρμα Ομάδων:** {h_form}  vs  {a_form}")
 else:
     st.info("🔄 Πατήστε 'Ανανέωση' για να φορτώσουν οι αγώνες.")
