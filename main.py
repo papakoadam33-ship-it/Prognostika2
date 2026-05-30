@@ -147,11 +147,9 @@ if matches and isinstance(matches, list):
         base_odd = 100 / (best_prob * 0.9 if best_prob > 0 else 1)
         final_odd = max(1.40, min(2.45, base_odd))
         
-        # 🔥 ΕΛΕΓΧΟΣ VALUE BET: Αν η απόδοση του bookmaker είναι μεγαλύτερη από τη δίκαιη απόδοση της Poisson
+        # 🔥 ΣΩΣΤΟΣ ΕΛΕΓΧΟΣ VALUE BET: Μόνο όταν το σημείο είναι Over 2.5 συγκρίνουμε με την πραγματική αγορά
         value_tag = ""
-        # Χρησιμοποιούμε την πραγματική αγορά αν ταιριάζει στο Over 2.5, αλλιώς συγκρίνουμε με τη final_odd
-        market_odd_to_compare = bookie_over_25_odd if best_tip == "Over 2.5" else final_odd
-        if market_odd_to_compare > (fair_odd * 1.05):  # 5% πλεονέκτημα υπέρ μας
+        if best_tip == "Over 2.5" and bookie_over_25_odd > (fair_odd * 1.05):
             value_tag = " 🔥 VALUE BET"
 
         ht_tip = f"1ο Ημίχ. Over 1.5 ({p_ht_over15:.1f}%)" if p_ht_over15 > 40.0 else f"1ο Ημίχ. Over 0.5 ({p_ht_over05:.1f}%)"
@@ -163,7 +161,6 @@ if matches and isinstance(matches, list):
         default_forms = ["🟢🟢🟡🟢🟢", "🟢🔴🟢🟢🟡", "🟡🟢🟢🔴🟢", "🟢🟢🟢🟡🔴", "🔴🟡🟢🟢🟢"]
         home_form, away_form = random.choice(default_forms), random.choice(default_forms)
         
-        # Ενσωμάτωση του value_tag στο κείμενο της πρόβλεψης
         prediction = f"📊 {best_tip} ({best_prob:.1f}% | {final_odd:.2f}){value_tag} ✨ {ht_tip}"
         output_lines.append(f"🏆 {clean_league}|{home} vs {away}|{match_time}|{prediction}|{home_form}|{away_form}")
         valid_count += 1
@@ -177,4 +174,4 @@ for result in PAST_RESULTS:
 with open(DATA_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(output_lines))
 
-print("🎯 Fully Automated JSON Stats Reader & Value Bet Filter deployed successfully!")
+print("🎯 Fully Automated JSON Stats Reader & Verified Value Filter deployed successfully!")
