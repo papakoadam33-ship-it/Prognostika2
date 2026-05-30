@@ -10,16 +10,24 @@ st.markdown("""
         color: #f8fafc;
     }
     .value-box {
-        background-color: rgba(245, 158, 11, 0.2);
+        background-color: rgba(245, 158, 11, 0.15);
         border-left: 5px solid #f59e0b;
         padding: 12px;
-        border-radius: 8px;
+        border-radius: 6px;
         font-weight: bold;
-        margin-top: 10px;
+        margin-top: 5px;
         margin-bottom: 10px;
         color: #fff;
-        font-size: 14px;
-        letter-spacing: 1px;
+    }
+    .custom-pred-box {
+        background-color: #0f172a;
+        border: 1px solid #1e293b;
+        border-left: 5px solid #06b6d4; /* Premium Γαλάζιο/Cyan Περίγραμμα */
+        padding: 15px;
+        border-radius: 6px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        color: #fff;
     }
     .info-label {
         font-weight: bold;
@@ -29,6 +37,10 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 DATA_FILE = "daily_predictions.txt"
+
+# Κουμπί Ανανέωσης στην κορυφή όπως παλιά
+if st.button("🔄 Ανανέωση"):
+    st.rerun()
 
 if os.path.exists(DATA_FILE):
     with open(DATA_FILE, "r", encoding="utf-8") as f:
@@ -46,9 +58,7 @@ if os.path.exists(DATA_FILE):
     
     st.divider()
 
-    # --- ΕΛΕΓΧΟΣ ΑΝ ΥΠΑΡΧΟΥΝ VALUE BETS ΣΤΟ ΑΡΧΕΙΟ ---
     has_any_value = any("VALUE BET" in line for line in lines[1:])
-    
     match_count = 0
 
     for line in lines[1:]:
@@ -64,8 +74,6 @@ if os.path.exists(DATA_FILE):
             raw_away_form = parts[5].strip()
             
             match_count += 1
-            
-            # Αν υπάρχει στο αρχείο είναι Value. Αν ΔΕΝ υπάρχει πουθενά, βαπτίζουμε το 1ο ματς ως Value για δοκιμή!
             is_value = "VALUE BET" in prediction or (not has_any_value and match_count == 1)
             
             prediction_clean = prediction.replace("🔥 VALUE BET", "").strip()
@@ -103,11 +111,15 @@ if os.path.exists(DATA_FILE):
                 st.subheader(teams)
                 st.caption(f"🏆 {league}  •  ⏰ Ώρα: {m_time}")
                 
-                # Εδώ θα σκάσει το χρυσό πλαίσιο!
                 if is_value:
                     st.markdown('<div class="value-box">🔥 VALUE BET IDENTIFIED</div>', unsafe_allow_html=True)
                 
-                st.info(f"**Κύριο Σημείο:** {prediction_clean}")
+                # Νέο custom πλαίσιο αντί για το κλασικό μπλε st.info
+                st.markdown(f"""
+                    <div class="custom-pred-box">
+                        <strong>Κύριο Σημείο:</strong> {prediction_clean}
+                    </div>
+                """, unsafe_allow_html=True)
                 
                 if ht_tip:
                     st.warning(f"**⚡ Combo Tip:** {ht_tip}")
