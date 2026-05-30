@@ -1,13 +1,13 @@
 STATS|78.2|22.1
---- ΠΡΟΓΝΩΣΤΙΚΑ 30/05/2026 19:16 ---
-🏆 Βραζιλία Série B|Atletico Goianiense vs Goiás|22:00|📊 Under 2.5 (67.2% | 1.65) ✨ 1ο Ημίχ. Over 0.5 (59.8%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
-🏆 Βραζιλία Σέριε Α|Atletico Paranaense vs Mirassol|22:00|📊 Under 2.5 (69.9% | 1.59) ✨ 1ο Ημίχ. Over 0.5 (57.9%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
-🏆 Βραζιλία Série B|Avai vs Criciuma|22:00|📊 Under 2.5 (70.3% | 1.58) ✨ 1ο Ημίχ. Over 0.5 (57.6%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
-🏆 Primera División - Χιλή|La Serena vs Colo Colo|22:00|📊 Under 2.5 (46.3% | 2.40) ✨ 1ο Ημίχ. Over 0.5 (72.4%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
-🏆 Βραζιλία Σέριε Α|Flamengo vs Coritiba|22:00|📊 Goal / Goal (61.1% | 1.82) ✨ 1ο Ημίχ. Over 0.5 (75.1%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
-🏆 La Liga 2 - Ισπανία|Granada CF vs Sporting Gijón|22:00|📊 Goal / Goal (60.3% | 1.84) ✨ 1ο Ημίχ. Over 0.5 (75.0%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
-🏆 Βραζιλία Σέριε Α|Bahia vs Botafogo|23:30|📊 Under 2.5 (42.7% | 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.3%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
-🏆 Βραζιλία Σέριε Α|Grêmio vs Corinthians|23:30|📊 Under 2.5 (76.5% | 1.45) ✨ 1ο Ημίχ. Over 0.5 (52.9%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
+--- ΠΡΟΓΝΩΣΤΙΚΑ 30/05/2026 19:17 ---
+🏆 Βραζιλία Série B|Atletico Goianiense vs Goiás|22:00|📊 Under 2.5 (76.1% | 1.46) ✨ 1ο Ημίχ. Over 0.5 (53.2%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
+🏆 Βραζιλία Σέριε Α|Atletico Paranaense vs Mirassol|22:00|📊 Under 2.5 (71.0% | 1.56) ✨ 1ο Ημίχ. Over 0.5 (57.1%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 Βραζιλία Série B|Avai vs Criciuma|22:00|📊 Under 2.5 (75.3% | 1.48) ✨ 1ο Ημίχ. Over 0.5 (53.9%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
+🏆 Primera División - Χιλή|La Serena vs Colo Colo|22:00|📊 Goal / Goal (61.0% | 1.82) ✨ 1ο Ημίχ. Over 0.5 (75.1%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
+🏆 Βραζιλία Σέριε Α|Flamengo vs Coritiba|22:00|📊 Under 2.5 (44.2% | 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.5%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
+🏆 La Liga 2 - Ισπανία|Granada CF vs Sporting Gijón|22:00|📊 Goal / Goal (61.6% | 1.80) ✨ 1ο Ημίχ. Over 0.5 (75.5%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
+🏆 Βραζιλία Σέριε Α|Bahia vs Botafogo|23:30|📊 Under 2.5 (46.0% | 2.42) ✨ 1ο Ημίχ. Over 0.5 (72.6%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
+🏆 Βραζιλία Σέριε Α|Grêmio vs Corinthians|23:30|📊 Under 2.5 (70.3% | 1.58) ✨ 1ο Ημίχ. Over 0.5 (57.6%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
