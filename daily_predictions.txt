@@ -1,11 +1,5 @@
 STATS|78.2|22.1
---- ΠΡΟΓΝΩΣΤΙΚΑ 31/05/2026 20:01 ---
-🏆 Βραζιλία Σέριε Α|Vasco da Gama vs Atletico Mineiro|22:00|📊 Under 2.5 (76.1% | 1.46) ✨ 1ο Ημίχ. Over 0.5 (53.2%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
-🏆 La Liga 2 - Ισπανία|Leganés vs CD Mirandés|22:00|📊 Under 2.5 (49.0% | 2.27) ✨ 1ο Ημίχ. Over 0.5 (70.9%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
-🏆 Βραζιλία Série B|Ceará vs Operario PR|22:00|📊 Under 2.5 (77.7% | 1.43) ✨ 1ο Ημίχ. Over 0.5 (51.9%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
-🏆 Βραζιλία Σέριε Α|Palmeiras vs Chapecoense|22:00|📊 Over 1.5 (83.7% | 1.40) ✨ 1ο Ημίχ. Over 1.5 (43.7%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
-🏆 La Liga 2 - Ισπανία|Córdoba vs SD Huesca|22:00|📊 Under 2.5 (56.6% | 1.96) ✨ 1ο Ημίχ. Over 0.5 (66.5%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
-🏆 Primera División - Χιλή|Huachipato vs Universidad Católica (CHI)|22:00|📊 Under 2.5 (45.8% | 2.43) ✨ 1ο Ημίχ. Over 0.5 (72.7%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
+--- ΠΡΟΓΝΩΣΤΙΚΑ 31/05/2026 22:21 ---
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
