@@ -3,7 +3,7 @@ import random
 import requests
 import math
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 from mtranslate import translate
 from requests.adapters import HTTPAdapter
@@ -12,7 +12,6 @@ from urllib3.util import Retry
 DATA_FILE = "daily_predictions.txt"
 STATS_FILE = "stats.json"
 
-# 📊 ΑΥΤΟΜΑΤΗ ΑΝΑΓΝΩΣΗ ΣΤΑΤΙΣΤΙΚΩΝ ΑΠΟ ΤΟ JSON ΑΡΧΕΙΟ
 if os.path.exists(STATS_FILE):
     with open(STATS_FILE, "r", encoding="utf-8") as sf:
         stats_data = json.load(sf)
@@ -32,7 +31,6 @@ time_str = now_athens.strftime('%d/%m/%Y %H:%M')
 
 output_lines = []
 output_lines.append(f"STATS|{WIN_RATE}|{TOTAL_YIELD}")
-output_lines.append(f"--- ΠΡΟΓΝΩΣΤΙΚΑ {time_str} ---")
 
 def poisson_probability(lmbda, x):
     if lmbda <= 0: return 0
@@ -79,19 +77,34 @@ session = requests.Session()
 retry_strategy = Retry(total=3, backoff_factor=2, status_forcelist=[429, 500, 502, 503, 504])
 session.mount("https://", HTTPAdapter(max_retries=retry_strategy))
 
-url = 'https://api.the-odds-api.com/v4/sports/soccer/odds/'
+# --- ΜΑΖΕΜΑ ΔΕΔΟΜΕΝΩΝ ΑΠΟ 2 ΔΙΑΦΟΡΕΤΙΚΕΣ ΠΗΓΕΣ ΤΟΥ API ---
+matches = []
 params = {'apiKey': ODDS_API_KEY, 'regions': 'eu', 'markets': 'totals', 'oddsFormat': 'decimal'}
 
+# 1ο Χτύπημα: Γενικά ενεργά πρωταθλήματα
 try:
-    res = session.get(url, params=params, timeout=10)
-    matches = res.json() if res.status_code == 200 else []
-except:
-    matches = []
+    res1 = session.get('https://api.the-odds-api.com/v4/sports/soccer/odds/', params=params, timeout=10)
+    if res1.status_code == 200:
+        matches.extend(res1.json())
+except: pass
+
+# 2ο Χτύπημα: Στοχευμένα Φιλικά Εθνικών Ομάδων
+try:
+    res2 = session.get('https://api.the-odds-api.com/v4/sports/soccer_international_friendlies/odds/', params=params, timeout=10)
+    if res2.status_code == 200:
+        matches.extend(res2.json())
+except: pass
+
+allowed_dates = [
+    now_athens.date(),
+    (now_athens + timedelta(days=1)).date(),
+    (now_athens + timedelta(days=2)).date()
+]
 
 if matches and isinstance(matches, list):
     valid_count = 0
     for match in matches:
-        if valid_count >= 18: break
+        if valid_count >= 24: break # Αυξήσαμε το όριο σε 24 ματς για να χωράνε και τα φιλικά
             
         commence_time_str = match.get('commence_time')
         if commence_time_str:
@@ -100,10 +113,10 @@ if matches and isinstance(matches, list):
                 match_utc = datetime.fromisoformat(clean_time_str)
                 match_athens = match_utc.astimezone(tz_athens)
                 
-                if match_athens.date() != now_athens.date(): continue
+                if match_athens.date() not in allowed_dates: continue
                 if now_athens > match_athens: continue
                 
-                match_time = match_athens.strftime("%H:%M")
+                match_time = match_athens.strftime("%d/%m %H:%M")
             except: continue
         else: continue
             
@@ -134,20 +147,15 @@ if matches and isinstance(matches, list):
         
         p_over, p_under, p_gg, p_ht_over05, p_ht_over15, p_over15 = calculate_advanced_preds(home_attack, home_defense, away_attack, away_defense)
         
-        # 🛡️ ΕΞΥΠΝΗ ΣΤΡΑΤΗΓΙΚΗ ΕΠΙΛΟΓΗΣ ΣΗΜΕΙΟΥ
         if p_over > 75.0: best_tip, best_prob = "Over 2.5", p_over
         elif p_over15 > 82.0: best_tip, best_prob = "Over 1.5", p_over15
         elif p_gg > 60.0: best_tip, best_prob = "Goal / Goal", p_gg
         else: best_tip, best_prob = "Under 2.5", p_under
         
-        # 📊 ΥΠΟΛΟΓΙΣΜΟΣ ΔΙΚΑΙΗΣ ΑΠΟΔΟΣΗΣ (Fair Odd)
         fair_odd = 100 / (best_prob if best_prob > 0 else 1)
-        
-        # Υπολογισμός τελικής προτεινόμενης απόδοσης με γκανιότα
         base_odd = 100 / (best_prob * 0.9 if best_prob > 0 else 1)
         final_odd = max(1.40, min(2.45, base_odd))
         
-        # 🔥 ΣΩΣΤΟΣ ΕΛΕΓΧΟΣ VALUE BET: Μόνο όταν το σημείο είναι Over 2.5 συγκρίνουμε με την πραγματική αγορά
         value_tag = ""
         if best_tip == "Over 2.5" and bookie_over_25_odd > (fair_odd * 1.05):
             value_tag = " 🔥 VALUE BET"
@@ -161,11 +169,11 @@ if matches and isinstance(matches, list):
         default_forms = ["🟢🟢🟡🟢🟢", "🟢🔴🟢🟢🟡", "🟡🟢🟢🔴🟢", "🟢🟢🟢🟡🔴", "🔴🟡🟢🟢🟢"]
         home_form, away_form = random.choice(default_forms), random.choice(default_forms)
         
-        prediction = f"📊 {best_tip} ({best_prob:.1f}% | {final_odd:.2f}){value_tag} ✨ {ht_tip}"
+        prediction = f"{best_tip} ({best_prob:.1f}% | {final_odd:.2f}){value_tag} ✨ {ht_tip}"
         output_lines.append(f"🏆 {clean_league}|{home} vs {away}|{match_time}|{prediction}|{home_form}|{away_form}")
         valid_count += 1
 else:
-    output_lines.append("🏆 Αγγλία - Premier League|Manchester City vs Liverpool|21:00|📊 Goal / Goal (78.0% | 1.72) ✨ 1ο Ημίχ. Over 0.5 (74.2%)|🟢🟢🟢🔴🟢|🟢🟡🔴🟢🟢")
+    output_lines.append("🏆 Διεθνή Φιλικά|Γερμανία vs Αργεντινή|21:45|Goal / Goal (75.0% | 1.68) ✨ 1ο Ημίχ. Over 0.5 (72.0%)|🟢🟢🟢🔴🟢|🟢🟡🔴🟢🟢")
 
 output_lines.append("--- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---")
 for result in PAST_RESULTS:
@@ -174,4 +182,4 @@ for result in PAST_RESULTS:
 with open(DATA_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(output_lines))
 
-print("🎯 Fully Automated JSON Stats Reader & Verified Value Filter deployed successfully!")
+print("🎯 Προστέθηκαν τα Διεθνή Φιλικά και το αρχείο ενημερώθηκε!")
