@@ -5,6 +5,7 @@ import math
 import json
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
+from mtranslate import translate  # Επαναφέρουμε τη βιβλιοθήκη
 from requests.adapters import HTTPAdapter
 from urllib3.util import Retry
 
@@ -72,7 +73,6 @@ retry_strategy = Retry(total=3, backoff_factor=2, status_forcelist=[429, 500, 50
 session.mount("https://", HTTPAdapter(max_retries=retry_strategy))
 
 matches = []
-# Σαρώνουμε ΚΑΙ τα δύο endpoints για σιγουριά
 SPORT_KEYS = ['soccer_international_friendlies', 'soccer']
 
 for sport in SPORT_KEYS:
@@ -88,13 +88,10 @@ for sport in SPORT_KEYS:
         pass
 
 valid_count = 0
-
-# Χαλαρό φιλτράρισμα ώρας: Δεχόμαστε ματς που ξεκίνησαν έως και 3 ώρες πριν ή γίνονται τις επόμενες 3 ημέρες
 min_time = now_athens - timedelta(hours=3)
 max_time = now_athens + timedelta(days=3)
 
 if matches:
-    # Αφαίρεση διπλότυπων αγώνων αν υπάρχουν και στα δύο endpoints
     seen_matches = set()
     
     for match in matches:
@@ -114,7 +111,6 @@ if matches:
                 match_utc = datetime.fromisoformat(clean_time_str)
                 match_athens = match_utc.astimezone(tz_athens)
                 
-                # Έλεγχος αν είναι μέσα στο χαλαρό χρονικό πλαίσιο
                 if not (min_time <= match_athens <= max_time): continue
                 
                 match_time = match_athens.strftime("%d/%m %H:%M")
@@ -160,13 +156,16 @@ if matches:
 
         ht_tip = f"1ο Ημίχ. Over 1.5 ({p_ht_over15:.1f}%)" if p_ht_over15 > 40.0 else f"1ο Ημίχ. Over 0.5 ({p_ht_over05:.1f}%)"
             
+        # 🔄 ΑΣΦΑΛΗΣ ΜΕΤΑΦΡΑΣΗ ΠΡΩΤΑΘΛΗΜΑΤΟΣ
         raw_league = match.get('sport_title', 'International')
-        # Σταθερή χειροκίνητη μετάφραση για να αποφύγουμε κρασαρίσματα του mtranslate
-        if "Friendly" in raw_league or "International" in raw_league:
-            clean_league = "Διεθνή Φιλικά"
-        elif "Soccer" in raw_league:
-            clean_league = "Ποδόσφαιρο"
-        else:
+        try:
+            # Δοκιμάζει να μεταφράσει στα ελληνικά
+            clean_league = translate(raw_league, 'el', 'en')
+            # Μικροδιορθώσεις για να φαίνεται πιο όμορφο στο app
+            if "Friendly" in raw_league or "International" in raw_league:
+                clean_league = "Διεθνή Φιλικά"
+        except:
+            # Αν αποτύχει το Google Translate, ΚΡΑΤΑΕΙ το αγγλικό όνομα χωρίς να κρασάρει!
             clean_league = raw_league
             
         default_forms = ["🟢🟢🟡🟢🟢", "🟢🔴🟢🟢🟡", "🟡🟢🟢🔴🟢", "🟢🟢🟢🟡🔴", "🔴🟡🟢🟢🟢"]
@@ -187,4 +186,4 @@ if PAST_RESULTS:
 with open(DATA_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(output_lines))
 
-print(f"🎯 🏁 Ολοκληρώθηκε! Βρέθηκαν {valid_count} αγώνες.")
+print(f"🎯 Ολοκληρώθηκε! Μεταφράστηκαν και αποθηκεύτηκαν {valid_count} αγώνες.")
