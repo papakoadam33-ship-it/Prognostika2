@@ -1,5 +1,12 @@
 STATS|78.2|22.1
-🏆 Πληροφορία|Δεν υπάρχουν διαθέσιμοι αγώνες|--:--|Δεν βρέθηκαν live παιχνίδια για τις επόμενες 48 ώρες στο API||
+🏆 Brazil Série B|Operario PR vs Juventude|06/06 02:00|Under 2.5 (63.6% 1.75) ✨ 1ο Ημίχ. Over 0.5 (62.1%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 J League|JEF United Chiba vs Avispa Fukuoka|06/06 08:00|Under 2.5 (78.4% 1.42) ✨ 1ο Ημίχ. Over 0.5 (51.3%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
+🏆 J League|FC Tokyo vs Cerezo Osaka|06/06 08:00|Over 1.5 (83.4% 1.40) ✨ 1ο Ημίχ. Over 1.5 (43.3%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
+🏆 J League|Kashima Antlers vs Vissel Kobe|06/06 08:00|Under 2.5 (76.5% 1.45) ✨ 1ο Ημίχ. Over 0.5 (52.9%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
+🏆 J League|FC Machida Zelvia vs Nagoya Grampus|06/06 09:00|Under 2.5 (74.1% 1.50) ✨ 1ο Ημίχ. Over 0.5 (54.8%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 J League|Mito HollyHock vs V-Varen Nagasaki|06/06 09:00|Under 2.5 (77.9% 1.43) ✨ 1ο Ημίχ. Over 0.5 (51.7%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 J League|Urawa Red Diamonds vs Fagiano Okayama|06/06 10:00|Under 2.5 (74.8% 1.49) ✨ 1ο Ημίχ. Over 0.5 (54.3%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
+🏆 J League|Tokyo Verdy vs Gamba Osaka|06/06 10:00|Under 2.5 (78.1% 1.42) ✨ 1ο Ημίχ. Over 0.5 (51.6%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
