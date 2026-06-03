@@ -12,7 +12,6 @@ from urllib3.util import Retry
 DATA_FILE = "daily_predictions.txt"
 STATS_FILE = "stats.json"
 
-# 📊 ΑΝΑΓΝΩΣΗ ΣΤΑΤΙΣΤΙΚΩΝ
 if os.path.exists(STATS_FILE):
     with open(STATS_FILE, "r", encoding="utf-8") as sf:
         stats_data = json.load(sf)
@@ -42,7 +41,6 @@ def poisson_probability(lmbda, x):
 def calculate_advanced_preds(home_attack, home_defense, away_attack, away_defense):
     home_lambda_full = home_attack * away_defense
     away_lambda_full = away_attack * home_defense
-    
     home_lambda_half = home_lambda_full * 0.45
     away_lambda_half = away_lambda_full * 0.45
     
@@ -89,17 +87,18 @@ for sport in SPORT_KEYS:
     except:
         pass
 
-# 📅 ΟΡΙΣΜΟΣ ΕΠΙΤΡΕΠΤΩΝ ΗΜΕΡΟΜΗΝΙΩΝ (ΕΠΟΜΕΝΕΣ 3 ΗΜΕΡΕΣ)
+# Φιλτράρισμα: Μόνο σημερινά, αυριανά και μεθαυριανά ματς
 allowed_dates = [
     now_athens.date(),
     (now_athens + timedelta(days=1)).date(),
     (now_athens + timedelta(days=2)).date()
 ]
 
-valid_matches_found = []
+valid_count = 0
 
 if matches:
     for match in matches:
+        if valid_count >= 24: break
         commence_time_str = match.get('commence_time')
         if commence_time_str:
             try:
@@ -111,32 +110,8 @@ if matches:
                 if now_athens > match_athens: continue
                 
                 match_time = match_athens.strftime("%d/%m %H:%M")
-                valid_matches_found.append((match, match_time))
-            except:
-                continue
-
-# 🚀 ΑΣΦΑΛΕΙΑ (BACKUP): ΑΝ ΔΕΝ ΒΡΕΘΗΚΑΝ LIVE ΑΓΩΝΕΣ, ΔΗΜΙΟΥΡΓΟΥΜΕ ΑΥΤΟΜΑΤΑ ΤΟ Summer ΚΟΥΠΟΝΙ
-if len(valid_matches_found) == 0:
-    d1 = now_athens.strftime("%d/%m")
-    d2 = (now_athens + timedelta(days=1)).strftime("%d/%m")
-    
-    backup_list = [
-        {"league": "Διεθνή Φιλικά", "home": "Germany", "away": "Greece", "time": f"{d1} 21:45", "tip": "Over 2.5 (79.4% | 1.65) 🔥 VALUE BET IDENTIFIED", "ht": "1ο Ημίχ. Over 0.5 (71.2%)"},
-        {"league": "Διεθνή Φιλικά", "home": "England", "away": "Iceland", "time": f"{d1} 21:45", "tip": "Over 2.5 (76.1% | 1.55)", "ht": "1ο Ημίχ. Over 0.5 (68.5%)"},
-        {"league": "Διεθνή Φιλικά", "home": "Portugal", "away": "Croatia", "time": f"{d2} 19:45", "tip": "Goal / Goal (64.2% | 1.82)", "ht": "1ο Ημίχ. Over 0.5 (61.0%)"},
-        {"league": "Διεθνή Φιλικά", "home": "Spain", "away": "Northern Ireland", "time": f"{d2} 22:30", "tip": "Over 2.5 (81.0% | 1.48) 🔥 VALUE BET IDENTIFIED", "ht": "1ο Ημίχ. Over 1.5 (42.5%)"},
-        {"league": "Προκριματικά Μουντιάλ", "home": "Cameroon", "away": "Cape Verde", "time": f"{d2} 19:00", "tip": "Under 2.5 (72.5% | 1.60)", "ht": "1ο Ημίχ. Over 0.5 (52.0%)"}
-    ]
-    
-    for bm in backup_list:
-        hf = random.choice(["🟢🟢🟡🟢🟢", "🟢🔴🟢🟢🟡", "🟡🟢🟢🔴🟢"])
-        af = random.choice(["🟢🟢🟢🟡🔴", "🔴🟡🟢🟢🟢", "🟢🟢🟡🟢🟢"])
-        output_lines.append(f"🏆 {bm['league']}|{bm['home']} vs {bm['away']}|{bm['time']}|{bm['tip']} ✨ {bm['ht']}|{hf}|{af}")
-else:
-    # ΕΠΕΞΕΡΓΑΣΙΑ ΑΓΩΝΩΝ ΑΠΟ ΤΟ API
-    valid_count = 0
-    for match, match_time in valid_matches_found:
-        if valid_count >= 24: break
+            except: continue
+        else: continue
             
         home = match.get('home_team', 'Team A')
         away = match.get('away_team', 'Team B')
@@ -191,19 +166,16 @@ else:
         output_lines.append(f"🏆 {clean_league}|{home} vs {away}|{match_time}|{prediction}|{home_form}|{away_form}")
         valid_count += 1
 
-# 📊 ΠΡΟΣΘΗΚΗ ΙΣΤΟΡΙΚΟΥ
+if valid_count == 0:
+    output_lines.append("🏆 Πληροφορία|Δεν υπάρχουν διαθέσιμοι αγώνες|--:--|Δεν βρέθηκαν live παιχνίδια για τις επόμενες 48 ώρες στο API||")
+
 output_lines.append("--- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---")
 if PAST_RESULTS:
     for result in PAST_RESULTS:
         if result.strip(): output_lines.append(result)
-else:
-    output_lines.append("🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε")
-    output_lines.append("🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Χάθηκε")
-    output_lines.append("🏁 Palmeiras vs Atletico Jr | Score: 4-1 | Over 2.5 -> ✅ ΤΑΜΕΙΟ")
 
-# 💾 ΕΓΓΡΑΦΗ ΣΤΟ ΑΡΧΕΙΟ
 with open(DATA_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(output_lines))
 
-print("🎯 Το αρχείο daily_predictions.txt ενημερώθηκε επιτυχώς!")
+print("🎯 Real-time update completed successfully!")
 
