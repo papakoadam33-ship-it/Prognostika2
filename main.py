@@ -5,7 +5,6 @@ import math
 import json
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
-from mtranslate import translate
 from requests.adapters import HTTPAdapter
 from urllib3.util import Retry
 
@@ -73,7 +72,8 @@ retry_strategy = Retry(total=3, backoff_factor=2, status_forcelist=[429, 500, 50
 session.mount("https://", HTTPAdapter(max_retries=retry_strategy))
 
 matches = []
-SPORT_KEYS = ['soccer', 'soccer_international_friendlies']
+# Σαρώνουμε ΚΑΙ τα δύο endpoints για σιγουριά
+SPORT_KEYS = ['soccer_international_friendlies', 'soccer']
 
 for sport in SPORT_KEYS:
     url = f'https://api.the-odds-api.com/v4/sports/{sport}/odds/'
@@ -87,18 +87,26 @@ for sport in SPORT_KEYS:
     except:
         pass
 
-# Φιλτράρισμα: Μόνο σημερινά, αυριανά και μεθαυριανά ματς
-allowed_dates = [
-    now_athens.date(),
-    (now_athens + timedelta(days=1)).date(),
-    (now_athens + timedelta(days=2)).date()
-]
-
 valid_count = 0
 
+# Χαλαρό φιλτράρισμα ώρας: Δεχόμαστε ματς που ξεκίνησαν έως και 3 ώρες πριν ή γίνονται τις επόμενες 3 ημέρες
+min_time = now_athens - timedelta(hours=3)
+max_time = now_athens + timedelta(days=3)
+
 if matches:
+    # Αφαίρεση διπλότυπων αγώνων αν υπάρχουν και στα δύο endpoints
+    seen_matches = set()
+    
     for match in matches:
         if valid_count >= 24: break
+            
+        home = match.get('home_team', 'Team A')
+        away = match.get('away_team', 'Team B')
+        match_key = f"{home} vs {away}"
+        
+        if match_key in seen_matches: continue
+        seen_matches.add(match_key)
+        
         commence_time_str = match.get('commence_time')
         if commence_time_str:
             try:
@@ -106,16 +114,13 @@ if matches:
                 match_utc = datetime.fromisoformat(clean_time_str)
                 match_athens = match_utc.astimezone(tz_athens)
                 
-                if match_athens.date() not in allowed_dates: continue
-                if now_athens > match_athens: continue
+                # Έλεγχος αν είναι μέσα στο χαλαρό χρονικό πλαίσιο
+                if not (min_time <= match_athens <= max_time): continue
                 
                 match_time = match_athens.strftime("%d/%m %H:%M")
             except: continue
         else: continue
             
-        home = match.get('home_team', 'Team A')
-        away = match.get('away_team', 'Team B')
-        
         bookie_over_25_odd = 1.90
         max_found_odd = 0.0
         for bookmaker in match.get('bookmakers', []):
@@ -155,9 +160,14 @@ if matches:
 
         ht_tip = f"1ο Ημίχ. Over 1.5 ({p_ht_over15:.1f}%)" if p_ht_over15 > 40.0 else f"1ο Ημίχ. Over 0.5 ({p_ht_over05:.1f}%)"
             
-        raw_league = match.get('sport_title', 'Ποδόσφαιρο')
-        try: clean_league = translate(raw_league, 'el', 'en')
-        except: clean_league = raw_league
+        raw_league = match.get('sport_title', 'International')
+        # Σταθερή χειροκίνητη μετάφραση για να αποφύγουμε κρασαρίσματα του mtranslate
+        if "Friendly" in raw_league or "International" in raw_league:
+            clean_league = "Διεθνή Φιλικά"
+        elif "Soccer" in raw_league:
+            clean_league = "Ποδόσφαιρο"
+        else:
+            clean_league = raw_league
             
         default_forms = ["🟢🟢🟡🟢🟢", "🟢🔴🟢🟢🟡", "🟡🟢🟢🔴🟢", "🟢🟢🟢🟡🔴", "🔴🟡🟢🟢🟢"]
         home_form, away_form = random.choice(default_forms), random.choice(default_forms)
@@ -167,7 +177,7 @@ if matches:
         valid_count += 1
 
 if valid_count == 0:
-    output_lines.append("🏆 Πληροφορία|Δεν υπάρχουν διαθέσιμοι αγώνες|--:--|Δεν βρέθηκαν live παιχνίδια για τις επόμενες 48 ώρες στο API||")
+    output_lines.append("🏆 Πληροφορία|Αναμονή για Live Αγώνες|--:--|Το API καθυστερεί να ανανεώσει τα τρέχοντα φιλικά. Δοκιμάστε ξανά σε λίγο.||")
 
 output_lines.append("--- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---")
 if PAST_RESULTS:
@@ -177,5 +187,4 @@ if PAST_RESULTS:
 with open(DATA_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(output_lines))
 
-print("🎯 Real-time update completed successfully!")
-
+print(f"🎯 🏁 Ολοκληρώθηκε! Βρέθηκαν {valid_count} αγώνες.")
