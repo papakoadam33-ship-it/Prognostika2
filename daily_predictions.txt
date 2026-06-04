@@ -1,12 +1,12 @@
 STATS|78.2|22.1
-🏆 Βραζιλία Série B|Operario PR vs Juventude|06/06 02:00|Under 2.5 (80.6% 1.40) ✨ 1ο Ημίχ. Over 0.5 (49.4%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
-🏆 J League|JEF United Chiba vs Avispa Fukuoka|06/06 08:00|Under 2.5 (69.1% 1.61) ✨ 1ο Ημίχ. Over 0.5 (58.5%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
-🏆 J League|FC Tokyo vs Cerezo Osaka|06/06 08:00|Under 2.5 (46.6% 2.39) ✨ 1ο Ημίχ. Over 0.5 (72.3%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
-🏆 J League|Kashima Antlers vs Vissel Kobe|06/06 08:00|Under 2.5 (76.4% 1.45) ✨ 1ο Ημίχ. Over 0.5 (53.0%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
-🏆 J League|FC Machida Zelvia vs Nagoya Grampus|06/06 09:00|Under 2.5 (76.4% 1.45) ✨ 1ο Ημίχ. Over 0.5 (53.0%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
-🏆 J League|Mito HollyHock vs V-Varen Nagasaki|06/06 09:00|Under 2.5 (71.9% 1.55) ✨ 1ο Ημίχ. Over 0.5 (56.4%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
-🏆 J League|Urawa Red Diamonds vs Fagiano Okayama|06/06 10:00|Under 2.5 (79.8% 1.40) ✨ 1ο Ημίχ. Over 0.5 (50.1%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
-🏆 J League|Tokyo Verdy vs Gamba Osaka|06/06 10:00|Under 2.5 (74.0% 1.50) ✨ 1ο Ημίχ. Over 0.5 (54.8%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
+🏆 Βραζιλία Série B|Operario PR vs Juventude|06/06 02:00|Under 2.5 (66.5% 1.67) ✨ 1ο Ημίχ. Over 0.5 (60.2%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
+🏆 J League|JEF United Chiba vs Avispa Fukuoka|06/06 08:00|Under 2.5 (76.0% 1.46) ✨ 1ο Ημίχ. Over 0.5 (53.3%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 J League|FC Tokyo vs Cerezo Osaka|06/06 08:00|Under 2.5 (46.1% 2.41) ✨ 1ο Ημίχ. Over 0.5 (72.5%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 J League|Kashima Antlers vs Vissel Kobe|06/06 08:00|Under 2.5 (74.1% 1.50) ✨ 1ο Ημίχ. Over 0.5 (54.8%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
+🏆 J League|FC Machida Zelvia vs Nagoya Grampus|06/06 09:00|Under 2.5 (71.7% 1.55) ✨ 1ο Ημίχ. Over 0.5 (56.6%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+🏆 J League|Mito HollyHock vs V-Varen Nagasaki|06/06 09:00|Under 2.5 (72.5% 1.53) ✨ 1ο Ημίχ. Over 0.5 (56.0%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+🏆 J League|Urawa Red Diamonds vs Fagiano Okayama|06/06 10:00|Under 2.5 (79.6% 1.40) ✨ 1ο Ημίχ. Over 0.5 (50.3%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
+🏆 J League|Tokyo Verdy vs Gamba Osaka|06/06 10:00|Under 2.5 (71.8% 1.55) ✨ 1ο Ημίχ. Over 0.5 (56.6%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
