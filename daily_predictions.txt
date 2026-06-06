@@ -1,13 +1,17 @@
 STATS|78.2|22.1
-🏆 Βραζιλία Série B|Operario PR vs Juventude|06/06 02:00|Under 2.5 (68.3% 1.63) ✨ 1ο Ημίχ. Over 0.5 (59.1%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
-🏆 J League|JEF United Chiba vs Avispa Fukuoka|06/06 08:00|Under 2.5 (78.6% 1.41) ✨ 1ο Ημίχ. Over 0.5 (51.1%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
-🏆 J League|FC Tokyo vs Cerezo Osaka|06/06 08:00|Over 1.5 (82.8% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.6%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
-🏆 J League|Kashima Antlers vs Vissel Kobe|06/06 08:00|Goal / Goal (60.4% 1.84) ✨ 1ο Ημίχ. Over 1.5 (41.5%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
-🏆 J League|FC Machida Zelvia vs Nagoya Grampus|06/06 09:00|Under 2.5 (78.1% 1.42) ✨ 1ο Ημίχ. Over 0.5 (51.6%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
-🏆 J League|Mito HollyHock vs V-Varen Nagasaki|06/06 09:00|Under 2.5 (73.9% 1.50) ✨ 1ο Ημίχ. Over 0.5 (54.9%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
-🏆 J League|Urawa Red Diamonds vs Fagiano Okayama|06/06 10:00|Under 2.5 (84.3% 1.40) ✨ 1ο Ημίχ. Over 0.5 (45.8%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
-🏆 J League|Tokyo Verdy vs Gamba Osaka|06/06 10:00|Under 2.5 (70.8% 1.57) ✨ 1ο Ημίχ. Over 0.5 (57.2%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
-🏆 J League|Yokohama F Marinos vs Shimizu S Pulse|06/06 11:00|Under 2.5 (70.0% 1.59) ✨ 1ο Ημίχ. Over 0.5 (57.8%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
+🏆 J League|JEF United Chiba vs Avispa Fukuoka|06/06 08:00|Under 2.5 (44.3% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.5%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 J League|FC Tokyo vs Cerezo Osaka|06/06 08:00|Over 1.5 (82.4% 1.40) ✨ 1ο Ημίχ. Over 1.5 (41.8%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
+🏆 J League|Kashima Antlers vs Vissel Kobe|06/06 08:00|Under 2.5 (45.8% 2.42) ✨ 1ο Ημίχ. Over 0.5 (72.6%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 J League|FC Machida Zelvia vs Nagoya Grampus|06/06 09:00|Over 1.5 (84.6% 1.40) ✨ 1ο Ημίχ. Over 1.5 (45.0%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
+🏆 J League|Mito HollyHock vs V-Varen Nagasaki|06/06 09:00|Over 1.5 (82.2% 1.40) ✨ 1ο Ημίχ. Over 1.5 (41.6%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
+🏆 J League|Urawa Red Diamonds vs Fagiano Okayama|06/06 10:00|Under 2.5 (79.6% 1.40) ✨ 1ο Ημίχ. Over 0.5 (50.3%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
+🏆 J League|Tokyo Verdy vs Gamba Osaka|06/06 10:00|Under 2.5 (71.6% 1.55) ✨ 1ο Ημίχ. Over 0.5 (56.7%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
+🏆 J League|Yokohama F Marinos vs Shimizu S Pulse|06/06 11:00|Under 2.5 (70.9% 1.57) ✨ 1ο Ημίχ. Over 0.5 (57.1%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
+🏆 J League|Kashiwa Reysol vs Kyoto Purple Sanga|06/06 12:00|Under 2.5 (52.7% 2.11) ✨ 1ο Ημίχ. Over 0.5 (68.8%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
+🏆 J League|Kawasaki Frontale vs Hiroshima Sanfrecce FC|06/06 13:00|Over 2.5 (75.1% 1.48) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (65.1%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
+🏆 Βραζιλία Série B|Criciuma vs Londrina|06/06 17:00|Under 2.5 (76.3% 1.46) ✨ 1ο Ημίχ. Over 0.5 (53.1%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
+🏆 La Liga 2 - Ισπανία|CD Castellón vs Almería|06/06 22:00|Over 1.5 (82.3% 1.40) ✨ 1ο Ημίχ. Over 1.5 (41.9%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
+🏆 Βραζιλία Série B|Clube de Regatas Brasil vs São Bernardo|07/06 22:00|Under 2.5 (51.8% 2.14) ✨ 1ο Ημίχ. Over 0.5 (69.2%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
