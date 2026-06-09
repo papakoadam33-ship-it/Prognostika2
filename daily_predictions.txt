@@ -1,12 +1,17 @@
 STATS|78.2|22.1
-🏆 Superettan - Σουηδία|Sandvikens IF vs Falkenbergs FF|09/06 20:00|Goal / Goal (60.1% 1.85) ✨ 1ο Ημίχ. Over 0.5 (74.9%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
-🏆 Superettan - Σουηδία|IK Oddevold vs IFK Norrkoping|09/06 20:00|Under 2.5 (42.8% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.3%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
-🏆 Superettan - Σουηδία|Östers IF vs IFK Värnamo|09/06 20:00|Under 2.5 (55.7% 1.99) ✨ 1ο Ημίχ. Over 0.5 (67.0%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
-🏆 Superettan - Σουηδία|IK Brage vs Ljungskile SK|09/06 20:00|Over 1.5 (84.8% 1.40) ✨ 1ο Ημίχ. Over 1.5 (45.4%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
-🏆 Superettan - Σουηδία|Nordic United FC vs Östersunds FK|09/06 20:00|Goal / Goal (61.8% 1.80) ✨ 1ο Ημίχ. Over 1.5 (40.3%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
-🏆 La Liga 2 - Ισπανία|Almería vs CD Castellón|09/06 22:00|Under 2.5 (46.8% 2.37) ✨ 1ο Ημίχ. Over 0.5 (72.1%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
-🏆 Βραζιλία Série B|Ponte Preta vs Cuiabá|10/06 01:00|Under 2.5 (80.2% 1.40) ✨ 1ο Ημίχ. Over 0.5 (49.8%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
-🏆 Βραζιλία Série B|Nautico PE vs Fortaleza|10/06 01:00|Under 2.5 (78.4% 1.42) ✨ 1ο Ημίχ. Over 0.5 (51.3%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
+🏆 Superettan - Σουηδία|Sandvikens IF vs Falkenbergs FF|09/06 20:00|Under 2.5 (43.5% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.9%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
+🏆 Superettan - Σουηδία|IK Oddevold vs IFK Norrkoping|09/06 20:00|Under 2.5 (48.5% 2.29) ✨ 1ο Ημίχ. Over 0.5 (71.2%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
+🏆 Superettan - Σουηδία|Östers IF vs IFK Värnamo|09/06 20:00|Under 2.5 (51.4% 2.16) ✨ 1ο Ημίχ. Over 0.5 (69.6%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 Superettan - Σουηδία|IK Brage vs Ljungskile SK|09/06 20:00|Under 2.5 (50.4% 2.20) ✨ 1ο Ημίχ. Over 0.5 (70.0%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
+🏆 Superettan - Σουηδία|Nordic United FC vs Östersunds FK|09/06 20:00|Under 2.5 (46.1% 2.41) ✨ 1ο Ημίχ. Over 0.5 (72.5%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 La Liga 2 - Ισπανία|Almería vs CD Castellón|09/06 22:00|Under 2.5 (49.2% 2.26) ✨ 1ο Ημίχ. Over 0.5 (70.7%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
+🏆 Βραζιλία Série B|Ponte Preta vs Cuiabá|10/06 01:00|Under 2.5 (77.8% 1.43) ✨ 1ο Ημίχ. Over 0.5 (51.8%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
+🏆 Βραζιλία Série B|Nautico PE vs Fortaleza|10/06 01:00|Under 2.5 (82.1% 1.40) ✨ 1ο Ημίχ. Over 0.5 (48.0%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 Superettan - Σουηδία|Örebro SK vs GIF Sundsvall|10/06 20:00|Goal / Goal (60.7% 1.83) ✨ 1ο Ημίχ. Over 0.5 (75.0%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
+🏆 Superettan - Σουηδία|Varbergs BoIS vs Norrby IF|10/06 20:00|Over 1.5 (82.1% 1.40) ✨ 1ο Ημίχ. Over 1.5 (41.9%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
+🏆 La Liga 2 - Ισπανία|Málaga vs Las Palmas|10/06 22:00|Under 2.5 (40.8% 2.45) ✨ 1ο Ημίχ. Over 0.5 (75.6%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
+🏆 Βραζιλία Série B|Ceará vs Avai|11/06 02:00|Goal / Goal (61.9% 1.80) ✨ 1ο Ημίχ. Over 1.5 (40.2%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
+🏆 Βραζιλία Série B|Goiás vs Grêmio Novorizontino|11/06 02:00|Under 2.5 (76.7% 1.45) ✨ 1ο Ημίχ. Over 0.5 (52.8%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
