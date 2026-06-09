@@ -1,12 +1,12 @@
 STATS|78.2|22.1
-🏆 Superettan - Σουηδία|Sandvikens IF vs Falkenbergs FF|09/06 20:00|Goal / Goal (60.8% 1.83) ✨ 1ο Ημίχ. Over 0.5 (75.3%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
-🏆 Superettan - Σουηδία|IK Oddevold vs IFK Norrkoping|09/06 20:00|Under 2.5 (46.9% 2.37) ✨ 1ο Ημίχ. Over 0.5 (72.2%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
-🏆 Superettan - Σουηδία|Östers IF vs IFK Värnamo|09/06 20:00|Over 1.5 (82.5% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.0%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
-🏆 Superettan - Σουηδία|IK Brage vs Ljungskile SK|09/06 20:00|Under 2.5 (47.9% 2.32) ✨ 1ο Ημίχ. Over 0.5 (71.5%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
-🏆 Superettan - Σουηδία|Nordic United FC vs Östersunds FK|09/06 20:00|Over 1.5 (84.0% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.9%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
-🏆 La Liga 2 - Ισπανία|Almería vs CD Castellón|09/06 22:00|Under 2.5 (54.9% 2.02) ✨ 1ο Ημίχ. Over 0.5 (67.4%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
-🏆 Βραζιλία Série B|Ponte Preta vs Cuiabá|10/06 01:00|Under 2.5 (84.4% 1.40) ✨ 1ο Ημίχ. Over 0.5 (45.7%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
-🏆 Βραζιλία Série B|Nautico PE vs Fortaleza|10/06 01:00|Under 2.5 (76.5% 1.45) ✨ 1ο Ημίχ. Over 0.5 (52.9%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 Superettan - Σουηδία|Sandvikens IF vs Falkenbergs FF|09/06 20:00|Goal / Goal (60.1% 1.85) ✨ 1ο Ημίχ. Over 0.5 (74.9%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
+🏆 Superettan - Σουηδία|IK Oddevold vs IFK Norrkoping|09/06 20:00|Under 2.5 (42.8% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.3%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
+🏆 Superettan - Σουηδία|Östers IF vs IFK Värnamo|09/06 20:00|Under 2.5 (55.7% 1.99) ✨ 1ο Ημίχ. Over 0.5 (67.0%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
+🏆 Superettan - Σουηδία|IK Brage vs Ljungskile SK|09/06 20:00|Over 1.5 (84.8% 1.40) ✨ 1ο Ημίχ. Over 1.5 (45.4%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
+🏆 Superettan - Σουηδία|Nordic United FC vs Östersunds FK|09/06 20:00|Goal / Goal (61.8% 1.80) ✨ 1ο Ημίχ. Over 1.5 (40.3%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 La Liga 2 - Ισπανία|Almería vs CD Castellón|09/06 22:00|Under 2.5 (46.8% 2.37) ✨ 1ο Ημίχ. Over 0.5 (72.1%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 Βραζιλία Série B|Ponte Preta vs Cuiabá|10/06 01:00|Under 2.5 (80.2% 1.40) ✨ 1ο Ημίχ. Over 0.5 (49.8%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
+🏆 Βραζιλία Série B|Nautico PE vs Fortaleza|10/06 01:00|Under 2.5 (78.4% 1.42) ✨ 1ο Ημίχ. Over 0.5 (51.3%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
