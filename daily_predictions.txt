@@ -1,14 +1,14 @@
 STATS|78.2|22.1
-🏆 Superettan - Σουηδία|Varbergs BoIS vs Norrby IF|10/06 20:00|Under 2.5 (81.4% 1.40) ✨ 1ο Ημίχ. Over 0.5 (48.7%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
-🏆 Superettan - Σουηδία|Örebro SK vs GIF Sundsvall|10/06 20:01|Under 2.5 (43.2% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.1%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
-🏆 La Liga 2 - Ισπανία|Málaga vs Las Palmas|10/06 22:00|Over 1.5 (84.8% 1.40) ✨ 1ο Ημίχ. Over 1.5 (45.3%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
-🏆 Βραζιλία Série B|Ceará vs Avai|11/06 02:00|Under 2.5 (79.5% 1.40) ✨ 1ο Ημίχ. Over 0.5 (50.4%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
-🏆 Βραζιλία Série B|Goiás vs Grêmio Novorizontino|11/06 02:00|Under 2.5 (78.8% 1.41) ✨ 1ο Ημίχ. Over 0.5 (50.9%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
-🏆 Βραζιλία Série B|Sport Recife vs Athletic Club (MG)|11/06 03:00|Under 2.5 (71.2% 1.56) ✨ 1ο Ημίχ. Over 0.5 (56.9%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
-🏆 Superettan - Σουηδία|Helsingborgs IF vs Landskrona BoIS|11/06 20:00|Over 1.5 (84.1% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.8%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
-🏆 Παγκόσμιο Κύπελλο FIFA|Mexico vs South Africa|11/06 22:00|Under 2.5 (72.1% 1.54) ✨ 1ο Ημίχ. Over 0.5 (56.3%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
-🏆 Παγκόσμιο Κύπελλο FIFA|South Korea vs Czech Republic|12/06 05:00|Under 2.5 (76.1% 1.46) ✨ 1ο Ημίχ. Over 0.5 (53.2%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
-🏆 Λιγκ της Ιρλανδίας|Derry City vs Bohemians|12/06 21:45|Under 2.5 (70.3% 1.58) ✨ 1ο Ημίχ. Over 0.5 (57.7%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
+🏆 Superettan - Sweden|Varbergs BoIS vs Norrby IF|10/06 20:00|Under 2.5 (70.1% 1.58) ✨ 1ο Ημίχ. Over 0.5 (57.7%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
+🏆 Superettan - Sweden|Örebro SK vs GIF Sundsvall|10/06 20:01|Under 2.5 (76.8% 1.45) ✨ 1ο Ημίχ. Over 0.5 (52.6%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
+🏆 Ισπανία LaLiga 2 🇪🇸|Málaga vs Las Palmas|10/06 22:00|Over 1.5 (85.2% 1.40) ✨ 1ο Ημίχ. Over 1.5 (46.2%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
+🏆 Βραζιλία Série B 🇧🇷|Ceará vs Avai|11/06 02:00|Under 2.5 (68.8% 1.62) ✨ 1ο Ημίχ. Over 0.5 (58.7%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
+🏆 Βραζιλία Série B 🇧🇷|Goiás vs Grêmio Novorizontino|11/06 02:00|Under 2.5 (84.8% 1.40) ✨ 1ο Ημίχ. Over 0.5 (45.3%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
+🏆 Βραζιλία Série B 🇧🇷|Sport Recife vs Athletic Club (MG)|11/06 03:00|Under 2.5 (61.4% 1.81) ✨ 1ο Ημίχ. Over 0.5 (63.6%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
+🏆 Superettan - Sweden|Helsingborgs IF vs Landskrona BoIS|11/06 20:00|Goal / Goal (61.7% 1.80) ✨ 1ο Ημίχ. Over 1.5 (40.9%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 FIFA World Cup|Mexico vs South Africa|11/06 22:00|Under 2.5 (78.6% 1.41) ✨ 1ο Ημίχ. Over 0.5 (51.2%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 FIFA World Cup|South Korea vs Czech Republic|12/06 05:00|Under 2.5 (82.6% 1.40) ✨ 1ο Ημίχ. Over 0.5 (47.5%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
+🏆 League of Ireland|Derry City vs Bohemians|12/06 21:45|Under 2.5 (72.3% 1.54) ✨ 1ο Ημίχ. Over 0.5 (56.2%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
