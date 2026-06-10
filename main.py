@@ -5,7 +5,6 @@ import math
 import json
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
-from mtranslate import translate  # Επαναφέρουμε τη βιβλιοθήκη
 from requests.adapters import HTTPAdapter
 from urllib3.util import Retry
 
@@ -110,9 +109,7 @@ if matches:
                 clean_time_str = commence_time_str.replace('Z', '+00:00')
                 match_utc = datetime.fromisoformat(clean_time_str)
                 match_athens = match_utc.astimezone(tz_athens)
-                
                 if not (min_time <= match_athens <= max_time): continue
-                
                 match_time = match_athens.strftime("%d/%m %H:%M")
             except: continue
         else: continue
@@ -156,17 +153,23 @@ if matches:
 
         ht_tip = f"1ο Ημίχ. Over 1.5 ({p_ht_over15:.1f}%)" if p_ht_over15 > 40.0 else f"1ο Ημίχ. Over 0.5 ({p_ht_over05:.1f}%)"
             
-        # 🔄 ΑΣΦΑΛΗΣ ΜΕΤΑΦΡΑΣΗ ΠΡΩΤΑΘΛΗΜΑΤΟΣ
         raw_league = match.get('sport_title', 'International')
-        try:
-            # Δοκιμάζει να μεταφράσει στα ελληνικά
-            clean_league = translate(raw_league, 'el', 'en')
-            # Μικροδιορθώσεις για να φαίνεται πιο όμορφο στο app
-            if "Friendly" in raw_league or "International" in raw_league:
-                clean_league = "Διεθνή Φιλικά"
-        except:
-            # Αν αποτύχει το Google Translate, ΚΡΑΤΑΕΙ το αγγλικό όνομα χωρίς να κρασάρει!
-            clean_league = raw_league
+        
+        # 🔄 ΕΞΥΠΝΗ ΜΕΤΑΦΡΑΣΗ & ΦΙΛΤΡΑΡΙΣΜΑ (Κρατάει τα πάντα, ομορφαινει τα δικά σου)
+        if "Brazil Serie B" in raw_league or "Brazil Série B" in raw_league:
+            clean_league = "Βραζιλία Série B 🇧🇷"
+        elif "Argentina" in raw_league:
+            clean_league = "Αργεντινή Primera 🇦🇷"
+        elif "La Liga 2" in raw_league or "Segunda" in raw_league or "Spain" in raw_league:
+            clean_league = "Ισπανία LaLiga 2 🇪🇸"
+        elif "USL" in raw_league or "USA" in raw_league:
+            clean_league = "ΗΠΑ USL Championship 🇺🇸"
+        elif "Friendly" in raw_league or "International" in raw_league:
+            clean_league = "Διεθνή Φιλικά 🌍"
+        elif "J-League" in raw_league or "Japan" in raw_league:
+            clean_league = "Ιαπωνία J-League 🇯🇵"
+        else:
+            clean_league = raw_league # Κρατάει οποιοδήποτε άλλο πρωτάθλημα δώσει το API
             
         default_forms = ["🟢🟢🟡🟢🟢", "🟢🔴🟢🟢🟡", "🟡🟢🟢🔴🟢", "🟢🟢🟢🟡🔴", "🔴🟡🟢🟢🟢"]
         home_form, away_form = random.choice(default_forms), random.choice(default_forms)
@@ -186,4 +189,4 @@ if PAST_RESULTS:
 with open(DATA_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(output_lines))
 
-print(f"🎯 Ολοκληρώθηκε! Μεταφράστηκαν και αποθηκεύτηκαν {valid_count} αγώνες.")
+print(f"🎯 Ολοκληρώθηκε! Φορτώθηκαν {valid_count} αγώνες στο συνολικό κουπόνι.")
