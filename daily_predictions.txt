@@ -1,12 +1,13 @@
 STATS|78.2|22.1
-🏆 Superettan - Sweden|Helsingborgs IF vs Landskrona BoIS|11/06 20:00|Goal / Goal (62.8% 1.77) ✨ 1ο Ημίχ. Over 1.5 (41.1%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
-🏆 FIFA World Cup|Mexico vs South Africa|11/06 22:00|Under 2.5 (73.2% 1.52) ✨ 1ο Ημίχ. Over 0.5 (55.4%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
-🏆 FIFA World Cup|South Korea vs Czech Republic|12/06 05:00|Under 2.5 (75.8% 1.47) ✨ 1ο Ημίχ. Over 0.5 (53.4%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
-🏆 League of Ireland|Derry City vs Bohemians|12/06 21:45|Under 2.5 (73.2% 1.52) ✨ 1ο Ημίχ. Over 0.5 (55.5%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
-🏆 League of Ireland|St Patricks Athletic vs Drogheda United|12/06 21:45|Under 2.5 (47.9% 2.32) ✨ 1ο Ημίχ. Over 0.5 (71.5%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
-🏆 League of Ireland|Galway United vs Dundalk|12/06 21:45|Over 1.5 (82.6% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.3%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
-🏆 League of Ireland|Waterford FC vs Sligo Rovers|12/06 21:45|Over 1.5 (82.4% 1.40) ✨ 1ο Ημίχ. Over 1.5 (41.9%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
-🏆 FIFA World Cup|Canada vs Bosnia & Herzegovina|12/06 22:00|Under 2.5 (88.6% 1.40) ✨ 1ο Ημίχ. Over 0.5 (40.9%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
+🏆 Superettan - Sweden|Helsingborgs IF vs Landskrona BoIS|11/06 20:00|Under 2.5 (73.6% 1.51) ✨ 1ο Ημίχ. Over 0.5 (55.2%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
+🏆 FIFA World Cup|Mexico vs South Africa|11/06 22:00|Under 2.5 (72.3% 1.54) ✨ 1ο Ημίχ. Over 0.5 (56.1%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
+🏆 FIFA World Cup|South Korea vs Czech Republic|12/06 05:00|Under 2.5 (74.2% 1.50) ✨ 1ο Ημίχ. Over 0.5 (54.7%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
+🏆 League of Ireland|Derry City vs Bohemians|12/06 21:45|Under 2.5 (75.0% 1.48) ✨ 1ο Ημίχ. Over 0.5 (54.1%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
+🏆 League of Ireland|St Patricks Athletic vs Drogheda United|12/06 21:45|Under 2.5 (48.9% 2.27) ✨ 1ο Ημίχ. Over 0.5 (71.1%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+🏆 League of Ireland|Galway United vs Dundalk|12/06 21:45|Goal / Goal (60.6% 1.83) ✨ 1ο Ημίχ. Over 0.5 (74.8%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 League of Ireland|Waterford FC vs Sligo Rovers|12/06 21:45|Over 1.5 (82.4% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.4%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 FIFA World Cup|Canada vs Bosnia & Herzegovina|12/06 22:00|Under 2.5 (68.2% 1.63) ✨ 1ο Ημίχ. Over 0.5 (59.0%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
+🏆 League of Ireland|Shelbourne Dublin vs Shamrock Rovers|12/06 22:00|Under 2.5 (72.7% 1.53) ✨ 1ο Ημίχ. Over 0.5 (55.8%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
