@@ -1,12 +1,12 @@
 STATS|78.2|22.1
-🏆 FIFA World Cup|South Korea vs Czech Republic|12/06 05:00|Under 2.5 (67.5% 1.65) ✨ 1ο Ημίχ. Over 0.5 (59.6%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
-🏆 League of Ireland|Derry City vs Bohemians|12/06 21:45|Under 2.5 (77.2% 1.44) ✨ 1ο Ημίχ. Over 0.5 (52.3%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
-🏆 League of Ireland|St Patricks Athletic vs Drogheda United|12/06 21:45|Under 2.5 (55.9% 1.99) ✨ 1ο Ημίχ. Over 0.5 (66.9%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
-🏆 League of Ireland|Galway United vs Dundalk|12/06 21:45|Under 2.5 (55.6% 2.00) ✨ 1ο Ημίχ. Over 0.5 (67.0%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
-🏆 League of Ireland|Waterford FC vs Sligo Rovers|12/06 21:45|Goal / Goal (60.1% 1.85) ✨ 1ο Ημίχ. Over 0.5 (74.5%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
-🏆 FIFA World Cup|Canada vs Bosnia & Herzegovina|12/06 22:00|Under 2.5 (67.7% 1.64) ✨ 1ο Ημίχ. Over 0.5 (59.4%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
-🏆 League of Ireland|Shelbourne Dublin vs Shamrock Rovers|12/06 22:00|Under 2.5 (69.4% 1.60) ✨ 1ο Ημίχ. Over 0.5 (58.3%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
-🏆 Βραζιλία Série B 🇧🇷|Atletico Goianiense vs Clube de Regatas Brasil|13/06 01:00|Under 2.5 (77.5% 1.43) ✨ 1ο Ημίχ. Over 0.5 (52.0%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 League of Ireland|Derry City vs Bohemians|12/06 21:45|Under 2.5 (73.9% 1.50) ✨ 1ο Ημίχ. Over 0.5 (55.0%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+🏆 League of Ireland|St Patricks Athletic vs Drogheda United|12/06 21:45|Under 2.5 (42.8% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.3%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
+🏆 League of Ireland|Galway United vs Dundalk|12/06 21:45|Goal / Goal (61.7% 1.80) ✨ 1ο Ημίχ. Over 1.5 (40.8%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
+🏆 League of Ireland|Waterford FC vs Sligo Rovers|12/06 21:45|Under 2.5 (45.0% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.2%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
+🏆 FIFA World Cup|Canada vs Bosnia & Herzegovina|12/06 22:00|Under 2.5 (78.8% 1.41) ✨ 1ο Ημίχ. Over 0.5 (50.9%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
+🏆 League of Ireland|Shelbourne Dublin vs Shamrock Rovers|12/06 22:00|Under 2.5 (79.4% 1.40) ✨ 1ο Ημίχ. Over 0.5 (50.5%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
+🏆 Βραζιλία Série B 🇧🇷|Atletico Goianiense vs Clube de Regatas Brasil|13/06 01:00|Under 2.5 (70.0% 1.59) ✨ 1ο Ημίχ. Over 0.5 (57.9%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
+🏆 Primera División - Chile|Audax Italiano vs La Serena|13/06 03:00|Under 2.5 (46.0% 2.41) ✨ 1ο Ημίχ. Over 0.5 (72.5%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
