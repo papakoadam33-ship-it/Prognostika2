@@ -1,12 +1,13 @@
 STATS|78.2|22.1
-🏆 League of Ireland|Derry City vs Bohemians|12/06 21:45|Under 2.5 (72.8% 1.53) ✨ 1ο Ημίχ. Over 0.5 (55.8%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
-🏆 League of Ireland|St Patricks Athletic vs Drogheda United|12/06 21:45|Over 1.5 (83.5% 1.40) ✨ 1ο Ημίχ. Over 1.5 (43.9%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
-🏆 League of Ireland|Galway United vs Dundalk|12/06 21:45|Under 2.5 (43.5% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.9%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
-🏆 League of Ireland|Waterford FC vs Sligo Rovers|12/06 21:45|Over 1.5 (83.0% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.7%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
-🏆 FIFA World Cup|Canada vs Bosnia & Herzegovina|12/06 22:00|Under 2.5 (78.5% 1.42) ✨ 1ο Ημίχ. Over 0.5 (51.2%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
-🏆 League of Ireland|Shelbourne Dublin vs Shamrock Rovers|12/06 22:00|Under 2.5 (70.8% 1.57) ✨ 1ο Ημίχ. Over 0.5 (57.3%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
-🏆 Βραζιλία Série B 🇧🇷|Atletico Goianiense vs Clube de Regatas Brasil|13/06 01:00|Under 2.5 (79.3% 1.40) ✨ 1ο Ημίχ. Over 0.5 (50.6%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
-🏆 Primera División - Chile|Audax Italiano vs La Serena|13/06 03:00|Over 1.5 (84.4% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.9%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
+🏆 Βραζιλία Série B 🇧🇷|Atletico Goianiense vs Clube de Regatas Brasil|13/06 01:00|Under 2.5 (46.0% 2.42) ✨ 1ο Ημίχ. Over 0.5 (72.5%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
+🏆 Primera División - Chile|Audax Italiano vs La Serena|13/06 03:00|Under 2.5 (50.6% 2.20) ✨ 1ο Ημίχ. Over 0.5 (69.9%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
+🏆 FIFA World Cup|USA vs Paraguay|13/06 04:00|Under 2.5 (61.6% 1.80) ✨ 1ο Ημίχ. Over 0.5 (63.4%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
+🏆 Veikkausliiga - Finland|FC Inter Turku vs AC Oulu|13/06 15:00|Goal / Goal (62.3% 1.78) ✨ 1ο Ημίχ. Over 1.5 (40.5%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
+🏆 Veikkausliiga - Finland|Ilves Tampere vs TPS Turku|13/06 15:00|Over 1.5 (86.2% 1.40) ✨ 1ο Ημίχ. Over 1.5 (48.2%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
+🏆 Veikkausliiga - Finland|Jaro vs HJK Helsinki|13/06 17:00|Under 2.5 (43.7% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.9%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 Veikkausliiga - Finland|VPS Vaasa vs KuPS Kuopio|13/06 17:00|Under 2.5 (48.9% 2.27) ✨ 1ο Ημίχ. Over 0.5 (71.0%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 Veikkausliiga - Finland|FC Lahti vs SJK Seinäjoki|13/06 19:00|Over 1.5 (83.7% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.0%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+🏆 Veikkausliiga - Finland|IFK Mariehamn vs IF Gnistan|13/06 19:00|Under 2.5 (43.1% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.4%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
