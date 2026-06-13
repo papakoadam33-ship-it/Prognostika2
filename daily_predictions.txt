@@ -1,14 +1,15 @@
 STATS|78.2|22.1
-🏆 Veikkausliiga - Finland|Jaro vs HJK Helsinki|13/06 17:00|Goal / Goal (62.6% 1.77) ✨ 1ο Ημίχ. Over 1.5 (40.8%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
-🏆 Veikkausliiga - Finland|VPS Vaasa vs KuPS Kuopio|13/06 17:00|Under 2.5 (81.4% 1.40) ✨ 1ο Ημίχ. Over 0.5 (48.7%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
-🏆 Veikkausliiga - Finland|FC Lahti vs SJK Seinäjoki|13/06 19:00|Under 2.5 (43.2% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.1%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
-🏆 Veikkausliiga - Finland|IFK Mariehamn vs IF Gnistan|13/06 19:00|Under 2.5 (46.1% 2.41) ✨ 1ο Ημίχ. Over 0.5 (72.5%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
-🏆 Primera División - Chile|Coquimbo Unido vs O'Higgins|13/06 19:30|Goal / Goal (62.7% 1.77) ✨ 1ο Ημίχ. Over 1.5 (40.9%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
-🏆 Primera División - Chile|Everton de Viña del Mar vs Palestino|13/06 22:00|Under 2.5 (78.4% 1.42) ✨ 1ο Ημίχ. Over 0.5 (51.3%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
-🏆 FIFA World Cup|Qatar vs Switzerland|13/06 22:00|Over 2.5 (77.0% 1.44) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (64.9%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
-🏆 Primera División - Chile|Colo Colo vs Cobresal|14/06 00:30|Over 2.5 (77.8% 1.43) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (65.1%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
-🏆 FIFA World Cup|Brazil vs Morocco|14/06 01:00|Under 2.5 (83.1% 1.40) ✨ 1ο Ημίχ. Over 0.5 (47.0%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
-🏆 Primera División - Chile|Ñublense vs Huachipato|14/06 03:00|Under 2.5 (73.4% 1.51) ✨ 1ο Ημίχ. Over 0.5 (55.4%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 Veikkausliiga - Finland|FC Lahti vs SJK Seinäjoki|13/06 19:00|Goal / Goal (61.2% 1.82) ✨ 1ο Ημίχ. Over 0.5 (75.2%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 Veikkausliiga - Finland|IFK Mariehamn vs IF Gnistan|13/06 19:00|Over 1.5 (84.6% 1.40) ✨ 1ο Ημίχ. Over 1.5 (45.1%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
+🏆 Primera División - Chile|Coquimbo Unido vs O'Higgins|13/06 19:30|Under 2.5 (77.1% 1.44) ✨ 1ο Ημίχ. Over 0.5 (52.4%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 Primera División - Chile|Everton de Viña del Mar vs Palestino|13/06 22:00|Under 2.5 (74.6% 1.49) ✨ 1ο Ημίχ. Over 0.5 (54.4%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 FIFA World Cup|Qatar vs Switzerland|13/06 22:00|Over 1.5 (83.2% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.9%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 Primera División - Chile|Colo Colo vs Cobresal|14/06 00:30|Over 2.5 (76.2% 1.46) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (65.8%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
+🏆 FIFA World Cup|Brazil vs Morocco|14/06 01:00|Under 2.5 (67.8% 1.64) ✨ 1ο Ημίχ. Over 0.5 (59.4%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 Primera División - Chile|Ñublense vs Huachipato|14/06 03:00|Under 2.5 (78.5% 1.42) ✨ 1ο Ημίχ. Over 0.5 (51.2%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
+🏆 FIFA World Cup|Haiti vs Scotland|14/06 04:00|Under 2.5 (42.8% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.3%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 FIFA World Cup|Australia vs Turkey|14/06 07:00|Under 2.5 (51.8% 2.15) ✨ 1ο Ημίχ. Over 0.5 (69.4%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
+🏆 Superettan - Sweden|Norrby IF vs IK Oddevold|14/06 14:00|Under 2.5 (44.9% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.1%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
