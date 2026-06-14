@@ -1,12 +1,13 @@
 STATS|78.2|22.1
-🏆 Superettan - Sweden|Norrby IF vs IK Oddevold|14/06 14:00|Over 1.5 (84.2% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.4%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
-🏆 Superettan - Sweden|Falkenbergs FF vs Örebro SK|14/06 16:00|Under 2.5 (45.4% 2.45) ✨ 1ο Ημίχ. Over 0.5 (72.9%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
-🏆 Superettan - Sweden|Ljungskile SK vs Östersunds FK|14/06 16:00|Over 1.5 (83.5% 1.40) ✨ 1ο Ημίχ. Over 1.5 (43.7%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
-🏆 Βραζιλία Série B 🇧🇷|Juventude vs Ponte Preta|14/06 17:00|Under 2.5 (78.2% 1.42) ✨ 1ο Ημίχ. Over 0.5 (51.5%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
-🏆 Βραζιλία Série B 🇧🇷|São Bernardo vs Sport Recife|14/06 17:00|Under 2.5 (75.7% 1.47) ✨ 1ο Ημίχ. Over 0.5 (53.6%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
-🏆 Superettan - Sweden|Sandvikens IF vs IK Brage|14/06 18:00|Over 1.5 (85.4% 1.40) ✨ 1ο Ημίχ. Over 1.5 (46.4%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
-🏆 Primera División - Chile|Deportes Concepción vs Deportes Limache|14/06 19:30|Under 2.5 (43.0% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.2%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
-🏆 FIFA World Cup|Germany vs Curaçao|14/06 20:00|Over 2.5 (77.8% 1.43) ✨ 1ο Ημίχ. Over 1.5 (64.7%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
+🏆 Superettan - Sweden|Norrby IF vs IK Oddevold|14/06 14:00|Over 1.5 (82.2% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.2%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+🏆 Superettan - Sweden|Falkenbergs FF vs Örebro SK|14/06 16:00|Over 1.5 (84.7% 1.40) ✨ 1ο Ημίχ. Over 1.5 (45.1%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
+🏆 Superettan - Sweden|Ljungskile SK vs Östersunds FK|14/06 16:00|Over 1.5 (83.2% 1.40) ✨ 1ο Ημίχ. Over 1.5 (43.0%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
+🏆 Βραζιλία Série B 🇧🇷|Juventude vs Ponte Preta|14/06 17:00|Under 2.5 (80.6% 1.40) ✨ 1ο Ημίχ. Over 0.5 (49.4%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
+🏆 Βραζιλία Série B 🇧🇷|São Bernardo vs Sport Recife|14/06 17:00|Under 2.5 (81.7% 1.40) ✨ 1ο Ημίχ. Over 0.5 (48.3%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
+🏆 Superettan - Sweden|Sandvikens IF vs IK Brage|14/06 18:00|Under 2.5 (48.7% 2.28) ✨ 1ο Ημίχ. Over 0.5 (71.0%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
+🏆 Primera División - Chile|Deportes Concepción vs Deportes Limache|14/06 19:30|Goal / Goal (61.4% 1.81) ✨ 1ο Ημίχ. Over 1.5 (40.3%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+🏆 FIFA World Cup|Germany vs Curaçao|14/06 20:00|Goal / Goal (67.0% 1.66) ✨ 1ο Ημίχ. Over 1.5 (63.5%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
+🏆 Ισπανία LaLiga 2 🇪🇸|Málaga vs Almería|14/06 22:00|Under 2.5 (43.0% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.2%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
