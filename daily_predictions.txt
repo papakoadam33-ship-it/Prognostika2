@@ -1,13 +1,12 @@
 STATS|78.2|22.1
-🏆 FIFA World Cup|Saudi Arabia vs Uruguay|16/06 01:03|Under 2.5 (51.6% 2.15) ✨ 1ο Ημίχ. Over 0.5 (69.4%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
-🏆 Βραζιλία Série B 🇧🇷|Londrina vs Avai|16/06 03:00|Under 2.5 (79.5% 1.40) ✨ 1ο Ημίχ. Over 0.5 (50.4%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
-🏆 Βραζιλία Série B 🇧🇷|Criciuma vs Ceará|16/06 03:00|Under 2.5 (73.6% 1.51) ✨ 1ο Ημίχ. Over 0.5 (55.2%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
-🏆 FIFA World Cup|Iran vs New Zealand|16/06 04:00|Under 2.5 (63.9% 1.74) ✨ 1ο Ημίχ. Over 0.5 (61.9%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
-🏆 Superettan - Sweden|IFK Värnamo vs Helsingborgs IF|16/06 20:00|Over 1.5 (85.5% 1.40) ✨ 1ο Ημίχ. Over 1.5 (46.9%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
-🏆 Superettan - Sweden|Landskrona BoIS vs Nordic United FC|16/06 20:00|Over 1.5 (85.8% 1.40) ✨ 1ο Ημίχ. Over 1.5 (47.1%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
-🏆 FIFA World Cup|France vs Senegal|16/06 22:00|Under 2.5 (42.4% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.6%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
-🏆 FIFA World Cup|Iraq vs Norway|17/06 01:00|Over 2.5 (75.8% 1.47) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (65.9%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
-🏆 Βραζιλία Série B 🇧🇷|Fortaleza vs América Mineiro|17/06 02:00|Under 2.5 (81.1% 1.40) ✨ 1ο Ημίχ. Over 0.5 (48.9%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
+🏆 Superettan - Sweden|IFK Värnamo vs Helsingborgs IF|16/06 20:00|Under 2.5 (51.6% 2.15) ✨ 1ο Ημίχ. Over 0.5 (69.3%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 Superettan - Sweden|Landskrona BoIS vs Nordic United FC|16/06 20:00|Goal / Goal (62.5% 1.78) ✨ 1ο Ημίχ. Over 1.5 (41.0%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
+🏆 FIFA World Cup|France vs Senegal|16/06 22:00|Under 2.5 (50.0% 2.22) ✨ 1ο Ημίχ. Over 0.5 (70.3%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 FIFA World Cup|Iraq vs Norway|17/06 01:00|Over 2.5 (75.4% 1.47) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (61.3%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 Βραζιλία Série B 🇧🇷|Fortaleza vs América Mineiro|17/06 02:00|Under 2.5 (74.8% 1.49) ✨ 1ο Ημίχ. Over 0.5 (54.3%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+🏆 FIFA World Cup|Argentina vs Algeria|17/06 04:00|Goal / Goal (60.7% 1.83) ✨ 1ο Ημίχ. Over 0.5 (75.1%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 FIFA World Cup|Austria vs Jordan|17/06 07:00|Over 1.5 (85.3% 1.40) ✨ 1ο Ημίχ. Over 1.5 (46.1%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
+🏆 Veikkausliiga - Finland|HJK Helsinki vs FC Inter Turku|17/06 18:00|Over 1.5 (84.0% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.3%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
