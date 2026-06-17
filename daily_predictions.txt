@@ -1,14 +1,12 @@
 STATS|78.2|22.1
-🏆 FIFA World Cup|Iraq vs Norway|17/06 01:00|Over 1.5 (84.1% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.2%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
-🏆 Βραζιλία Série B 🇧🇷|Fortaleza vs América Mineiro|17/06 02:00|Under 2.5 (48.0% 2.31) ✨ 1ο Ημίχ. Over 0.5 (71.4%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
-🏆 FIFA World Cup|Argentina vs Algeria|17/06 04:00|Goal / Goal (61.6% 1.80) ✨ 1ο Ημίχ. Over 1.5 (40.6%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
-🏆 FIFA World Cup|Austria vs Jordan|17/06 07:00|Over 1.5 (85.6% 1.40) ✨ 1ο Ημίχ. Over 1.5 (46.7%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
-🏆 Veikkausliiga - Finland|HJK Helsinki vs FC Inter Turku|17/06 18:00|Under 2.5 (47.8% 2.32) ✨ 1ο Ημίχ. Over 0.5 (71.5%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
-🏆 Veikkausliiga - Finland|Ilves Tampere vs Jaro|17/06 18:00|Under 2.5 (50.2% 2.21) ✨ 1ο Ημίχ. Over 0.5 (70.2%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
-🏆 Veikkausliiga - Finland|TPS Turku vs KuPS Kuopio|17/06 18:00|Over 1.5 (84.1% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.3%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
-🏆 FIFA World Cup|Portugal vs DR Congo|17/06 20:00|Under 2.5 (51.2% 2.17) ✨ 1ο Ημίχ. Over 0.5 (69.6%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
-🏆 Veikkausliiga - Finland|IF Gnistan vs FC Lahti|17/06 21:00|Under 2.5 (54.6% 2.03) ✨ 1ο Ημίχ. Over 0.5 (67.6%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
-🏆 Veikkausliiga - Finland|SJK Seinäjoki vs VPS Vaasa|17/06 21:00|Under 2.5 (42.9% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.3%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
+🏆 Veikkausliiga - Finland|HJK Helsinki vs FC Inter Turku|17/06 18:00|Under 2.5 (43.1% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.2%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
+🏆 Veikkausliiga - Finland|Ilves Tampere vs Jaro|17/06 18:00|Over 1.5 (83.0% 1.40) ✨ 1ο Ημίχ. Over 1.5 (43.1%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 Veikkausliiga - Finland|TPS Turku vs KuPS Kuopio|17/06 18:00|Over 1.5 (84.2% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.7%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 FIFA World Cup|Portugal vs DR Congo|17/06 20:00|Over 1.5 (84.1% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.3%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 Veikkausliiga - Finland|IF Gnistan vs FC Lahti|17/06 21:00|Under 2.5 (48.4% 2.30) ✨ 1ο Ημίχ. Over 0.5 (71.2%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
+🏆 Veikkausliiga - Finland|SJK Seinäjoki vs VPS Vaasa|17/06 21:00|Under 2.5 (45.4% 2.45) ✨ 1ο Ημίχ. Over 0.5 (72.9%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 FIFA World Cup|England vs Croatia|17/06 23:00|Under 2.5 (77.9% 1.43) ✨ 1ο Ημίχ. Over 0.5 (51.8%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
+🏆 FIFA World Cup|Ghana vs Panama|18/06 02:00|Under 2.5 (77.9% 1.43) ✨ 1ο Ημίχ. Over 0.5 (51.7%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
