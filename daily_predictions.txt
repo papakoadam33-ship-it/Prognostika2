@@ -1,12 +1,15 @@
 STATS|78.2|22.1
-🏆 Veikkausliiga - Finland|HJK Helsinki vs FC Inter Turku|17/06 18:00|Over 1.5 (84.3% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.6%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
-🏆 Veikkausliiga - Finland|Ilves Tampere vs Jaro|17/06 18:00|Under 2.5 (45.7% 2.43) ✨ 1ο Ημίχ. Over 0.5 (72.7%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
-🏆 Veikkausliiga - Finland|TPS Turku vs KuPS Kuopio|17/06 18:00|Over 1.5 (84.8% 1.40) ✨ 1ο Ημίχ. Over 1.5 (45.4%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
-🏆 FIFA World Cup|Portugal vs DR Congo|17/06 20:00|Goal / Goal (60.3% 1.84) ✨ 1ο Ημίχ. Over 1.5 (40.7%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
-🏆 Veikkausliiga - Finland|IF Gnistan vs FC Lahti|17/06 21:00|Goal / Goal (62.4% 1.78) ✨ 1ο Ημίχ. Over 1.5 (40.6%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
-🏆 Veikkausliiga - Finland|SJK Seinäjoki vs VPS Vaasa|17/06 21:00|Goal / Goal (60.3% 1.84) ✨ 1ο Ημίχ. Over 0.5 (75.2%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
-🏆 FIFA World Cup|England vs Croatia|17/06 23:00|Under 2.5 (70.6% 1.57) ✨ 1ο Ημίχ. Over 0.5 (57.4%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
-🏆 FIFA World Cup|Ghana vs Panama|18/06 02:00|Under 2.5 (71.4% 1.56) ✨ 1ο Ημίχ. Over 0.5 (56.8%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
+🏆 FIFA World Cup|Portugal vs DR Congo|17/06 20:01|Under 2.5 (45.1% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.1%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
+🏆 Veikkausliiga - Finland|SJK Seinäjoki vs VPS Vaasa|17/06 21:00|Under 2.5 (70.6% 1.57) ✨ 1ο Ημίχ. Over 0.5 (57.4%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
+🏆 Veikkausliiga - Finland|IF Gnistan vs FC Lahti|17/06 21:01|Under 2.5 (46.2% 2.40) ✨ 1ο Ημίχ. Over 0.5 (72.6%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
+🏆 FIFA World Cup|England vs Croatia|17/06 23:00|Under 2.5 (76.5% 1.45) ✨ 1ο Ημίχ. Over 0.5 (52.9%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
+🏆 FIFA World Cup|Ghana vs Panama|18/06 02:00|Under 2.5 (73.6% 1.51) ✨ 1ο Ημίχ. Over 0.5 (55.1%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
+🏆 FIFA World Cup|Uzbekistan vs Colombia|18/06 05:00|Under 2.5 (45.0% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.1%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
+🏆 Veikkausliiga - Finland|AC Oulu vs IFK Mariehamn|18/06 12:59|Under 2.5 (44.4% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.4%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
+🏆 FIFA World Cup|Czech Republic vs South Africa|18/06 19:00|Under 2.5 (77.6% 1.43) ✨ 1ο Ημίχ. Over 0.5 (52.0%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 FIFA World Cup|Switzerland vs Bosnia & Herzegovina|18/06 22:00|Under 2.5 (71.2% 1.56) ✨ 1ο Ημίχ. Over 0.5 (57.0%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
+🏆 FIFA World Cup|Canada vs Qatar|19/06 01:00|Under 2.5 (44.4% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.4%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
+🏆 Βραζιλία Série B 🇧🇷|Sport Recife vs Atletico Goianiense|19/06 03:00|Under 2.5 (71.7% 1.55) ✨ 1ο Ημίχ. Over 0.5 (56.6%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
