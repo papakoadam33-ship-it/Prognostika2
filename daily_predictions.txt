@@ -1,12 +1,12 @@
 STATS|78.2|22.1
-🏆 Veikkausliiga - Finland|HJK Helsinki vs FC Inter Turku|17/06 18:00|Under 2.5 (43.1% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.2%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
-🏆 Veikkausliiga - Finland|Ilves Tampere vs Jaro|17/06 18:00|Over 1.5 (83.0% 1.40) ✨ 1ο Ημίχ. Over 1.5 (43.1%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
-🏆 Veikkausliiga - Finland|TPS Turku vs KuPS Kuopio|17/06 18:00|Over 1.5 (84.2% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.7%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
-🏆 FIFA World Cup|Portugal vs DR Congo|17/06 20:00|Over 1.5 (84.1% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.3%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
-🏆 Veikkausliiga - Finland|IF Gnistan vs FC Lahti|17/06 21:00|Under 2.5 (48.4% 2.30) ✨ 1ο Ημίχ. Over 0.5 (71.2%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
-🏆 Veikkausliiga - Finland|SJK Seinäjoki vs VPS Vaasa|17/06 21:00|Under 2.5 (45.4% 2.45) ✨ 1ο Ημίχ. Over 0.5 (72.9%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
-🏆 FIFA World Cup|England vs Croatia|17/06 23:00|Under 2.5 (77.9% 1.43) ✨ 1ο Ημίχ. Over 0.5 (51.8%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
-🏆 FIFA World Cup|Ghana vs Panama|18/06 02:00|Under 2.5 (77.9% 1.43) ✨ 1ο Ημίχ. Over 0.5 (51.7%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 Veikkausliiga - Finland|HJK Helsinki vs FC Inter Turku|17/06 18:00|Over 1.5 (84.3% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.6%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+🏆 Veikkausliiga - Finland|Ilves Tampere vs Jaro|17/06 18:00|Under 2.5 (45.7% 2.43) ✨ 1ο Ημίχ. Over 0.5 (72.7%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
+🏆 Veikkausliiga - Finland|TPS Turku vs KuPS Kuopio|17/06 18:00|Over 1.5 (84.8% 1.40) ✨ 1ο Ημίχ. Over 1.5 (45.4%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
+🏆 FIFA World Cup|Portugal vs DR Congo|17/06 20:00|Goal / Goal (60.3% 1.84) ✨ 1ο Ημίχ. Over 1.5 (40.7%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 Veikkausliiga - Finland|IF Gnistan vs FC Lahti|17/06 21:00|Goal / Goal (62.4% 1.78) ✨ 1ο Ημίχ. Over 1.5 (40.6%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
+🏆 Veikkausliiga - Finland|SJK Seinäjoki vs VPS Vaasa|17/06 21:00|Goal / Goal (60.3% 1.84) ✨ 1ο Ημίχ. Over 0.5 (75.2%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
+🏆 FIFA World Cup|England vs Croatia|17/06 23:00|Under 2.5 (70.6% 1.57) ✨ 1ο Ημίχ. Over 0.5 (57.4%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
+🏆 FIFA World Cup|Ghana vs Panama|18/06 02:00|Under 2.5 (71.4% 1.56) ✨ 1ο Ημίχ. Over 0.5 (56.8%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
