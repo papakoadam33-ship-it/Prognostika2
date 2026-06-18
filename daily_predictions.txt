@@ -1,12 +1,13 @@
 STATS|78.2|22.1
-🏆 FIFA World Cup|Switzerland vs Bosnia & Herzegovina|18/06 22:00|Goal / Goal (61.2% 1.81) ✨ 1ο Ημίχ. Over 1.5 (41.0%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
-🏆 FIFA World Cup|Canada vs Qatar|19/06 01:00|Under 2.5 (45.1% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.0%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
-🏆 Βραζιλία Série B 🇧🇷|Sport Recife vs Atletico Goianiense|19/06 03:00|Under 2.5 (75.2% 1.48) ✨ 1ο Ημίχ. Over 0.5 (53.9%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
-🏆 Primera División - Chile|Universidad de Chile vs O'Higgins|19/06 03:00|Goal / Goal (61.7% 1.80) ✨ 1ο Ημίχ. Over 1.5 (40.0%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
-🏆 FIFA World Cup|Mexico vs South Korea|19/06 04:00|Under 2.5 (75.7% 1.47) ✨ 1ο Ημίχ. Over 0.5 (53.6%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
-🏆 League of Ireland|Galway United vs Derry City|19/06 21:45|Under 2.5 (48.3% 2.30) ✨ 1ο Ημίχ. Over 0.5 (71.3%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
-🏆 League of Ireland|Drogheda United vs Shelbourne Dublin|19/06 21:45|Goal / Goal (60.6% 1.83) ✨ 1ο Ημίχ. Over 0.5 (74.8%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
-🏆 League of Ireland|Waterford FC vs Shamrock Rovers|19/06 21:45|Under 2.5 (54.8% 2.03) ✨ 1ο Ημίχ. Over 0.5 (67.5%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
+🏆 FIFA World Cup|Canada vs Qatar|19/06 01:00|Under 2.5 (43.2% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.2%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
+🏆 Βραζιλία Série B 🇧🇷|Sport Recife vs Atletico Goianiense|19/06 03:00|Under 2.5 (65.7% 1.69) ✨ 1ο Ημίχ. Over 0.5 (60.8%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
+🏆 Primera División - Chile|Universidad de Chile vs O'Higgins|19/06 03:00|Under 2.5 (44.7% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.3%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
+🏆 FIFA World Cup|Mexico vs South Korea|19/06 04:00|Under 2.5 (83.4% 1.40) ✨ 1ο Ημίχ. Over 0.5 (46.7%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
+🏆 League of Ireland|Galway United vs Derry City|19/06 21:45|Goal / Goal (61.5% 1.81) ✨ 1ο Ημίχ. Over 1.5 (40.9%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
+🏆 League of Ireland|Drogheda United vs Shelbourne Dublin|19/06 21:45|Goal / Goal (62.7% 1.77) ✨ 1ο Ημίχ. Over 1.5 (41.1%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
+🏆 League of Ireland|Waterford FC vs Shamrock Rovers|19/06 21:45|Under 2.5 (45.0% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.2%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 League of Ireland|St Patricks Athletic vs Sligo Rovers|19/06 21:45|Under 2.5 (52.1% 2.13) ✨ 1ο Ημίχ. Over 0.5 (69.1%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
+🏆 FIFA World Cup|USA vs Australia|19/06 22:00|Under 2.5 (48.2% 2.31) ✨ 1ο Ημίχ. Over 0.5 (71.4%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
