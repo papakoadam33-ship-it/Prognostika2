@@ -1,12 +1,12 @@
 STATS|78.2|22.1
-🏆 FIFA World Cup|Czech Republic vs South Africa|18/06 19:00|Under 2.5 (71.9% 1.55) ✨ 1ο Ημίχ. Over 0.5 (56.5%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
-🏆 FIFA World Cup|Switzerland vs Bosnia & Herzegovina|18/06 22:00|Under 2.5 (54.3% 2.05) ✨ 1ο Ημίχ. Over 0.5 (67.8%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
-🏆 FIFA World Cup|Canada vs Qatar|19/06 01:00|Under 2.5 (43.7% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.8%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
-🏆 Βραζιλία Série B 🇧🇷|Sport Recife vs Atletico Goianiense|19/06 03:00|Under 2.5 (71.5% 1.55) ✨ 1ο Ημίχ. Over 0.5 (56.7%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
-🏆 Primera División - Chile|Universidad de Chile vs O'Higgins|19/06 03:00|Under 2.5 (49.1% 2.27) ✨ 1ο Ημίχ. Over 0.5 (70.8%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
-🏆 FIFA World Cup|Mexico vs South Korea|19/06 04:00|Under 2.5 (76.2% 1.46) ✨ 1ο Ημίχ. Over 0.5 (53.1%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
-🏆 League of Ireland|Galway United vs Derry City|19/06 21:45|Goal / Goal (60.5% 1.84) ✨ 1ο Ημίχ. Over 0.5 (75.4%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
-🏆 League of Ireland|Drogheda United vs Shelbourne Dublin|19/06 21:45|Under 2.5 (46.1% 2.41) ✨ 1ο Ημίχ. Over 0.5 (72.5%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+🏆 FIFA World Cup|Switzerland vs Bosnia & Herzegovina|18/06 22:00|Goal / Goal (61.2% 1.81) ✨ 1ο Ημίχ. Over 1.5 (41.0%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 FIFA World Cup|Canada vs Qatar|19/06 01:00|Under 2.5 (45.1% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.0%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
+🏆 Βραζιλία Série B 🇧🇷|Sport Recife vs Atletico Goianiense|19/06 03:00|Under 2.5 (75.2% 1.48) ✨ 1ο Ημίχ. Over 0.5 (53.9%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
+🏆 Primera División - Chile|Universidad de Chile vs O'Higgins|19/06 03:00|Goal / Goal (61.7% 1.80) ✨ 1ο Ημίχ. Over 1.5 (40.0%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
+🏆 FIFA World Cup|Mexico vs South Korea|19/06 04:00|Under 2.5 (75.7% 1.47) ✨ 1ο Ημίχ. Over 0.5 (53.6%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
+🏆 League of Ireland|Galway United vs Derry City|19/06 21:45|Under 2.5 (48.3% 2.30) ✨ 1ο Ημίχ. Over 0.5 (71.3%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
+🏆 League of Ireland|Drogheda United vs Shelbourne Dublin|19/06 21:45|Goal / Goal (60.6% 1.83) ✨ 1ο Ημίχ. Over 0.5 (74.8%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
+🏆 League of Ireland|Waterford FC vs Shamrock Rovers|19/06 21:45|Under 2.5 (54.8% 2.03) ✨ 1ο Ημίχ. Over 0.5 (67.5%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
