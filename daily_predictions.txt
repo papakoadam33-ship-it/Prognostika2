@@ -1,14 +1,14 @@
 STATS|78.2|22.1
-🏆 League of Ireland|Shelbourne Dublin vs Bohemians|22/06 21:46|Over 1.5 (85.4% 1.40) ✨ 1ο Ημίχ. Over 1.5 (46.4%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
-🏆 League of Ireland|Shamrock Rovers vs Derry City|22/06 21:59|Under 2.5 (82.0% 1.40) ✨ 1ο Ημίχ. Over 0.5 (48.1%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
-🏆 FIFA World Cup|France vs Iraq|23/06 00:00|Over 2.5 (77.4% 1.44) ✨ 1ο Ημίχ. Over 1.5 (58.9%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
-🏆 Βραζιλία Série B 🇧🇷|Ponte Preta vs Grêmio Novorizontino|23/06 02:00|Under 2.5 (81.3% 1.40) ✨ 1ο Ημίχ. Over 0.5 (48.7%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
-🏆 FIFA World Cup|Norway vs Senegal|23/06 03:00|Over 1.5 (84.0% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.5%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
-🏆 FIFA World Cup|Jordan vs Algeria|23/06 06:00|Under 2.5 (39.9% 2.45) ✨ 1ο Ημίχ. Over 1.5 (40.6%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
-🏆 Veikkausliiga - Finland|VPS Vaasa vs AC Oulu|23/06 18:00|Under 2.5 (42.0% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.8%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
-🏆 Veikkausliiga - Finland|FC Lahti vs TPS Turku|23/06 18:00|Over 1.5 (82.8% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.4%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
-🏆 Veikkausliiga - Finland|KuPS Kuopio vs Ilves Tampere|23/06 18:00|Under 2.5 (48.5% 2.29) ✨ 1ο Ημίχ. Over 0.5 (71.1%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
-🏆 Veikkausliiga - Finland|FC Inter Turku vs SJK Seinäjoki|23/06 19:00|Over 1.5 (85.8% 1.40) ✨ 1ο Ημίχ. Over 1.5 (47.1%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 FIFA World Cup|France vs Iraq|23/06 00:00|Under 2.5 (44.6% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.3%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
+🏆 Βραζιλία Série B 🇧🇷|Ponte Preta vs Grêmio Novorizontino|23/06 02:01|Under 2.5 (83.7% 1.40) ✨ 1ο Ημίχ. Over 0.5 (46.4%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
+🏆 FIFA World Cup|Norway vs Senegal|23/06 03:00|Goal / Goal (61.1% 1.82) ✨ 1ο Ημίχ. Over 0.5 (75.1%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
+🏆 FIFA World Cup|Jordan vs Algeria|23/06 06:00|Under 2.5 (43.5% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.0%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
+🏆 Veikkausliiga - Finland|VPS Vaasa vs AC Oulu|23/06 18:00|Under 2.5 (45.3% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.0%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
+🏆 Veikkausliiga - Finland|FC Lahti vs TPS Turku|23/06 18:00|Under 2.5 (42.2% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.7%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
+🏆 Veikkausliiga - Finland|KuPS Kuopio vs Ilves Tampere|23/06 18:00|Under 2.5 (59.6% 1.86) ✨ 1ο Ημίχ. Over 0.5 (64.6%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
+🏆 Veikkausliiga - Finland|FC Inter Turku vs SJK Seinäjoki|23/06 19:00|Goal / Goal (62.7% 1.77) ✨ 1ο Ημίχ. Over 1.5 (40.9%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
+🏆 Veikkausliiga - Finland|Jaro vs IF Gnistan|23/06 19:00|Under 2.5 (44.5% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.4%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
+🏆 Veikkausliiga - Finland|IFK Mariehamn vs HJK Helsinki|23/06 20:00|Over 2.5 (79.5% 1.40) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (62.2%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
