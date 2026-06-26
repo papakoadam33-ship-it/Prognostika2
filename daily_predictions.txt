@@ -1,13 +1,17 @@
 STATS|78.2|22.1
-🏆 Superettan - Sweden|IK Brage vs Falkenbergs FF|26/06 20:00|Under 2.5 (59.2% 1.88) ✨ 1ο Ημίχ. Over 0.5 (64.9%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
-🏆 League of Ireland|Shamrock Rovers vs Galway United|26/06 21:30|Goal / Goal (62.7% 1.77) ✨ 1ο Ημίχ. Over 1.5 (40.9%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
-🏆 League of Ireland|Derry City vs Drogheda United|26/06 21:45|Under 2.5 (47.6% 2.33) ✨ 1ο Ημίχ. Over 0.5 (71.6%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
-🏆 League of Ireland|Dundalk vs Waterford FC|26/06 21:45|Over 2.5 (78.9% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (64.3%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
-🏆 League of Ireland|Bohemians vs St Patricks Athletic|26/06 22:00|Under 2.5 (75.4% 1.47) ✨ 1ο Ημίχ. Over 0.5 (53.8%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
-🏆 FIFA World Cup|Norway vs France|26/06 22:00|Over 2.5 (78.8% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (64.3%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
-🏆 FIFA World Cup|Senegal vs Iraq|26/06 22:00|Over 2.5 (76.8% 1.45) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (55.9%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
-🏆 Βραζιλία Série B 🇧🇷|Grêmio Novorizontino vs Vila Nova|27/06 01:02|Under 2.5 (64.0% 1.74) ✨ 1ο Ημίχ. Over 0.5 (61.9%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
-🏆 FIFA World Cup|Cape Verde vs Saudi Arabia|27/06 03:00|Under 2.5 (69.8% 1.59) ✨ 1ο Ημίχ. Over 0.5 (58.0%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
+🏆 League of Ireland|Dundalk vs Waterford FC|26/06 21:45|Under 2.5 (52.9% 2.10) ✨ 1ο Ημίχ. Over 0.5 (68.6%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
+🏆 League of Ireland|Derry City vs Drogheda United|26/06 21:46|Under 2.5 (78.5% 1.42) ✨ 1ο Ημίχ. Over 0.5 (51.2%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 FIFA World Cup|Norway vs France|26/06 22:01|Under 2.5 (41.4% 2.45) ✨ 1ο Ημίχ. Over 0.5 (75.3%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
+🏆 League of Ireland|Bohemians vs St Patricks Athletic|26/06 22:02|Under 2.5 (47.2% 2.35) ✨ 1ο Ημίχ. Over 0.5 (71.9%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 FIFA World Cup|Senegal vs Iraq|26/06 22:02|Goal / Goal (60.8% 1.83) ✨ 1ο Ημίχ. Over 0.5 (74.9%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
+🏆 Βραζιλία Série B 🇧🇷|Grêmio Novorizontino vs Vila Nova|27/06 01:00|Under 2.5 (80.5% 1.40) ✨ 1ο Ημίχ. Over 0.5 (49.4%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
+🏆 FIFA World Cup|Cape Verde vs Saudi Arabia|27/06 03:00|Under 2.5 (75.0% 1.48) ✨ 1ο Ημίχ. Over 0.5 (54.1%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
+🏆 FIFA World Cup|Uruguay vs Spain|27/06 03:00|Under 2.5 (68.6% 1.62) ✨ 1ο Ημίχ. Over 0.5 (58.8%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
+🏆 FIFA World Cup|New Zealand vs Belgium|27/06 06:00|Over 2.5 (79.0% 1.41) ✨ 1ο Ημίχ. Over 1.5 (62.0%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
+🏆 FIFA World Cup|Egypt vs Iran|27/06 06:00|Under 2.5 (76.0% 1.46) ✨ 1ο Ημίχ. Over 0.5 (53.3%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
+🏆 Veikkausliiga - Finland|Ilves Tampere vs SJK Seinäjoki|27/06 14:00|Over 2.5 (78.9% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (60.3%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 Super League - China|Liaoning Tieren FC vs Shandong Luneng Taishan FC|27/06 14:00|Over 2.5 (78.2% 1.42) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (59.9%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
+🏆 Super League - China|Shenzhen Peng City FC vs Chengdu Rongcheng FC|27/06 14:35|Under 2.5 (42.8% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.3%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
