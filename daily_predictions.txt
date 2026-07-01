@@ -1,12 +1,12 @@
 STATS|78.2|22.1
-🏆 FIFA World Cup|England vs DR Congo|01/07 19:00|Over 1.5 (83.0% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.7%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
-🏆 FIFA World Cup|Belgium vs Senegal|01/07 23:00|Under 2.5 (45.7% 2.43) ✨ 1ο Ημίχ. Over 0.5 (72.9%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
-🏆 FIFA World Cup|USA vs Bosnia & Herzegovina|02/07 03:00|Under 2.5 (45.4% 2.44) ✨ 1ο Ημίχ. Over 0.5 (72.9%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
-🏆 FIFA World Cup|Spain vs Austria|02/07 22:00|Over 1.5 (82.5% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.0%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
-🏆 Βραζιλία Série B 🇧🇷|Cuiabá vs América Mineiro|03/07 02:00|Under 2.5 (73.7% 1.51) ✨ 1ο Ημίχ. Over 0.5 (55.1%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
-🏆 FIFA World Cup|Portugal vs Croatia|03/07 02:00|Under 2.5 (71.3% 1.56) ✨ 1ο Ημίχ. Over 0.5 (56.9%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
-🏆 Βραζιλία Série B 🇧🇷|Fortaleza vs Ponte Preta|03/07 03:00|Under 2.5 (47.8% 2.33) ✨ 1ο Ημίχ. Over 0.5 (71.6%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
-🏆 FIFA World Cup|Switzerland vs Algeria|03/07 06:00|Under 2.5 (73.5% 1.51) ✨ 1ο Ημίχ. Over 0.5 (55.3%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+🏆 FIFA World Cup|England vs DR Congo|01/07 19:00|Under 2.5 (73.3% 1.52) ✨ 1ο Ημίχ. Over 0.5 (55.4%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 FIFA World Cup|Belgium vs Senegal|01/07 23:00|Over 1.5 (82.0% 1.40) ✨ 1ο Ημίχ. Over 1.5 (41.5%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
+🏆 FIFA World Cup|USA vs Bosnia & Herzegovina|02/07 03:00|Under 2.5 (44.3% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.5%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
+🏆 FIFA World Cup|Spain vs Austria|02/07 22:00|Over 1.5 (82.4% 1.40) ✨ 1ο Ημίχ. Over 1.5 (41.9%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
+🏆 Βραζιλία Série B 🇧🇷|Cuiabá vs América Mineiro|03/07 02:00|Under 2.5 (66.6% 1.67) ✨ 1ο Ημίχ. Over 0.5 (60.2%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
+🏆 FIFA World Cup|Portugal vs Croatia|03/07 02:00|Under 2.5 (62.3% 1.78) ✨ 1ο Ημίχ. Over 0.5 (63.0%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 Βραζιλία Série B 🇧🇷|Fortaleza vs Ponte Preta|03/07 03:00|Under 2.5 (56.8% 1.95) ✨ 1ο Ημίχ. Over 0.5 (66.3%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 FIFA World Cup|Switzerland vs Algeria|03/07 06:00|Under 2.5 (62.8% 1.77) ✨ 1ο Ημίχ. Over 0.5 (62.7%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
