@@ -1,13 +1,12 @@
 STATS|78.2|22.1
-🏆 FIFA World Cup|Argentina vs Cape Verde|04/07 01:00|Goal / Goal (61.9% 1.79) ✨ 1ο Ημίχ. Over 1.5 (40.7%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
-🏆 FIFA World Cup|Colombia vs Ghana|04/07 04:30|Goal / Goal (60.0% 1.85) ✨ 1ο Ημίχ. Over 0.5 (75.1%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
-🏆 K League 1|FC Anyang vs Pohang Steelers|04/07 13:30|Under 2.5 (67.3% 1.65) ✨ 1ο Ημίχ. Over 0.5 (59.7%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
-🏆 K League 1|Jeonbuk Hyundai Motors vs Gangwon FC|04/07 13:30|Under 2.5 (72.4% 1.53) ✨ 1ο Ημίχ. Over 0.5 (56.1%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
-🏆 Super League - China|Liaoning Tieren FC vs Chongqing Tonglianglong FC|04/07 14:00|Under 2.5 (47.6% 2.34) ✨ 1ο Ημίχ. Over 0.5 (71.6%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
-🏆 Super League - China|Qingdao West Coast FC vs Shanghai SIPG FC|04/07 14:00|Goal / Goal (62.1% 1.79) ✨ 1ο Ημίχ. Over 1.5 (40.3%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
-🏆 Super League - China|Beijing FC vs Shandong Luneng Taishan FC|04/07 14:35|Over 2.5 (75.7% 1.47) ✨ 1ο Ημίχ. Over 1.5 (66.6%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
-🏆 Super League - China|Dalian Yingbo vs Wuhan Three Towns|04/07 14:35|Over 1.5 (83.6% 1.40) ✨ 1ο Ημίχ. Over 1.5 (43.5%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
-🏆 Veikkausliiga - Finland|FC Lahti vs IF Gnistan|04/07 15:00|Under 2.5 (44.1% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.6%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 K League 1|FC Anyang vs Pohang Steelers|04/07 13:30|Under 2.5 (75.1% 1.48) ✨ 1ο Ημίχ. Over 0.5 (54.0%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
+🏆 K League 1|Jeonbuk Hyundai Motors vs Gangwon FC|04/07 13:30|Under 2.5 (76.2% 1.46) ✨ 1ο Ημίχ. Over 0.5 (53.2%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 Super League - China|Liaoning Tieren FC vs Chongqing Tonglianglong FC|04/07 14:00|Under 2.5 (76.5% 1.45) ✨ 1ο Ημίχ. Over 0.5 (52.9%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
+🏆 Super League - China|Qingdao West Coast FC vs Shanghai SIPG FC|04/07 14:00|Over 2.5 (76.5% 1.45) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (66.2%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 Super League - China|Beijing FC vs Shandong Luneng Taishan FC|04/07 14:35|Over 2.5 (78.2% 1.42) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (60.2%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
+🏆 Super League - China|Dalian Yingbo vs Wuhan Three Towns|04/07 14:35|Over 1.5 (82.0% 1.40) ✨ 1ο Ημίχ. Over 1.5 (41.3%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
+🏆 Veikkausliiga - Finland|FC Lahti vs IF Gnistan|04/07 15:00|Over 1.5 (82.3% 1.40) ✨ 1ο Ημίχ. Over 1.5 (41.8%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
+🏆 Super League - China|Tianjin Jinmen Tiger FC vs Shenzhen Peng City FC|04/07 15:00|Over 1.5 (83.3% 1.40) ✨ 1ο Ημίχ. Over 1.5 (43.0%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
