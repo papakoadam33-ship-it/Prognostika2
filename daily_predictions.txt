@@ -1,17 +1,13 @@
 STATS|78.2|22.1
-🏆 K League 1|Daejeon Citizen vs Bucheon FC 1995|04/07 13:30|Goal / Goal (60.0% 1.85) ✨ 1ο Ημίχ. Over 0.5 (75.3%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
-🏆 K League 1|Jeonbuk Hyundai Motors vs Gangwon FC|04/07 13:30|Under 2.5 (69.6% 1.60) ✨ 1ο Ημίχ. Over 0.5 (58.1%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
-🏆 K League 1|FC Anyang vs Pohang Steelers|04/07 13:31|Under 2.5 (42.3% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.7%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
-🏆 Super League - China|Liaoning Tieren FC vs Chongqing Tonglianglong FC|04/07 14:00|Under 2.5 (43.0% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.2%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
-🏆 Super League - China|Qingdao West Coast FC vs Shanghai SIPG FC|04/07 14:00|Under 2.5 (80.1% 1.40) ✨ 1ο Ημίχ. Over 0.5 (49.8%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
-🏆 Super League - China|Beijing FC vs Shandong Luneng Taishan FC|04/07 14:35|Over 2.5 (79.1% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (64.2%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
-🏆 Super League - China|Dalian Yingbo vs Wuhan Three Towns|04/07 14:35|Over 2.5 (77.5% 1.43) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (57.5%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
-🏆 Veikkausliiga - Finland|FC Lahti vs IF Gnistan|04/07 15:00|Under 2.5 (43.4% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.0%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
-🏆 Super League - China|Tianjin Jinmen Tiger FC vs Shenzhen Peng City FC|04/07 15:00|Over 1.5 (82.5% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.2%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
-🏆 Allsvenskan - Sweden|Degerfors IF vs Malmo FF|04/07 16:00|Under 2.5 (44.3% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.5%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
-🏆 Allsvenskan - Sweden|Halmstads BK vs Västerås SK|04/07 16:00|Over 1.5 (83.3% 1.40) ✨ 1ο Ημίχ. Over 1.5 (43.4%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
-🏆 Veikkausliiga - Finland|Jaro vs Ilves Tampere|04/07 17:00|Over 2.5 (75.7% 1.47) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (64.1%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
-🏆 Veikkausliiga - Finland|SJK Seinäjoki vs TPS Turku|04/07 17:00|Under 2.5 (48.9% 2.27) ✨ 1ο Ημίχ. Over 0.5 (70.9%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
+🏆 Veikkausliiga - Finland|VPS Vaasa vs IFK Mariehamn|04/07 18:01|Over 1.5 (85.8% 1.40) ✨ 1ο Ημίχ. Over 1.5 (47.1%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
+🏆 FIFA World Cup|Canada vs Morocco|04/07 20:00|Under 2.5 (71.5% 1.55) ✨ 1ο Ημίχ. Over 0.5 (56.7%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+🏆 Βραζιλία Série B 🇧🇷|Grêmio Novorizontino vs Atletico Goianiense|04/07 22:00|Under 2.5 (68.2% 1.63) ✨ 1ο Ημίχ. Over 0.5 (59.1%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
+🏆 Βραζιλία Série B 🇧🇷|Londrina vs Clube de Regatas Brasil|04/07 22:00|Under 2.5 (81.0% 1.40) ✨ 1ο Ημίχ. Over 0.5 (49.0%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
+🏆 Βραζιλία Série B 🇧🇷|Criciuma vs Sport Recife|04/07 22:00|Under 2.5 (70.5% 1.58) ✨ 1ο Ημίχ. Over 0.5 (57.5%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
+🏆 FIFA World Cup|Paraguay vs France|05/07 00:00|Goal / Goal (61.9% 1.80) ✨ 1ο Ημίχ. Over 1.5 (40.2%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 Βραζιλία Série B 🇧🇷|Goiás vs Ceará|05/07 02:00|Under 2.5 (84.7% 1.40) ✨ 1ο Ημίχ. Over 0.5 (45.4%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 K League 1|FC Seoul vs Incheon United|05/07 13:30|Under 2.5 (78.3% 1.42) ✨ 1ο Ημίχ. Over 0.5 (51.4%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+🏆 K League 1|Gwangju FC vs Ulsan Hyundai FC|05/07 13:30|Under 2.5 (49.8% 2.23) ✨ 1ο Ημίχ. Over 0.5 (70.4%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
