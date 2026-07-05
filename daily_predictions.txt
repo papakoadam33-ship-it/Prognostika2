@@ -1,13 +1,12 @@
 STATS|78.2|22.1
-🏆 FIFA World Cup|Paraguay vs France|05/07 00:03|Goal / Goal (62.0% 1.79) ✨ 1ο Ημίχ. Over 1.5 (40.5%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
-🏆 Βραζιλία Série B 🇧🇷|Goiás vs Ceará|05/07 02:00|Under 2.5 (69.1% 1.61) ✨ 1ο Ημίχ. Over 0.5 (58.5%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
-🏆 K League 1|FC Seoul vs Incheon United|05/07 13:30|Under 2.5 (74.0% 1.50) ✨ 1ο Ημίχ. Over 0.5 (54.9%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
-🏆 K League 1|Gwangju FC vs Ulsan Hyundai FC|05/07 13:30|Goal / Goal (60.3% 1.84) ✨ 1ο Ημίχ. Over 0.5 (74.9%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
-🏆 K League 1|Sangju Sangmu FC vs Jeju United FC|05/07 13:30|Under 2.5 (75.8% 1.46) ✨ 1ο Ημίχ. Over 0.5 (53.4%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
-🏆 Super League - China|Qingdao Hainiu FC vs Chengdu Rongcheng FC|05/07 14:00|Under 2.5 (41.1% 2.45) ✨ 1ο Ημίχ. Over 0.5 (75.4%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
-🏆 Super League - China|Shanghai Shenhua FC vs Zhejiang|05/07 14:35|Over 2.5 (77.6% 1.43) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (62.2%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
-🏆 Allsvenskan - Sweden|IFK Goteborg vs AIK|05/07 15:00|Under 2.5 (52.1% 2.13) ✨ 1ο Ημίχ. Over 0.5 (69.1%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
-🏆 Allsvenskan - Sweden|Kalmar FF vs Örgryte IS|05/07 15:00|Under 2.5 (51.1% 2.17) ✨ 1ο Ημίχ. Over 0.5 (69.7%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
+🏆 K League 1|FC Seoul vs Incheon United|05/07 13:30|Under 2.5 (78.1% 1.42) ✨ 1ο Ημίχ. Over 0.5 (51.6%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 K League 1|Gwangju FC vs Ulsan Hyundai FC|05/07 13:30|Over 1.5 (82.5% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.2%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 K League 1|Sangju Sangmu FC vs Jeju United FC|05/07 13:30|Under 2.5 (78.3% 1.42) ✨ 1ο Ημίχ. Over 0.5 (51.4%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
+🏆 Super League - China|Qingdao Hainiu FC vs Chengdu Rongcheng FC|05/07 14:00|Over 1.5 (82.3% 1.40) ✨ 1ο Ημίχ. Over 1.5 (41.8%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
+🏆 Super League - China|Shanghai Shenhua FC vs Zhejiang|05/07 14:35|Over 2.5 (79.2% 1.40) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (62.3%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 Allsvenskan - Sweden|IFK Goteborg vs AIK|05/07 15:00|Over 1.5 (85.5% 1.40) ✨ 1ο Ημίχ. Over 1.5 (46.7%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
+🏆 Allsvenskan - Sweden|Kalmar FF vs Örgryte IS|05/07 15:00|Goal / Goal (62.2% 1.79) ✨ 1ο Ημίχ. Over 1.5 (41.0%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
+🏆 Allsvenskan - Sweden|IF Elfsborg vs Hammarby IF|05/07 17:30|Under 2.5 (44.2% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.5%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
