@@ -1,12 +1,16 @@
 STATS|78.2|22.1
-🏆 K League 1|FC Seoul vs Incheon United|05/07 13:30|Under 2.5 (78.1% 1.42) ✨ 1ο Ημίχ. Over 0.5 (51.6%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
-🏆 K League 1|Gwangju FC vs Ulsan Hyundai FC|05/07 13:30|Over 1.5 (82.5% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.2%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
-🏆 K League 1|Sangju Sangmu FC vs Jeju United FC|05/07 13:30|Under 2.5 (78.3% 1.42) ✨ 1ο Ημίχ. Over 0.5 (51.4%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
-🏆 Super League - China|Qingdao Hainiu FC vs Chengdu Rongcheng FC|05/07 14:00|Over 1.5 (82.3% 1.40) ✨ 1ο Ημίχ. Over 1.5 (41.8%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
-🏆 Super League - China|Shanghai Shenhua FC vs Zhejiang|05/07 14:35|Over 2.5 (79.2% 1.40) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (62.3%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
-🏆 Allsvenskan - Sweden|IFK Goteborg vs AIK|05/07 15:00|Over 1.5 (85.5% 1.40) ✨ 1ο Ημίχ. Over 1.5 (46.7%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
-🏆 Allsvenskan - Sweden|Kalmar FF vs Örgryte IS|05/07 15:00|Goal / Goal (62.2% 1.79) ✨ 1ο Ημίχ. Over 1.5 (41.0%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
-🏆 Allsvenskan - Sweden|IF Elfsborg vs Hammarby IF|05/07 17:30|Under 2.5 (44.2% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.5%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
+🏆 K League 1|FC Seoul vs Incheon United|05/07 13:30|Under 2.5 (46.4% 2.39) ✨ 1ο Ημίχ. Over 0.5 (72.4%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
+🏆 K League 1|Gwangju FC vs Ulsan Hyundai FC|05/07 13:30|Under 2.5 (74.7% 1.49) ✨ 1ο Ημίχ. Over 0.5 (54.4%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 K League 1|Sangju Sangmu FC vs Jeju United FC|05/07 13:30|Under 2.5 (47.6% 2.33) ✨ 1ο Ημίχ. Over 0.5 (71.6%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
+🏆 Super League - China|Qingdao Hainiu FC vs Chengdu Rongcheng FC|05/07 14:00|Under 2.5 (67.6% 1.64) ✨ 1ο Ημίχ. Over 0.5 (59.4%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
+🏆 Super League - China|Shanghai Shenhua FC vs Zhejiang|05/07 14:35|Over 2.5 (79.1% 1.40) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (62.4%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
+🏆 Allsvenskan - Sweden|IFK Goteborg vs AIK|05/07 15:00|Goal / Goal (60.9% 1.83) ✨ 1ο Ημίχ. Over 0.5 (75.1%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
+🏆 Allsvenskan - Sweden|Kalmar FF vs Örgryte IS|05/07 15:00|Goal / Goal (69.0% 1.61) ✨ 1ο Ημίχ. Over 1.5 (64.5%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 Allsvenskan - Sweden|IF Elfsborg vs Hammarby IF|05/07 17:30|Under 2.5 (43.8% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.9%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
+🏆 FIFA World Cup|Brazil vs Norway|05/07 23:00|Goal / Goal (62.6% 1.77) ✨ 1ο Ημίχ. Over 1.5 (41.0%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
+🏆 Βραζιλία Série B 🇧🇷|Nautico PE vs Juventude|06/07 02:30|Under 2.5 (63.1% 1.76) ✨ 1ο Ημίχ. Over 0.5 (62.5%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
+🏆 FIFA World Cup|Mexico vs England|06/07 03:00|Under 2.5 (77.7% 1.43) ✨ 1ο Ημίχ. Over 0.5 (51.9%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
+🏆 Allsvenskan - Sweden|BK Hacken vs Djurgardens IF|06/07 20:00|Over 2.5 (75.2% 1.48) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (64.0%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
