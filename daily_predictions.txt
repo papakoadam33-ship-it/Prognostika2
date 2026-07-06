@@ -1,12 +1,14 @@
 STATS|78.2|22.1
-🏆 Allsvenskan - Sweden|BK Hacken vs Djurgardens IF|06/07 20:00|Goal / Goal (68.5% 1.62) ✨ 1ο Ημίχ. Over 1.5 (64.4%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
-🏆 Allsvenskan - Sweden|IF Brommapojkarna vs GAIS|06/07 20:00|Under 2.5 (44.0% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.6%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
-🏆 FIFA World Cup|Portugal vs Spain|06/07 22:00|Over 1.5 (85.5% 1.40) ✨ 1ο Ημίχ. Over 1.5 (46.6%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
-🏆 Βραζιλία Série B 🇧🇷|Botafogo vs Avai|07/07 01:00|Under 2.5 (75.8% 1.47) ✨ 1ο Ημίχ. Over 0.5 (53.5%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
-🏆 Βραζιλία Série B 🇧🇷|Vila Nova vs São Bernardo|07/07 01:00|Under 2.5 (75.9% 1.46) ✨ 1ο Ημίχ. Over 0.5 (53.5%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
-🏆 FIFA World Cup|USA vs Belgium|07/07 03:00|Under 2.5 (48.7% 2.28) ✨ 1ο Ημίχ. Over 0.5 (71.0%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
-🏆 FIFA World Cup|Argentina vs Egypt|07/07 19:00|Goal / Goal (61.0% 1.82) ✨ 1ο Ημίχ. Over 0.5 (75.1%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
-🏆 FIFA World Cup|Switzerland vs Colombia|07/07 23:00|Under 2.5 (73.4% 1.51) ✨ 1ο Ημίχ. Over 0.5 (55.3%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
+🏆 Allsvenskan - Sweden|BK Hacken vs Djurgardens IF|06/07 20:00|Under 2.5 (52.0% 2.14) ✨ 1ο Ημίχ. Over 0.5 (69.2%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
+🏆 Allsvenskan - Sweden|IF Brommapojkarna vs GAIS|06/07 20:00|Goal / Goal (60.8% 1.83) ✨ 1ο Ημίχ. Over 0.5 (75.2%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
+🏆 FIFA World Cup|Portugal vs Spain|06/07 22:00|Over 1.5 (84.5% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.8%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 Βραζιλία Série B 🇧🇷|Botafogo vs Avai|07/07 01:00|Under 2.5 (71.6% 1.55) ✨ 1ο Ημίχ. Over 0.5 (56.7%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
+🏆 Βραζιλία Série B 🇧🇷|Vila Nova vs São Bernardo|07/07 01:00|Under 2.5 (78.2% 1.42) ✨ 1ο Ημίχ. Over 0.5 (51.5%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
+🏆 FIFA World Cup|USA vs Belgium|07/07 03:00|Under 2.5 (48.0% 2.31) ✨ 1ο Ημίχ. Over 0.5 (71.5%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
+🏆 FIFA World Cup|Argentina vs Egypt|07/07 19:00|Under 2.5 (73.5% 1.51) ✨ 1ο Ημίχ. Over 0.5 (55.3%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 UEFA Champions League Qualification|Lincoln Red Imps FC vs Inter Club d'Escaldes|07/07 19:00|Under 2.5 (47.1% 2.36) ✨ 1ο Ημίχ. Over 0.5 (71.9%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
+🏆 FIFA World Cup|Switzerland vs Colombia|07/07 23:00|Under 2.5 (67.1% 1.66) ✨ 1ο Ημίχ. Over 0.5 (59.9%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
+🏆 Βραζιλία Série B 🇧🇷|Athletic Club (MG) vs Operario PR|08/07 02:00|Under 2.5 (83.8% 1.40) ✨ 1ο Ημίχ. Over 0.5 (46.3%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
