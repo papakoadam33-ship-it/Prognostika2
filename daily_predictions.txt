@@ -1,18 +1,19 @@
 STATS|78.2|22.1
-🏆 UEFA Champions League Qualification|FC Ararat-Armenia vs Riga FC|07/07 18:58|Under 2.5 (45.1% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.0%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
-🏆 UEFA Champions League Qualification|Lincoln Red Imps FC vs Inter Club d'Escaldes|07/07 18:58|Over 1.5 (82.5% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.1%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
-🏆 UEFA Champions League Qualification|Sabah FK vs The New Saints FC|07/07 18:59|Under 2.5 (51.9% 2.14) ✨ 1ο Ημίχ. Over 0.5 (69.2%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
-🏆 UEFA Champions League Qualification|FK Kauno Žalgiris vs FC Drita|07/07 19:00|Under 2.5 (48.8% 2.28) ✨ 1ο Ημίχ. Over 0.5 (71.0%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
-🏆 FIFA World Cup|Argentina vs Egypt|07/07 19:01|Under 2.5 (83.9% 1.40) ✨ 1ο Ημίχ. Over 0.5 (46.2%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
-🏆 UEFA Champions League Qualification|FK Vardar vs KuPS Kuopio|07/07 20:00|Under 2.5 (81.6% 1.40) ✨ 1ο Ημίχ. Over 0.5 (48.5%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
-🏆 UEFA Champions League Qualification|Floriana F.C. vs Shamrock Rovers|07/07 20:30|Under 2.5 (44.7% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.3%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
-🏆 UEFA Champions League Qualification|FK Borac Banja Luka vs PFC Levski Sofia|07/07 21:30|Under 2.5 (69.2% 1.61) ✨ 1ο Ημίχ. Over 0.5 (58.5%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
-🏆 UEFA Champions League Qualification|Tre Fiori F.C. vs Larne FC|07/07 21:30|Goal / Goal (60.5% 1.84) ✨ 1ο Ημίχ. Over 0.5 (75.3%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
-🏆 UEFA Champions League Qualification|Klaksvíkar Ítróttarfelag vs FC Atert Bissen|07/07 21:45|Under 2.5 (47.5% 2.34) ✨ 1ο Ημίχ. Over 0.5 (71.7%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
-🏆 UEFA Champions League Qualification|Víkingur Reykjavík vs ETO FC Győr|07/07 22:00|Goal / Goal (70.0% 1.59) ✨ 1ο Ημίχ. Over 1.5 (65.3%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
-🏆 FIFA World Cup|Switzerland vs Colombia|07/07 23:00|Under 2.5 (71.9% 1.54) ✨ 1ο Ημίχ. Over 0.5 (56.4%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
-🏆 Βραζιλία Série B 🇧🇷|Athletic Club (MG) vs Operario PR|08/07 02:00|Under 2.5 (67.8% 1.64) ✨ 1ο Ημίχ. Over 0.5 (59.3%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
-🏆 UEFA Champions League Qualification|FC Kairat vs FK Sutjeska Nikšić|08/07 18:00|Under 2.5 (44.3% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.5%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 UEFA Champions League Qualification|FC Ararat-Armenia vs Riga FC|07/07 18:58|Under 2.5 (69.4% 1.60) ✨ 1ο Ημίχ. Over 0.5 (58.2%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 UEFA Champions League Qualification|Lincoln Red Imps FC vs Inter Club d'Escaldes|07/07 18:58|Under 2.5 (46.3% 2.40) ✨ 1ο Ημίχ. Over 0.5 (72.4%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 UEFA Champions League Qualification|Sabah FK vs The New Saints FC|07/07 18:59|Under 2.5 (66.0% 1.68) ✨ 1ο Ημίχ. Over 0.5 (60.6%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
+🏆 UEFA Champions League Qualification|FK Kauno Žalgiris vs FC Drita|07/07 19:00|Under 2.5 (75.6% 1.47) ✨ 1ο Ημίχ. Over 0.5 (53.6%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
+🏆 FIFA World Cup|Argentina vs Egypt|07/07 19:01|Goal / Goal (60.4% 1.84) ✨ 1ο Ημίχ. Over 0.5 (74.9%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
+🏆 UEFA Champions League Qualification|FK Vardar vs KuPS Kuopio|07/07 20:00|Under 2.5 (82.4% 1.40) ✨ 1ο Ημίχ. Over 0.5 (47.7%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
+🏆 UEFA Champions League Qualification|Floriana F.C. vs Shamrock Rovers|07/07 20:29|Goal / Goal (62.6% 1.77) ✨ 1ο Ημίχ. Over 1.5 (41.0%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
+🏆 UEFA Champions League Qualification|FK Borac Banja Luka vs PFC Levski Sofia|07/07 21:30|Under 2.5 (76.5% 1.45) ✨ 1ο Ημίχ. Over 0.5 (52.9%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
+🏆 UEFA Champions League Qualification|Tre Fiori F.C. vs Larne FC|07/07 21:30|Over 1.5 (83.2% 1.40) ✨ 1ο Ημίχ. Over 1.5 (43.3%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
+🏆 UEFA Champions League Qualification|Klaksvíkar Ítróttarfelag vs FC Atert Bissen|07/07 21:45|Under 2.5 (47.8% 2.32) ✨ 1ο Ημίχ. Over 0.5 (71.6%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
+🏆 UEFA Champions League Qualification|Víkingur Reykjavík vs ETO FC Győr|07/07 22:00|Over 2.5 (78.3% 1.42) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (63.0%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
+🏆 FIFA World Cup|Switzerland vs Colombia|07/07 23:00|Under 2.5 (71.8% 1.55) ✨ 1ο Ημίχ. Over 0.5 (56.6%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
+🏆 Βραζιλία Série B 🇧🇷|Athletic Club (MG) vs Operario PR|08/07 02:00|Under 2.5 (62.8% 1.77) ✨ 1ο Ημίχ. Over 0.5 (62.7%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 UEFA Champions League Qualification|FC Kairat vs FK Sutjeska Nikšić|08/07 18:00|Over 1.5 (82.3% 1.40) ✨ 1ο Ημίχ. Over 1.5 (41.8%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 UEFA Champions League Qualification|FC Flora vs FC Iberia 1999|08/07 19:00|Under 2.5 (49.7% 2.24) ✨ 1ο Ημίχ. Over 0.5 (70.5%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
