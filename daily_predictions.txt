@@ -1,15 +1,12 @@
 STATS|78.2|22.1
-🏆 Allsvenskan - Sweden|Örgryte IS vs BK Hacken|11/07 18:30|Goal / Goal (60.8% 1.83) ✨ 1ο Ημίχ. Over 1.5 (40.8%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
-🏆 League of Ireland|Galway United vs Sligo Rovers|11/07 19:00|Under 2.5 (39.1% 2.45) ✨ 1ο Ημίχ. Over 1.5 (41.1%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
-🏆 Eliteserien - Norway|Tromso vs Vålerenga|11/07 19:01|Goal / Goal (61.4% 1.81) ✨ 1ο Ημίχ. Over 1.5 (40.8%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
-🏆 FIFA World Cup|Norway vs England|12/07 00:00|Under 2.5 (45.0% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.2%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
-🏆 FIFA World Cup|Argentina vs Switzerland|12/07 04:00|Under 2.5 (68.1% 1.63) ✨ 1ο Ημίχ. Over 0.5 (59.1%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
-🏆 K League 1|Jeju United FC vs Daejeon Citizen|12/07 13:30|Under 2.5 (82.4% 1.40) ✨ 1ο Ημίχ. Over 0.5 (47.7%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
-🏆 K League 1|Incheon United vs FC Anyang|12/07 13:30|Under 2.5 (72.4% 1.53) ✨ 1ο Ημίχ. Over 0.5 (56.0%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
-🏆 K League 1|FC Seoul vs Gangwon FC|12/07 13:30|Under 2.5 (69.3% 1.60) ✨ 1ο Ημίχ. Over 0.5 (58.3%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
-🏆 Super League - China|Tianjin Jinmen Tiger FC vs Liaoning Tieren FC|12/07 14:00|Under 2.5 (47.6% 2.34) ✨ 1ο Ημίχ. Over 0.5 (71.7%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
-🏆 Super League - China|Shanghai SIPG FC vs Dalian Yingbo|12/07 14:35|Over 2.5 (76.4% 1.45) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (66.5%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
-🏆 Allsvenskan - Sweden|Västerås SK vs Degerfors IF|12/07 15:00|Under 2.5 (42.8% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.5%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
+🏆 FIFA World Cup|Norway vs England|12/07 00:00|Over 1.5 (83.3% 1.40) ✨ 1ο Ημίχ. Over 1.5 (43.4%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 FIFA World Cup|Argentina vs Switzerland|12/07 04:00|Under 2.5 (64.4% 1.72) ✨ 1ο Ημίχ. Over 0.5 (61.6%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
+🏆 K League 1|Jeju United FC vs Daejeon Citizen|12/07 13:30|Under 2.5 (79.1% 1.41) ✨ 1ο Ημίχ. Over 0.5 (50.7%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 K League 1|Incheon United vs FC Anyang|12/07 13:30|Under 2.5 (76.1% 1.46) ✨ 1ο Ημίχ. Over 0.5 (53.2%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 K League 1|FC Seoul vs Gangwon FC|12/07 13:30|Under 2.5 (75.4% 1.47) ✨ 1ο Ημίχ. Over 0.5 (53.8%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 Super League - China|Tianjin Jinmen Tiger FC vs Liaoning Tieren FC|12/07 14:00|Over 1.5 (83.7% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.1%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
+🏆 Super League - China|Shanghai SIPG FC vs Dalian Yingbo|12/07 14:35|Over 2.5 (79.5% 1.40) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (61.5%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 Allsvenskan - Sweden|Västerås SK vs Degerfors IF|12/07 15:00|Goal / Goal (61.6% 1.80) ✨ 1ο Ημίχ. Over 1.5 (41.1%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
