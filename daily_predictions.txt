@@ -1,12 +1,15 @@
 STATS|78.2|22.1
-🏆 K League 1|Sangju Sangmu FC vs Bucheon FC 1995|11/07 13:30|Under 2.5 (81.7% 1.40) ✨ 1ο Ημίχ. Over 0.5 (48.3%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
-🏆 K League 1|Gwangju FC vs Pohang Steelers|11/07 13:30|Under 2.5 (83.6% 1.40) ✨ 1ο Ημίχ. Over 0.5 (46.5%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
-🏆 K League 1|Ulsan Hyundai FC vs Jeonbuk Hyundai Motors|11/07 13:30|Goal / Goal (62.3% 1.78) ✨ 1ο Ημίχ. Over 1.5 (40.8%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
-🏆 Super League - China|Wuhan Three Towns vs Henan FC|11/07 14:00|Goal / Goal (62.0% 1.79) ✨ 1ο Ημίχ. Over 1.5 (40.2%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
-🏆 Super League - China|Zhejiang vs Qingdao Hainiu FC|11/07 14:00|Over 2.5 (77.2% 1.44) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (65.0%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
-🏆 Super League - China|Shanghai Shenhua FC vs Beijing FC|11/07 14:35|Over 2.5 (79.1% 1.40) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (59.8%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
-🏆 Super League - China|Shenzhen Peng City FC vs Qingdao West Coast FC|11/07 14:35|Over 1.5 (84.2% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.4%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
-🏆 Super League - China|Chengdu Rongcheng FC vs Chongqing Tonglianglong FC|11/07 15:00|Goal / Goal (61.4% 1.81) ✨ 1ο Ημίχ. Over 0.5 (75.5%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
+🏆 K League 1|Sangju Sangmu FC vs Bucheon FC 1995|11/07 13:30|Under 2.5 (41.9% 2.45) ✨ 1ο Ημίχ. Over 0.5 (75.0%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
+🏆 K League 1|Gwangju FC vs Pohang Steelers|11/07 13:30|Under 2.5 (46.8% 2.37) ✨ 1ο Ημίχ. Over 0.5 (72.1%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 K League 1|Ulsan Hyundai FC vs Jeonbuk Hyundai Motors|11/07 13:30|Under 2.5 (77.8% 1.43) ✨ 1ο Ημίχ. Over 0.5 (51.8%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
+🏆 Super League - China|Wuhan Three Towns vs Henan FC|11/07 14:00|Goal / Goal (60.2% 1.85) ✨ 1ο Ημίχ. Over 0.5 (74.6%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
+🏆 Super League - China|Zhejiang vs Qingdao Hainiu FC|11/07 14:00|Over 2.5 (79.2% 1.40) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (61.0%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
+🏆 Super League - China|Shanghai Shenhua FC vs Beijing FC|11/07 14:35|Over 2.5 (78.4% 1.42) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (63.0%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 Super League - China|Shenzhen Peng City FC vs Qingdao West Coast FC|11/07 14:35|Over 1.5 (84.2% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.5%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 Super League - China|Chengdu Rongcheng FC vs Chongqing Tonglianglong FC|11/07 15:00|Over 2.5 (78.8% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (61.3%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
+🏆 Veikkausliiga - Finland|FC Lahti vs HJK Helsinki|11/07 15:00|Under 2.5 (48.5% 2.29) ✨ 1ο Ημίχ. Over 0.5 (71.1%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
+🏆 Eliteserien - Norway|Fredrikstad FK vs Lillestrom|11/07 15:00|Over 1.5 (87.3% 1.40) ✨ 1ο Ημίχ. Over 1.5 (50.5%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 Allsvenskan - Sweden|Mjällby AIF vs AIK|11/07 16:00|Under 2.5 (47.8% 2.33) ✨ 1ο Ημίχ. Over 0.5 (71.5%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
