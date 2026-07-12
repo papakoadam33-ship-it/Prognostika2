@@ -1,16 +1,15 @@
 STATS|78.2|22.1
-🏆 K League 1|Jeju United FC vs Daejeon Citizen|12/07 13:30|Under 2.5 (40.5% 2.45) ✨ 1ο Ημίχ. Over 1.5 (40.0%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
-🏆 K League 1|Incheon United vs FC Anyang|12/07 13:30|Goal / Goal (61.1% 1.82) ✨ 1ο Ημίχ. Over 0.5 (75.4%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
-🏆 K League 1|FC Seoul vs Gangwon FC|12/07 13:30|Goal / Goal (61.9% 1.80) ✨ 1ο Ημίχ. Over 1.5 (40.4%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
-🏆 Super League - China|Tianjin Jinmen Tiger FC vs Liaoning Tieren FC|12/07 14:00|Over 1.5 (82.8% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.6%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
-🏆 Super League - China|Shanghai SIPG FC vs Dalian Yingbo|12/07 14:35|Goal / Goal (69.4% 1.60) ✨ 1ο Ημίχ. Over 1.5 (63.4%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
-🏆 Allsvenskan - Sweden|Västerås SK vs Degerfors IF|12/07 15:00|Goal / Goal (61.3% 1.81) ✨ 1ο Ημίχ. Over 0.5 (75.5%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
-🏆 Allsvenskan - Sweden|Hammarby IF vs Kalmar FF|12/07 15:00|Over 2.5 (79.0% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (59.3%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
-🏆 Allsvenskan - Sweden|Malmo FF vs IFK Goteborg|12/07 15:00|Over 2.5 (79.1% 1.40) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (64.1%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
-🏆 Eliteserien - Norway|KFUM vs Bodø/Glimt|12/07 15:30|Over 2.5 (77.2% 1.44) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (58.2%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
-🏆 Βραζιλία Série B 🇧🇷|Operario PR vs Grêmio Novorizontino|12/07 17:00|Under 2.5 (68.0% 1.63) ✨ 1ο Ημίχ. Over 0.5 (59.2%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
-🏆 Allsvenskan - Sweden|GAIS vs IF Elfsborg|12/07 17:30|Goal / Goal (61.4% 1.81) ✨ 1ο Ημίχ. Over 1.5 (40.8%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
-🏆 Allsvenskan - Sweden|IF Brommapojkarna vs IK Sirius|12/07 17:30|Goal / Goal (71.3% 1.56) ✨ 1ο Ημίχ. Over 1.5 (66.4%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 Eliteserien - Norway|Sandefjord vs HamKam|12/07 18:00|Over 1.5 (82.4% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.0%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 Eliteserien - Norway|SK Brann vs IK Start|12/07 18:00|Over 1.5 (84.5% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.9%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
+🏆 Eliteserien - Norway|Rosenborg vs Kristiansund BK|12/07 18:00|Over 1.5 (82.1% 1.40) ✨ 1ο Ημίχ. Over 1.5 (41.6%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
+🏆 Eliteserien - Norway|Sarpsborg FK vs Viking FK|12/07 20:15|Over 2.5 (77.0% 1.44) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (63.9%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 Βραζιλία Série B 🇧🇷|Avai vs Nautico PE|12/07 22:00|Under 2.5 (70.2% 1.58) ✨ 1ο Ημίχ. Over 0.5 (57.6%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 Βραζιλία Série B 🇧🇷|São Bernardo vs Cuiabá|12/07 22:00|Under 2.5 (72.1% 1.54) ✨ 1ο Ημίχ. Over 0.5 (56.4%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
+🏆 Βραζιλία Série B 🇧🇷|Atletico Goianiense vs Fortaleza|13/07 00:00|Under 2.5 (69.3% 1.60) ✨ 1ο Ημίχ. Over 0.5 (58.3%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 Βραζιλία Série B 🇧🇷|Clube de Regatas Brasil vs Goiás|13/07 01:00|Under 2.5 (73.2% 1.52) ✨ 1ο Ημίχ. Over 0.5 (55.5%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
+🏆 Allsvenskan - Sweden|Djurgardens IF vs Halmstads BK|13/07 20:00|Over 2.5 (79.5% 1.40) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (62.9%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+🏆 Βραζιλία Série B 🇧🇷|América Mineiro vs Londrina|14/07 01:00|Under 2.5 (79.3% 1.40) ✨ 1ο Ημίχ. Over 0.5 (50.5%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
+🏆 Βραζιλία Série B 🇧🇷|Ceará vs Athletic Club (MG)|14/07 02:30|Under 2.5 (66.9% 1.66) ✨ 1ο Ημίχ. Over 0.5 (60.0%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
