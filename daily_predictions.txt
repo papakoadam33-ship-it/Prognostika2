@@ -1,13 +1,12 @@
 STATS|78.2|22.1
-🏆 FIFA World Cup|Norway vs England|12/07 00:01|Under 2.5 (47.0% 2.36) ✨ 1ο Ημίχ. Over 0.5 (72.0%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
-🏆 FIFA World Cup|Argentina vs Switzerland|12/07 04:00|Under 2.5 (66.6% 1.67) ✨ 1ο Ημίχ. Over 0.5 (60.2%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
-🏆 K League 1|Jeju United FC vs Daejeon Citizen|12/07 13:30|Under 2.5 (70.9% 1.57) ✨ 1ο Ημίχ. Over 0.5 (57.2%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
-🏆 K League 1|Incheon United vs FC Anyang|12/07 13:30|Under 2.5 (77.4% 1.44) ✨ 1ο Ημίχ. Over 0.5 (52.2%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
-🏆 K League 1|FC Seoul vs Gangwon FC|12/07 13:30|Under 2.5 (74.5% 1.49) ✨ 1ο Ημίχ. Over 0.5 (54.5%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
-🏆 Super League - China|Tianjin Jinmen Tiger FC vs Liaoning Tieren FC|12/07 14:00|Under 2.5 (46.6% 2.38) ✨ 1ο Ημίχ. Over 0.5 (72.2%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
-🏆 Super League - China|Shanghai SIPG FC vs Dalian Yingbo|12/07 14:35|Over 2.5 (78.8% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (61.4%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
-🏆 Allsvenskan - Sweden|Västerås SK vs Degerfors IF|12/07 15:00|Under 2.5 (40.5% 2.45) ✨ 1ο Ημίχ. Over 1.5 (40.1%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
-🏆 Allsvenskan - Sweden|Hammarby IF vs Kalmar FF|12/07 15:00|Over 2.5 (78.8% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (64.5%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 K League 1|Jeju United FC vs Daejeon Citizen|12/07 13:30|Under 2.5 (78.3% 1.42) ✨ 1ο Ημίχ. Over 0.5 (51.4%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
+🏆 K League 1|Incheon United vs FC Anyang|12/07 13:30|Under 2.5 (71.4% 1.56) ✨ 1ο Ημίχ. Over 0.5 (56.8%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
+🏆 K League 1|FC Seoul vs Gangwon FC|12/07 13:30|Under 2.5 (70.5% 1.58) ✨ 1ο Ημίχ. Over 0.5 (57.5%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
+🏆 Super League - China|Tianjin Jinmen Tiger FC vs Liaoning Tieren FC|12/07 14:00|Goal / Goal (62.1% 1.79) ✨ 1ο Ημίχ. Over 1.5 (40.4%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
+🏆 Super League - China|Shanghai SIPG FC vs Dalian Yingbo|12/07 14:35|Over 2.5 (78.0% 1.42) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (63.7%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
+🏆 Allsvenskan - Sweden|Västerås SK vs Degerfors IF|12/07 15:00|Over 1.5 (84.3% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.5%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+🏆 Allsvenskan - Sweden|Hammarby IF vs Kalmar FF|12/07 15:00|Over 2.5 (76.6% 1.45) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (66.2%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
+🏆 Allsvenskan - Sweden|Malmo FF vs IFK Goteborg|12/07 15:00|Over 2.5 (77.9% 1.43) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (57.3%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
