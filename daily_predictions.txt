@@ -1,18 +1,15 @@
 STATS|78.2|22.1
-🏆 Veikkausliiga - Finland|AC Oulu vs IF Gnistan|18/07 16:59|Under 2.5 (65.6% 1.69) ✨ 1ο Ημίχ. Over 0.5 (60.8%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
-🏆 Eliteserien - Norway|Lillestrom vs KFUM|18/07 17:00|Over 2.5 (76.6% 1.45) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (66.4%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
-🏆 Eliteserien - Norway|Kristiansund BK vs Sarpsborg FK|18/07 17:00|Over 1.5 (83.0% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.7%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
-🏆 Veikkausliiga - Finland|SJK Seinäjoki vs KuPS Kuopio|18/07 17:00|Over 2.5 (77.4% 1.43) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (65.0%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
-🏆 Eliteserien - Norway|IK Start vs Rosenborg|18/07 17:04|Under 2.5 (73.4% 1.51) ✨ 1ο Ημίχ. Over 0.5 (55.3%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
-🏆 Superettan - Sweden|Östers IF vs IK Brage|18/07 18:00|Under 2.5 (39.2% 2.45) ✨ 1ο Ημίχ. Over 1.5 (41.2%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
-🏆 Eliteserien - Norway|Molde vs SK Brann|18/07 19:00|Over 2.5 (78.8% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (59.0%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
-🏆 Eliteserien - Norway|Viking FK vs Sandefjord|18/07 19:00|Over 2.5 (78.8% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (63.8%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
-🏆 Βραζιλία Série B 🇧🇷|Criciuma vs Vila Nova|18/07 22:00|Under 2.5 (78.6% 1.41) ✨ 1ο Ημίχ. Over 0.5 (51.2%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
-🏆 Βραζιλία Série B 🇧🇷|Ponte Preta vs Goiás|18/07 22:00|Under 2.5 (76.2% 1.46) ✨ 1ο Ημίχ. Over 0.5 (53.1%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
-🏆 Βραζιλία Série B 🇧🇷|Sport Recife vs Operario PR|18/07 22:00|Under 2.5 (72.4% 1.53) ✨ 1ο Ημίχ. Over 0.5 (56.0%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
-🏆 Βραζιλία Série B 🇧🇷|Atletico Goianiense vs Athletic Club (MG)|19/07 00:00|Under 2.5 (66.7% 1.67) ✨ 1ο Ημίχ. Over 0.5 (60.1%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
-🏆 FIFA World Cup|France vs England|19/07 00:00|Goal / Goal (69.0% 1.61) ✨ 1ο Ημίχ. Over 1.5 (64.7%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
-🏆 Liga MX|Pumas vs Pachuca|19/07 02:00|Under 2.5 (48.4% 2.30) ✨ 1ο Ημίχ. Over 0.5 (71.2%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
+🏆 Superettan - Sweden|Östers IF vs IK Brage|18/07 18:00|Under 2.5 (44.9% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.2%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
+🏆 Eliteserien - Norway|Molde vs SK Brann|18/07 19:00|Goal / Goal (61.9% 1.80) ✨ 1ο Ημίχ. Over 1.5 (40.5%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
+🏆 Eliteserien - Norway|Viking FK vs Sandefjord|18/07 19:00|Goal / Goal (60.2% 1.84) ✨ 1ο Ημίχ. Over 1.5 (40.4%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
+🏆 Βραζιλία Série B 🇧🇷|Criciuma vs Vila Nova|18/07 22:00|Under 2.5 (70.1% 1.59) ✨ 1ο Ημίχ. Over 0.5 (57.8%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 Βραζιλία Série B 🇧🇷|Ponte Preta vs Goiás|18/07 22:00|Under 2.5 (62.2% 1.79) ✨ 1ο Ημίχ. Over 0.5 (63.0%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
+🏆 Βραζιλία Série B 🇧🇷|Sport Recife vs Operario PR|18/07 22:00|Under 2.5 (69.5% 1.60) ✨ 1ο Ημίχ. Over 0.5 (58.1%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
+🏆 Βραζιλία Série B 🇧🇷|Atletico Goianiense vs Athletic Club (MG)|19/07 00:00|Under 2.5 (73.7% 1.51) ✨ 1ο Ημίχ. Over 0.5 (55.1%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
+🏆 FIFA World Cup|France vs England|19/07 00:00|Over 2.5 (75.3% 1.47) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (64.2%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
+🏆 Liga MX|Pumas vs Pachuca|19/07 02:00|Over 1.5 (82.5% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.1%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
+🏆 Liga MX|Monterrey vs Santos Laguna|19/07 04:05|Goal / Goal (72.1% 1.54) ✨ 1ο Ημίχ. Over 1.5 (67.2%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
+🏆 Liga MX|Guadalajara vs Toluca|19/07 04:07|Under 2.5 (54.6% 2.04) ✨ 1ο Ημίχ. Over 0.5 (67.7%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
