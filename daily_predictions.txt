@@ -1,15 +1,13 @@
 STATS|78.2|22.1
-🏆 K League 1|Bucheon FC 1995 vs FC Seoul|19/07 13:30|Over 1.5 (84.9% 1.40) ✨ 1ο Ημίχ. Over 1.5 (45.7%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
-🏆 K League 1|FC Anyang vs Gwangju FC|19/07 13:30|Under 2.5 (51.1% 2.17) ✨ 1ο Ημίχ. Over 0.5 (69.7%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
-🏆 Superettan - Sweden|IFK Norrkoping vs Sandvikens IF|19/07 14:00|Under 2.5 (49.9% 2.23) ✨ 1ο Ημίχ. Over 0.5 (70.3%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
-🏆 Superettan - Sweden|IFK Värnamo vs Ljungskile SK|19/07 16:00|Under 2.5 (47.9% 2.32) ✨ 1ο Ημίχ. Over 0.5 (71.5%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
-🏆 Superettan - Sweden|Nordic United FC vs Örebro SK|19/07 16:00|Under 2.5 (52.0% 2.14) ✨ 1ο Ημίχ. Over 0.5 (69.2%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
-🏆 Allsvenskan - Sweden|Halmstads BK vs BK Hacken|19/07 17:30|Over 2.5 (78.8% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (64.0%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
-🏆 Allsvenskan - Sweden|Hammarby IF vs Degerfors IF|19/07 17:30|Goal / Goal (70.0% 1.59) ✨ 1ο Ημίχ. Over 1.5 (66.9%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
-🏆 Allsvenskan - Sweden|IF Elfsborg vs IK Sirius|19/07 17:30|Under 2.5 (46.7% 2.38) ✨ 1ο Ημίχ. Over 0.5 (72.1%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
-🏆 Veikkausliiga - Finland|Jaro vs FC Inter Turku|19/07 18:30|Over 1.5 (82.3% 1.40) ✨ 1ο Ημίχ. Over 1.5 (41.8%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
-🏆 FIFA World Cup|Spain vs Argentina|19/07 22:00|Under 2.5 (74.8% 1.49) ✨ 1ο Ημίχ. Over 0.5 (54.2%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
-🏆 Veikkausliiga - Finland|TPS Turku vs Ilves Tampere|20/07 18:00|Under 2.5 (53.0% 2.09) ✨ 1ο Ημίχ. Over 0.5 (68.6%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
+🏆 Veikkausliiga - Finland|Jaro vs FC Inter Turku|19/07 18:30|Under 2.5 (75.2% 1.48) ✨ 1ο Ημίχ. Over 0.5 (53.9%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
+🏆 FIFA World Cup|Spain vs Argentina|19/07 22:00|Under 2.5 (84.3% 1.40) ✨ 1ο Ημίχ. Over 0.5 (45.8%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
+🏆 Veikkausliiga - Finland|TPS Turku vs Ilves Tampere|20/07 18:00|Over 1.5 (82.1% 1.40) ✨ 1ο Ημίχ. Over 1.5 (41.4%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
+🏆 Veikkausliiga - Finland|IFK Mariehamn vs FC Lahti|20/07 19:00|Under 2.5 (46.2% 2.40) ✨ 1ο Ημίχ. Over 0.5 (72.4%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
+🏆 Allsvenskan - Sweden|Örgryte IS vs Djurgardens IF|20/07 20:00|Over 2.5 (78.6% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (61.7%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 Superettan - Sweden|Norrby IF vs GIF Sundsvall|20/07 20:00|Under 2.5 (45.3% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.1%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 Allsvenskan - Sweden|Kalmar FF vs Malmo FF|20/07 20:00|Goal / Goal (62.6% 1.77) ✨ 1ο Ημίχ. Over 1.5 (41.2%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
+🏆 K League 1|Jeonbuk Hyundai Motors vs Daejeon Citizen|21/07 13:30|Under 2.5 (44.6% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.3%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
+🏆 K League 1|Jeju United FC vs Gangwon FC|21/07 13:30|Under 2.5 (68.3% 1.63) ✨ 1ο Ημίχ. Over 0.5 (59.1%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
