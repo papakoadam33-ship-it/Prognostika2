@@ -1,15 +1,18 @@
 STATS|78.2|22.1
-🏆 K League 1|Jeonbuk Hyundai Motors vs Daejeon Citizen|21/07 13:30|Under 2.5 (44.6% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.4%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
-🏆 K League 1|Jeju United FC vs Gangwon FC|21/07 13:30|Over 2.5 (78.3% 1.42) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (64.1%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
-🏆 K League 1|Ulsan Hyundai FC vs Incheon United|21/07 13:30|Over 2.5 (78.9% 1.41) ✨ 1ο Ημίχ. Over 1.5 (64.0%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
-🏆 UEFA Champions League Qualification|FC Ararat-Armenia vs Shamrock Rovers|21/07 19:00|Under 2.5 (49.6% 2.24) ✨ 1ο Ημίχ. Over 0.5 (70.5%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
-🏆 UEFA Champions League Qualification|FC Iberia 1999 vs ŠK Slovan Bratislava|21/07 19:00|Over 2.5 (79.4% 1.40) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (63.4%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
-🏆 UEFA Champions League Qualification|Sabah FK vs KuPS Kuopio|21/07 19:00|Under 2.5 (55.2% 2.01) ✨ 1ο Ημίχ. Over 0.5 (67.3%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
-🏆 UEFA Champions League Qualification|Mjällby AIF vs Lincoln Red Imps FC|21/07 19:00|Over 2.5 (77.8% 1.43) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (58.2%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
-🏆 UEFA Champions League Qualification|AGF Aarhus vs Lech Poznań|21/07 20:00|Under 2.5 (66.9% 1.66) ✨ 1ο Ημίχ. Over 0.5 (59.9%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
-🏆 Superettan - Sweden|Falkenbergs FF vs Helsingborgs IF|21/07 20:00|Goal / Goal (60.5% 1.84) ✨ 1ο Ημίχ. Over 0.5 (74.7%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
-🏆 UEFA Champions League Qualification|FC Thun vs Dinamo Zagreb|21/07 21:00|Over 1.5 (84.5% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.9%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
-🏆 UEFA Champions League Qualification|Fenerbahce vs Górnik Zabrze|21/07 21:00|Goal / Goal (69.6% 1.60) ✨ 1ο Ημίχ. Over 1.5 (62.7%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 UEFA Champions League Qualification|FC Ararat-Armenia vs Shamrock Rovers|21/07 19:00|Under 2.5 (53.8% 2.06) ✨ 1ο Ημίχ. Over 0.5 (68.1%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
+🏆 UEFA Champions League Qualification|FC Iberia 1999 vs ŠK Slovan Bratislava|21/07 19:00|Under 2.5 (47.3% 2.35) ✨ 1ο Ημίχ. Over 0.5 (71.8%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
+🏆 UEFA Champions League Qualification|Sabah FK vs KuPS Kuopio|21/07 19:00|Goal / Goal (60.8% 1.83) ✨ 1ο Ημίχ. Over 1.5 (40.4%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 UEFA Champions League Qualification|Mjällby AIF vs Lincoln Red Imps FC|21/07 19:00|Goal / Goal (62.1% 1.79) ✨ 1ο Ημίχ. Over 1.5 (41.2%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
+🏆 UEFA Champions League Qualification|AGF Aarhus vs Lech Poznań|21/07 20:00|Under 2.5 (75.3% 1.47) ✨ 1ο Ημίχ. Over 0.5 (53.8%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
+🏆 Superettan - Sweden|Falkenbergs FF vs Helsingborgs IF|21/07 20:00|Over 2.5 (78.8% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (60.1%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
+🏆 UEFA Champions League Qualification|FC Thun vs Dinamo Zagreb|21/07 21:00|Over 2.5 (78.7% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (61.9%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
+🏆 UEFA Champions League Qualification|Fenerbahce vs Górnik Zabrze|21/07 21:00|Over 2.5 (76.8% 1.45) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (62.0%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
+🏆 UEFA Champions League Qualification|SK Sturm Graz vs Hearts|21/07 21:30|Under 2.5 (43.5% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.9%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 UEFA Champions League Qualification|Klaksvíkar Ítróttarfelag vs FK Kauno Žalgiris|21/07 21:45|Under 2.5 (78.5% 1.41) ✨ 1ο Ημίχ. Over 0.5 (51.2%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
+🏆 UEFA Champions League Qualification|Víkingur Reykjavík vs Hapoel Be'er Sheva|21/07 22:00|Goal / Goal (60.8% 1.83) ✨ 1ο Ημίχ. Over 0.5 (75.0%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 UEFA Champions League Qualification|Larne FC vs Red Star Belgrade|21/07 22:00|Over 2.5 (78.7% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (60.9%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
+🏆 Copa Sudamericana|Nacional de Montevideo vs CA Tigre BA|22/07 01:00|Under 2.5 (75.7% 1.47) ✨ 1ο Ημίχ. Over 0.5 (53.5%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
+🏆 Βραζιλία Série B 🇧🇷|Avai vs América Mineiro|22/07 01:30|Under 2.5 (74.7% 1.49) ✨ 1ο Ημίχ. Over 0.5 (54.3%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
