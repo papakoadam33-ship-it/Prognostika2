@@ -1,15 +1,13 @@
 STATS|78.2|22.1
-🏆 Eliteserien - Norway|Bodø/Glimt vs HamKam|22/07 20:00|Over 2.5 (76.7% 1.45) ✨ 1ο Ημίχ. Over 1.5 (66.0%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
-🏆 UEFA Champions League Qualification|Omonoia FC vs FC Kairat|22/07 20:00|Under 2.5 (83.6% 1.40) ✨ 1ο Ημίχ. Over 0.5 (46.5%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
-🏆 Eliteserien - Norway|Lillestrom vs Viking FK|22/07 20:00|Under 2.5 (50.6% 2.20) ✨ 1ο Ημίχ. Over 0.5 (69.9%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
-🏆 UEFA Champions League Qualification|PFC Levski Sofia vs Universitatea Craiova|22/07 20:30|Under 2.5 (70.5% 1.58) ✨ 1ο Ημίχ. Over 0.5 (57.4%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
-🏆 UEFA Champions League Qualification|KF Egnatia vs NK Celje|22/07 22:00|Goal / Goal (61.0% 1.82) ✨ 1ο Ημίχ. Over 0.5 (75.3%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
-🏆 Copa Sudamericana|Independiente Medellín vs Vasco da Gama|23/07 01:00|Under 2.5 (73.8% 1.51) ✨ 1ο Ημίχ. Over 0.5 (55.0%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
-🏆 Βραζιλία Série B 🇧🇷|Ceará vs Clube de Regatas Brasil|23/07 01:30|Under 2.5 (68.4% 1.62) ✨ 1ο Ημίχ. Over 0.5 (58.9%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
-🏆 Brazil Série A|Coritiba vs Palmeiras|23/07 01:30|Under 2.5 (72.8% 1.53) ✨ 1ο Ημίχ. Over 0.5 (55.8%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
-🏆 Βραζιλία Série B 🇧🇷|Operario PR vs Ponte Preta|23/07 01:30|Goal / Goal (60.4% 1.84) ✨ 1ο Ημίχ. Over 0.5 (75.4%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
-🏆 MLS|Inter Miami CF vs Chicago Fire|23/07 02:30|Over 2.5 (78.0% 1.42) ✨ 1ο Ημίχ. Over 1.5 (61.4%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
-🏆 MLS|Columbus Crew SC vs New York City FC|23/07 02:30|Under 2.5 (50.7% 2.19) ✨ 1ο Ημίχ. Over 0.5 (69.9%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
+🏆 UEFA Champions League Qualification|KF Egnatia vs NK Celje|22/07 22:00|Under 2.5 (48.0% 2.31) ✨ 1ο Ημίχ. Over 0.5 (71.4%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 Copa Sudamericana|Independiente Medellín vs Vasco da Gama|23/07 01:00|Under 2.5 (73.2% 1.52) ✨ 1ο Ημίχ. Over 0.5 (55.5%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
+🏆 Βραζιλία Série B 🇧🇷|Ceará vs Clube de Regatas Brasil|23/07 01:30|Under 2.5 (65.6% 1.69) ✨ 1ο Ημίχ. Over 0.5 (60.9%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 Brazil Série A|Coritiba vs Palmeiras|23/07 01:30|Under 2.5 (74.9% 1.48) ✨ 1ο Ημίχ. Over 0.5 (54.2%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
+🏆 Βραζιλία Série B 🇧🇷|Operario PR vs Ponte Preta|23/07 01:30|Goal / Goal (61.2% 1.81) ✨ 1ο Ημίχ. Over 0.5 (75.2%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
+🏆 MLS|Inter Miami CF vs Chicago Fire|23/07 02:30|Over 2.5 (75.5% 1.47) ✨ 1ο Ημίχ. Over 1.5 (63.3%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
+🏆 MLS|Columbus Crew SC vs New York City FC|23/07 02:30|Over 1.5 (83.3% 1.40) ✨ 1ο Ημίχ. Over 1.5 (43.1%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
+🏆 MLS|FC Cincinnati vs Vancouver Whitecaps FC|23/07 02:30|Goal / Goal (68.6% 1.62) ✨ 1ο Ημίχ. Over 1.5 (67.4%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+🏆 Βραζιλία Série B 🇧🇷|Goiás vs Sport Recife|23/07 02:30|Under 2.5 (70.4% 1.58) ✨ 1ο Ημίχ. Over 0.5 (57.6%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
