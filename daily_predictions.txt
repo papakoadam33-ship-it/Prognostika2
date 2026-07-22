@@ -1,16 +1,12 @@
 STATS|78.2|22.1
-🏆 Copa Sudamericana|Nacional de Montevideo vs CA Tigre BA|22/07 01:01|Under 2.5 (48.3% 2.30) ✨ 1ο Ημίχ. Over 0.5 (71.3%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
-🏆 Brazil Série A|Atletico Mineiro vs Bahia|22/07 01:29|Under 2.5 (71.5% 1.55) ✨ 1ο Ημίχ. Over 0.5 (56.7%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
-🏆 Βραζιλία Série B 🇧🇷|Grêmio Novorizontino vs Criciuma|22/07 01:30|Over 1.5 (83.2% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.9%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
-🏆 Βραζιλία Série B 🇧🇷|Avai vs América Mineiro|22/07 01:32|Under 2.5 (42.0% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.8%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
-🏆 Copa Sudamericana|UCV FC vs Santos|22/07 03:30|Under 2.5 (83.9% 1.40) ✨ 1ο Ημίχ. Over 0.5 (46.2%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
-🏆 Βραζιλία Série B 🇧🇷|Vila Nova vs Fortaleza|22/07 03:35|Under 2.5 (76.0% 1.46) ✨ 1ο Ημίχ. Over 0.5 (53.3%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
-🏆 Liga MX|Cruz Azul vs Puebla|22/07 04:00|Over 2.5 (77.9% 1.43) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (65.3%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
-🏆 Liga MX|Toluca vs Pumas|22/07 06:05|Goal / Goal (62.5% 1.78) ✨ 1ο Ημίχ. Over 1.5 (40.7%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
-🏆 K League 1|Bucheon FC 1995 vs FC Anyang|22/07 13:30|Under 2.5 (72.9% 1.52) ✨ 1ο Ημίχ. Over 0.5 (55.7%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
-🏆 K League 1|FC Seoul vs Pohang Steelers|22/07 13:30|Under 2.5 (68.9% 1.61) ✨ 1ο Ημίχ. Over 0.5 (58.6%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
-🏆 K League 1|Gwangju FC vs Sangju Sangmu FC|22/07 13:30|Under 2.5 (69.9% 1.59) ✨ 1ο Ημίχ. Over 0.5 (57.9%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
-🏆 Eliteserien - Norway|Bodø/Glimt vs HamKam|22/07 20:00|Over 2.5 (75.9% 1.46) ✨ 1ο Ημίχ. Over 1.5 (65.7%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 K League 1|Bucheon FC 1995 vs FC Anyang|22/07 13:30|Under 2.5 (66.6% 1.67) ✨ 1ο Ημίχ. Over 0.5 (60.2%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
+🏆 K League 1|FC Seoul vs Pohang Steelers|22/07 13:30|Under 2.5 (82.1% 1.40) ✨ 1ο Ημίχ. Over 0.5 (48.0%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
+🏆 K League 1|Gwangju FC vs Sangju Sangmu FC|22/07 13:30|Under 2.5 (73.5% 1.51) ✨ 1ο Ημίχ. Over 0.5 (55.3%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
+🏆 Eliteserien - Norway|Bodø/Glimt vs HamKam|22/07 20:00|Over 2.5 (78.7% 1.41) ✨ 1ο Ημίχ. Over 1.5 (63.2%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
+🏆 UEFA Champions League Qualification|Omonoia FC vs FC Kairat|22/07 20:00|Over 1.5 (83.7% 1.40) ✨ 1ο Ημίχ. Over 1.5 (43.9%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
+🏆 Eliteserien - Norway|Lillestrom vs Viking FK|22/07 20:00|Over 2.5 (76.6% 1.45) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (66.1%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
+🏆 UEFA Champions League Qualification|PFC Levski Sofia vs Universitatea Craiova|22/07 20:30|Under 2.5 (77.1% 1.44) ✨ 1ο Ημίχ. Over 0.5 (52.4%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
+🏆 UEFA Champions League Qualification|KF Egnatia vs NK Celje|22/07 22:00|Under 2.5 (76.4% 1.45) ✨ 1ο Ημίχ. Over 0.5 (52.9%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
