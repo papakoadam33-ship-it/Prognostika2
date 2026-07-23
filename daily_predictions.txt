@@ -1,12 +1,18 @@
 STATS|78.2|22.1
-🏆 Copa Sudamericana|Club Bolívar vs Grêmio|24/07 01:00|Over 1.5 (85.0% 1.40) ✨ 1ο Ημίχ. Over 1.5 (45.8%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
-🏆 Αργεντινή Primera 🇦🇷|Sarmiento de Junin vs Argentinos Juniors|24/07 01:30|Under 2.5 (63.1% 1.76) ✨ 1ο Ημίχ. Over 0.5 (62.5%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
-🏆 Βραζιλία Série B 🇧🇷|Athletic Club (MG) vs São Bernardo|24/07 01:30|Under 2.5 (76.2% 1.46) ✨ 1ο Ημίχ. Over 0.5 (53.1%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
-🏆 Αργεντινή Primera 🇦🇷|Belgrano de Cordoba vs Rosario Central|24/07 01:30|Under 2.5 (66.9% 1.66) ✨ 1ο Ημίχ. Over 0.5 (60.0%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
-🏆 Brazil Série A|Botafogo vs Vitoria|24/07 01:30|Under 2.5 (44.7% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.3%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
-🏆 Brazil Série A|Corinthians vs Remo|24/07 01:30|Under 2.5 (49.7% 2.23) ✨ 1ο Ημίχ. Over 0.5 (70.4%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
-🏆 Βραζιλία Série B 🇧🇷|Cuiabá vs Atletico Goianiense|24/07 02:30|Under 2.5 (71.0% 1.57) ✨ 1ο Ημίχ. Over 0.5 (57.1%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
-🏆 Copa Sudamericana|Boca Juniors vs O'Higgins|24/07 03:30|Over 1.5 (83.3% 1.40) ✨ 1ο Ημίχ. Over 1.5 (43.1%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
+🏆 Copa Sudamericana|Club Bolívar vs Grêmio|24/07 01:03|Under 2.5 (41.7% 2.45) ✨ 1ο Ημίχ. Over 0.5 (75.1%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 Αργεντινή Primera 🇦🇷|Sarmiento de Junin vs Argentinos Juniors|24/07 01:30|Under 2.5 (47.6% 2.33) ✨ 1ο Ημίχ. Over 0.5 (71.6%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 Βραζιλία Série B 🇧🇷|Athletic Club (MG) vs São Bernardo|24/07 01:30|Under 2.5 (42.2% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.7%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 Αργεντινή Primera 🇦🇷|Belgrano de Cordoba vs Rosario Central|24/07 01:30|Over 1.5 (84.3% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.6%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
+🏆 Brazil Série A|Botafogo vs Vitoria|24/07 01:30|Under 2.5 (75.3% 1.48) ✨ 1ο Ημίχ. Over 0.5 (53.8%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 Brazil Série A|Corinthians vs Remo|24/07 01:30|Under 2.5 (72.2% 1.54) ✨ 1ο Ημίχ. Over 0.5 (56.2%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 Βραζιλία Série B 🇧🇷|Cuiabá vs Atletico Goianiense|24/07 02:30|Under 2.5 (72.6% 1.53) ✨ 1ο Ημίχ. Over 0.5 (55.9%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
+🏆 Copa Sudamericana|Boca Juniors vs O'Higgins|24/07 03:30|Under 2.5 (39.6% 2.45) ✨ 1ο Ημίχ. Over 1.5 (40.8%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 Βραζιλία Série B 🇧🇷|Botafogo vs Juventude|24/07 03:30|Under 2.5 (80.2% 1.40) ✨ 1ο Ημίχ. Over 0.5 (49.7%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
+🏆 Copa Sudamericana|Independiente Santa Fe vs Caracas FC|24/07 03:30|Under 2.5 (80.3% 1.40) ✨ 1ο Ημίχ. Over 0.5 (49.7%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
+🏆 Αργεντινή Primera 🇦🇷|Defensa y Justicia vs Aldosivi Mar del Plata|24/07 03:45|Under 2.5 (70.9% 1.57) ✨ 1ο Ημίχ. Over 0.5 (57.1%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
+🏆 Veikkausliiga - Finland|Jaro vs SJK Seinäjoki|24/07 19:00|Goal / Goal (61.3% 1.81) ✨ 1ο Ημίχ. Over 1.5 (41.2%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
+🏆 Ekstraklasa - Poland|Radomiak Radom vs Wieczysta Kraków|24/07 19:00|Under 2.5 (45.4% 2.45) ✨ 1ο Ημίχ. Over 0.5 (72.9%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+🏆 Premier League - Russia|CSKA Moscow vs FC Baltika Kaliningrad|24/07 20:00|Under 2.5 (75.5% 1.47) ✨ 1ο Ημίχ. Over 0.5 (53.7%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
