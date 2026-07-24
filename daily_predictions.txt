@@ -1,18 +1,12 @@
 STATS|78.2|22.1
-🏆 Copa Sudamericana|Club Bolívar vs Grêmio|24/07 01:03|Under 2.5 (41.7% 2.45) ✨ 1ο Ημίχ. Over 0.5 (75.1%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
-🏆 Αργεντινή Primera 🇦🇷|Sarmiento de Junin vs Argentinos Juniors|24/07 01:30|Under 2.5 (47.6% 2.33) ✨ 1ο Ημίχ. Over 0.5 (71.6%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
-🏆 Βραζιλία Série B 🇧🇷|Athletic Club (MG) vs São Bernardo|24/07 01:30|Under 2.5 (42.2% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.7%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
-🏆 Αργεντινή Primera 🇦🇷|Belgrano de Cordoba vs Rosario Central|24/07 01:30|Over 1.5 (84.3% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.6%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
-🏆 Brazil Série A|Botafogo vs Vitoria|24/07 01:30|Under 2.5 (75.3% 1.48) ✨ 1ο Ημίχ. Over 0.5 (53.8%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
-🏆 Brazil Série A|Corinthians vs Remo|24/07 01:30|Under 2.5 (72.2% 1.54) ✨ 1ο Ημίχ. Over 0.5 (56.2%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
-🏆 Βραζιλία Série B 🇧🇷|Cuiabá vs Atletico Goianiense|24/07 02:30|Under 2.5 (72.6% 1.53) ✨ 1ο Ημίχ. Over 0.5 (55.9%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
-🏆 Copa Sudamericana|Boca Juniors vs O'Higgins|24/07 03:30|Under 2.5 (39.6% 2.45) ✨ 1ο Ημίχ. Over 1.5 (40.8%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
-🏆 Βραζιλία Série B 🇧🇷|Botafogo vs Juventude|24/07 03:30|Under 2.5 (80.2% 1.40) ✨ 1ο Ημίχ. Over 0.5 (49.7%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
-🏆 Copa Sudamericana|Independiente Santa Fe vs Caracas FC|24/07 03:30|Under 2.5 (80.3% 1.40) ✨ 1ο Ημίχ. Over 0.5 (49.7%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
-🏆 Αργεντινή Primera 🇦🇷|Defensa y Justicia vs Aldosivi Mar del Plata|24/07 03:45|Under 2.5 (70.9% 1.57) ✨ 1ο Ημίχ. Over 0.5 (57.1%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
-🏆 Veikkausliiga - Finland|Jaro vs SJK Seinäjoki|24/07 19:00|Goal / Goal (61.3% 1.81) ✨ 1ο Ημίχ. Over 1.5 (41.2%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
-🏆 Ekstraklasa - Poland|Radomiak Radom vs Wieczysta Kraków|24/07 19:00|Under 2.5 (45.4% 2.45) ✨ 1ο Ημίχ. Over 0.5 (72.9%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
-🏆 Premier League - Russia|CSKA Moscow vs FC Baltika Kaliningrad|24/07 20:00|Under 2.5 (75.5% 1.47) ✨ 1ο Ημίχ. Over 0.5 (53.7%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
+🏆 Veikkausliiga - Finland|Jaro vs SJK Seinäjoki|24/07 19:00|Under 2.5 (48.8% 2.28) ✨ 1ο Ημίχ. Over 0.5 (71.0%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
+🏆 Ekstraklasa - Poland|Radomiak Radom vs Wieczysta Kraków|24/07 19:00|Under 2.5 (52.6% 2.11) ✨ 1ο Ημίχ. Over 0.5 (68.8%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+🏆 Premier League - Russia|CSKA Moscow vs FC Baltika Kaliningrad|24/07 20:00|Under 2.5 (72.7% 1.53) ✨ 1ο Ημίχ. Over 0.5 (55.9%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
+🏆 Denmark Superliga|Viborg FF vs OB Odense BK|24/07 20:00|Over 1.5 (83.4% 1.40) ✨ 1ο Ημίχ. Over 1.5 (43.3%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
+🏆 Allsvenskan - Sweden|Västerås SK vs Örgryte IS|24/07 20:00|Goal / Goal (70.1% 1.59) ✨ 1ο Ημίχ. Over 1.5 (66.5%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
+🏆 Ekstraklasa - Poland|Pogoń Szczecin vs Legia Warszawa|24/07 21:30|Under 2.5 (71.5% 1.55) ✨ 1ο Ημίχ. Over 0.5 (56.7%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
+🏆 League of Ireland|St Patricks Athletic vs Dundalk|24/07 22:00|Under 2.5 (40.1% 2.45) ✨ 1ο Ημίχ. Over 1.5 (40.5%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
+🏆 Αργεντινή Primera 🇦🇷|Gimnasia Mendoza vs Central Córdoba|24/07 22:45|Under 2.5 (70.7% 1.57) ✨ 1ο Ημίχ. Over 0.5 (57.3%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
