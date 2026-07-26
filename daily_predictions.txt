@@ -1,17 +1,12 @@
 STATS|78.2|22.1
-🏆 Brazil Série A|Atletico Paranaense vs Internacional|26/07 00:30|Over 1.5 (83.1% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.8%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
-🏆 Brazil Série A|Santos vs Chapecoense|26/07 00:30|Under 2.5 (42.9% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.4%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
-🏆 Primera División - Chile|Huachipato vs Cobresal|26/07 00:30|Goal / Goal (61.1% 1.82) ✨ 1ο Ημίχ. Over 0.5 (75.3%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
-🏆 Αργεντινή Primera 🇦🇷|River Plate vs Barracas Central|26/07 01:15|Over 1.5 (83.6% 1.40) ✨ 1ο Ημίχ. Over 1.5 (43.5%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
-🏆 MLS|New York Red Bulls vs Charlotte FC|26/07 01:40|Over 1.5 (88.0% 1.40) ✨ 1ο Ημίχ. Over 1.5 (53.4%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
-🏆 Liga MX|Guadalajara vs FC Juárez|26/07 02:07|Over 2.5 (76.6% 1.45) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (66.3%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
-🏆 MLS|Columbus Crew SC vs FC Cincinnati|26/07 02:15|Over 2.5 (78.3% 1.42) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (64.9%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
-🏆 MLS|New England Revolution vs Atlanta United FC|26/07 02:30|Under 2.5 (51.3% 2.17) ✨ 1ο Ημίχ. Over 0.5 (69.6%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
-🏆 MLS|CF Montreal vs Inter Miami CF|26/07 02:30|Over 2.5 (77.4% 1.44) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (63.0%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
-🏆 MLS|New York City FC vs Chicago Fire|26/07 02:30|Under 2.5 (43.3% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.1%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
-🏆 MLS|D.C. United vs Toronto FC|26/07 02:30|Under 2.5 (43.7% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.8%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
-🏆 Brazil Série A|Vasco da Gama vs Mirassol|26/07 02:30|Under 2.5 (65.7% 1.69) ✨ 1ο Ημίχ. Over 0.5 (60.8%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
-🏆 MLS|Orlando City SC vs Nashville SC|26/07 02:30|Over 2.5 (76.2% 1.46) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (54.8%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
+🏆 K League 1|Incheon United vs Bucheon FC 1995|26/07 13:30|Under 2.5 (71.0% 1.57) ✨ 1ο Ημίχ. Over 0.5 (57.2%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
+🏆 K League 1|FC Anyang vs Gangwon FC|26/07 13:30|Under 2.5 (76.0% 1.46) ✨ 1ο Ημίχ. Over 0.5 (53.3%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 K League 1|FC Seoul vs Ulsan Hyundai FC|26/07 13:30|Under 2.5 (52.8% 2.11) ✨ 1ο Ημίχ. Over 0.5 (68.7%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 K League 1|Gwangju FC vs Jeju United FC|26/07 13:30|Under 2.5 (73.0% 1.52) ✨ 1ο Ημίχ. Over 0.5 (55.6%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
+🏆 Superettan - Sweden|GIF Sundsvall vs Falkenbergs FF|26/07 14:00|Under 2.5 (42.3% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.6%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
+🏆 Super League - China|Yunnan Yukun vs Shenzhen Peng City FC|26/07 14:00|Over 2.5 (76.5% 1.45) ✨ 1ο Ημίχ. Over 1.5 (55.5%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
+🏆 Super League - China|Chengdu Rongcheng FC vs Beijing FC|26/07 14:35|Over 2.5 (79.3% 1.40) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (62.9%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 Super League - China|Shandong Luneng Taishan FC vs Henan FC|26/07 14:35|Over 2.5 (78.4% 1.42) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (58.8%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
