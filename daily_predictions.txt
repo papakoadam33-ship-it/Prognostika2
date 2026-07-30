@@ -1,12 +1,12 @@
 STATS|78.2|22.1
-🏆 Αργεντινή Primera 🇦🇷|Independiente Rivadavia vs Atlético Huracán|31/07 01:00|Under 2.5 (81.4% 1.40) ✨ 1ο Ημίχ. Over 0.5 (48.7%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
-🏆 Copa Sudamericana|Grêmio vs Club Bolívar|31/07 01:00|Over 1.5 (82.7% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.2%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
-🏆 Αργεντινή Primera 🇦🇷|Talleres vs Velez Sarsfield BA|31/07 01:00|Under 2.5 (77.3% 1.44) ✨ 1ο Ημίχ. Over 0.5 (52.2%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
-🏆 Brazil Série A|Corinthians vs Atletico Paranaense|31/07 01:30|Under 2.5 (71.3% 1.56) ✨ 1ο Ημίχ. Over 0.5 (56.9%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
-🏆 Αργεντινή Primera 🇦🇷|Central Córdoba vs Atlético Tucuman|31/07 03:15|Under 2.5 (76.3% 1.46) ✨ 1ο Ημίχ. Over 0.5 (53.0%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
-🏆 Αργεντινή Primera 🇦🇷|Independiente vs Newells Old Boys|31/07 03:15|Under 2.5 (67.7% 1.64) ✨ 1ο Ημίχ. Over 0.5 (59.4%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
-🏆 Copa Sudamericana|O'Higgins vs Boca Juniors|31/07 03:30|Under 2.5 (73.7% 1.51) ✨ 1ο Ημίχ. Over 0.5 (55.1%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
-🏆 Copa Sudamericana|Caracas FC vs Independiente Santa Fe|31/07 03:30|Under 2.5 (72.1% 1.54) ✨ 1ο Ημίχ. Over 0.5 (56.4%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
+🏆 Αργεντινή Primera 🇦🇷|Independiente Rivadavia vs Atlético Huracán|31/07 01:00|Under 2.5 (64.8% 1.71) ✨ 1ο Ημίχ. Over 0.5 (61.3%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
+🏆 Copa Sudamericana|Grêmio vs Club Bolívar|31/07 01:00|Under 2.5 (49.0% 2.27) ✨ 1ο Ημίχ. Over 0.5 (70.8%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
+🏆 Αργεντινή Primera 🇦🇷|Talleres vs Velez Sarsfield BA|31/07 01:00|Under 2.5 (67.4% 1.65) ✨ 1ο Ημίχ. Over 0.5 (59.7%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
+🏆 Brazil Série A|Corinthians vs Atletico Paranaense|31/07 01:30|Under 2.5 (80.6% 1.40) ✨ 1ο Ημίχ. Over 0.5 (49.4%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
+🏆 Αργεντινή Primera 🇦🇷|Central Córdoba vs Atlético Tucuman|31/07 03:15|Under 2.5 (82.6% 1.40) ✨ 1ο Ημίχ. Over 0.5 (47.5%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
+🏆 Αργεντινή Primera 🇦🇷|Independiente vs Newells Old Boys|31/07 03:15|Under 2.5 (66.7% 1.67) ✨ 1ο Ημίχ. Over 0.5 (60.1%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 Copa Sudamericana|O'Higgins vs Boca Juniors|31/07 03:30|Under 2.5 (69.4% 1.60) ✨ 1ο Ημίχ. Over 0.5 (58.2%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 Copa Sudamericana|Caracas FC vs Independiente Santa Fe|31/07 03:30|Under 2.5 (74.2% 1.50) ✨ 1ο Ημίχ. Over 0.5 (54.7%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
