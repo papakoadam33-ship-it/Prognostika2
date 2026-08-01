@@ -1,18 +1,25 @@
 STATS|78.2|22.1
-🏆 K League 1|Gangwon FC vs Bucheon FC 1995|01/08 13:30|Under 2.5 (46.3% 2.40) ✨ 1ο Ημίχ. Over 0.5 (72.5%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
-🏆 K League 1|Jeonbuk Hyundai Motors vs FC Seoul|01/08 13:30|Under 2.5 (47.1% 2.36) ✨ 1ο Ημίχ. Over 0.5 (72.2%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
-🏆 K League 1|Pohang Steelers vs Sangju Sangmu FC|01/08 13:30|Under 2.5 (45.4% 2.45) ✨ 1ο Ημίχ. Over 0.5 (72.9%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
-🏆 Premier League - Russia|FC Akron Tolyatti vs Rubin Kazan|01/08 14:00|Under 2.5 (68.0% 1.63) ✨ 1ο Ημίχ. Over 0.5 (59.2%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
-🏆 Super League - China|Tianjin Jinmen Tiger FC vs Yunnan Yukun|01/08 14:00|Under 2.5 (54.3% 2.05) ✨ 1ο Ημίχ. Over 0.5 (67.8%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
-🏆 Superettan - Sweden|Östersunds FK vs Östers IF|01/08 14:00|Goal / Goal (60.9% 1.82) ✨ 1ο Ημίχ. Over 1.5 (40.6%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
-🏆 Super League - China|Beijing FC vs Zhejiang|01/08 14:35|Over 2.5 (77.0% 1.44) ✨ 1ο Ημίχ. Over 1.5 (59.6%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
-🏆 Super League - China|Shanghai SIPG FC vs Shandong Luneng Taishan FC|01/08 14:35|Over 2.5 (77.3% 1.44) ✨ 1ο Ημίχ. Over 1.5 (62.1%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
-🏆 Super League - China|Chengdu Rongcheng FC vs Wuhan Three Towns|01/08 15:00|Goal / Goal (70.1% 1.58) ✨ 1ο Ημίχ. Over 1.5 (65.5%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
-🏆 Veikkausliiga - Finland|TPS Turku vs IFK Mariehamn|01/08 15:00|Over 2.5 (77.6% 1.43) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (64.9%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
-🏆 Ekstraklasa - Poland|Piast Gliwice vs Wisła Kraków|01/08 15:45|Under 2.5 (47.9% 2.32) ✨ 1ο Ημίχ. Over 0.5 (71.4%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
-🏆 Allsvenskan - Sweden|BK Hacken vs Kalmar FF|01/08 16:00|Over 2.5 (77.6% 1.43) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (58.6%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
-🏆 Superettan - Sweden|Varbergs BoIS vs Falkenbergs FF|01/08 16:00|Over 1.5 (83.3% 1.40) ✨ 1ο Ημίχ. Over 1.5 (43.6%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
-🏆 Superettan - Sweden|Sandvikens IF vs GIF Sundsvall|01/08 16:00|Over 1.5 (83.9% 1.40) ✨ 1ο Ημίχ. Over 1.5 (43.9%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
+🏆 Veikkausliiga - Finland|FC Lahti vs Jaro|01/08 18:00|Under 2.5 (69.1% 1.61) ✨ 1ο Ημίχ. Over 0.5 (58.5%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 Superettan - Sweden|IFK Norrkoping vs Helsingborgs IF|01/08 18:00|Under 2.5 (75.1% 1.48) ✨ 1ο Ημίχ. Over 0.5 (54.0%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
+🏆 Superettan - Sweden|IK Brage vs Landskrona BoIS|01/08 18:00|Over 1.5 (84.2% 1.40) ✨ 1ο Ημίχ. Over 1.5 (45.1%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+🏆 Austrian Football Bundesliga|WSG Tirol vs Sturm Graz|01/08 18:00|Under 2.5 (81.9% 1.40) ✨ 1ο Ημίχ. Over 0.5 (48.2%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+🏆 Premier League - Russia|FC Dynamo Makhachkala vs Lokomotiv Moscow|01/08 18:30|Over 1.5 (82.4% 1.40) ✨ 1ο Ημίχ. Over 1.5 (41.8%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
+🏆 Ekstraklasa - Poland|Wieczysta Kraków vs Lech Poznań|01/08 18:30|Under 2.5 (53.2% 2.09) ✨ 1ο Ημίχ. Over 0.5 (68.4%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 Denmark Superliga|Lyngby vs AGF Aarhus|01/08 19:00|Over 1.5 (84.6% 1.40) ✨ 1ο Ημίχ. Over 1.5 (45.2%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 Swiss Superleague|FC Basel vs FC Lausanne-Sport|01/08 19:00|Under 2.5 (42.5% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.6%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
+🏆 Swiss Superleague|FC Zurich vs Servette|01/08 19:00|Over 1.5 (84.6% 1.40) ✨ 1ο Ημίχ. Over 1.5 (45.3%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
+🏆 Veikkausliiga - Finland|IF Gnistan vs KuPS Kuopio|01/08 19:00|Over 1.5 (82.2% 1.40) ✨ 1ο Ημίχ. Over 1.5 (41.6%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 Eliteserien - Norway|IK Start vs Viking FK|01/08 19:00|Under 2.5 (40.6% 2.45) ✨ 1ο Ημίχ. Over 1.5 (40.1%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
+🏆 Premiership - Scotland|Aberdeen vs Hearts|01/08 19:30|Under 2.5 (71.9% 1.55) ✨ 1ο Ημίχ. Over 0.5 (56.5%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 Primera División - Chile|Cobresal vs Union La Calera|01/08 19:30|Over 2.5 (77.3% 1.44) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (56.7%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
+🏆 Austrian Football Bundesliga|RB Salzburg vs Hartberg|01/08 20:30|Over 2.5 (78.9% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (59.2%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
+🏆 Premier League - Russia|FC Baltika Kaliningrad vs Dinamo Moscow|01/08 20:45|Under 2.5 (78.6% 1.41) ✨ 1ο Ημίχ. Over 0.5 (51.1%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 Swiss Superleague|FC Thun vs BSC Young Boys|01/08 21:30|Over 2.5 (77.0% 1.44) ✨ 1ο Ημίχ. Over 1.5 (65.7%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
+🏆 Αργεντινή Primera 🇦🇷|Estudiantes de Río Cuarto vs Banfield|01/08 21:30|Under 2.5 (67.0% 1.66) ✨ 1ο Ημίχ. Over 0.5 (59.9%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 Αργεντινή Primera 🇦🇷|Gimnasia Mendoza vs Union Santa Fe|01/08 21:30|Under 2.5 (65.2% 1.70) ✨ 1ο Ημίχ. Over 0.5 (61.1%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 Primera División - Chile|Everton de Viña del Mar vs Colo Colo|01/08 22:00|Under 2.5 (48.6% 2.28) ✨ 1ο Ημίχ. Over 0.5 (71.0%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
+🏆 Αργεντινή Primera 🇦🇷|Belgrano de Cordoba vs Argentinos Juniors|02/08 00:00|Under 2.5 (78.1% 1.42) ✨ 1ο Ημίχ. Over 0.5 (51.6%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 Αργεντινή Primera 🇦🇷|Estudiantes vs Defensa y Justicia|02/08 00:00|Under 2.5 (77.3% 1.44) ✨ 1ο Ημίχ. Over 0.5 (52.3%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
