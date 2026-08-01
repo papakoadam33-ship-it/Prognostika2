@@ -1,12 +1,12 @@
 STATS|78.2|22.1
-🏆 MLS|New York City FC vs Toronto FC|01/08 02:30|Over 1.5 (83.0% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.8%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
-🏆 Primera División - Chile|Universidad de Concepción vs Audax Italiano|01/08 03:00|Under 2.5 (53.5% 2.08) ✨ 1ο Ημίχ. Over 0.5 (68.3%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
-🏆 Liga MX|Puebla vs Guadalajara|01/08 04:00|Under 2.5 (43.5% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.9%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
-🏆 Liga MX|Atlético San Luis vs Tijuana|01/08 06:00|Over 1.5 (84.3% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.5%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
-🏆 Liga MX|FC Juárez vs Pumas|01/08 06:00|Over 1.5 (82.1% 1.40) ✨ 1ο Ημίχ. Over 1.5 (41.6%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
-🏆 K League 1|Gangwon FC vs Bucheon FC 1995|01/08 13:30|Under 2.5 (72.1% 1.54) ✨ 1ο Ημίχ. Over 0.5 (56.3%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
-🏆 K League 1|Jeonbuk Hyundai Motors vs FC Seoul|01/08 13:30|Goal / Goal (62.5% 1.78) ✨ 1ο Ημίχ. Over 1.5 (41.3%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
-🏆 K League 1|Pohang Steelers vs Sangju Sangmu FC|01/08 13:30|Under 2.5 (80.4% 1.40) ✨ 1ο Ημίχ. Over 0.5 (49.6%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
+🏆 K League 1|Gangwon FC vs Bucheon FC 1995|01/08 13:30|Under 2.5 (79.1% 1.40) ✨ 1ο Ημίχ. Over 0.5 (50.7%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
+🏆 K League 1|Jeonbuk Hyundai Motors vs FC Seoul|01/08 13:30|Goal / Goal (60.6% 1.83) ✨ 1ο Ημίχ. Over 0.5 (74.9%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
+🏆 K League 1|Pohang Steelers vs Sangju Sangmu FC|01/08 13:30|Under 2.5 (65.4% 1.70) ✨ 1ο Ημίχ. Over 0.5 (61.0%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 Premier League - Russia|FC Akron Tolyatti vs Rubin Kazan|01/08 14:00|Under 2.5 (75.6% 1.47) ✨ 1ο Ημίχ. Over 0.5 (53.6%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
+🏆 Super League - China|Tianjin Jinmen Tiger FC vs Yunnan Yukun|01/08 14:00|Goal / Goal (62.2% 1.79) ✨ 1ο Ημίχ. Over 1.5 (40.6%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
+🏆 Superettan - Sweden|Östersunds FK vs Östers IF|01/08 14:00|Goal / Goal (61.2% 1.82) ✨ 1ο Ημίχ. Over 1.5 (41.6%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
+🏆 Super League - China|Beijing FC vs Zhejiang|01/08 14:35|Goal / Goal (70.3% 1.58) ✨ 1ο Ημίχ. Over 1.5 (65.2%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
+🏆 Super League - China|Shanghai SIPG FC vs Shandong Luneng Taishan FC|01/08 14:35|Over 2.5 (78.8% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (62.5%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
