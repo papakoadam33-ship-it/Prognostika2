@@ -1,12 +1,12 @@
 STATS|78.2|22.1
-🏆 UEFA Champions League Qualification|FC Ararat-Armenia vs NK Celje|04/08 19:00|Goal / Goal (60.6% 1.83) ✨ 1ο Ημίχ. Over 0.5 (75.6%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
-🏆 UEFA Champions League Qualification|Mjällby AIF vs ŠK Slovan Bratislava|04/08 19:00|Over 1.5 (83.2% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.9%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
-🏆 UEFA Champions League Qualification|PFC Levski Sofia vs FC Kairat|04/08 20:30|Under 2.5 (76.3% 1.46) ✨ 1ο Ημίχ. Over 0.5 (53.0%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
-🏆 UEFA Champions League Qualification|Hapoel Be'er Sheva vs Red Star Belgrade|04/08 20:30|Over 1.5 (85.3% 1.40) ✨ 1ο Ημίχ. Over 1.5 (46.6%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
-🏆 UEFA Champions League Qualification|Union Saint-Gilloise vs Bodø/Glimt|04/08 21:00|Over 2.5 (78.4% 1.42) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (59.0%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
-🏆 UEFA Champions League Qualification|Dinamo Zagreb vs FK Kauno Žalgiris|04/08 21:00|Goal / Goal (70.3% 1.58) ✨ 1ο Ημίχ. Over 1.5 (65.1%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
-🏆 UEFA Champions League Qualification|Sparta Prague vs Lyon|04/08 21:00|Over 1.5 (83.8% 1.40) ✨ 1ο Ημίχ. Over 1.5 (43.9%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
-🏆 UEFA Champions League Qualification|Olympiakos Piraeus vs NEC Nijmegen|04/08 21:00|Over 1.5 (84.4% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.7%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 UEFA Champions League Qualification|FC Ararat-Armenia vs NK Celje|04/08 19:00|Over 1.5 (82.8% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.4%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 UEFA Champions League Qualification|Mjällby AIF vs ŠK Slovan Bratislava|04/08 19:00|Goal / Goal (61.9% 1.79) ✨ 1ο Ημίχ. Over 1.5 (40.3%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
+🏆 UEFA Champions League Qualification|PFC Levski Sofia vs FC Kairat|04/08 20:30|Under 2.5 (74.2% 1.50) ✨ 1ο Ημίχ. Over 0.5 (54.7%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
+🏆 UEFA Champions League Qualification|Hapoel Be'er Sheva vs Red Star Belgrade|04/08 20:30|Goal / Goal (62.5% 1.78) ✨ 1ο Ημίχ. Over 1.5 (41.2%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
+🏆 UEFA Champions League Qualification|Union Saint-Gilloise vs Bodø/Glimt|04/08 21:00|Goal / Goal (61.8% 1.80) ✨ 1ο Ημίχ. Over 1.5 (40.2%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 UEFA Champions League Qualification|Dinamo Zagreb vs FK Kauno Žalgiris|04/08 21:00|Over 2.5 (78.9% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (64.2%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 UEFA Champions League Qualification|Sparta Prague vs Lyon|04/08 21:00|Goal / Goal (62.2% 1.79) ✨ 1ο Ημίχ. Over 1.5 (40.4%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
+🏆 UEFA Champions League Qualification|Olympiakos Piraeus vs NEC Nijmegen|04/08 21:00|Goal / Goal (60.7% 1.83) ✨ 1ο Ημίχ. Over 1.5 (41.6%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
