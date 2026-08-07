@@ -1,14 +1,13 @@
 STATS|78.2|22.1
-🏆 J League|Yokohama F Marinos vs Kashima Antlers|07/08 13:25|Over 1.5 (82.2% 1.40) ✨ 1ο Ημίχ. Over 1.5 (41.6%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
-🏆 J League|Gamba Osaka vs Urawa Red Diamonds|07/08 13:30|Under 2.5 (76.0% 1.46) ✨ 1ο Ημίχ. Over 0.5 (53.3%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
-🏆 Super League - China|Beijing FC vs Shenzhen Peng City FC|07/08 14:35|Over 2.5 (78.0% 1.42) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (60.6%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
-🏆 Veikkausliiga - Finland|SJK Seinäjoki vs IF Gnistan|07/08 19:00|Over 2.5 (75.2% 1.48) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (62.6%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
-🏆 3. Liga - Germany|Waldhof Mannheim vs Fortuna Düsseldorf|07/08 20:00|Over 2.5 (77.0% 1.44) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (65.6%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
-🏆 Superettan - Sweden|Östersunds FK vs GIF Sundsvall|07/08 20:00|Over 1.5 (83.1% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.9%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
-🏆 Eliteserien - Norway|Sandefjord vs KFUM|07/08 20:00|Under 2.5 (47.2% 2.36) ✨ 1ο Ημίχ. Over 0.5 (71.9%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
-🏆 Denmark Superliga|SonderjyskE vs Viborg FF|07/08 20:00|Under 2.5 (44.0% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.6%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
-🏆 Austrian Football Bundesliga|Rheindorf Altach vs WSG Tirol|07/08 20:30|Over 1.5 (82.9% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.6%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
-🏆 Dutch Eredivisie|SC Cambuur vs Excelsior|07/08 21:00|Under 2.5 (43.2% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.2%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
+🏆 Veikkausliiga - Finland|SJK Seinäjoki vs IF Gnistan|07/08 18:59|Over 1.5 (84.3% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.6%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
+🏆 3. Liga - Germany|Waldhof Mannheim vs Fortuna Düsseldorf|07/08 20:00|Over 2.5 (79.2% 1.40) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (62.9%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
+🏆 Superettan - Sweden|Östersunds FK vs GIF Sundsvall|07/08 20:00|Over 1.5 (82.3% 1.40) ✨ 1ο Ημίχ. Over 1.5 (41.7%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
+🏆 Eliteserien - Norway|Sandefjord vs KFUM|07/08 20:00|Under 2.5 (46.9% 2.37) ✨ 1ο Ημίχ. Over 0.5 (72.0%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
+🏆 Denmark Superliga|SonderjyskE vs Viborg FF|07/08 20:00|Over 2.5 (76.5% 1.45) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (66.4%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
+🏆 Austrian Football Bundesliga|Rheindorf Altach vs WSG Tirol|07/08 20:30|Under 2.5 (48.1% 2.31) ✨ 1ο Ημίχ. Over 0.5 (71.4%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
+🏆 Dutch Eredivisie|SC Cambuur vs Excelsior|07/08 21:00|Goal / Goal (61.4% 1.81) ✨ 1ο Ημίχ. Over 0.5 (75.4%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
+🏆 Bundesliga 2 - Germany|VfL Bochum vs Hertha Berlin|07/08 21:30|Under 2.5 (46.0% 2.41) ✨ 1ο Ημίχ. Over 0.5 (72.7%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
+🏆 Ekstraklasa - Poland|Wisła Kraków vs Wisła Płock|07/08 21:30|Under 2.5 (46.1% 2.41) ✨ 1ο Ημίχ. Over 0.5 (72.5%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
