@@ -1,16 +1,12 @@
 STATS|78.2|22.1
-🏆 Leagues Cup|New York City FC vs Santos Laguna|07/08 02:40|Under 2.5 (69.9% 1.59) ✨ 1ο Ημίχ. Over 0.5 (57.9%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
-🏆 Leagues Cup|Cruz Azul vs Philadelphia Union|07/08 03:10|Under 2.5 (81.6% 1.40) ✨ 1ο Ημίχ. Over 0.5 (48.4%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
-🏆 Leagues Cup|Chicago Fire vs Necaxa|07/08 03:40|Under 2.5 (45.6% 2.44) ✨ 1ο Ημίχ. Over 0.5 (72.9%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
-🏆 Leagues Cup|Austin FC vs Tijuana|07/08 04:10|Under 2.5 (48.4% 2.30) ✨ 1ο Ημίχ. Over 0.5 (71.2%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
-🏆 Leagues Cup|América vs San Diego FC|07/08 05:00|Goal / Goal (67.9% 1.64) ✨ 1ο Ημίχ. Over 1.5 (62.4%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
-🏆 Leagues Cup|Portland Timbers vs Puebla|07/08 05:30|Over 2.5 (77.2% 1.44) ✨ 1ο Ημίχ. Over 1.5 (65.0%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
-🏆 J League|Yokohama F Marinos vs Kashima Antlers|07/08 13:25|Under 2.5 (67.7% 1.64) ✨ 1ο Ημίχ. Over 0.5 (59.5%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
-🏆 J League|Gamba Osaka vs Urawa Red Diamonds|07/08 13:30|Over 1.5 (82.6% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.1%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
-🏆 Super League - China|Beijing FC vs Shenzhen Peng City FC|07/08 14:35|Over 2.5 (79.4% 1.40) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (62.0%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
-🏆 Veikkausliiga - Finland|SJK Seinäjoki vs IF Gnistan|07/08 19:00|Over 2.5 (78.8% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (64.6%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
-🏆 3. Liga - Germany|Waldhof Mannheim vs Fortuna Düsseldorf|07/08 20:00|Under 2.5 (49.8% 2.23) ✨ 1ο Ημίχ. Over 0.5 (70.4%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
-🏆 Superettan - Sweden|Östersunds FK vs GIF Sundsvall|07/08 20:00|Under 2.5 (45.8% 2.43) ✨ 1ο Ημίχ. Over 0.5 (72.6%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
+🏆 J League|Yokohama F Marinos vs Kashima Antlers|07/08 13:25|Under 2.5 (67.1% 1.66) ✨ 1ο Ημίχ. Over 0.5 (59.8%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
+🏆 J League|Gamba Osaka vs Urawa Red Diamonds|07/08 13:30|Under 2.5 (73.7% 1.51) ✨ 1ο Ημίχ. Over 0.5 (55.1%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
+🏆 Super League - China|Beijing FC vs Shenzhen Peng City FC|07/08 14:35|Over 2.5 (79.0% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (60.5%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
+🏆 Veikkausliiga - Finland|SJK Seinäjoki vs IF Gnistan|07/08 19:00|Goal / Goal (60.7% 1.83) ✨ 1ο Ημίχ. Over 0.5 (74.9%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 3. Liga - Germany|Waldhof Mannheim vs Fortuna Düsseldorf|07/08 20:00|Over 2.5 (79.4% 1.40) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (63.0%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
+🏆 Superettan - Sweden|Östersunds FK vs GIF Sundsvall|07/08 20:00|Under 2.5 (47.3% 2.35) ✨ 1ο Ημίχ. Over 0.5 (71.8%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 Eliteserien - Norway|Sandefjord vs KFUM|07/08 20:00|Over 1.5 (85.1% 1.40) ✨ 1ο Ημίχ. Over 1.5 (45.9%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
+🏆 Denmark Superliga|SonderjyskE vs Viborg FF|07/08 20:00|Over 2.5 (75.2% 1.48) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (65.2%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
