@@ -1,12 +1,18 @@
 STATS|78.2|22.1
-🏆 J League|Avispa Fukuoka vs Vissel Kobe|08/08 13:00|Under 2.5 (77.8% 1.43) ✨ 1ο Ημίχ. Over 0.5 (51.9%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
-🏆 J League|Cerezo Osaka vs Fagiano Okayama|08/08 13:00|Under 2.5 (46.6% 2.38) ✨ 1ο Ημίχ. Over 0.5 (72.2%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
-🏆 J League|FC Tokyo vs FC Machida Zelvia|08/08 13:00|Under 2.5 (75.7% 1.47) ✨ 1ο Ημίχ. Over 0.5 (53.5%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
-🏆 J League|Kashiwa Reysol vs Mito HollyHock|08/08 13:00|Under 2.5 (45.5% 2.44) ✨ 1ο Ημίχ. Over 0.5 (72.8%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
-🏆 J League|Nagoya Grampus vs Shimizu S Pulse|08/08 13:00|Under 2.5 (46.1% 2.41) ✨ 1ο Ημίχ. Over 0.5 (72.5%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
-🏆 J League|Hiroshima Sanfrecce FC vs JEF United Chiba|08/08 13:15|Under 2.5 (43.5% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.0%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
-🏆 Bundesliga 2 - Germany|1. FC Heidenheim vs VfL Osnabrück|08/08 14:00|Over 1.5 (84.2% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.4%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
-🏆 Bundesliga 2 - Germany|1. FC Magdeburg vs Eintracht Braunschweig|08/08 14:00|Goal / Goal (61.8% 1.80) ✨ 1ο Ημίχ. Over 1.5 (40.1%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
+🏆 J League|Avispa Fukuoka vs Vissel Kobe|08/08 13:00|Under 2.5 (42.3% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.7%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
+🏆 J League|Cerezo Osaka vs Fagiano Okayama|08/08 13:00|Goal / Goal (60.3% 1.84) ✨ 1ο Ημίχ. Over 0.5 (74.9%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 J League|FC Tokyo vs FC Machida Zelvia|08/08 13:00|Goal / Goal (60.0% 1.85) ✨ 1ο Ημίχ. Over 1.5 (40.9%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 J League|Kashiwa Reysol vs Mito HollyHock|08/08 13:00|Over 2.5 (75.8% 1.47) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (66.7%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
+🏆 J League|Nagoya Grampus vs Shimizu S Pulse|08/08 13:00|Under 2.5 (65.0% 1.71) ✨ 1ο Ημίχ. Over 0.5 (61.3%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
+🏆 J League|Hiroshima Sanfrecce FC vs JEF United Chiba|08/08 13:15|Goal / Goal (70.0% 1.59) ✨ 1ο Ημίχ. Over 1.5 (66.1%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+🏆 Bundesliga 2 - Germany|1. FC Heidenheim vs VfL Osnabrück|08/08 14:00|Under 2.5 (46.4% 2.40) ✨ 1ο Ημίχ. Over 0.5 (72.4%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
+🏆 Bundesliga 2 - Germany|1. FC Magdeburg vs Eintracht Braunschweig|08/08 14:00|Under 2.5 (48.8% 2.28) ✨ 1ο Ημίχ. Over 0.5 (71.0%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
+🏆 Bundesliga 2 - Germany|Karlsruher SC vs Arminia Bielefeld|08/08 14:00|Goal / Goal (71.3% 1.56) ✨ 1ο Ημίχ. Over 1.5 (66.5%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 K League 1|Bucheon FC 1995 vs Gwangju FC|08/08 14:00|Under 2.5 (67.5% 1.65) ✨ 1ο Ημίχ. Over 0.5 (59.6%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
+🏆 K League 1|FC Anyang vs Daejeon Citizen|08/08 14:00|Under 2.5 (45.9% 2.42) ✨ 1ο Ημίχ. Over 0.5 (72.6%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
+🏆 K League 1|Sangju Sangmu FC vs FC Seoul|08/08 14:00|Under 2.5 (46.9% 2.37) ✨ 1ο Ημίχ. Over 0.5 (72.0%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 Superettan - Sweden|Falkenbergs FF vs Nordic United FC|08/08 14:00|Under 2.5 (43.2% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.1%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 Bundesliga 2 - Germany|SV Darmstadt 98 vs Holstein Kiel|08/08 14:00|Under 2.5 (44.4% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.4%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
