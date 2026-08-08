@@ -1,18 +1,24 @@
 STATS|78.2|22.1
-🏆 J League|Avispa Fukuoka vs Vissel Kobe|08/08 13:00|Under 2.5 (42.3% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.7%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
-🏆 J League|Cerezo Osaka vs Fagiano Okayama|08/08 13:00|Goal / Goal (60.3% 1.84) ✨ 1ο Ημίχ. Over 0.5 (74.9%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
-🏆 J League|FC Tokyo vs FC Machida Zelvia|08/08 13:00|Goal / Goal (60.0% 1.85) ✨ 1ο Ημίχ. Over 1.5 (40.9%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
-🏆 J League|Kashiwa Reysol vs Mito HollyHock|08/08 13:00|Over 2.5 (75.8% 1.47) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (66.7%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
-🏆 J League|Nagoya Grampus vs Shimizu S Pulse|08/08 13:00|Under 2.5 (65.0% 1.71) ✨ 1ο Ημίχ. Over 0.5 (61.3%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
-🏆 J League|Hiroshima Sanfrecce FC vs JEF United Chiba|08/08 13:15|Goal / Goal (70.0% 1.59) ✨ 1ο Ημίχ. Over 1.5 (66.1%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
-🏆 Bundesliga 2 - Germany|1. FC Heidenheim vs VfL Osnabrück|08/08 14:00|Under 2.5 (46.4% 2.40) ✨ 1ο Ημίχ. Over 0.5 (72.4%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
-🏆 Bundesliga 2 - Germany|1. FC Magdeburg vs Eintracht Braunschweig|08/08 14:00|Under 2.5 (48.8% 2.28) ✨ 1ο Ημίχ. Over 0.5 (71.0%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
-🏆 Bundesliga 2 - Germany|Karlsruher SC vs Arminia Bielefeld|08/08 14:00|Goal / Goal (71.3% 1.56) ✨ 1ο Ημίχ. Over 1.5 (66.5%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
-🏆 K League 1|Bucheon FC 1995 vs Gwangju FC|08/08 14:00|Under 2.5 (67.5% 1.65) ✨ 1ο Ημίχ. Over 0.5 (59.6%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
-🏆 K League 1|FC Anyang vs Daejeon Citizen|08/08 14:00|Under 2.5 (45.9% 2.42) ✨ 1ο Ημίχ. Over 0.5 (72.6%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
-🏆 K League 1|Sangju Sangmu FC vs FC Seoul|08/08 14:00|Under 2.5 (46.9% 2.37) ✨ 1ο Ημίχ. Over 0.5 (72.0%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
-🏆 Superettan - Sweden|Falkenbergs FF vs Nordic United FC|08/08 14:00|Under 2.5 (43.2% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.1%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
-🏆 Bundesliga 2 - Germany|SV Darmstadt 98 vs Holstein Kiel|08/08 14:00|Under 2.5 (44.4% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.4%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
+🏆 Primeira Liga - Portugal|CS Maritimo vs Casa Pia|08/08 17:30|Goal / Goal (62.5% 1.78) ✨ 1ο Ημίχ. Over 1.5 (40.8%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+🏆 Dutch Eredivisie|NEC Nijmegen vs SC Telstar|08/08 17:30|Goal / Goal (62.8% 1.77) ✨ 1ο Ημίχ. Over 1.5 (41.3%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
+🏆 3. Liga - Germany|SG Sonnenhof Großaspach vs SC Fortuna Köln|08/08 17:30|Under 2.5 (45.6% 2.44) ✨ 1ο Ημίχ. Over 0.5 (72.8%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
+🏆 Austrian Football Bundesliga|Grazer AK vs Austria Lustenau|08/08 18:00|Goal / Goal (62.5% 1.78) ✨ 1ο Ημίχ. Over 1.5 (41.1%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
+🏆 Premier League - Russia|Lokomotiv Moscow vs FC Akron Tolyatti|08/08 18:00|Under 2.5 (51.4% 2.16) ✨ 1ο Ημίχ. Over 0.5 (69.5%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
+🏆 Superettan - Sweden|IFK Norrkoping vs IK Brage|08/08 18:00|Under 2.5 (43.8% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.8%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 Allsvenskan - Sweden|Mjällby AIF vs IF Elfsborg|08/08 18:30|Under 2.5 (74.0% 1.50) ✨ 1ο Ημίχ. Over 0.5 (54.8%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
+🏆 Ekstraklasa - Poland|Pogoń Szczecin vs Motor Lublin|08/08 18:30|Under 2.5 (45.5% 2.44) ✨ 1ο Ημίχ. Over 0.5 (73.0%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 Swiss Superleague|FC Lausanne-Sport vs BSC Young Boys|08/08 19:00|Over 1.5 (83.5% 1.40) ✨ 1ο Ημίχ. Over 1.5 (43.4%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
+🏆 Eliteserien - Norway|IK Start vs Fredrikstad FK|08/08 19:00|Under 2.5 (74.8% 1.49) ✨ 1ο Ημίχ. Over 0.5 (54.2%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
+🏆 Veikkausliiga - Finland|Jaro vs VPS Vaasa|08/08 19:00|Goal / Goal (61.9% 1.79) ✨ 1ο Ημίχ. Over 1.5 (40.3%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
+🏆 Belgium First Div|Standard Liege vs Cercle Brugge KSV|08/08 19:15|Under 2.5 (79.8% 1.40) ✨ 1ο Ημίχ. Over 0.5 (50.1%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
+🏆 EFL Cup|Cheltenham Town vs Charlton Athletic|08/08 19:30|Over 1.5 (85.4% 1.40) ✨ 1ο Ημίχ. Over 1.5 (46.3%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
+🏆 EFL Cup|Colchester United vs Southampton|08/08 19:30|Over 2.5 (79.0% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (60.5%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 EFL Cup|Rotherham United vs West Bromwich Albion|08/08 19:30|Over 1.5 (82.9% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.8%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
+🏆 Dutch Eredivisie|Go Ahead Eagles vs Willem II|08/08 19:45|Goal / Goal (66.2% 1.68) ✨ 1ο Ημίχ. Over 1.5 (63.0%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
+🏆 Primeira Liga - Portugal|Vitória SC vs Arouca|08/08 20:00|Over 1.5 (83.5% 1.40) ✨ 1ο Ημίχ. Over 1.5 (43.7%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
+🏆 Premier League - Russia|CSKA Moscow vs FK Rostov|08/08 20:30|Under 2.5 (45.8% 2.43) ✨ 1ο Ημίχ. Over 0.5 (72.7%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
+🏆 Austrian Football Bundesliga|Hartberg vs Sturm Graz|08/08 20:30|Under 2.5 (49.4% 2.25) ✨ 1ο Ημίχ. Over 0.5 (70.7%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
+🏆 Αργεντινή Primera 🇦🇷|Atlético Tucuman vs Sarmiento de Junin|08/08 20:45|Under 2.5 (77.6% 1.43) ✨ 1ο Ημίχ. Over 0.5 (52.0%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
