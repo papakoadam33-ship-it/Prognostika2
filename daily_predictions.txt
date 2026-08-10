@@ -1,12 +1,13 @@
 STATS|78.2|22.1
-🏆 Premier League - Russia|FC Fakel Voronezh vs FC Akhmat Grozny|10/08 19:30|Under 2.5 (74.1% 1.50) ✨ 1ο Ημίχ. Over 0.5 (54.8%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
-🏆 Allsvenskan - Sweden|Västerås SK vs Djurgardens IF|10/08 20:00|Over 2.5 (79.6% 1.40) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (61.9%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
-🏆 Allsvenskan - Sweden|IK Sirius vs IF Brommapojkarna|10/08 20:00|Over 2.5 (75.6% 1.47) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (65.5%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
-🏆 Superettan - Sweden|Norrby IF vs Örebro SK|10/08 20:00|Goal / Goal (60.7% 1.83) ✨ 1ο Ημίχ. Over 0.5 (75.3%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
-🏆 Denmark Superliga|Silkeborg IF vs OB Odense BK|10/08 20:00|Over 2.5 (77.9% 1.43) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (65.2%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
-🏆 EFL Cup|Plymouth Argyle vs Exeter City|10/08 22:00|Over 2.5 (79.5% 1.40) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (61.4%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
-🏆 Primeira Liga - Portugal|Santa Clara vs Nacional|10/08 22:15|Under 2.5 (72.5% 1.53) ✨ 1ο Ημίχ. Over 0.5 (56.0%)|🟢🟢🟡🟢🟢|🟢🟢🟡🟢🟢
-🏆 Αργεντινή Primera 🇦🇷|Banfield vs Belgrano de Cordoba|11/08 01:00|Under 2.5 (72.1% 1.54) ✨ 1ο Ημίχ. Over 0.5 (56.3%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
+🏆 Premier League - Russia|FC Fakel Voronezh vs FC Akhmat Grozny|10/08 19:30|Over 1.5 (82.9% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.7%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
+🏆 Allsvenskan - Sweden|Västerås SK vs Djurgardens IF|10/08 20:00|Over 2.5 (78.4% 1.42) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (65.1%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
+🏆 Allsvenskan - Sweden|IK Sirius vs IF Brommapojkarna|10/08 20:00|Over 2.5 (79.3% 1.40) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (60.4%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
+🏆 Superettan - Sweden|Norrby IF vs Örebro SK|10/08 20:00|Goal / Goal (62.7% 1.77) ✨ 1ο Ημίχ. Over 1.5 (40.9%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
+🏆 Denmark Superliga|Silkeborg IF vs OB Odense BK|10/08 20:00|Under 2.5 (52.1% 2.13) ✨ 1ο Ημίχ. Over 0.5 (69.1%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
+🏆 EFL Cup|Plymouth Argyle vs Exeter City|10/08 22:00|Over 2.5 (79.2% 1.40) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (61.9%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
+🏆 Primeira Liga - Portugal|Santa Clara vs Nacional|10/08 22:15|Under 2.5 (75.7% 1.47) ✨ 1ο Ημίχ. Over 0.5 (53.6%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
+🏆 Αργεντινή Primera 🇦🇷|Banfield vs Belgrano de Cordoba|11/08 01:00|Under 2.5 (68.2% 1.63) ✨ 1ο Ημίχ. Over 0.5 (59.1%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
+🏆 Βραζιλία Série B 🇧🇷|Goiás vs Londrina|11/08 01:30|Under 2.5 (73.1% 1.52) ✨ 1ο Ημίχ. Over 0.5 (55.5%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
