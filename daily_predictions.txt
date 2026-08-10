@@ -1,13 +1,14 @@
 STATS|78.2|22.1
-🏆 Premier League - Russia|FC Fakel Voronezh vs FC Akhmat Grozny|10/08 19:30|Over 1.5 (82.9% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.7%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
-🏆 Allsvenskan - Sweden|Västerås SK vs Djurgardens IF|10/08 20:00|Over 2.5 (78.4% 1.42) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (65.1%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
-🏆 Allsvenskan - Sweden|IK Sirius vs IF Brommapojkarna|10/08 20:00|Over 2.5 (79.3% 1.40) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (60.4%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
-🏆 Superettan - Sweden|Norrby IF vs Örebro SK|10/08 20:00|Goal / Goal (62.7% 1.77) ✨ 1ο Ημίχ. Over 1.5 (40.9%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
-🏆 Denmark Superliga|Silkeborg IF vs OB Odense BK|10/08 20:00|Under 2.5 (52.1% 2.13) ✨ 1ο Ημίχ. Over 0.5 (69.1%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
-🏆 EFL Cup|Plymouth Argyle vs Exeter City|10/08 22:00|Over 2.5 (79.2% 1.40) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (61.9%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
-🏆 Primeira Liga - Portugal|Santa Clara vs Nacional|10/08 22:15|Under 2.5 (75.7% 1.47) ✨ 1ο Ημίχ. Over 0.5 (53.6%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
-🏆 Αργεντινή Primera 🇦🇷|Banfield vs Belgrano de Cordoba|11/08 01:00|Under 2.5 (68.2% 1.63) ✨ 1ο Ημίχ. Over 0.5 (59.1%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
-🏆 Βραζιλία Série B 🇧🇷|Goiás vs Londrina|11/08 01:30|Under 2.5 (73.1% 1.52) ✨ 1ο Ημίχ. Over 0.5 (55.5%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
+🏆 Αργεντινή Primera 🇦🇷|Banfield vs Belgrano de Cordoba|11/08 01:00|Under 2.5 (45.3% 2.45) ✨ 1ο Ημίχ. Over 0.5 (72.9%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
+🏆 Βραζιλία Série B 🇧🇷|Goiás vs Londrina|11/08 01:30|Under 2.5 (73.1% 1.52) ✨ 1ο Ημίχ. Over 0.5 (55.6%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
+🏆 Primera División - Chile|Audax Italiano vs Ñublense|11/08 03:00|Under 2.5 (84.7% 1.40) ✨ 1ο Ημίχ. Over 0.5 (45.4%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
+🏆 Αργεντινή Primera 🇦🇷|Union Santa Fe vs Central Córdoba|11/08 03:15|Under 2.5 (75.9% 1.46) ✨ 1ο Ημίχ. Over 0.5 (53.4%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
+🏆 UEFA Champions League Qualification|FC Kairat vs PFC Levski Sofia|11/08 18:00|Under 2.5 (69.9% 1.59) ✨ 1ο Ημίχ. Over 0.5 (57.9%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
+🏆 UEFA Champions League Qualification|Sabah FK vs AGF Aarhus|11/08 19:00|Over 1.5 (87.1% 1.40) ✨ 1ο Ημίχ. Over 1.5 (50.1%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
+🏆 UEFA Champions League Qualification|Bodø/Glimt vs Union Saint-Gilloise|11/08 19:00|Over 2.5 (79.4% 1.40) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (61.0%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
+🏆 UEFA Champions League Qualification|FK Kauno Žalgiris vs Dinamo Zagreb|11/08 20:00|Over 2.5 (75.6% 1.47) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (66.0%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
+🏆 Superettan - Sweden|Helsingborgs IF vs IFK Värnamo|11/08 20:00|Goal / Goal (69.0% 1.61) ✨ 1ο Ημίχ. Over 1.5 (64.4%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
+🏆 UEFA Champions League Qualification|NEC Nijmegen vs Olympiakos Piraeus|11/08 20:30|Over 1.5 (83.7% 1.40) ✨ 1ο Ημίχ. Over 1.5 (43.6%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
