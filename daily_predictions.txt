@@ -1,13 +1,15 @@
 STATS|78.2|22.1
-🏆 UEFA Champions League Qualification|Lyon vs Sparta Prague|11/08 22:00|Under 2.5 (51.3% 2.16) ✨ 1ο Ημίχ. Over 0.5 (69.5%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
-🏆 Copa Sudamericana|Boca Juniors vs Recoleta FC|12/08 01:00|Under 2.5 (47.9% 2.32) ✨ 1ο Ημίχ. Over 0.5 (71.5%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
-🏆 Copa Libertadores|Fluminense-RJ vs Independiente Rivadavia|12/08 01:00|Under 2.5 (74.3% 1.50) ✨ 1ο Ημίχ. Over 0.5 (54.6%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
-🏆 Βραζιλία Série B 🇧🇷|Avai vs Clube de Regatas Brasil|12/08 01:30|Under 2.5 (85.7% 1.40) ✨ 1ο Ημίχ. Over 0.5 (44.3%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
-🏆 Leagues Cup|Charlotte FC vs Pachuca|12/08 02:30|Over 2.5 (78.7% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (58.8%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
-🏆 Leagues Cup|Columbus Crew SC vs Pumas|12/08 02:30|Over 2.5 (78.1% 1.42) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (62.5%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
-🏆 Leagues Cup|FC Cincinnati vs Atlas|12/08 03:00|Goal / Goal (69.2% 1.60) ✨ 1ο Ημίχ. Over 1.5 (66.9%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
-🏆 Αργεντινή Primera 🇦🇷|Talleres vs Lanus|12/08 03:00|Under 2.5 (62.8% 1.77) ✨ 1ο Ημίχ. Over 0.5 (62.7%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
-🏆 Leagues Cup|Minnesota United FC vs Atlante FC|12/08 03:30|Under 2.5 (42.5% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.5%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
+🏆 Copa Sudamericana|Boca Juniors vs Recoleta FC|12/08 01:00|Over 1.5 (85.2% 1.40) ✨ 1ο Ημίχ. Over 1.5 (46.0%)|🟢🟢🟢🟡🔴|🟢🟢🟡🟢🟢
+🏆 Copa Libertadores|Fluminense-RJ vs Independiente Rivadavia|12/08 01:00|Under 2.5 (44.7% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.3%)|🔴🟡🟢🟢🟢|🟢🟢🟢🟡🔴
+🏆 Βραζιλία Série B 🇧🇷|Avai vs Clube de Regatas Brasil|12/08 01:30|Under 2.5 (76.1% 1.46) ✨ 1ο Ημίχ. Over 0.5 (53.2%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
+🏆 Leagues Cup|Charlotte FC vs Pachuca|12/08 02:30|Over 2.5 (78.9% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (63.6%)|🟡🟢🟢🔴🟢|🟢🔴🟢🟢🟡
+🏆 Leagues Cup|Columbus Crew SC vs Pumas|12/08 02:30|Over 2.5 (77.4% 1.44) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (56.8%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
+🏆 Leagues Cup|FC Cincinnati vs Atlas|12/08 03:00|Over 2.5 (78.5% 1.42) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (58.4%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
+🏆 Αργεντινή Primera 🇦🇷|Talleres vs Lanus|12/08 03:00|Under 2.5 (78.3% 1.42) ✨ 1ο Ημίχ. Over 0.5 (51.4%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 Leagues Cup|Minnesota United FC vs Atlante FC|12/08 03:30|Over 1.5 (83.9% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.4%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
+🏆 Copa Sudamericana|Club Bolívar vs Sao Paulo|12/08 03:30|Under 2.5 (45.1% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.1%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
+🏆 Copa Libertadores|Estudiantes La Plata vs Universidad Católica (CHI)|12/08 03:30|Under 2.5 (66.6% 1.67) ✨ 1ο Ημίχ. Over 0.5 (60.1%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
+🏆 Leagues Cup|Real Salt Lake vs FC Juárez|12/08 04:30|Goal / Goal (68.6% 1.62) ✨ 1ο Ημίχ. Over 1.5 (66.1%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
