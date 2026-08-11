@@ -1,15 +1,13 @@
 STATS|78.2|22.1
-🏆 UEFA Champions League Qualification|FC Kairat vs PFC Levski Sofia|11/08 18:00|Over 1.5 (82.5% 1.40) ✨ 1ο Ημίχ. Over 1.5 (42.0%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
-🏆 UEFA Champions League Qualification|Sabah FK vs AGF Aarhus|11/08 19:00|Under 2.5 (47.9% 2.32) ✨ 1ο Ημίχ. Over 0.5 (71.5%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
-🏆 UEFA Champions League Qualification|Bodø/Glimt vs Union Saint-Gilloise|11/08 19:00|Under 2.5 (51.3% 2.17) ✨ 1ο Ημίχ. Over 0.5 (69.5%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
-🏆 UEFA Champions League Qualification|FK Kauno Žalgiris vs Dinamo Zagreb|11/08 20:00|Under 2.5 (55.2% 2.01) ✨ 1ο Ημίχ. Over 0.5 (67.3%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
-🏆 Superettan - Sweden|Helsingborgs IF vs IFK Värnamo|11/08 20:00|Goal / Goal (60.3% 1.84) ✨ 1ο Ημίχ. Over 0.5 (74.6%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
-🏆 UEFA Champions League Qualification|NEC Nijmegen vs Olympiakos Piraeus|11/08 20:30|Over 1.5 (83.9% 1.40) ✨ 1ο Ημίχ. Over 1.5 (44.0%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
-🏆 UEFA Champions League Qualification|Red Star Belgrade vs Hapoel Be'er Sheva|11/08 21:00|Over 2.5 (79.1% 1.40) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (63.6%)|🟢🔴🟢🟢🟡|🟢🟢🟡🟢🟢
-🏆 UEFA Champions League Qualification|NK Celje vs FC Ararat-Armenia|11/08 21:15|Over 2.5 (78.7% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (61.5%)|🟢🟢🟢🟡🔴|🔴🟡🟢🟢🟢
-🏆 UEFA Champions League Qualification|ŠK Slovan Bratislava vs Mjällby AIF|11/08 21:15|Under 2.5 (50.2% 2.22) ✨ 1ο Ημίχ. Over 0.5 (70.2%)|🟢🟢🟢🟡🔴|🟢🟢🟢🟡🔴
-🏆 UEFA Champions League Qualification|SK Sturm Graz vs Fenerbahce|11/08 21:30|Over 2.5 (78.7% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (64.1%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
-🏆 UEFA Champions League Qualification|Lyon vs Sparta Prague|11/08 22:00|Over 2.5 (79.4% 1.40) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (60.7%)|🟢🟢🟢🟡🔴|🟡🟢🟢🔴🟢
+🏆 UEFA Champions League Qualification|Lyon vs Sparta Prague|11/08 22:00|Under 2.5 (51.3% 2.16) ✨ 1ο Ημίχ. Over 0.5 (69.5%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 Copa Sudamericana|Boca Juniors vs Recoleta FC|12/08 01:00|Under 2.5 (47.9% 2.32) ✨ 1ο Ημίχ. Over 0.5 (71.5%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
+🏆 Copa Libertadores|Fluminense-RJ vs Independiente Rivadavia|12/08 01:00|Under 2.5 (74.3% 1.50) ✨ 1ο Ημίχ. Over 0.5 (54.6%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
+🏆 Βραζιλία Série B 🇧🇷|Avai vs Clube de Regatas Brasil|12/08 01:30|Under 2.5 (85.7% 1.40) ✨ 1ο Ημίχ. Over 0.5 (44.3%)|🟢🟢🟢🟡🔴|🟢🔴🟢🟢🟡
+🏆 Leagues Cup|Charlotte FC vs Pachuca|12/08 02:30|Over 2.5 (78.7% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (58.8%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
+🏆 Leagues Cup|Columbus Crew SC vs Pumas|12/08 02:30|Over 2.5 (78.1% 1.42) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (62.5%)|🔴🟡🟢🟢🟢|🟢🟢🟡🟢🟢
+🏆 Leagues Cup|FC Cincinnati vs Atlas|12/08 03:00|Goal / Goal (69.2% 1.60) ✨ 1ο Ημίχ. Over 1.5 (66.9%)|🟢🟢🟡🟢🟢|🟢🔴🟢🟢🟡
+🏆 Αργεντινή Primera 🇦🇷|Talleres vs Lanus|12/08 03:00|Under 2.5 (62.8% 1.77) ✨ 1ο Ημίχ. Over 0.5 (62.7%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
+🏆 Leagues Cup|Minnesota United FC vs Atlante FC|12/08 03:30|Under 2.5 (42.5% 2.45) ✨ 1ο Ημίχ. Over 0.5 (74.5%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
