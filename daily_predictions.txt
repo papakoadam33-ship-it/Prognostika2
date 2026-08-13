@@ -1,13 +1,12 @@
 STATS|78.2|22.1
-🏆 Saudi Pro League|Abha Club vs Al-Hazem|13/08 19:15|Under 2.5 (44.2% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.5%)|🟢🟢🟡🟢🟢|🟢🟢🟢🟡🔴
-🏆 Saudi Pro League|Al-Shabab vs Al-Qadsiah|13/08 21:00|Under 2.5 (45.3% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.0%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
-🏆 Copa Libertadores|Mirassol vs LDU Quito|14/08 01:00|Under 2.5 (73.8% 1.51) ✨ 1ο Ημίχ. Over 0.5 (55.0%)|🟢🔴🟢🟢🟡|🟡🟢🟢🔴🟢
-🏆 Copa Sudamericana|Santos vs Macará|14/08 01:00|Goal / Goal (62.4% 1.78) ✨ 1ο Ημίχ. Over 1.5 (40.8%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
-🏆 Copa Sudamericana|Vasco da Gama vs Olimpia Asunción|14/08 01:00|Under 2.5 (85.8% 1.40) ✨ 1ο Ημίχ. Over 0.5 (44.2%)|🔴🟡🟢🟢🟢|🔴🟡🟢🟢🟢
-🏆 Leagues Cup|Philadelphia Union vs Santos Laguna|14/08 02:00|Over 2.5 (79.2% 1.40) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (63.7%)|🟢🟢🟡🟢🟢|🟡🟢🟢🔴🟢
-🏆 Leagues Cup|New York City FC vs Necaxa|14/08 02:30|Over 2.5 (76.6% 1.45) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (66.4%)|🟢🔴🟢🟢🟡|🟢🟢🟢🟡🔴
-🏆 Leagues Cup|América vs Austin FC|14/08 03:30|Under 2.5 (44.2% 2.45) ✨ 1ο Ημίχ. Over 0.5 (73.6%)|🟡🟢🟢🔴🟢|🟢🟢🟡🟢🟢
-🏆 Copa Sudamericana|Club Cienciano vs Botafogo|14/08 03:30|Goal / Goal (60.6% 1.83) ✨ 1ο Ημίχ. Over 0.5 (74.9%)|🟡🟢🟢🔴🟢|🔴🟡🟢🟢🟢
+🏆 Copa Libertadores|Mirassol vs LDU Quito|14/08 01:00|Under 2.5 (64.0% 1.74) ✨ 1ο Ημίχ. Over 0.5 (61.9%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
+🏆 Copa Sudamericana|Santos vs Macará|14/08 01:00|Goal / Goal (60.9% 1.83) ✨ 1ο Ημίχ. Over 1.5 (40.1%)|🔴🟡🟢🟢🟢|🟡🟢🟢🔴🟢
+🏆 Copa Sudamericana|Vasco da Gama vs Olimpia Asunción|14/08 01:00|Under 2.5 (77.5% 1.43) ✨ 1ο Ημίχ. Over 0.5 (52.0%)|🟢🔴🟢🟢🟡|🟢🔴🟢🟢🟡
+🏆 Leagues Cup|Philadelphia Union vs Santos Laguna|14/08 02:00|Over 2.5 (78.9% 1.41) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (59.2%)|🟢🟢🟡🟢🟢|🔴🟡🟢🟢🟢
+🏆 Leagues Cup|New York City FC vs Necaxa|14/08 02:30|Over 2.5 (75.7% 1.47) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 1.5 (66.6%)|🟡🟢🟢🔴🟢|🟡🟢🟢🔴🟢
+🏆 Leagues Cup|América vs Austin FC|14/08 03:30|Under 2.5 (51.1% 2.18) ✨ 1ο Ημίχ. Over 0.5 (69.7%)|🔴🟡🟢🟢🟢|🟢🔴🟢🟢🟡
+🏆 Copa Sudamericana|Club Cienciano vs Botafogo|14/08 03:30|Goal / Goal (62.7% 1.77) ✨ 1ο Ημίχ. Over 1.5 (41.0%)|🟡🟢🟢🔴🟢|🟢🟢🟢🟡🔴
+🏆 Copa Libertadores|Rosario Central vs Corinthians-SP|14/08 03:30|Under 2.5 (75.1% 1.48) ✨ 1ο Ημίχ. Over 0.5 (54.0%)|🟢🔴🟢🟢🟡|🔴🟡🟢🟢🟢
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
