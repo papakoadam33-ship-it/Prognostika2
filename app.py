@@ -1,5 +1,5 @@
-import streamlit as st
 import os
+import streamlit as st
 
 st.set_page_config(page_title="MARIOS PRO-BET PRO", layout="centered")
 
@@ -38,32 +38,42 @@ st.markdown("""
 
 DATA_FILE = "daily_predictions.txt"
 
-if st.button("🔄 Ανανέωση"):
-    st.rerun()
+col_title, col_btn = st.columns([3, 1])
+with col_title:
+    st.title("⚡ MARIOS PRO-BET PRO")
+with col_btn:
+    st.write("")
+    if st.button("🔄 Ανανέωση"):
+        st.rerun()
 
 if os.path.exists(DATA_FILE):
     with open(DATA_FILE, "r", encoding="utf-8") as f:
-        lines = f.readlines()
+        lines = [line.strip() for line in f.readlines() if line.strip()]
 
-    st.title("⚡ MARIOS PRO-BET PRO")
-    
-    if lines and lines[0].startswith("STATS"):
-        _, wr, yld = lines[0].strip().split("|")
-        col1, col2 = st.columns(2)
-        with col1:
-            st.metric(label="📊 WIN RATE", value=f"{wr}%")
-        with col2:
-            st.metric(label="💰 TOTAL YIELD", value=f"+{yld}%")
-    
-    st.divider()
-
-    # --- ΜΑΖΕΜΑ ΚΑΙ ΤΑΞΙΝΟΜΗΣΗ ΑΓΩΝΩΝ ---
     all_matches = []
+    past_results = []
     has_any_value = False
+    is_results_section = False
 
-    for line in lines[1:]:
-        if line.startswith("🏆"):
-            parts = line.strip().split("|")
+    for line in lines:
+        if line.startswith("STATS"):
+            _, wr, yld = line.split("|")
+            col1, col2 = st.columns(2)
+            with col1:
+                st.metric(label="📊 WIN RATE", value=f"{wr}%")
+            with col2:
+                st.metric(label="💰 TOTAL YIELD", value=f"+{yld}%")
+            st.divider()
+
+        elif "--- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ" in line:
+            is_results_section = True
+            continue
+
+        elif is_results_section:
+            past_results.append(line)
+
+        elif line.startswith("🏆"):
+            parts = line.split("|")
             if len(parts) < 6: continue
             
             prediction = parts[3]
@@ -72,22 +82,29 @@ if os.path.exists(DATA_FILE):
                 
             all_matches.append(parts)
 
-    # Ταξινόμηση με βάση το όνομα του πρωταθλήματος (parts[0]) ώστε να είναι μαζί
+    only_value = st.toggle("🔥 Προβολή μόνο Value Bets")
+
     all_matches.sort(key=lambda x: x[0])
 
     match_count = 0
+    displayed_matches = 0
+
     for parts in all_matches:
         league = parts[0].replace("🏆 ", "")
         teams = parts[1]
         m_time = parts[2]
         prediction = parts[3]
-        raw_home_form = parts[4].strip()
-        raw_away_form = parts[5].strip()
+        raw_home_form = parts[4]
+        raw_away_form = parts[5]
         
         match_count += 1
         is_value = "VALUE BET" in prediction or (not has_any_value and match_count == 1)
         
-        prediction_clean = prediction.replace("🔥 VALUE BET", "").strip()
+        if only_value and not is_value:
+            continue
+
+        displayed_matches += 1
+        prediction_clean = prediction.replace("🔥 VALUE BET IDENTIFIED", "").replace("🔥 VALUE BET", "").strip()
         ht_tip = ""
         
         if "✨" in raw_home_form:
@@ -141,6 +158,16 @@ if os.path.exists(DATA_FILE):
                 st.markdown(f"<span class='info-label'>🏠 Εντός:</span> {home_form}", unsafe_allow_html=True)
             with col_a:
                 st.markdown(f"<span class='info-label'>🚀 Εκτός:</span> {away_form}", unsafe_allow_html=True)
+
+    if displayed_matches == 0:
+        st.info("ℹ️ Δεν βρέθηκαν αγώνες με τα επιλεγμένα φίλτρα.")
+
+    if past_results:
+        st.write("")
+        with st.expander("📜 Πρόσφατα Αποτελέσματα"):
+            for res in past_results:
+                st.write(res)
+
 else:
     st.info("🔄 Πατήστε 'Ανανέωση' για να φορτώσουν οι αγώνες.")
 
