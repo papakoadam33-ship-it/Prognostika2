@@ -100,7 +100,7 @@ if lines:
         prediction = parts[3]
         
         match_count += 1
-        is_value = "VALUE BET" in prediction or (not has_any_value and match_count == 1)
+        is_value = "VALUE BET" in prediction
         
         if only_value and not is_value:
             continue
@@ -138,3 +138,4 @@ if lines:
 
 else:
     st.info("🔄 Πατήστε 'Ανανέωση' για να φορτώσουν οι αγώνες.")
+
