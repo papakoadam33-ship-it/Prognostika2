@@ -7,7 +7,6 @@ st.set_page_config(
     layout="centered"
 )
 
-# Custom CSS για Premium Dark UI & Badges
 st.markdown("""
     <style>
     .stApp {
@@ -24,13 +23,6 @@ st.markdown("""
         font-weight: bold;
         display: inline-block;
         margin-bottom: 10px;
-    }
-    .pred-card {
-        background-color: #0f172a;
-        border: 1px solid #1e293b;
-        border-radius: 10px;
-        padding: 16px;
-        margin-bottom: 15px;
     }
     .tip-tag {
         background-color: #1e293b;
@@ -50,7 +42,6 @@ st.markdown("""
 
 DATA_FILE = "daily_predictions.txt"
 
-# ⚡ Caching για ακαριαία ταχύτητα
 @st.cache_data(ttl=300)
 def load_data():
     if os.path.exists(DATA_FILE):
@@ -58,7 +49,6 @@ def load_data():
             return [line.strip() for line in f.readlines() if line.strip()]
     return []
 
-# Header με τίτλο και κουμπί Ανανέωσης
 col_title, col_btn = st.columns([3, 1])
 with col_title:
     st.title("⚡ MARIOS PRO-BET")
@@ -98,7 +88,6 @@ if lines:
 
     only_value = st.toggle("🔥 Προβολή μόνο Value Bets")
 
-    # Ταξινόμηση ανά Πρωτάθλημα
     all_matches.sort(key=lambda x: x[0])
 
     match_count = 0
@@ -126,18 +115,14 @@ if lines:
             ht_tip = pred_parts[1].strip()
 
         with st.container(border=True):
-            # Όνομα Αγώνα & Στοιχεία
             st.subheader(teams)
             st.caption(f"🏆 {league}  •  ⏰ Ώρα: {m_time}")
             
-            # Badge αν είναι Value Bet
             if is_value:
                 st.markdown('<div class="value-badge">🔥 VALUE BET IDENTIFIED</div>', unsafe_allow_html=True)
             
-            # Κύριο Σημείο
             st.markdown(f"**🎯 Κύριο Σημείο:** <span class='tip-tag'>{prediction_clean}</span>", unsafe_allow_html=True)
             
-            # Combo / 1o Ημίχρονο Tip
             if ht_tip:
                 st.write("")
                 st.markdown(f"**⚡ Combo Tip:** <span class='ht-tag'>{ht_tip}</span>", unsafe_allow_html=True)
@@ -145,7 +130,6 @@ if lines:
     if displayed_matches == 0:
         st.info("ℹ️ Δεν βρέθηκαν αγώνες με τα επιλεγμένα φίλτρα.")
 
-    # Πρόσφατα Αποτελέσματα
     if past_results:
         st.write("")
         with st.expander("📜 Πρόσφατα Αποτελέσματα"):
