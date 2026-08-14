@@ -29,10 +29,6 @@ st.markdown("""
         margin-bottom: 10px;
         color: #fff;
     }
-    .info-label {
-        font-weight: bold;
-        color: #94a3b8;
-    }
     </style>
     """, unsafe_allow_html=True)
 
@@ -56,7 +52,6 @@ if os.path.exists(DATA_FILE):
     is_results_section = False
 
     for line in lines:
-        # Προσπερνάμε τα STATS για να μην εμφανίζονται τα ποσοστά 78.2% & 22.1%
         if line.startswith("STATS"):
             continue
 
@@ -69,7 +64,7 @@ if os.path.exists(DATA_FILE):
 
         elif line.startswith("🏆"):
             parts = line.split("|")
-            if len(parts) < 6: continue
+            if len(parts) < 4: continue
             
             prediction = parts[3]
             if "VALUE BET" in prediction:
@@ -89,8 +84,6 @@ if os.path.exists(DATA_FILE):
         teams = parts[1]
         m_time = parts[2]
         prediction = parts[3]
-        raw_home_form = parts[4]
-        raw_away_form = parts[5]
         
         match_count += 1
         is_value = "VALUE BET" in prediction or (not has_any_value and match_count == 1)
@@ -102,33 +95,10 @@ if os.path.exists(DATA_FILE):
         prediction_clean = prediction.replace("🔥 VALUE BET IDENTIFIED", "").replace("🔥 VALUE BET", "").strip()
         ht_tip = ""
         
-        if "✨" in raw_home_form:
-            form_parts = raw_home_form.split("✨")
-            extra_odd = form_parts[0].strip()
-            if extra_odd and not any(c in extra_odd for c in ["🟢", "🔴", "🟡"]):
-                prediction_clean += " " + extra_odd
-            ht_tip = form_parts[1].strip()
-            combined_forms = raw_away_form
-        elif "✨" in prediction_clean:
+        if "✨" in prediction_clean:
             pred_parts = prediction_clean.split("✨")
             prediction_clean = pred_parts[0].strip()
             ht_tip = pred_parts[1].strip()
-            combined_forms = raw_home_form
-        else:
-            combined_forms = raw_home_form
-
-        combined_forms = combined_forms.replace("vs", "").replace(" ", "")
-        all_emojis = [char for char in combined_forms if char in ["🟢", "🔴", "🟡"]]
-        
-        if len(all_emojis) >= 10:
-            home_form = "".join(all_emojis[:5])
-            away_form = "".join(all_emojis[5:10])
-        elif len(all_emojis) == 5:
-            home_form = "".join(all_emojis)
-            away_form = "🟡🟡🟡🟡🟡"
-        else:
-            home_form = "🟡🟡🟡🟡🟡"
-            away_form = "🟡🟡🟡🟡🟡"
 
         with st.container(border=True):
             st.subheader(teams)
@@ -145,14 +115,6 @@ if os.path.exists(DATA_FILE):
             
             if ht_tip:
                 st.warning(f"**⚡ Combo Tip:** {ht_tip}")
-            
-            st.divider()
-            
-            col_h, col_a = st.columns(2)
-            with col_h:
-                st.markdown(f"<span class='info-label'>🏠 Εντός:</span> {home_form}", unsafe_allow_html=True)
-            with col_a:
-                st.markdown(f"<span class='info-label'>🚀 Εκτός:</span> {away_form}", unsafe_allow_html=True)
 
     if displayed_matches == 0:
         st.info("ℹ️ Δεν βρέθηκαν αγώνες με τα επιλεγμένα φίλτρα.")
@@ -165,3 +127,4 @@ if os.path.exists(DATA_FILE):
 
 else:
     st.info("🔄 Πατήστε 'Ανανέωση' για να φορτώσουν οι αγώνες.")
+
