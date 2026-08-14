@@ -43,7 +43,7 @@ def estimate_lambdas_from_odds(over_odd, under_odd):
     p_over_real = raw_p_over / margin
     
     if p_over_real > 0.60:
-        total_xg = 3.1
+        total_xg = 3.2
     elif p_over_real > 0.50:
         total_xg = 2.7
     elif p_over_real > 0.40:
@@ -146,28 +146,28 @@ if matches:
         home_lambda, away_lambda = estimate_lambdas_from_odds(bookie_over_25_odd, bookie_under_25_odd)
         p_over, p_under, p_gg, p_ht_over05, p_ht_over15, p_over15 = calculate_advanced_preds(home_lambda, away_lambda)
         
-        # 1. Επιλογή του καταλληλότερου σημείου βάσει αλγορίθμου Poisson
-        if p_over > 52.0: 
+        # 1. Ρεαλιστικά όρια επιλογής σημείου (Ισορροπημένη ποικιλία)
+        if p_over >= 48.0: 
             best_tip, best_prob = "Over 2.5", p_over
             final_odd = bookie_over_25_odd
-        elif p_over15 > 75.0: 
-            best_tip, best_prob = "Over 1.5", p_over15
-            final_odd = max(1.30, bookie_over_25_odd * 0.72)
-        elif p_gg > 50.0: 
+        elif p_gg >= 50.0 and p_over15 >= 68.0: 
             best_tip, best_prob = "Goal / Goal", p_gg
             final_odd = 1.85
+        elif p_over15 >= 68.0: 
+            best_tip, best_prob = "Over 1.5", p_over15
+            final_odd = max(1.28, bookie_over_25_odd * 0.70)
         else: 
             best_tip, best_prob = "Under 2.5", p_under
             final_odd = bookie_under_25_odd
         
-        # 2. Implied Probability (Πιθανότητα Στοιχηματικής % - Επιλογή Γ)
+        # 2. Implied Probability (Πιθανότητα Στοιχηματικής %)
         implied_prob = (1.0 / final_odd * 100) if final_odd > 0 else 0.0
 
-        # 3. Σωστός υπολογισμός VALUE BET (Σύγκριση Poisson vs Bookie)
+        # 3. Αυστηρός υπολογισμός VALUE BET (Απαιτείται >12% διαφορά)
         fair_odd_poisson = 100.0 / best_prob if best_prob > 0 else 99.0
         
         value_tag = ""
-        if final_odd >= (fair_odd_poisson * 1.05):
+        if final_odd >= (fair_odd_poisson * 1.12):
             value_tag = " 🔥 VALUE BET IDENTIFIED"
 
         # Combo Tip 1ου Ημιχρόνου
