@@ -56,14 +56,9 @@ if os.path.exists(DATA_FILE):
     is_results_section = False
 
     for line in lines:
+        # Προσπερνάμε τα STATS για να μην εμφανίζονται τα ποσοστά 78.2% & 22.1%
         if line.startswith("STATS"):
-            _, wr, yld = line.split("|")
-            col1, col2 = st.columns(2)
-            with col1:
-                st.metric(label="📊 WIN RATE", value=f"{wr}%")
-            with col2:
-                st.metric(label="💰 TOTAL YIELD", value=f"+{yld}%")
-            st.divider()
+            continue
 
         elif "--- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ" in line:
             is_results_section = True
@@ -170,4 +165,3 @@ if os.path.exists(DATA_FILE):
 
 else:
     st.info("🔄 Πατήστε 'Ανανέωση' για να φορτώσουν οι αγώνες.")
-
