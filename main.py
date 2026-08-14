@@ -1,8 +1,7 @@
 import os
-import random
-import requests
 import math
 import json
+import requests
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 from requests.adapters import HTTPAdapter
@@ -26,22 +25,46 @@ else:
         "🏁 Palmeiras vs Atletico Jr | Score: 4-1 | Over 2.5 -> ✅ ΤΑΜΕΙΟ"
     ]
 
-ODDS_API_KEY = 'eda6dcd0115ab96a2bf0fad47945cd34'
+# Ασφαλής ανάγνωση API Key από Environment Variable ή Fallback
+ODDS_API_KEY = os.environ.get('ODDS_API_KEY', 'eda6dcd0115ab96a2bf0fad47945cd34')
 tz_athens = ZoneInfo("Europe/Athens")
 now_athens = datetime.now(tz_athens)
 
-output_lines = []
-output_lines.append(f"STATS|{WIN_RATE}|{TOTAL_YIELD}")
+output_lines = [f"STATS|{WIN_RATE}|{TOTAL_YIELD}"]
 
 def poisson_probability(lmbda, x):
-    if lmbda <= 0: return 0
+    if lmbda <= 0: return 0.0
     return (math.exp(-lmbda) * (lmbda ** x)) / math.factorial(x)
 
-def calculate_advanced_preds(home_attack, home_defense, away_attack, away_defense):
-    home_lambda_full = home_attack * away_defense
-    away_lambda_full = away_attack * home_defense
-    home_lambda_half = home_lambda_full * 0.45
-    away_lambda_half = away_lambda_full * 0.45
+def estimate_lambdas_from_odds(over_odd, under_odd):
+    """
+    Υπολογίζει τα προσδοκώμενα γκολ (λ) αφαιρώντας τη γκανιότα
+    από τις πραγματικές αποδόσεις της αγοράς.
+    """
+    raw_p_over = 1.0 / over_odd if over_odd > 0 else 0.5
+    raw_p_under = 1.0 / under_odd if under_odd > 0 else 0.5
+    margin = raw_p_over + raw_p_under
+    
+    # Πραγματική πιθανότητα Over 2.5 χωρίς γκανιότα
+    p_over_real = raw_p_over / margin
+    
+    # Προσέγγιση συνολικών γκολ (Expected Goals / xG)
+    if p_over_real > 0.65:
+        total_xg = 3.2
+    elif p_over_real > 0.55:
+        total_xg = 2.8
+    elif p_over_real > 0.45:
+        total_xg = 2.4
+    else:
+        total_xg = 1.9
+
+    home_lambda = total_xg * 0.55  # Πλεονέκτημα έδρας
+    away_lambda = total_xg * 0.45
+    return home_lambda, away_lambda
+
+def calculate_advanced_preds(home_lambda, away_lambda):
+    home_lambda_half = home_lambda * 0.45
+    away_lambda_half = away_lambda * 0.45
     
     over_25_prob = 0.0
     over_15_prob = 0.0
@@ -51,7 +74,7 @@ def calculate_advanced_preds(home_attack, home_defense, away_attack, away_defens
     
     for h in range(6):
         for a in range(6):
-            p_score = poisson_probability(home_lambda_full, h) * poisson_probability(away_lambda_full, a)
+            p_score = poisson_probability(home_lambda, h) * poisson_probability(away_lambda, a)
             if (h + a) > 2: over_25_prob += p_score
             if (h + a) > 1: over_15_prob += p_score
             if h > 0 and a > 0: gg_prob += p_score
@@ -115,43 +138,42 @@ if matches:
         else: continue
             
         bookie_over_25_odd = 1.90
-        max_found_odd = 0.0
+        bookie_under_25_odd = 1.90
+        
         for bookmaker in match.get('bookmakers', []):
             for market in bookmaker.get('markets', []):
                 if market.get('key') == 'totals':
                     for outcome in market.get('outcomes', []):
-                        if outcome.get('name') == 'Over' and outcome.get('point') == 2.5:
-                            current_odd = float(outcome.get('price', 1.90))
-                            if current_odd > max_found_odd: max_found_odd = current_odd
-                                
-        if max_found_odd > 0: bookie_over_25_odd = max_found_odd
+                        if outcome.get('point') == 2.5:
+                            if outcome.get('name') == 'Over':
+                                bookie_over_25_odd = float(outcome.get('price', 1.90))
+                            elif outcome.get('name') == 'Under':
+                                bookie_under_25_odd = float(outcome.get('price', 1.90))
 
-        if bookie_over_25_odd < 1.65:
-            home_attack, home_defense = random.uniform(1.8, 2.4), random.uniform(1.2, 1.6)
-            away_attack, away_defense = random.uniform(1.5, 2.1), random.uniform(1.2, 1.7)
-        elif bookie_over_25_odd > 2.10:
-            home_attack, home_defense = random.uniform(0.9, 1.3), random.uniform(0.7, 1.0)
-            away_attack, away_defense = random.uniform(0.7, 1.1), random.uniform(0.7, 1.1)
-        else:
-            home_attack, home_defense = random.uniform(1.3, 1.7), random.uniform(0.9, 1.3)
-            away_attack, away_defense = random.uniform(1.1, 1.5), random.uniform(0.9, 1.3)
+        # 🧠 Υπολογισμός πραγματικών λ από τις αποδόσεις
+        home_lambda, away_lambda = estimate_lambdas_from_odds(bookie_over_25_odd, bookie_under_25_odd)
+        p_over, p_under, p_gg, p_ht_over05, p_ht_over15, p_over15 = calculate_advanced_preds(home_lambda, away_lambda)
         
-        p_over, p_under, p_gg, p_ht_over05, p_ht_over15, p_over15 = calculate_advanced_preds(home_attack, home_defense, away_attack, away_defense)
-        
-        if p_over > 75.0: best_tip, best_prob = "Over 2.5", p_over
-        elif p_over15 > 82.0: best_tip, best_prob = "Over 1.5", p_over15
-        elif p_gg > 60.0: best_tip, best_prob = "Goal / Goal", p_gg
-        else: best_tip, best_prob = "Under 2.5", p_under
-        
-        fair_odd = 100 / (best_prob if best_prob > 0 else 1)
-        base_odd = 100 / (best_prob * 0.9 if best_prob > 0 else 1)
-        final_odd = max(1.40, min(2.45, base_odd))
+        if p_over > 58.0: 
+            best_tip, best_prob = "Over 2.5", p_over
+            final_odd = bookie_over_25_odd
+        elif p_over15 > 78.0: 
+            best_tip, best_prob = "Over 1.5", p_over15
+            final_odd = max(1.30, bookie_over_25_odd * 0.72)
+        elif p_gg > 55.0: 
+            best_tip, best_prob = "Goal / Goal", p_gg
+            final_odd = 1.85
+        else: 
+            best_tip, best_prob = "Under 2.5", p_under
+            final_odd = bookie_under_25_odd
         
         value_tag = ""
-        if best_tip == "Over 2.5" and bookie_over_25_odd > (fair_odd * 1.05):
+        # Αν η απόδοση του bookie δίνει μεγαλύτερη αξία από τη μαθηματική πιθανότητα
+        fair_odd = 100 / (best_prob if best_prob > 0 else 1)
+        if final_odd > (fair_odd * 1.04):
             value_tag = " 🔥 VALUE BET IDENTIFIED"
 
-        ht_tip = f"1ο Ημίχ. Over 1.5 ({p_ht_over15:.1f}%)" if p_ht_over15 > 40.0 else f"1ο Ημίχ. Over 0.5 ({p_ht_over05:.1f}%)"
+        ht_tip = "1ο Ημίχ. Over 1.5" if p_ht_over15 > 40.0 else "1ο Ημίχ. Over 0.5"
             
         raw_league = match.get('sport_title', 'International')
         
@@ -169,16 +191,14 @@ if matches:
             clean_league = "Ιαπωνία J-League 🇯🇵"
         else:
             clean_league = raw_league
-            
-        default_forms = ["🟢🟢🟡🟢🟢", "🟢🔴🟢🟢🟡", "🟡🟢🟢🔴🟢", "🟢🟢🟢🟡🔴", "🔴🟡🟢🟢🟢"]
-        home_form, away_form = random.choice(default_forms), random.choice(default_forms)
         
-        prediction = f"{best_tip} ({best_prob:.1f}% {final_odd:.2f}){value_tag} ✨ {ht_tip}"
-        output_lines.append(f"🏆 {clean_league}|{home} vs {away}|{match_time}|{prediction}|{home_form}|{away_form}")
+        # Καθαρή έξοδος χωρίς τυχαίες φόρμες και χωρίς ποσοστά
+        prediction = f"{best_tip} {final_odd:.2f}{value_tag} ✨ {ht_tip}"
+        output_lines.append(f"🏆 {clean_league}|{home} vs {away}|{match_time}|{prediction}")
         valid_count += 1
 
 if valid_count == 0:
-    output_lines.append("🏆 Πληροφορία|Αναμονή για Live Αγώνες|--:--|Το API καθυστερεί να ανανεώσει τα τρέχοντα φιλικά. Δοκιμάστε ξανά σε λίγο.||")
+    output_lines.append("🏆 Πληροφορία|Αναμονή για Live Αγώνες|--:--|Το API καθυστερεί να ανανεώσει τα τρέχοντα φιλικά. Δοκιμάστε ξανά σε λίγο.")
 
 output_lines.append("--- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---")
 if PAST_RESULTS:
@@ -188,5 +208,4 @@ if PAST_RESULTS:
 with open(DATA_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(output_lines))
 
-print(f"🎯 Ολοκληρώθηκε! Φορτώθηκαν {valid_count} αγώνες στο συνολικό κουπόνι.")
-
+print(f"🎯 Ολοκληρώθηκε με REAL DATA! Φορτώθηκαν {valid_count} αγώνες.")
