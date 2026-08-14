@@ -25,7 +25,6 @@ else:
         "🏁 Palmeiras vs Atletico Jr | Score: 4-1 | Over 2.5 -> ✅ ΤΑΜΕΙΟ"
     ]
 
-# Ασφαλής ανάγνωση API Key από Environment Variable ή Fallback
 ODDS_API_KEY = os.environ.get('ODDS_API_KEY', 'eda6dcd0115ab96a2bf0fad47945cd34')
 tz_athens = ZoneInfo("Europe/Athens")
 now_athens = datetime.now(tz_athens)
@@ -37,18 +36,12 @@ def poisson_probability(lmbda, x):
     return (math.exp(-lmbda) * (lmbda ** x)) / math.factorial(x)
 
 def estimate_lambdas_from_odds(over_odd, under_odd):
-    """
-    Υπολογίζει τα προσδοκώμενα γκολ (λ) αφαιρώντας τη γκανιότα
-    από τις πραγματικές αποδόσεις της αγοράς.
-    """
     raw_p_over = 1.0 / over_odd if over_odd > 0 else 0.5
     raw_p_under = 1.0 / under_odd if under_odd > 0 else 0.5
     margin = raw_p_over + raw_p_under
     
-    # Πραγματική πιθανότητα Over 2.5 χωρίς γκανιότα
     p_over_real = raw_p_over / margin
     
-    # Προσέγγιση συνολικών γκολ (Expected Goals / xG)
     if p_over_real > 0.65:
         total_xg = 3.2
     elif p_over_real > 0.55:
@@ -58,7 +51,7 @@ def estimate_lambdas_from_odds(over_odd, under_odd):
     else:
         total_xg = 1.9
 
-    home_lambda = total_xg * 0.55  # Πλεονέκτημα έδρας
+    home_lambda = total_xg * 0.55
     away_lambda = total_xg * 0.45
     return home_lambda, away_lambda
 
@@ -150,7 +143,6 @@ if matches:
                             elif outcome.get('name') == 'Under':
                                 bookie_under_25_odd = float(outcome.get('price', 1.90))
 
-        # 🧠 Υπολογισμός πραγματικών λ από τις αποδόσεις
         home_lambda, away_lambda = estimate_lambdas_from_odds(bookie_over_25_odd, bookie_under_25_odd)
         p_over, p_under, p_gg, p_ht_over05, p_ht_over15, p_over15 = calculate_advanced_preds(home_lambda, away_lambda)
         
@@ -168,12 +160,17 @@ if matches:
             final_odd = bookie_under_25_odd
         
         value_tag = ""
-        # Αν η απόδοση του bookie δίνει μεγαλύτερη αξία από τη μαθηματική πιθανότητα
         fair_odd = 100 / (best_prob if best_prob > 0 else 1)
         if final_odd > (fair_odd * 1.04):
             value_tag = " 🔥 VALUE BET IDENTIFIED"
 
-        ht_tip = "1ο Ημίχ. Over 1.5" if p_ht_over15 > 40.0 else "1ο Ημίχ. Over 0.5"
+        # 🎯 Υπολογισμός Implied Probability (Πιθανότητα Στοιχηματικής - Επιλογή Γ)
+        implied_prob = (1.0 / final_odd * 100) if final_odd > 0 else 0.0
+
+        ht_odd = 1.35 if p_ht_over15 > 40.0 else 1.22
+        ht_implied_prob = (1.0 / ht_odd * 100)
+
+        ht_tip = f"1ο Ημίχ. Over 1.5 ({ht_implied_prob:.1f}%)" if p_ht_over15 > 40.0 else f"1ο Ημίχ. Over 0.5 ({ht_implied_prob:.1f}%)"
             
         raw_league = match.get('sport_title', 'International')
         
@@ -192,8 +189,8 @@ if matches:
         else:
             clean_league = raw_league
         
-        # Καθαρή έξοδος χωρίς τυχαίες φόρμες και χωρίς ποσοστά
-        prediction = f"{best_tip} {final_odd:.2f}{value_tag} ✨ {ht_tip}"
+        # Format: Over 1.5 1.40 (71.4%)
+        prediction = f"{best_tip} {final_odd:.2f} ({implied_prob:.1f}%){value_tag} ✨ {ht_tip}"
         output_lines.append(f"🏆 {clean_league}|{home} vs {away}|{match_time}|{prediction}")
         valid_count += 1
 
@@ -208,4 +205,5 @@ if PAST_RESULTS:
 with open(DATA_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(output_lines))
 
-print(f"🎯 Ολοκληρώθηκε με REAL DATA! Φορτώθηκαν {valid_count} αγώνες.")
+print(f"🎯 Ολοκληρώθηκε με REAL DATA & IMPLIED PROBABILITIES! Φορτώθηκαν {valid_count} αγώνες.")
+
