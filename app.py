@@ -1,51 +1,76 @@
 import os
 import streamlit as st
 
-st.set_page_config(page_title="MARIOS PRO-BET PRO", layout="centered")
+st.set_page_config(
+    page_title="MARIOS PRO-BET PRO", 
+    page_icon="⚡", 
+    layout="centered"
+)
 
+# Custom CSS για Premium Dark UI & Badges
 st.markdown("""
     <style>
     .stApp {
         background-color: #020617;
         color: #f8fafc;
     }
-    .value-box {
-        background-color: rgba(245, 158, 11, 0.15);
-        border-left: 5px solid #f59e0b;
-        padding: 12px;
-        border-radius: 6px;
+    .value-badge {
+        background-color: rgba(245, 158, 11, 0.2);
+        border: 1px solid #f59e0b;
+        color: #fbbf24;
+        padding: 6px 12px;
+        border-radius: 20px;
+        font-size: 0.85rem;
         font-weight: bold;
-        margin-top: 5px;
+        display: inline-block;
         margin-bottom: 10px;
-        color: #fff;
     }
-    .custom-pred-box {
+    .pred-card {
         background-color: #0f172a;
         border: 1px solid #1e293b;
-        border-left: 5px solid #06b6d4;
-        padding: 15px;
+        border-radius: 10px;
+        padding: 16px;
+        margin-bottom: 15px;
+    }
+    .tip-tag {
+        background-color: #1e293b;
+        color: #38bdf8;
+        padding: 4px 10px;
         border-radius: 6px;
-        margin-top: 5px;
-        margin-bottom: 10px;
-        color: #fff;
+        font-weight: bold;
+        font-size: 0.95rem;
+    }
+    .ht-tag {
+        color: #f43f5e;
+        font-weight: bold;
+        font-size: 0.85rem;
     }
     </style>
     """, unsafe_allow_html=True)
 
 DATA_FILE = "daily_predictions.txt"
 
+# ⚡ Caching για ακαριαία ταχύτητα
+@st.cache_data(ttl=300)
+def load_data():
+    if os.path.exists(DATA_FILE):
+        with open(DATA_FILE, "r", encoding="utf-8") as f:
+            return [line.strip() for line in f.readlines() if line.strip()]
+    return []
+
+# Header με τίτλο και κουμπί Ανανέωσης
 col_title, col_btn = st.columns([3, 1])
 with col_title:
-    st.title("⚡ MARIOS PRO-BET PRO")
+    st.title("⚡ MARIOS PRO-BET")
 with col_btn:
     st.write("")
     if st.button("🔄 Ανανέωση"):
+        st.cache_data.clear()
         st.rerun()
 
-if os.path.exists(DATA_FILE):
-    with open(DATA_FILE, "r", encoding="utf-8") as f:
-        lines = [line.strip() for line in f.readlines() if line.strip()]
+lines = load_data()
 
+if lines:
     all_matches = []
     past_results = []
     has_any_value = False
@@ -66,14 +91,14 @@ if os.path.exists(DATA_FILE):
             parts = line.split("|")
             if len(parts) < 4: continue
             
-            prediction = parts[3]
-            if "VALUE BET" in prediction:
+            if "VALUE BET" in parts[3]:
                 has_any_value = True
                 
             all_matches.append(parts)
 
     only_value = st.toggle("🔥 Προβολή μόνο Value Bets")
 
+    # Ταξινόμηση ανά Πρωτάθλημα
     all_matches.sort(key=lambda x: x[0])
 
     match_count = 0
@@ -101,24 +126,26 @@ if os.path.exists(DATA_FILE):
             ht_tip = pred_parts[1].strip()
 
         with st.container(border=True):
+            # Όνομα Αγώνα & Στοιχεία
             st.subheader(teams)
             st.caption(f"🏆 {league}  •  ⏰ Ώρα: {m_time}")
             
+            # Badge αν είναι Value Bet
             if is_value:
-                st.markdown('<div class="value-box">🔥 VALUE BET IDENTIFIED</div>', unsafe_allow_html=True)
+                st.markdown('<div class="value-badge">🔥 VALUE BET IDENTIFIED</div>', unsafe_allow_html=True)
             
-            st.markdown(f"""
-                <div class="custom-pred-box">
-                    <strong>Κύριο Σημείο:</strong> {prediction_clean}
-                </div>
-            """, unsafe_allow_html=True)
+            # Κύριο Σημείο
+            st.markdown(f"**🎯 Κύριο Σημείο:** <span class='tip-tag'>{prediction_clean}</span>", unsafe_allow_html=True)
             
+            # Combo / 1o Ημίχρονο Tip
             if ht_tip:
-                st.warning(f"**⚡ Combo Tip:** {ht_tip}")
+                st.write("")
+                st.markdown(f"**⚡ Combo Tip:** <span class='ht-tag'>{ht_tip}</span>", unsafe_allow_html=True)
 
     if displayed_matches == 0:
         st.info("ℹ️ Δεν βρέθηκαν αγώνες με τα επιλεγμένα φίλτρα.")
 
+    # Πρόσφατα Αποτελέσματα
     if past_results:
         st.write("")
         with st.expander("📜 Πρόσφατα Αποτελέσματα"):
