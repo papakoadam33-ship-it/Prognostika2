@@ -42,14 +42,14 @@ def estimate_lambdas_from_odds(over_odd, under_odd):
     
     p_over_real = raw_p_over / margin
     
-    if p_over_real > 0.65:
-        total_xg = 3.2
-    elif p_over_real > 0.55:
-        total_xg = 2.8
-    elif p_over_real > 0.45:
-        total_xg = 2.4
+    if p_over_real > 0.60:
+        total_xg = 3.1
+    elif p_over_real > 0.50:
+        total_xg = 2.7
+    elif p_over_real > 0.40:
+        total_xg = 2.3
     else:
-        total_xg = 1.9
+        total_xg = 1.8
 
     home_lambda = total_xg * 0.55
     away_lambda = total_xg * 0.45
@@ -146,30 +146,33 @@ if matches:
         home_lambda, away_lambda = estimate_lambdas_from_odds(bookie_over_25_odd, bookie_under_25_odd)
         p_over, p_under, p_gg, p_ht_over05, p_ht_over15, p_over15 = calculate_advanced_preds(home_lambda, away_lambda)
         
-        if p_over > 58.0: 
+        # 1. Επιλογή του καταλληλότερου σημείου βάσει αλγορίθμου Poisson
+        if p_over > 52.0: 
             best_tip, best_prob = "Over 2.5", p_over
             final_odd = bookie_over_25_odd
-        elif p_over15 > 78.0: 
+        elif p_over15 > 75.0: 
             best_tip, best_prob = "Over 1.5", p_over15
             final_odd = max(1.30, bookie_over_25_odd * 0.72)
-        elif p_gg > 55.0: 
+        elif p_gg > 50.0: 
             best_tip, best_prob = "Goal / Goal", p_gg
             final_odd = 1.85
         else: 
             best_tip, best_prob = "Under 2.5", p_under
             final_odd = bookie_under_25_odd
         
-        value_tag = ""
-        fair_odd = 100 / (best_prob if best_prob > 0 else 1)
-        if final_odd > (fair_odd * 1.04):
-            value_tag = " 🔥 VALUE BET IDENTIFIED"
-
-        # 🎯 Υπολογισμός Implied Probability (Πιθανότητα Στοιχηματικής - Επιλογή Γ)
+        # 2. Implied Probability (Πιθανότητα Στοιχηματικής % - Επιλογή Γ)
         implied_prob = (1.0 / final_odd * 100) if final_odd > 0 else 0.0
 
+        # 3. Σωστός υπολογισμός VALUE BET (Σύγκριση Poisson vs Bookie)
+        fair_odd_poisson = 100.0 / best_prob if best_prob > 0 else 99.0
+        
+        value_tag = ""
+        if final_odd >= (fair_odd_poisson * 1.05):
+            value_tag = " 🔥 VALUE BET IDENTIFIED"
+
+        # Combo Tip 1ου Ημιχρόνου
         ht_odd = 1.35 if p_ht_over15 > 40.0 else 1.22
         ht_implied_prob = (1.0 / ht_odd * 100)
-
         ht_tip = f"1ο Ημίχ. Over 1.5 ({ht_implied_prob:.1f}%)" if p_ht_over15 > 40.0 else f"1ο Ημίχ. Over 0.5 ({ht_implied_prob:.1f}%)"
             
         raw_league = match.get('sport_title', 'International')
@@ -189,7 +192,6 @@ if matches:
         else:
             clean_league = raw_league
         
-        # Format: Over 1.5 1.40 (71.4%)
         prediction = f"{best_tip} {final_odd:.2f} ({implied_prob:.1f}%){value_tag} ✨ {ht_tip}"
         output_lines.append(f"🏆 {clean_league}|{home} vs {away}|{match_time}|{prediction}")
         valid_count += 1
@@ -205,5 +207,4 @@ if PAST_RESULTS:
 with open(DATA_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(output_lines))
 
-print(f"🎯 Ολοκληρώθηκε με REAL DATA & IMPLIED PROBABILITIES! Φορτώθηκαν {valid_count} αγώνες.")
-
+print(f"🎯 Ολοκληρώθηκε επιτυχώς! Φορτώθηκαν {valid_count} αγώνες.")
