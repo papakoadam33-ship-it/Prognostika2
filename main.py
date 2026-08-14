@@ -83,8 +83,8 @@ for sport in SPORT_KEYS:
             data = res.json()
             if isinstance(data, list):
                 matches.extend(data)
-    except:
-        pass
+    except Exception as e:
+        print(f"Error fetching {sport}: {e}")
 
 valid_count = 0
 min_time = now_athens - timedelta(hours=3)
@@ -155,7 +155,6 @@ if matches:
             
         raw_league = match.get('sport_title', 'International')
         
-        # 🔄 ΕΞΥΠΝΗ ΜΕΤΑΦΡΑΣΗ & ΦΙΛΤΡΑΡΙΣΜΑ (Κρατάει τα πάντα, ομορφαινει τα δικά σου)
         if "Brazil Serie B" in raw_league or "Brazil Série B" in raw_league:
             clean_league = "Βραζιλία Série B 🇧🇷"
         elif "Argentina" in raw_league:
@@ -169,7 +168,7 @@ if matches:
         elif "J-League" in raw_league or "Japan" in raw_league:
             clean_league = "Ιαπωνία J-League 🇯🇵"
         else:
-            clean_league = raw_league # Κρατάει οποιοδήποτε άλλο πρωτάθλημα δώσει το API
+            clean_league = raw_league
             
         default_forms = ["🟢🟢🟡🟢🟢", "🟢🔴🟢🟢🟡", "🟡🟢🟢🔴🟢", "🟢🟢🟢🟡🔴", "🔴🟡🟢🟢🟢"]
         home_form, away_form = random.choice(default_forms), random.choice(default_forms)
@@ -190,3 +189,4 @@ with open(DATA_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(output_lines))
 
 print(f"🎯 Ολοκληρώθηκε! Φορτώθηκαν {valid_count} αγώνες στο συνολικό κουπόνι.")
+
