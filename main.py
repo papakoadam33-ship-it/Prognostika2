@@ -42,17 +42,18 @@ def estimate_lambdas_from_odds(over_odd, under_odd):
     
     p_over_real = raw_p_over / margin
     
-    if p_over_real > 0.60:
-        total_xg = 3.2
-    elif p_over_real > 0.50:
-        total_xg = 2.7
-    elif p_over_real > 0.40:
-        total_xg = 2.3
+    # Ευαίσθητη κλίμακα υπολογισμού xG για ποικιλία στα σημεία
+    if p_over_real > 0.55:
+        total_xg = 3.3
+    elif p_over_real > 0.48:
+        total_xg = 2.85
+    elif p_over_real > 0.42:
+        total_xg = 2.45
     else:
-        total_xg = 1.8
+        total_xg = 1.95
 
-    home_lambda = total_xg * 0.55
-    away_lambda = total_xg * 0.45
+    home_lambda = total_xg * 0.54
+    away_lambda = total_xg * 0.46
     return home_lambda, away_lambda
 
 def calculate_advanced_preds(home_lambda, away_lambda):
@@ -146,14 +147,14 @@ if matches:
         home_lambda, away_lambda = estimate_lambdas_from_odds(bookie_over_25_odd, bookie_under_25_odd)
         p_over, p_under, p_gg, p_ht_over05, p_ht_over15, p_over15 = calculate_advanced_preds(home_lambda, away_lambda)
         
-        # 1. Ρεαλιστικά όρια επιλογής σημείου (Ισορροπημένη ποικιλία)
-        if p_over >= 48.0: 
+        # 1. Νέα, ισορροπημένα όρια επιλογής για ποικιλία προγνωστικών
+        if p_over >= 45.0: 
             best_tip, best_prob = "Over 2.5", p_over
             final_odd = bookie_over_25_odd
-        elif p_gg >= 50.0 and p_over15 >= 68.0: 
+        elif p_gg >= 48.0: 
             best_tip, best_prob = "Goal / Goal", p_gg
             final_odd = 1.85
-        elif p_over15 >= 68.0: 
+        elif p_over15 >= 65.0: 
             best_tip, best_prob = "Over 1.5", p_over15
             final_odd = max(1.28, bookie_over_25_odd * 0.70)
         else: 
@@ -208,3 +209,4 @@ with open(DATA_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(output_lines))
 
 print(f"🎯 Ολοκληρώθηκε επιτυχώς! Φορτώθηκαν {valid_count} αγώνες.")
+
