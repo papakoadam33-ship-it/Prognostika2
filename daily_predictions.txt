@@ -1,12 +1,21 @@
 STATS|78.2|22.1
-🏆 J League|Mito HollyHock vs Gamba Osaka|15/08 12:00|Goal / Goal 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 J League|Kashima Antlers vs Nagoya Grampus|15/08 12:00|Over 2.5 2.02 (49.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 J League|Shimizu S Pulse vs Yokohama F Marinos|15/08 12:30|Over 2.5 2.06 (48.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 J League|Fagiano Okayama vs V-Varen Nagasaki|15/08 12:55|Goal / Goal 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 J League|Avispa Fukuoka vs Cerezo Osaka|15/08 13:00|Goal / Goal 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 J League|JEF United Chiba vs FC Machida Zelvia|15/08 13:00|Goal / Goal 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 J League|Mito HollyHock vs Gamba Osaka|15/08 12:00|Under 2.5 1.48 (67.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 J League|Kashima Antlers vs Nagoya Grampus|15/08 12:00|Under 2.5 1.61 (62.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 J League|Shimizu S Pulse vs Yokohama F Marinos|15/08 12:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 J League|Fagiano Okayama vs V-Varen Nagasaki|15/08 12:55|Under 2.5 1.65 (60.6%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 J League|Avispa Fukuoka vs Cerezo Osaka|15/08 13:00|Under 2.5 1.60 (62.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 J League|JEF United Chiba vs FC Machida Zelvia|15/08 13:00|Under 2.5 1.53 (65.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
 🏆 J League|Vissel Kobe vs FC Tokyo|15/08 13:00|Goal / Goal 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 J League|Urawa Red Diamonds vs Hiroshima Sanfrecce FC|15/08 13:00|Over 2.5 1.97 (50.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 J League|Urawa Red Diamonds vs Hiroshima Sanfrecce FC|15/08 13:00|Goal / Goal 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 J League|Kawasaki Frontale vs Kyoto Purple Sanga|15/08 13:00|Goal / Goal 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 K League 1|FC Seoul vs Daejeon Citizen|15/08 13:30|Over 2.5 1.96 (51.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 K League 1|Jeju United FC vs FC Anyang|15/08 13:30|Over 2.5 1.89 (52.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 K League 1|Gwangju FC vs Pohang Steelers|15/08 13:30|Under 2.5 1.62 (61.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Bundesliga 2 - Germany|Hertha Berlin vs 1. FC Heidenheim|15/08 14:00|Over 2.5 1.54 (64.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%)
+🏆 Bundesliga 2 - Germany|VfL Osnabrück vs 1. FC Magdeburg|15/08 14:00|Over 2.5 1.56 (64.1%) ✨ 1ο Ημίχ. Over 1.5 (74.1%)
+🏆 Bundesliga 2 - Germany|Greuther Fürth vs 1. FC Nürnberg|15/08 14:00|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 1.5 (74.1%)
+🏆 Premier League - Russia|Rodina Moscow vs FC Akron Tolyatti|15/08 14:00|Over 2.5 1.78 (56.2%) ✨ 1ο Ημίχ. Over 1.5 (74.1%)
+🏆 Super League - China|Liaoning Tieren FC vs Shenzhen Peng City FC|15/08 14:00|Over 2.5 1.66 (60.2%) ✨ 1ο Ημίχ. Over 1.5 (74.1%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
