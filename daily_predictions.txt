@@ -1,14 +1,12 @@
 STATS|78.2|22.1
-🏆 MLS|Seattle Sounders FC vs Vancouver Whitecaps FC|17/08 05:40|Under 2.5 1.14 (87.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 Liga MX|Tijuana vs Cruz Azul|17/08 06:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 Veikkausliiga - Finland|IF Gnistan vs Ilves Tampere|17/08 18:00|Over 2.5 1.63 (61.3%) ✨ 1ο Ημίχ. Over 1.5 (74.1%)
+🏆 Veikkausliiga - Finland|IF Gnistan vs Ilves Tampere|17/08 18:00|Over 2.5 1.58 (63.3%) ✨ 1ο Ημίχ. Over 1.5 (74.1%)
 🏆 Coppa Italia|Pisa vs Empoli|17/08 19:00|Goal / Goal 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
 🏆 Coppa Italia|Sassuolo vs Cesena FC|17/08 19:30|Over 2.5 1.53 (65.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%)
 🏆 Allsvenskan - Sweden|BK Hacken vs Halmstads BK|17/08 20:00|Over 2.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%)
-🏆 Denmark Superliga|Brondby IF vs SonderjyskE|17/08 20:00|Over 2.5 1.62 (61.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%)
+🏆 Denmark Superliga|Brondby IF vs SonderjyskE|17/08 20:00|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 1.5 (74.1%)
 🏆 Ισπανία LaLiga 2 🇪🇸|Sporting Gijón vs Sabadell FC|17/08 20:00|Goal / Goal 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
 🏆 Αργεντινή Primera 🇦🇷|Estudiantes de Río Cuarto vs Atlético Tucuman|17/08 20:45|Under 2.5 1.39 (71.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 Turkey Super League|Samsunspor vs Goztepe|17/08 21:30|Over 2.5 2.02 (49.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Turkey Super League|Samsunspor vs Goztepe|17/08 21:30|Over 2.5 2.04 (49.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
