@@ -1,15 +1,14 @@
 STATS|78.2|22.1
-🏆 UEFA Champions League Qualification|PFC Levski Sofia vs AEK Athens|18/08 22:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 UEFA Champions League Qualification|Dinamo Zagreb vs Viking FK|18/08 22:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 UEFA Champions League Qualification|Fenerbahce vs Lyon|18/08 22:00|Over 2.5 1.45 (69.0%) ✨ 1ο Ημίχ. Over 1.5 (74.1%)
-🏆 Copa Sudamericana|Recoleta FC vs Boca Juniors|19/08 01:00|Over 2.5 1.78 (56.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 Copa Libertadores|Independiente Rivadavia vs Fluminense-RJ|19/08 01:00|Under 2.5 1.46 (68.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 Βραζιλία Série B 🇧🇷|Londrina vs Atletico Goianiense|19/08 01:30|Goal / Goal 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Copa Sudamericana|Recoleta FC vs Boca Juniors|19/08 01:00|Goal / Goal 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Copa Libertadores|Independiente Rivadavia vs Fluminense-RJ|19/08 01:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Βραζιλία Série B 🇧🇷|Londrina vs Atletico Goianiense|19/08 01:30|Under 2.5 1.55 (64.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
 🏆 Βραζιλία Série B 🇧🇷|Nautico PE vs Ceará|19/08 03:30|Under 2.5 1.68 (59.5%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%)
 🏆 Copa Sudamericana|Sao Paulo vs Club Bolívar|19/08 03:30|Over 2.5 1.75 (57.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 Copa Libertadores|Deportes Tolima vs Independiente del Valle|19/08 03:30|Under 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Copa Libertadores|Deportes Tolima vs Independiente del Valle|19/08 03:30|Under 2.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
 🏆 Copa Libertadores|Universidad Católica (CHI) vs Estudiantes La Plata|19/08 03:30|Under 2.5 1.45 (69.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 Βραζιλία Série B 🇧🇷|Goiás vs Juventude|19/08 03:35|Under 2.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Βραζιλία Série B 🇧🇷|Goiás vs Juventude|19/08 03:35|Under 2.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Super League - China|Shanghai SIPG FC vs Dalian Yingbo|19/08 14:35|Over 2.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%)
+🏆 Ισπανία LaLiga 2 🇪🇸|Atlético Madrid vs Málaga|19/08 22:00|Over 2.5 1.72 (58.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
