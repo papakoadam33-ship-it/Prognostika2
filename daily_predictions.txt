@@ -1,10 +1,7 @@
 STATS|78.2|22.1
-🏆 MLS|Vancouver Whitecaps FC vs Houston Dynamo|20/08 05:40|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 MLS|LA Galaxy vs San Jose Earthquakes|20/08 05:40|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 MLS|Portland Timbers vs San Diego FC|20/08 05:40|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
 🏆 Saudi Pro League|Al-Fayha vs Al-Hilal|20/08 21:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 Ισπανία LaLiga 2 🇪🇸|Rayo Vallecano vs Alavés|20/08 22:00|Under 2.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 League 1|Sheffield Wednesday vs Bradford City|20/08 22:00|Over 2.5 2.00 (50.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Ισπανία LaLiga 2 🇪🇸|Rayo Vallecano vs Alavés|20/08 22:00|Under 2.5 1.62 (61.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 League 1|Sheffield Wednesday vs Bradford City|20/08 22:00|Over 2.5 2.02 (49.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
 🏆 Copa Libertadores|LDU Quito vs Mirassol|21/08 01:00|Goal / Goal 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
 🏆 Copa Sudamericana|Macará vs Santos|21/08 01:00|Goal / Goal 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
 🏆 Copa Sudamericana|Olimpia Asunción vs Vasco da Gama|21/08 01:00|Goal / Goal 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
