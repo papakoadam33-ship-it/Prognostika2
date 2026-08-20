@@ -1,15 +1,15 @@
 STATS|78.2|22.1
-🏆 Copa Sudamericana|Clube Atlético Mineiro vs Bragantino-SP|20/08 01:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 Copa Libertadores|Cerro Porteño vs Palmeiras-SP|20/08 01:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 Copa Libertadores|Coquimbo Unido vs Platense|20/08 01:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 Βραζιλία Série B 🇧🇷|Avai vs Sport Recife|20/08 01:30|Under 2.5 1.66 (60.2%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 Βραζιλία Série B 🇧🇷|Fortaleza vs São Bernardo|20/08 01:30|Goal / Goal 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 MLS|Columbus Crew SC vs CF Montreal|20/08 02:30|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 1.5 (74.1%)
-🏆 MLS|Toronto FC vs Charlotte FC|20/08 02:30|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%)
-🏆 MLS|Orlando City SC vs Chicago Fire|20/08 02:30|Over 2.5 1.34 (74.6%) ✨ 1ο Ημίχ. Over 1.5 (74.1%)
-🏆 Βραζιλία Série B 🇧🇷|Cuiabá vs Operario PR|20/08 02:30|Under 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 MLS|D.C. United vs New England Revolution|20/08 02:30|Over 2.5 1.76 (56.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%)
-🏆 MLS|FC Cincinnati vs New York City FC|20/08 02:30|Over 2.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 1.5 (74.1%)
+🏆 MLS|Vancouver Whitecaps FC vs Houston Dynamo|20/08 05:40|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 MLS|LA Galaxy vs San Jose Earthquakes|20/08 05:40|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 MLS|Portland Timbers vs San Diego FC|20/08 05:40|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Saudi Pro League|Al-Fayha vs Al-Hilal|20/08 21:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Ισπανία LaLiga 2 🇪🇸|Rayo Vallecano vs Alavés|20/08 22:00|Under 2.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 League 1|Sheffield Wednesday vs Bradford City|20/08 22:00|Over 2.5 2.00 (50.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Copa Libertadores|LDU Quito vs Mirassol|21/08 01:00|Goal / Goal 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Copa Sudamericana|Macará vs Santos|21/08 01:00|Goal / Goal 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Copa Sudamericana|Olimpia Asunción vs Vasco da Gama|21/08 01:00|Goal / Goal 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Βραζιλία Série B 🇧🇷|Athletic Club (MG) vs Clube de Regatas Brasil|21/08 01:30|Under 2.5 1.66 (60.2%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Βραζιλία Série B 🇧🇷|Grêmio Novorizontino vs América Mineiro|21/08 02:30|Goal / Goal 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
