@@ -1,13 +1,19 @@
 STATS|78.2|22.1
-🏆 J League|Kashiwa Reysol vs V-Varen Nagasaki|21/08 13:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 J League|FC Tokyo vs JEF United Chiba|21/08 13:30|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%)
-🏆 DFB-Pokal|Waldhof Mannheim vs 1. FC Kaiserslautern|21/08 19:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
 🏆 Saudi Pro League|Al-Riyadh vs Al-Nassr|21/08 19:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
 🏆 DFB-Pokal|DJK Teutonia St. Tönis vs Eintracht Frankfurt|21/08 19:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 Veikkausliiga - Finland|SJK Seinäjoki vs FC Lahti|21/08 19:00|Over 2.5 1.74 (57.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%)
-🏆 DFB-Pokal|SC Preußen Münster vs Karlsruher SC|21/08 19:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 Saudi Pro League|Al-Hazem vs Diriyah Club|21/08 19:15|Over 2.5 1.56 (64.1%) ✨ 1ο Ημίχ. Over 1.5 (74.1%)
-🏆 Frauen-Bundesliga|Union Berlin vs Bayern Munich|21/08 19:20|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Veikkausliiga - Finland|SJK Seinäjoki vs FC Lahti|21/08 19:00|Under 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 DFB-Pokal|SC Preußen Münster vs Karlsruher SC|21/08 19:00|Goal / Goal 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 DFB-Pokal|Waldhof Mannheim vs 1. FC Kaiserslautern|21/08 19:00|Over 2.5 1.91 (52.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Saudi Pro League|Al-Hazem vs Diriyah Club|21/08 19:15|Over 2.5 1.78 (56.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Frauen-Bundesliga|Union Berlin vs Bayern Munich|21/08 19:22|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Allsvenskan - Sweden|IK Sirius vs BK Hacken|21/08 20:00|Over 2.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%)
+🏆 Αργεντινή Primera 🇦🇷|Aldosivi Mar del Plata vs Union Santa Fe|21/08 20:30|Under 2.5 1.46 (68.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Austrian Football Bundesliga|Ried vs Grazer AK|21/08 20:30|Over 2.5 2.02 (49.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Saudi Pro League|Al-Faisaly KSA FC vs Neom|21/08 21:00|Over 2.5 1.79 (55.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Saudi Pro League|Al-Qadsiah vs Al-Ittihad|21/08 21:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Ligue 2 - France|Boulogne vs Red Star|21/08 21:00|Goal / Goal 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Ligue 2 - France|Clermont vs Dijon|21/08 21:00|Goal / Goal 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Ligue 2 - France|Sochaux vs Guingamp|21/08 21:00|Goal / Goal 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
