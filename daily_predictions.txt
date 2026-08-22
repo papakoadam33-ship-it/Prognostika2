@@ -1,14 +1,19 @@
 STATS|78.2|22.1
-🏆 Liga MX|Querétaro vs Toluca|22/08 06:10|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 Liga MX|FC Juárez vs América|22/08 06:11|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 J League|Kashima Antlers vs Avispa Fukuoka|22/08 12:00|Under 2.5 1.66 (60.2%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 J League|Fagiano Okayama vs Tokyo Verdy|22/08 12:30|Under 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 J League|Kashima Antlers vs Avispa Fukuoka|22/08 12:00|Over 2.5 1.30 (76.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%)
+🏆 J League|Fagiano Okayama vs Tokyo Verdy|22/08 12:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 J League|Cerezo Osaka vs Shimizu S Pulse|22/08 13:00|Under 2.5 1.53 (65.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 J League|Nagoya Grampus vs Gamba Osaka|22/08 13:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 J League|Kyoto Purple Sanga vs Mito HollyHock|22/08 13:00|Under 2.5 1.60 (62.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
 🏆 Frauen-Bundesliga|Eintracht Frankfurt vs 1. FC Köln|22/08 13:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 J League|Cerezo Osaka vs Shimizu S Pulse|22/08 13:00|Over 2.5 1.92 (52.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 J League|Nagoya Grampus vs Gamba Osaka|22/08 13:00|Over 2.5 1.88 (53.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 J League|Kyoto Purple Sanga vs Mito HollyHock|22/08 13:00|Goal / Goal 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
-🏆 J League|Hiroshima Sanfrecce FC vs Kawasaki Frontale|22/08 13:15|Over 2.5 1.63 (61.3%) ✨ 1ο Ημίχ. Over 1.5 (74.1%)
-🏆 K League 1|Bucheon FC 1995 vs Pohang Steelers|22/08 13:30|Under 2.5 1.69 (59.2%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 J League|Hiroshima Sanfrecce FC vs Kawasaki Frontale|22/08 13:15|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%)
+🏆 K League 1|Bucheon FC 1995 vs Pohang Steelers|22/08 13:30|Under 2.5 1.66 (60.2%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 K League 1|FC Anyang vs FC Seoul|22/08 13:30|Over 2.5 1.97 (50.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 K League 1|Jeju United FC vs Sangju Sangmu FC|22/08 13:30|Goal / Goal 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 K League 1|Jeonbuk Hyundai Motors vs Ulsan Hyundai FC|22/08 13:30|Over 2.5 1.80 (55.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 J League|Yokohama F Marinos vs Vissel Kobe|22/08 13:30|Goal / Goal 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 DFB-Pokal|FC Energie Cottbus vs Augsburg|22/08 14:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 DFB-Pokal|Wehen Wiesbaden vs Bayer Leverkusen|22/08 14:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
+🏆 Super League - China|Wuhan Three Towns vs Tianjin Jinmen Tiger FC|22/08 14:00|Over 2.5 1.79 (55.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
