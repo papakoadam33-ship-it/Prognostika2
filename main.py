@@ -32,23 +32,20 @@ def poisson_probability(lmbda, x):
     return (math.exp(-lmbda) * (lmbda ** x)) / math.factorial(x)
 
 def estimate_lambdas_from_real_odds(over_odd, under_odd, home_odd, away_odd):
-    # 1. Υπολογισμός xG από τα Totals
     raw_p_over = 1.0 / over_odd if over_odd > 0 else 0.5
     raw_p_under = 1.0 / under_odd if under_odd > 0 else 0.5
     margin_totals = raw_p_over + raw_p_under
-    p_over_real = raw_p_over / margin_totals
+    p_over_real = raw_p_over / margin_totals if margin_totals > 0 else 0.5
     
     if p_over_real > 0.55: total_xg = 3.2
     elif p_over_real > 0.48: total_xg = 2.7
     elif p_over_real > 0.42: total_xg = 2.3
     else: total_xg = 1.85
 
-    # 2. Υπολογισμός κατανομής xG από τις πραγματικές αποδόσεις 1Χ2
     raw_p_home = 1.0 / home_odd if home_odd > 0 else 0.45
     raw_p_away = 1.0 / away_odd if away_odd > 0 else 0.30
     margin_h2h = raw_p_home + raw_p_away
     
-    # Πραγματικό ποσοστό ισχύος της κάθε ομάδας
     home_ratio = raw_p_home / margin_h2h if margin_h2h > 0 else 0.55
 
     home_lambda = total_xg * home_ratio
@@ -63,7 +60,6 @@ def calculate_advanced_preds(home_lambda, away_lambda):
     over_15_prob = 0.0
     gg_prob = 0.0
     ht_over15_prob = 0.0 
-    ht_00_prob = 0.0
     
     most_likely_score = (1, 1)
     max_score_prob = 0.0
@@ -82,7 +78,6 @@ def calculate_advanced_preds(home_lambda, away_lambda):
     for h in range(4):
         for a in range(4):
             p_score_ht = poisson_probability(home_lambda_half, h) * poisson_probability(away_lambda_half, a)
-            if h == 0 and a == 0: ht_00_prob = p_score_ht
             if (h + a) > 1: ht_over15_prob += p_score_ht 
                 
     under_25_prob = 1.0 - over_25_prob
@@ -101,7 +96,6 @@ SPORT_KEYS = ['soccer_international_friendlies', 'soccer']
 
 for sport in SPORT_KEYS:
     url = f'https://api.the-odds-api.com/v4/sports/{sport}/odds/'
-    # Ζητάμε ΚΑΙ h2h ΚΑΙ totals στην ίδια κλήση!
     params = {'apiKey': ODDS_API_KEY, 'regions': 'eu', 'markets': 'h2h,totals', 'oddsFormat': 'decimal'}
     try:
         res = session.get(url, params=params, timeout=10)
@@ -145,7 +139,6 @@ if matches:
         bookie_home_odd = 2.20
         bookie_away_odd = 3.10
         
-        # Ανάγνωση πραγματικών αποδόσεων 1Χ2 και Over/Under
         for bookmaker in match.get('bookmakers', []):
             for market in bookmaker.get('markets', []):
                 if market.get('key') == 'totals':
@@ -163,7 +156,7 @@ if matches:
                             bookie_away_odd = float(outcome.get('price', 3.10))
 
         home_lambda, away_lambda = estimate_lambdas_from_real_odds(bookie_over_25_odd, bookie_under_25_odd, bookie_home_odd, bookie_away_odd)
-        p_over, p_under, p_gg, p_ht_over05, p_over15, best_score, score_prob, p_first_home, p_first_away = calculate_advanced_preds(home_lambda, away_lambda)
+        p_over, p_under, p_gg, p_ht_over15, p_over15, best_score, score_prob, p_first_home, p_first_away = calculate_advanced_preds(home_lambda, away_lambda)
         
         if p_over >= 45.0: 
             best_tip, best_prob = "Over 2.5", p_over
