@@ -37,6 +37,16 @@ st.markdown("""
         font-weight: bold;
         font-size: 0.85rem;
     }
+    .extra-tag {
+        color: #a855f7;
+        font-weight: bold;
+        font-size: 0.85rem;
+    }
+    .score-tag {
+        color: #10b981;
+        font-weight: bold;
+        font-size: 0.85rem;
+    }
     </style>
     """, unsafe_allow_html=True)
 
@@ -90,23 +100,25 @@ if lines:
 
     all_matches.sort(key=lambda x: x[0])
 
-    match_count = 0
     displayed_matches = 0
 
     for parts in all_matches:
         league = parts[0].replace("🏆 ", "")
         teams = parts[1]
         m_time = parts[2]
-        prediction = parts[3]
         
-        match_count += 1
-        is_value = "VALUE BET" in prediction
+        # Ανάγνωση όλων των πεδίων (Main Tip, Combo, Next Goal, Probable Score)
+        prediction_full = parts[3]
+        next_goal_tip = parts[4].strip() if len(parts) > 4 else ""
+        score_tip = parts[5].strip() if len(parts) > 6 else (parts[5].strip() if len(parts) > 5 else "")
+        
+        is_value = "VALUE BET" in prediction_full
         
         if only_value and not is_value:
             continue
 
         displayed_matches += 1
-        prediction_clean = prediction.replace("🔥 VALUE BET IDENTIFIED", "").replace("🔥 VALUE BET", "").strip()
+        prediction_clean = prediction_full.replace("🔥 VALUE BET IDENTIFIED", "").replace("🔥 VALUE BET", "").strip()
         ht_tip = ""
         
         if "✨" in prediction_clean:
@@ -126,6 +138,12 @@ if lines:
             if ht_tip:
                 st.write("")
                 st.markdown(f"**⚡ Combo Tip:** <span class='ht-tag'>{ht_tip}</span>", unsafe_allow_html=True)
+                
+            if next_goal_tip:
+                st.markdown(f"**⚽ 1ο Γκολ:** <span class='extra-tag'>{next_goal_tip.replace('1ο Γκολ: ', '')}</span>", unsafe_allow_html=True)
+                
+            if score_tip:
+                st.markdown(f"**📊 Πιθανό Σκορ:** <span class='score-tag'>{score_tip.replace('Πιθανό Σκορ: ', '')}</span>", unsafe_allow_html=True)
 
     if displayed_matches == 0:
         st.info("ℹ️ Δεν βρέθηκαν αγώνες με τα επιλεγμένα φίλτρα.")
