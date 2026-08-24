@@ -1,12 +1,16 @@
 STATS|78.2|22.1
-🏆 Γερμανία DFB Pokal 🇩🇪|FC Würzburger Kickers vs 1. FC Köln|24/08 19:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: 1. FC Köln (85.8%) | Πιθανό Σκορ: 0-2 (18.0%)
-🏆 Frauen-Bundesliga|FSV Mainz 05 vs Werder Bremen|24/08 19:00|Over 2.5 1.62 (61.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Werder Bremen (77.5%) | Πιθανό Σκορ: 0-2 (12.5%)
-🏆 Γερμανία DFB Pokal 🇩🇪|SC Verl vs Hamburger SV|24/08 19:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Hamburger SV (78.2%) | Πιθανό Σκορ: 0-2 (15.0%)
-🏆 Γερμανία DFB Pokal 🇩🇪|VSG Altglienicke vs VfL Wolfsburg|24/08 19:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: VfL Wolfsburg (90.8%) | Πιθανό Σκορ: 0-2 (20.2%)
-🏆 Serie A - Italy|Bologna vs Lazio|24/08 19:30|Over 1.5 1.53 (65.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bologna (61.8%) | Πιθανό Σκορ: 1-0 (14.2%)
-🏆 Saudi Pro League|Neom vs Al-Qadsiah|24/08 19:40|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Qadsiah (74.3%) | Πιθανό Σκορ: 0-2 (13.5%)
-🏆 Ισπανία LaLiga 2 🇪🇸|Celta Fortuna vs Andorra CF|24/08 20:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Andorra CF (61.7%) | Πιθανό Σκορ: 1-1 (11.6%)
-🏆 Denmark Superliga|Brondby IF vs Silkeborg IF|24/08 20:00|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Brondby IF (83.4%) | Πιθανό Σκορ: 2-0 (14.5%)
+🏆 Γερμανία DFB Pokal 🇩🇪|FC Würzburger Kickers vs 1. FC Köln|24/08 19:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: 1. FC Köln (67.3%) | Πιθανό Σκορ: 0-1 (12.2%)
+🏆 Γερμανία DFB Pokal 🇩🇪|SC Verl vs Hamburger SV|24/08 19:00|Over 1.5 1.37 (72.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Hamburger SV (71.4%) | Πιθανό Σκορ: 0-1 (16.5%)
+🏆 Frauen-Bundesliga|FSV Mainz 05 vs Werder Bremen|24/08 19:01|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Werder Bremen (93.4%) | Πιθανό Σκορ: 0-2 (21.4%)
+🏆 Γερμανία DFB Pokal 🇩🇪|VSG Altglienicke vs VfL Wolfsburg|24/08 19:01|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: VfL Wolfsburg (72.6%) | Πιθανό Σκορ: 0-1 (13.2%)
+🏆 Serie A - Italy|Bologna vs Lazio|24/08 19:30|Under 2.5 1.61 (62.1%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bologna (56.5%) | Πιθανό Σκορ: 1-0 (16.4%)
+🏆 Saudi Pro League|Neom vs Al-Qadsiah|24/08 19:40|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Qadsiah (79.9%) | Πιθανό Σκορ: 0-2 (15.6%)
+🏆 Ισπανία LaLiga 2 🇪🇸|Celta Fortuna vs Andorra CF|24/08 20:00|Over 2.5 2.04 (49.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Andorra CF (62.6%) | Πιθανό Σκορ: 1-1 (11.5%)
+🏆 Denmark Superliga|Brondby IF vs Silkeborg IF|24/08 20:00|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Brondby IF (81.3%) | Πιθανό Σκορ: 2-0 (13.8%)
+🏆 Allsvenskan - Sweden|Malmo FF vs Djurgardens IF|24/08 20:00|Over 2.5 1.72 (58.1%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Djurgardens IF (51.7%) | Πιθανό Σκορ: 1-1 (10.4%)
+🏆 Superettan - Sweden|IFK Värnamo vs Landskrona BoIS|24/08 20:00|Over 2.5 1.83 (54.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: IFK Värnamo (55.4%) | Πιθανό Σκορ: 1-1 (12.1%)
+🏆 Superettan - Sweden|Östersunds FK vs Ljungskile SK|24/08 20:00|Over 2.5 1.79 (55.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Östersunds FK (66.7%) | Πιθανό Σκορ: 2-1 (9.9%)
+🏆 Superettan - Sweden|IFK Norrkoping vs Falkenbergs FF|24/08 20:05|Over 2.5 1.53 (65.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: IFK Norrkoping (78.9%) | Πιθανό Σκορ: 2-0 (13.0%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
