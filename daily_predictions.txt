@@ -1,17 +1,12 @@
 STATS|78.2|22.1
-🏆 MLS|New England Revolution vs New York City FC|23/08 23:40|Over 2.5 1.98 (50.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: New England Revolution (57.0%) | Πιθανό Σκορ: 1-1 (12.0%)
-🏆 Βραζιλία Série B 🇧🇷|Operario PR vs Vila Nova|24/08 00:03|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Operario PR (52.8%) | Πιθανό Σκορ: 1-1 (12.2%)
-🏆 Brazil Série A|Chapecoense vs Sao Paulo|24/08 00:30|Over 2.5 1.80 (55.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Chapecoense (71.0%) | Πιθανό Σκορ: 1-0 (12.9%)
-🏆 Βραζιλία Série B 🇧🇷|Criciuma vs Fortaleza|24/08 00:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Criciuma (60.5%) | Πιθανό Σκορ: 1-1 (11.7%)
-🏆 Brazil Série A|Santos vs Mirassol|24/08 00:30|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Mirassol (62.4%) | Πιθανό Σκορ: 1-1 (11.5%)
-🏆 Αργεντινή Primera 🇦🇷|River Plate vs Velez Sarsfield BA|24/08 01:15|Under 2.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: River Plate (77.8%) | Πιθανό Σκορ: 1-0 (22.6%)
-🏆 Brazil Série A|Coritiba vs Corinthians|24/08 01:30|Under 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Corinthians (50.9%) | Πιθανό Σκορ: 0-0 (15.7%)
-🏆 MLS|Atlanta United FC vs Sporting Kansas City|24/08 02:00|Over 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Atlanta United FC (73.5%) | Πιθανό Σκορ: 2-0 (11.3%)
-🏆 Liga MX|Atlético San Luis vs Pachuca|24/08 02:00|Over 2.5 1.83 (54.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Pachuca (59.4%) | Πιθανό Σκορ: 1-1 (11.8%)
-🏆 Primera División - Chile|O'Higgins vs Palestino|24/08 02:00|Over 2.5 1.92 (52.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: O'Higgins (64.1%) | Πιθανό Σκορ: 1-0 (11.6%)
-🏆 Αργεντινή Primera 🇦🇷|Racing Club vs Boca Juniors|24/08 03:30|Under 2.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Boca Juniors (55.7%) | Πιθανό Σκορ: 0-1 (16.2%)
-🏆 Liga MX|Pumas vs Necaxa|24/08 04:00|Over 2.5 1.79 (55.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Pumas (66.4%) | Πιθανό Σκορ: 2-1 (9.9%)
 🏆 Γερμανία DFB Pokal 🇩🇪|FC Würzburger Kickers vs 1. FC Köln|24/08 19:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: 1. FC Köln (85.8%) | Πιθανό Σκορ: 0-2 (18.0%)
+🏆 Frauen-Bundesliga|FSV Mainz 05 vs Werder Bremen|24/08 19:00|Over 2.5 1.69 (59.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Werder Bremen (68.8%) | Πιθανό Σκορ: 0-1 (12.5%)
+🏆 Γερμανία DFB Pokal 🇩🇪|SC Verl vs Hamburger SV|24/08 19:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Hamburger SV (76.1%) | Πιθανό Σκορ: 0-2 (14.2%)
+🏆 Γερμανία DFB Pokal 🇩🇪|VSG Altglienicke vs VfL Wolfsburg|24/08 19:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: VfL Wolfsburg (89.8%) | Πιθανό Σκορ: 0-2 (19.7%)
+🏆 Serie A - Italy|Bologna vs Lazio|24/08 19:30|Over 1.5 1.53 (65.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bologna (61.8%) | Πιθανό Σκορ: 1-0 (14.2%)
+🏆 Saudi Pro League|Neom vs Al-Qadsiah|24/08 19:40|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Qadsiah (74.3%) | Πιθανό Σκορ: 0-2 (13.5%)
+🏆 Ισπανία LaLiga 2 🇪🇸|Celta Fortuna vs Andorra CF|24/08 20:00|Over 2.5 1.89 (52.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Andorra CF (61.1%) | Πιθανό Σκορ: 1-1 (11.6%)
+🏆 Denmark Superliga|Brondby IF vs Silkeborg IF|24/08 20:00|Over 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Brondby IF (84.1%) | Πιθανό Σκορ: 2-0 (14.8%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
