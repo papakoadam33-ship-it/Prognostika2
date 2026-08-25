@@ -1,13 +1,12 @@
 STATS|78.2|22.1
-🏆 Αργεντινή Primera 🇦🇷|CA Tigre BA vs Central Córdoba|25/08 01:00|Over 2.5 1.84 (54.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: CA Tigre BA (95.6%) | Πιθανό Σκορ: 2-0 (22.4%)
-🏆 Βραζιλία Série B 🇧🇷|Sport Recife vs América Mineiro|25/08 01:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Sport Recife (78.6%) | Πιθανό Σκορ: 2-0 (15.1%)
-🏆 Βραζιλία Série B 🇧🇷|Athletic Club (MG) vs Grêmio Novorizontino|25/08 01:30|Under 2.5 1.52 (65.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Grêmio Novorizontino (61.8%) | Πιθανό Σκορ: 0-1 (18.0%)
-🏆 Brazil Série A|Botafogo vs Atletico Paranaense|25/08 02:00|Over 2.5 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Botafogo (54.8%) | Πιθανό Σκορ: 1-1 (12.1%)
-🏆 Primera División - Chile|Everton de Viña del Mar vs Universidad de Concepción|25/08 02:30|Over 2.5 1.88 (53.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Everton de Viña del Mar (69.6%) | Πιθανό Σκορ: 1-0 (12.6%)
-🏆 Αργεντινή Primera 🇦🇷|Lanus vs Argentinos Juniors|25/08 03:15|Under 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Lanus (54.2%) | Πιθανό Σκορ: 1-0 (15.8%)
-🏆 Αργεντινή Primera 🇦🇷|Talleres vs Rosario Central|25/08 03:15|Under 2.5 1.55 (64.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Talleres (50.0%) | Πιθανό Σκορ: 0-0 (15.7%)
-🏆 K League 1|FC Seoul vs Bucheon FC 1995|25/08 13:30|Over 2.5 1.86 (53.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Seoul (81.4%) | Πιθανό Σκορ: 2-0 (16.2%)
-🏆 K League 1|Jeju United FC vs Pohang Steelers|25/08 13:30|Under 2.5 1.68 (59.5%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Jeju United FC (56.3%) | Πιθανό Σκορ: 1-0 (16.4%)
+🏆 K League 1|FC Seoul vs Bucheon FC 1995|25/08 13:30|Over 2.5 1.80 (55.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Seoul (84.0%) | Πιθανό Σκορ: 2-0 (17.3%)
+🏆 K League 1|Jeju United FC vs Pohang Steelers|25/08 13:30|Under 2.5 1.71 (58.5%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Jeju United FC (56.7%) | Πιθανό Σκορ: 1-0 (16.5%)
+🏆 K League 1|Sangju Sangmu FC vs Jeonbuk Hyundai Motors|25/08 13:30|Over 1.5 1.46 (68.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Jeonbuk Hyundai Motors (59.2%) | Πιθανό Σκορ: 0-1 (13.7%)
+🏆 Saudi Pro League|Abha Club vs Al-Khaleej|25/08 19:05|Over 2.5 1.88 (53.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Khaleej (51.9%) | Πιθανό Σκορ: 1-1 (12.2%)
+🏆 Saudi Pro League|Al-Taawoun vs Al-Fayha|25/08 19:10|Over 2.5 1.80 (55.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Taawoun (70.9%) | Πιθανό Σκορ: 1-0 (12.9%)
+🏆 UEFA Champions League Qualification|Sabah FK vs Hapoel Be'er Sheva|25/08 19:45|Over 2.5 1.78 (56.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Sabah FK (66.4%) | Πιθανό Σκορ: 1-0 (12.1%)
+🏆 Superettan - Sweden|Östers IF vs GIF Sundsvall|25/08 20:00|Over 2.5 1.61 (62.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Östers IF (73.1%) | Πιθανό Σκορ: 2-0 (11.1%)
+🏆 Superettan - Sweden|Örebro SK vs Varbergs BoIS|25/08 20:00|Over 2.5 1.76 (56.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Varbergs BoIS (55.1%) | Πιθανό Σκορ: 1-1 (12.1%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
