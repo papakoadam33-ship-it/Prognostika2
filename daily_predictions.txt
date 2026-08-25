@@ -1,12 +1,14 @@
 STATS|78.2|22.1
-🏆 K League 1|FC Seoul vs Bucheon FC 1995|25/08 13:30|Over 2.5 1.69 (59.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Seoul (85.7%) | Πιθανό Σκορ: 2-0 (15.3%)
-🏆 K League 1|Jeju United FC vs Pohang Steelers|25/08 13:30|Under 2.5 1.68 (59.5%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Jeju United FC (55.4%) | Πιθανό Σκορ: 1-0 (16.1%)
-🏆 K League 1|Sangju Sangmu FC vs Jeonbuk Hyundai Motors|25/08 13:30|Over 2.5 2.02 (49.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Jeonbuk Hyundai Motors (59.4%) | Πιθανό Σκορ: 1-1 (11.8%)
-🏆 Saudi Pro League|Abha Club vs Al-Khaleej|25/08 19:05|Over 2.5 1.88 (53.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Khaleej (51.7%) | Πιθανό Σκορ: 1-1 (12.2%)
-🏆 Saudi Pro League|Al-Taawoun vs Al-Fayha|25/08 19:10|Over 2.5 1.80 (55.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Taawoun (72.1%) | Πιθανό Σκορ: 1-0 (13.1%)
-🏆 UEFA Champions League Qualification|Sabah FK vs Hapoel Be'er Sheva|25/08 19:45|Over 2.5 1.79 (55.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Sabah FK (65.3%) | Πιθανό Σκορ: 1-0 (11.9%)
-🏆 Superettan - Sweden|Östers IF vs GIF Sundsvall|25/08 20:00|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Östers IF (71.7%) | Πιθανό Σκορ: 2-0 (10.7%)
-🏆 Superettan - Sweden|Örebro SK vs Varbergs BoIS|25/08 20:00|Over 2.5 1.73 (57.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Varbergs BoIS (55.1%) | Πιθανό Σκορ: 1-1 (10.3%)
+🏆 Saudi Pro League|Abha Club vs Al-Khaleej|25/08 19:05|Over 2.5 1.53 (65.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Abha Club (50.0%) | Πιθανό Σκορ: 1-1 (10.4%)
+🏆 Saudi Pro League|Al-Taawoun vs Al-Fayha|25/08 19:10|Over 1.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Taawoun (77.0%) | Πιθανό Σκορ: 1-0 (17.8%)
+🏆 UEFA Champions League Qualification|Sabah FK vs Hapoel Be'er Sheva|25/08 19:45|Over 2.5 1.77 (56.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Sabah FK (65.3%) | Πιθανό Σκορ: 2-1 (9.9%)
+🏆 Superettan - Sweden|Östers IF vs GIF Sundsvall|25/08 20:00|Over 2.5 1.53 (65.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Östers IF (76.6%) | Πιθανό Σκορ: 2-0 (12.2%)
+🏆 Superettan - Sweden|Örebro SK vs Varbergs BoIS|25/08 20:00|Over 2.5 1.84 (54.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Varbergs BoIS (56.6%) | Πιθανό Σκορ: 1-1 (12.0%)
+🏆 Saudi Pro League|Al-Ettifaq vs Al-Nassr|25/08 21:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Nassr (88.2%) | Πιθανό Σκορ: 0-2 (19.1%)
+🏆 Saudi Pro League|Al-Shabab vs Al-Riyadh|25/08 21:00|Over 2.5 1.55 (64.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Shabab (72.7%) | Πιθανό Σκορ: 2-0 (11.0%)
+🏆 EFL Cup|Cardiff City vs Norwich City|25/08 21:00|Over 2.5 1.55 (64.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Norwich City (53.4%) | Πιθανό Σκορ: 1-1 (10.4%)
+🏆 EFL Cup|Doncaster Rovers vs Middlesbrough|25/08 21:30|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Middlesbrough (75.1%) | Πιθανό Σκορ: 0-2 (11.8%)
+🏆 FA Cup|Long Eaton United FC vs AFC Rushden and Diamonds|25/08 21:45|Over 2.5 1.63 (61.3%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Long Eaton United FC (54.5%) | Πιθανό Σκορ: 1-1 (10.3%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
