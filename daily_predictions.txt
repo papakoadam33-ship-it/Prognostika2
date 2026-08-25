@@ -1,14 +1,12 @@
 STATS|78.2|22.1
-🏆 Saudi Pro League|Abha Club vs Al-Khaleej|25/08 19:05|Over 2.5 1.53 (65.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Abha Club (50.0%) | Πιθανό Σκορ: 1-1 (10.4%)
-🏆 Saudi Pro League|Al-Taawoun vs Al-Fayha|25/08 19:10|Over 1.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Taawoun (77.0%) | Πιθανό Σκορ: 1-0 (17.8%)
-🏆 UEFA Champions League Qualification|Sabah FK vs Hapoel Be'er Sheva|25/08 19:45|Over 2.5 1.77 (56.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Sabah FK (65.3%) | Πιθανό Σκορ: 2-1 (9.9%)
-🏆 Superettan - Sweden|Östers IF vs GIF Sundsvall|25/08 20:00|Over 2.5 1.53 (65.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Östers IF (76.6%) | Πιθανό Σκορ: 2-0 (12.2%)
-🏆 Superettan - Sweden|Örebro SK vs Varbergs BoIS|25/08 20:00|Over 2.5 1.84 (54.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Varbergs BoIS (56.6%) | Πιθανό Σκορ: 1-1 (12.0%)
-🏆 Saudi Pro League|Al-Ettifaq vs Al-Nassr|25/08 21:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Nassr (88.2%) | Πιθανό Σκορ: 0-2 (19.1%)
-🏆 Saudi Pro League|Al-Shabab vs Al-Riyadh|25/08 21:00|Over 2.5 1.55 (64.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Shabab (72.7%) | Πιθανό Σκορ: 2-0 (11.0%)
-🏆 EFL Cup|Cardiff City vs Norwich City|25/08 21:00|Over 2.5 1.55 (64.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Norwich City (53.4%) | Πιθανό Σκορ: 1-1 (10.4%)
-🏆 EFL Cup|Doncaster Rovers vs Middlesbrough|25/08 21:30|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Middlesbrough (75.1%) | Πιθανό Σκορ: 0-2 (11.8%)
-🏆 FA Cup|Long Eaton United FC vs AFC Rushden and Diamonds|25/08 21:45|Over 2.5 1.63 (61.3%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Long Eaton United FC (54.5%) | Πιθανό Σκορ: 1-1 (10.3%)
+🏆 Βραζιλία Série B 🇧🇷|Atletico Goianiense vs Botafogo-SP|26/08 01:30|Under 2.5 1.60 (62.5%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Atletico Goianiense (62.6%) | Πιθανό Σκορ: 1-0 (18.2%)
+🏆 Βραζιλία Série B 🇧🇷|Juventude vs Clube de Regatas Brasil|26/08 01:30|Over 1.5 1.55 (64.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Juventude (63.2%) | Πιθανό Σκορ: 1-0 (14.6%)
+🏆 Leagues Cup|Monterrey vs Chicago Fire|26/08 03:30|Over 2.5 1.58 (63.3%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Chicago Fire (54.1%) | Πιθανό Σκορ: 1-1 (10.4%)
+🏆 Copa Libertadores|Independiente del Valle vs Deportes Tolima|26/08 03:30|Over 1.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Independiente del Valle (81.0%) | Πιθανό Σκορ: 1-0 (18.7%)
+🏆 Leagues Cup|León vs Real Salt Lake|26/08 05:30|Over 2.5 1.67 (59.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Real Salt Lake (59.1%) | Πιθανό Σκορ: 1-1 (10.1%)
+🏆 K League 1|Daejeon Citizen vs Ulsan Hyundai FC|26/08 13:30|Over 2.5 1.76 (56.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Daejeon Citizen (56.8%) | Πιθανό Σκορ: 1-1 (10.2%)
+🏆 K League 1|FC Anyang vs Incheon United|26/08 13:30|Over 1.5 1.57 (63.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Incheon United (59.4%) | Πιθανό Σκορ: 0-1 (13.7%)
+🏆 K League 1|Gangwon FC vs Gwangju FC|26/08 13:30|Over 1.5 1.50 (66.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Gangwon FC (83.0%) | Πιθανό Σκορ: 1-0 (19.1%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
