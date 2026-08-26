@@ -1,12 +1,14 @@
 STATS|78.2|22.1
-🏆 K League 1|Daejeon Citizen vs Ulsan Hyundai FC|26/08 13:30|Over 2.5 1.75 (57.1%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Daejeon Citizen (58.8%) | Πιθανό Σκορ: 1-1 (10.1%)
-🏆 K League 1|FC Anyang vs Incheon United|26/08 13:30|Over 1.5 1.51 (66.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Incheon United (68.8%) | Πιθανό Σκορ: 0-1 (15.9%)
-🏆 K League 1|Gangwon FC vs Gwangju FC|26/08 13:30|Over 1.5 1.58 (63.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Gangwon FC (84.5%) | Πιθανό Σκορ: 1-0 (19.5%)
-🏆 Saudi Pro League|Al-Faisaly KSA FC vs Al-Fateh|26/08 19:00|Over 2.5 1.77 (56.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Fateh (51.9%) | Πιθανό Σκορ: 1-1 (12.2%)
-🏆 Saudi Pro League|Diriyah Club vs Al-Kholood|26/08 21:00|Over 2.5 1.68 (59.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Diriyah Club (69.1%) | Πιθανό Σκορ: 1-0 (12.5%)
+🏆 Saudi Pro League|Al-Faisaly KSA FC vs Al-Fateh|26/08 19:02|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Fateh (81.8%) | Πιθανό Σκορ: 0-2 (16.4%)
+🏆 UEFA Champions League Women|Sparta Prague vs Servette FC|26/08 19:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Sparta Prague (62.4%) | Πιθανό Σκορ: 1-1 (11.5%)
+🏆 UEFA Champions League Women|Czarni Sosnowiec vs Leuven|26/08 20:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Leuven (70.0%) | Πιθανό Σκορ: 0-1 (12.7%)
+🏆 UEFA Champions League Women|Eintracht Frankfurt vs Paris Saint Germain|26/08 20:00|Over 2.5 1.62 (61.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Paris Saint Germain (50.5%) | Πιθανό Σκορ: 1-1 (10.4%)
+🏆 UEFA Champions League Women|Ajax vs Real Madrid|26/08 20:30|Over 2.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Real Madrid (82.6%) | Πιθανό Σκορ: 0-2 (14.2%)
+🏆 UEFA Champions League Women|Chelsea vs Real Sociedad|26/08 20:45|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Chelsea (85.5%) | Πιθανό Σκορ: 2-0 (15.3%)
+🏆 Saudi Pro League|Diriyah Club vs Al-Kholood|26/08 21:00|Over 2.5 1.68 (59.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Diriyah Club (66.0%) | Πιθανό Σκορ: 1-0 (12.0%)
 🏆 FA Cup|Bootle FC vs Northwich Victoria FC|26/08 21:45|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bootle FC (72.3%) | Πιθανό Σκορ: 1-0 (13.1%)
-🏆 EFL Cup|Bradford City vs Burnley|26/08 21:45|Over 2.5 2.00 (50.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Burnley (60.2%) | Πιθανό Σκορ: 1-1 (11.7%)
-🏆 EFL Cup|Tottenham Hotspur vs Charlton Athletic|26/08 21:45|Over 2.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Tottenham Hotspur (91.8%) | Πιθανό Σκορ: 2-0 (17.6%)
+🏆 EFL Cup|Bradford City vs Burnley|26/08 21:45|Over 2.5 1.95 (51.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Burnley (56.0%) | Πιθανό Σκορ: 1-1 (12.1%)
+🏆 EFL Cup|Tottenham Hotspur vs Charlton Athletic|26/08 21:45|Over 2.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Tottenham Hotspur (92.3%) | Πιθανό Σκορ: 2-0 (17.8%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
