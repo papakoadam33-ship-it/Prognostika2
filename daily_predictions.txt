@@ -1,14 +1,14 @@
 STATS|78.2|22.1
-🏆 Saudi Pro League|Al-Faisaly KSA FC vs Al-Fateh|26/08 19:02|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Fateh (81.8%) | Πιθανό Σκορ: 0-2 (16.4%)
-🏆 UEFA Champions League Women|Sparta Prague vs Servette FC|26/08 19:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Sparta Prague (62.4%) | Πιθανό Σκορ: 1-1 (11.5%)
-🏆 UEFA Champions League Women|Czarni Sosnowiec vs Leuven|26/08 20:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Leuven (70.0%) | Πιθανό Σκορ: 0-1 (12.7%)
-🏆 UEFA Champions League Women|Eintracht Frankfurt vs Paris Saint Germain|26/08 20:00|Over 2.5 1.62 (61.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Paris Saint Germain (50.5%) | Πιθανό Σκορ: 1-1 (10.4%)
-🏆 UEFA Champions League Women|Ajax vs Real Madrid|26/08 20:30|Over 2.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Real Madrid (82.6%) | Πιθανό Σκορ: 0-2 (14.2%)
-🏆 UEFA Champions League Women|Chelsea vs Real Sociedad|26/08 20:45|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Chelsea (85.5%) | Πιθανό Σκορ: 2-0 (15.3%)
-🏆 Saudi Pro League|Diriyah Club vs Al-Kholood|26/08 21:00|Over 2.5 1.68 (59.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Diriyah Club (66.0%) | Πιθανό Σκορ: 1-0 (12.0%)
-🏆 FA Cup|Bootle FC vs Northwich Victoria FC|26/08 21:45|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bootle FC (72.3%) | Πιθανό Σκορ: 1-0 (13.1%)
-🏆 EFL Cup|Bradford City vs Burnley|26/08 21:45|Over 2.5 1.95 (51.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Burnley (56.0%) | Πιθανό Σκορ: 1-1 (12.1%)
-🏆 EFL Cup|Tottenham Hotspur vs Charlton Athletic|26/08 21:45|Over 2.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Tottenham Hotspur (92.3%) | Πιθανό Σκορ: 2-0 (17.8%)
+🏆 Leagues Cup|Toluca vs Austin FC|27/08 03:42|Over 1.5 1.33 (75.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Toluca (99.9%) | Πιθανό Σκορ: 2-0 (24.4%)
+🏆 Leagues Cup|América vs Columbus Crew SC|27/08 05:45|Over 2.5 1.74 (57.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: América (72.1%) | Πιθανό Σκορ: 2-0 (10.8%)
+🏆 Ισπανία LaLiga 2 🇪🇸|Celta Vigo vs CA Osasuna|27/08 21:30|Over 1.5 1.55 (64.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Celta Vigo (66.6%) | Πιθανό Σκορ: 1-0 (15.4%)
+🏆 EFL Cup|Chelsea vs Luton|27/08 21:30|Over 2.5 1.35 (74.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Chelsea (94.6%) | Πιθανό Σκορ: 3-0 (18.9%)
+🏆 Ισπανία LaLiga 2 🇪🇸|Barcelona vs Athletic Bilbao|27/08 22:00|Over 2.5 1.41 (70.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Barcelona (89.6%) | Πιθανό Σκορ: 2-0 (16.8%)
+🏆 EFL Cup|Fulham vs Wimbledon|27/08 22:00|Over 2.5 1.41 (70.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Fulham (93.1%) | Πιθανό Σκορ: 2-0 (18.1%)
+🏆 Super League - China|Dalian Yingbo vs Beijing FC|28/08 14:35|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Beijing FC (58.5%) | Πιθανό Σκορ: 1-1 (10.1%)
+🏆 Super League - China|Shanghai Shenhua FC vs Shandong Luneng Taishan FC|28/08 14:35|Over 2.5 1.30 (76.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Shanghai Shenhua FC (69.4%) | Πιθανό Σκορ: 2-0 (10.1%)
+🏆 Super League - China|Shenzhen Peng City FC vs Shanghai SIPG FC|28/08 15:00|Over 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Shanghai SIPG FC (59.3%) | Πιθανό Σκορ: 1-1 (10.1%)
+🏆 Premier League - Russia|FC Akron Tolyatti vs CSKA Moscow|28/08 18:00|Over 2.5 1.54 (64.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: CSKA Moscow (72.8%) | Πιθανό Σκορ: 0-2 (11.0%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
