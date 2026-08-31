@@ -1,17 +1,12 @@
 STATS|78.2|22.1
-🏆 Αργεντινή Primera 🇦🇷|Independiente vs Gimnasia Mendoza|31/08 01:15|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Gimnasia Mendoza (96.3%) | Πιθανό Σκορ: 0-2 (22.7%)
-🏆 Brazil Série A|Bahia vs Internacional|31/08 01:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bahia (97.4%) | Πιθανό Σκορ: 2-0 (23.2%)
-🏆 MLS|St. Louis City SC vs FC Dallas|31/08 02:12|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: St. Louis City SC (88.1%) | Πιθανό Σκορ: 2-0 (19.0%)
-🏆 Primera División - Chile|Coquimbo Unido vs Huachipato|31/08 03:01|Over 2.5 1.84 (54.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Coquimbo Unido (83.3%) | Πιθανό Σκορ: 2-0 (17.0%)
-🏆 Liga MX|Toluca vs FC Juárez|31/08 03:02|Over 2.5 1.63 (61.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Toluca (88.8%) | Πιθανό Σκορ: 2-0 (16.4%)
-🏆 Αργεντινή Primera 🇦🇷|Independiente Rivadavia vs Racing Club|31/08 03:30|Under 2.5 1.52 (65.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Independiente Rivadavia (69.3%) | Πιθανό Σκορ: 1-0 (20.2%)
-🏆 Liga MX|Monterrey vs Atlético San Luis|31/08 05:10|Over 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Monterrey (76.1%) | Πιθανό Σκορ: 2-0 (12.1%)
-🏆 Veikkausliiga - Finland|AC Oulu vs SJK Seinäjoki|31/08 19:00|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: AC Oulu (63.6%) | Πιθανό Σκορ: 2-1 (9.8%)
-🏆 Veikkausliiga - Finland|FC Inter Turku vs KuPS Kuopio|31/08 19:00|Over 1.5 1.37 (72.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Inter Turku (56.6%) | Πιθανό Σκορ: 1-0 (13.0%)
-🏆 Veikkausliiga - Finland|VPS Vaasa vs FC Lahti|31/08 19:00|Over 2.5 1.77 (56.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: VPS Vaasa (60.7%) | Πιθανό Σκορ: 1-1 (11.7%)
-🏆 Veikkausliiga - Finland|Ilves Tampere vs HJK Helsinki|31/08 19:00|Over 2.5 1.52 (65.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: HJK Helsinki (67.9%) | Πιθανό Σκορ: 1-2 (9.9%)
-🏆 Veikkausliiga - Finland|IF Gnistan vs TPS Turku|31/08 19:00|Over 2.5 1.57 (63.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: IF Gnistan (66.3%) | Πιθανό Σκορ: 2-1 (9.9%)
-🏆 Veikkausliiga - Finland|IFK Mariehamn vs Jaro|31/08 19:00|Over 2.5 1.73 (57.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: IFK Mariehamn (58.5%) | Πιθανό Σκορ: 1-1 (10.1%)
+🏆 Veikkausliiga - Finland|AC Oulu vs SJK Seinäjoki|31/08 19:00|Over 2.5 1.79 (55.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: AC Oulu (63.0%) | Πιθανό Σκορ: 2-1 (9.8%)
+🏆 Frauen-Bundesliga|Bayern Munich vs FSV Mainz 05|31/08 19:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bayern Munich (97.6%) | Πιθανό Σκορ: 2-0 (23.3%)
+🏆 Veikkausliiga - Finland|FC Inter Turku vs KuPS Kuopio|31/08 19:00|Over 1.5 1.50 (66.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Inter Turku (57.3%) | Πιθανό Σκορ: 1-0 (13.2%)
+🏆 Veikkausliiga - Finland|VPS Vaasa vs FC Lahti|31/08 19:00|Over 2.5 1.84 (54.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: VPS Vaasa (61.8%) | Πιθανό Σκορ: 1-1 (11.6%)
+🏆 Veikkausliiga - Finland|Ilves Tampere vs HJK Helsinki|31/08 19:00|Over 2.5 1.52 (65.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: HJK Helsinki (68.4%) | Πιθανό Σκορ: 1-2 (9.9%)
+🏆 Veikkausliiga - Finland|IF Gnistan vs TPS Turku|31/08 19:00|Over 2.5 1.52 (65.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: IF Gnistan (64.9%) | Πιθανό Σκορ: 2-1 (9.9%)
+🏆 Veikkausliiga - Finland|IFK Mariehamn vs Jaro|31/08 19:00|Over 2.5 1.76 (56.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: IFK Mariehamn (59.6%) | Πιθανό Σκορ: 1-1 (10.1%)
+🏆 Serie A - Italy|Lecce vs AS Roma|31/08 19:30|Over 1.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: AS Roma (84.1%) | Πιθανό Σκορ: 0-1 (19.4%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
