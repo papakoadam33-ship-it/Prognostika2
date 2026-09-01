@@ -1,12 +1,12 @@
 STATS|78.2|22.1
-🏆 Coppa Italia|Parma vs Cremonese|01/09 19:00|Over 1.5 1.50 (66.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Parma (64.9%) | Πιθανό Σκορ: 1-0 (15.0%)
-🏆 Superettan - Sweden|Helsingborgs IF vs Örebro SK|01/09 20:00|Over 2.5 1.64 (61.0%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Helsingborgs IF (60.0%) | Πιθανό Σκορ: 1-1 (10.0%)
-🏆 Austrian Football Bundesliga|Wolfsberger AC vs LASK|01/09 20:30|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: LASK (78.8%) | Πιθανό Σκορ: 0-2 (12.9%)
-🏆 Saudi Pro League|Al-Hilal vs Al-Ahli|01/09 21:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Hilal (78.8%) | Πιθανό Σκορ: 2-0 (15.2%)
-🏆 Swiss Superleague|FC Zurich vs BSC Young Boys|01/09 21:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: BSC Young Boys (77.0%) | Πιθανό Σκορ: 0-2 (14.5%)
+🏆 UEFA Champions League Women|Austria Wien vs SK Brann|01/09 19:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: SK Brann (65.5%) | Πιθανό Σκορ: 0-1 (11.9%)
+🏆 Coppa Italia|Parma vs Cremonese|01/09 19:00|Over 1.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Parma (66.1%) | Πιθανό Σκορ: 1-0 (15.2%)
+🏆 Superettan - Sweden|Helsingborgs IF vs Örebro SK|01/09 20:00|Over 2.5 1.80 (55.6%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Helsingborgs IF (59.8%) | Πιθανό Σκορ: 1-1 (10.0%)
+🏆 Austrian Football Bundesliga|Wolfsberger AC vs LASK|01/09 20:30|Over 2.5 1.41 (70.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: LASK (78.3%) | Πιθανό Σκορ: 0-2 (12.8%)
+🏆 Saudi Pro League|Al-Hilal vs Al-Ahli|01/09 21:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Hilal (78.4%) | Πιθανό Σκορ: 2-0 (15.0%)
+🏆 Swiss Superleague|FC Zurich vs BSC Young Boys|01/09 21:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: BSC Young Boys (76.8%) | Πιθανό Σκορ: 0-2 (14.5%)
 🏆 League 2|Accrington Stanley vs Grimsby Town|01/09 21:45|Over 1.5 1.34 (74.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Grimsby Town (62.8%) | Πιθανό Σκορ: 0-1 (14.5%)
-🏆 League 2|Exeter City vs Barnet|01/09 21:45|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Barnet (60.4%) | Πιθανό Σκορ: 1-1 (10.0%)
-🏆 Αγγλία Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿|Lincoln City vs Blackburn Rovers|01/09 21:45|Over 2.5 1.87 (53.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Lincoln City (57.1%) | Πιθανό Σκορ: 1-1 (12.0%)
+🏆 League 2|Exeter City vs Barnet|01/09 21:45|Over 2.5 1.64 (61.0%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Barnet (62.5%) | Πιθανό Σκορ: 1-1 (9.8%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
