@@ -1,16 +1,16 @@
 STATS|78.2|22.1
-🏆 Primeira Liga - Portugal|Benfica vs Estoril|31/08 22:15|Over 1.5 1.32 (76.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Benfica (99.9%) | Πιθανό Σκορ: 2-0 (24.4%)
-🏆 Primeira Liga - Portugal|Braga vs Vitória SC|31/08 22:15|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Braga (99.2%) | Πιθανό Σκορ: 2-0 (24.1%)
-🏆 Ισπανία LaLiga 2 🇪🇸|Barcelona vs Rayo Vallecano|31/08 22:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Barcelona (99.7%) | Πιθανό Σκορ: 2-0 (24.3%)
-🏆 Ισπανία LaLiga 2 🇪🇸|Celta Fortuna vs CD Castellón|31/08 22:30|Over 2.5 1.94 (51.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: CD Castellón (98.6%) | Πιθανό Σκορ: 0-2 (23.8%)
-🏆 Αργεντινή Primera 🇦🇷|Defensa y Justicia vs Platense|01/09 01:00|Under 2.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Defensa y Justicia (57.8%) | Πιθανό Σκορ: 1-0 (16.8%)
-🏆 Αργεντινή Primera 🇦🇷|Estudiantes vs Newells Old Boys|01/09 01:00|Under 2.5 1.52 (65.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Estudiantes (79.4%) | Πιθανό Σκορ: 1-0 (23.1%)
-🏆 Primera División - Chile|Union La Calera vs La Serena|01/09 01:15|Over 2.5 1.92 (52.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Union La Calera (58.1%) | Πιθανό Σκορ: 1-1 (11.9%)
-🏆 Βραζιλία Série B 🇧🇷|Fortaleza vs Operario PR|01/09 01:30|Over 1.5 1.64 (61.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Fortaleza (77.0%) | Πιθανό Σκορ: 1-0 (17.8%)
-🏆 Brazil Série A|Remo vs Coritiba|01/09 02:00|Under 2.5 1.70 (58.8%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Remo (66.1%) | Πιθανό Σκορ: 1-0 (19.2%)
-🏆 Αργεντινή Primera 🇦🇷|CA Tigre BA vs Barracas Central|01/09 03:15|Under 2.5 1.39 (71.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: CA Tigre BA (74.3%) | Πιθανό Σκορ: 1-0 (21.6%)
-🏆 Αργεντινή Primera 🇦🇷|Instituto de Córdoba vs San Lorenzo|01/09 03:15|Under 2.5 1.41 (70.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Instituto de Córdoba (72.3%) | Πιθανό Σκορ: 1-0 (21.0%)
-🏆 Primera División - Chile|Universidad Católica (CHI) vs O'Higgins|01/09 03:45|Over 2.5 1.78 (56.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Universidad Católica (CHI) (72.3%) | Πιθανό Σκορ: 2-0 (10.9%)
+🏆 Brazil Série A|Remo vs Coritiba|01/09 02:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Coritiba (98.9%) | Πιθανό Σκορ: 0-2 (23.9%)
+🏆 Αργεντινή Primera 🇦🇷|CA Tigre BA vs Barracas Central|01/09 03:15|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: CA Tigre BA (65.4%) | Πιθανό Σκορ: 1-0 (11.9%)
+🏆 Αργεντινή Primera 🇦🇷|Instituto de Córdoba vs San Lorenzo|01/09 03:15|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: San Lorenzo (63.0%) | Πιθανό Σκορ: 1-1 (11.4%)
+🏆 Primera División - Chile|Universidad Católica (CHI) vs O'Higgins|01/09 03:45|Over 2.5 1.94 (51.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Universidad Católica (CHI) (72.3%) | Πιθανό Σκορ: 1-0 (13.1%)
+🏆 Coppa Italia|Parma vs Cremonese|01/09 19:00|Over 1.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Parma (64.9%) | Πιθανό Σκορ: 1-0 (15.0%)
+🏆 Superettan - Sweden|Helsingborgs IF vs Örebro SK|01/09 20:00|Over 2.5 1.66 (60.2%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Helsingborgs IF (59.4%) | Πιθανό Σκορ: 1-1 (10.1%)
+🏆 Austrian Football Bundesliga|Wolfsberger AC vs LASK|01/09 20:30|Over 2.5 1.55 (64.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: LASK (70.5%) | Πιθανό Σκορ: 0-2 (10.4%)
+🏆 Saudi Pro League|Al-Hilal vs Al-Ahli|01/09 21:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Hilal (72.5%) | Πιθανό Σκορ: 1-0 (13.2%)
+🏆 Swiss Superleague|FC Zurich vs BSC Young Boys|01/09 21:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: BSC Young Boys (77.0%) | Πιθανό Σκορ: 0-2 (14.5%)
+🏆 League 2|Accrington Stanley vs Grimsby Town|01/09 21:45|Over 1.5 1.34 (74.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Grimsby Town (62.8%) | Πιθανό Σκορ: 0-1 (14.5%)
+🏆 League 2|Exeter City vs Barnet|01/09 21:45|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Barnet (58.4%) | Πιθανό Σκορ: 1-1 (10.1%)
+🏆 Αγγλία Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿|Lincoln City vs Blackburn Rovers|01/09 21:45|Over 2.5 1.87 (53.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Lincoln City (55.6%) | Πιθανό Σκορ: 1-1 (12.1%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
