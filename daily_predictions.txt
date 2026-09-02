@@ -1,13 +1,12 @@
 STATS|78.2|22.1
-🏆 Βραζιλία Série B 🇧🇷|Londrina vs Juventude|02/09 01:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Juventude (69.4%) | Πιθανό Σκορ: 0-1 (12.6%)
-🏆 J League|Avispa Fukuoka vs Urawa Red Diamonds|02/09 13:00|Over 1.5 1.65 (60.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Avispa Fukuoka (55.6%) | Πιθανό Σκορ: 1-1 (13.1%)
-🏆 J League|Cerezo Osaka vs Kashiwa Reysol|02/09 13:00|Over 2.5 1.89 (52.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Kashiwa Reysol (59.9%) | Πιθανό Σκορ: 1-1 (11.8%)
-🏆 J League|FC Machida Zelvia vs Kawasaki Frontale|02/09 13:00|Over 2.5 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Machida Zelvia (67.5%) | Πιθανό Σκορ: 1-0 (12.3%)
-🏆 J League|Shimizu S Pulse vs FC Tokyo|02/09 13:00|Over 1.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Tokyo (65.0%) | Πιθανό Σκορ: 0-1 (15.0%)
-🏆 J League|JEF United Chiba vs Fagiano Okayama|02/09 13:00|Over 2.5 1.92 (52.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Fagiano Okayama (68.2%) | Πιθανό Σκορ: 0-1 (12.4%)
-🏆 J League|V-Varen Nagasaki vs Gamba Osaka|02/09 13:00|Over 2.5 1.89 (52.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Gamba Osaka (63.5%) | Πιθανό Σκορ: 0-1 (11.5%)
-🏆 J League|Hiroshima Sanfrecce FC vs Nagoya Grampus|02/09 13:00|Over 2.5 1.63 (61.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Hiroshima Sanfrecce FC (80.3%) | Πιθανό Σκορ: 2-0 (13.5%)
-🏆 J League|Mito HollyHock vs Kashima Antlers|02/09 13:00|Over 1.5 1.44 (69.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Kashima Antlers (69.5%) | Πιθανό Σκορ: 0-1 (16.0%)
+🏆 J League|Avispa Fukuoka vs Urawa Red Diamonds|02/09 13:00|Over 1.5 1.58 (63.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Avispa Fukuoka (56.9%) | Πιθανό Σκορ: 1-0 (13.1%)
+🏆 J League|Cerezo Osaka vs Kashiwa Reysol|02/09 13:00|Over 2.5 1.80 (55.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Kashiwa Reysol (62.6%) | Πιθανό Σκορ: 1-1 (11.5%)
+🏆 J League|FC Machida Zelvia vs Kawasaki Frontale|02/09 13:00|Over 2.5 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Machida Zelvia (64.9%) | Πιθανό Σκορ: 1-0 (11.8%)
+🏆 J League|Shimizu S Pulse vs FC Tokyo|02/09 13:00|Over 2.5 2.06 (48.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Tokyo (76.2%) | Πιθανό Σκορ: 0-2 (14.2%)
+🏆 J League|JEF United Chiba vs Fagiano Okayama|02/09 13:00|Over 1.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Fagiano Okayama (67.2%) | Πιθανό Σκορ: 0-1 (15.5%)
+🏆 J League|V-Varen Nagasaki vs Gamba Osaka|02/09 13:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Gamba Osaka (55.6%) | Πιθανό Σκορ: 1-1 (12.1%)
+🏆 J League|Hiroshima Sanfrecce FC vs Nagoya Grampus|02/09 13:00|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Hiroshima Sanfrecce FC (78.4%) | Πιθανό Σκορ: 2-0 (12.8%)
+🏆 J League|Mito HollyHock vs Kashima Antlers|02/09 13:00|Over 2.5 1.96 (51.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Kashima Antlers (73.8%) | Πιθανό Σκορ: 0-1 (13.4%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
