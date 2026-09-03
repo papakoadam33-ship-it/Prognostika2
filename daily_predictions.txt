@@ -1,14 +1,12 @@
 STATS|78.2|22.1
-🏆 Primera División - Chile|Coquimbo Unido vs Universidad de Concepción|03/09 01:01|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Coquimbo Unido (72.6%) | Πιθανό Σκορ: 1-0 (13.2%)
-🏆 Brazil Série A|Flamengo vs Mirassol|03/09 01:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Flamengo (99.3%) | Πιθανό Σκορ: 2-0 (24.2%)
-🏆 Primera División - Chile|Deportes Limache vs Ñublense|03/09 03:30|Over 2.5 1.73 (57.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Ñublense (52.4%) | Πιθανό Σκορ: 1-1 (12.2%)
-🏆 Leagues Cup|Toluca vs León|03/09 04:00|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Toluca (73.8%) | Πιθανό Σκορ: 2-0 (11.4%)
-🏆 Leagues Cup|América vs Monterrey|03/09 06:30|Over 2.5 1.78 (56.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: América (60.5%) | Πιθανό Σκορ: 1-1 (11.7%)
-🏆 Saudi Pro League|Al-Fayha vs Al-Kholood|03/09 18:55|Over 1.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Kholood (54.8%) | Πιθανό Σκορ: 1-1 (13.1%)
-🏆 Ekstraklasa - Poland|Raków Częstochowa vs Górnik Zabrze|03/09 19:00|Over 2.5 1.74 (57.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Raków Częstochowa (56.8%) | Πιθανό Σκορ: 1-1 (12.0%)
-🏆 Coppa Italia|Palermo vs Mantova|03/09 19:00|Over 2.5 1.72 (58.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Palermo (73.3%) | Πιθανό Σκορ: 1-0 (13.3%)
-🏆 Saudi Pro League|Neom vs Al-Khaleej|03/09 19:30|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Neom (73.0%) | Πιθανό Σκορ: 1-0 (13.2%)
-🏆 Allsvenskan - Sweden|Mjällby AIF vs Djurgardens IF|03/09 20:00|Over 2.5 1.58 (63.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Djurgardens IF (73.2%) | Πιθανό Σκορ: 0-2 (11.2%)
+🏆 Saudi Pro League|Al-Fayha vs Al-Kholood|03/09 18:55|Over 1.5 1.46 (68.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Kholood (56.9%) | Πιθανό Σκορ: 0-1 (13.1%)
+🏆 Ekstraklasa - Poland|Raków Częstochowa vs Górnik Zabrze|03/09 19:00|Over 2.5 1.82 (54.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Raków Częstochowa (53.1%) | Πιθανό Σκορ: 1-1 (12.2%)
+🏆 Coppa Italia|Palermo vs Mantova|03/09 19:00|Over 2.5 1.72 (58.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Palermo (74.4%) | Πιθανό Σκορ: 2-0 (13.6%)
+🏆 Saudi Pro League|Neom vs Al-Khaleej|03/09 19:30|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Neom (75.3%) | Πιθανό Σκορ: 2-0 (13.9%)
+🏆 Allsvenskan - Sweden|Mjällby AIF vs Djurgardens IF|03/09 20:00|Over 2.5 1.62 (61.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Djurgardens IF (73.2%) | Πιθανό Σκορ: 0-2 (11.2%)
+🏆 Saudi Pro League|Diriyah Club vs Al-Qadsiah|03/09 21:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Qadsiah (77.6%) | Πιθανό Σκορ: 0-2 (14.8%)
+🏆 Denmark Superliga|FC Copenhagen vs FC Nordsjaelland|03/09 21:00|Over 2.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: FC Copenhagen (59.3%) | Πιθανό Σκορ: 1-1 (10.1%)
+🏆 Belgium First Div|Anderlecht vs KV Kortrijk|03/09 21:30|Over 2.5 1.56 (64.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Anderlecht (82.1%) | Πιθανό Σκορ: 2-0 (14.1%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
