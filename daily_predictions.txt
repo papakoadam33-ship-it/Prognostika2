@@ -1,13 +1,12 @@
 STATS|78.2|22.1
-🏆 Βραζιλία Série B 🇧🇷|Nautico PE vs Botafogo-SP|04/09 02:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Nautico PE (59.0%) | Πιθανό Σκορ: 1-1 (11.9%)
-🏆 Saudi Pro League|Abha Club vs Al-Ettifaq|04/09 19:00|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Al-Ettifaq (55.6%) | Πιθανό Σκορ: 1-1 (10.3%)
-🏆 Γερμανία DFB Pokal 🇩🇪|Arminia Bielefeld vs FC St. Pauli|04/09 19:30|Over 2.5 1.62 (61.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Arminia Bielefeld (56.4%) | Πιθανό Σκορ: 1-1 (10.3%)
-🏆 Frauen-Bundesliga|TSG Hoffenheim vs Bayer Leverkusen|04/09 19:30|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Bayer Leverkusen (65.7%) | Πιθανό Σκορ: 1-2 (9.9%)
-🏆 Γερμανία DFB Pokal 🇩🇪|Hannover 96 vs Karlsruher SC|04/09 19:30|Over 2.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Hannover 96 (74.5%) | Πιθανό Σκορ: 2-0 (11.6%)
-🏆 Eliteserien - Norway|Aalesund vs IK Start|04/09 20:00|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Aalesund (56.6%) | Πιθανό Σκορ: 1-1 (10.3%)
-🏆 Γερμανία DFB Pokal 🇩🇪|FC Ingolstadt 04 vs Alemannia Aachen|04/09 20:00|Over 2.5 1.53 (65.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: FC Ingolstadt 04 (52.2%) | Πιθανό Σκορ: 1-1 (10.4%)
-🏆 Ligue 1 - France|Lyon vs Auxerre|04/09 20:00|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Lyon (80.8%) | Πιθανό Σκορ: 2-0 (13.6%)
-🏆 Turkey Super League|Basaksehir vs Galatasaray|04/09 20:00|Over 2.5 1.46 (68.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Galatasaray (75.8%) | Πιθανό Σκορ: 0-2 (12.0%)
+🏆 Saudi Pro League|Abha Club vs Al-Ettifaq|04/09 19:00|Over 2.5 1.62 (61.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Al-Ettifaq (55.6%) | Πιθανό Σκορ: 1-1 (10.3%)
+🏆 Γερμανία DFB Pokal 🇩🇪|Arminia Bielefeld vs FC St. Pauli|04/09 19:30|Over 2.5 1.62 (61.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Arminia Bielefeld (54.4%) | Πιθανό Σκορ: 1-1 (10.4%)
+🏆 Frauen-Bundesliga|TSG Hoffenheim vs Bayer Leverkusen|04/09 19:30|Over 2.5 1.60 (62.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Bayer Leverkusen (64.8%) | Πιθανό Σκορ: 1-2 (9.9%)
+🏆 Γερμανία DFB Pokal 🇩🇪|Hannover 96 vs Karlsruher SC|04/09 19:30|Over 2.5 1.36 (73.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Hannover 96 (76.9%) | Πιθανό Σκορ: 2-0 (12.3%)
+🏆 Eliteserien - Norway|Aalesund vs IK Start|04/09 20:00|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Aalesund (57.4%) | Πιθανό Σκορ: 1-1 (10.2%)
+🏆 Γερμανία DFB Pokal 🇩🇪|FC Ingolstadt 04 vs Alemannia Aachen|04/09 20:00|Over 2.5 1.53 (65.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: FC Ingolstadt 04 (54.4%) | Πιθανό Σκορ: 1-1 (10.4%)
+🏆 Ligue 1 - France|Lyon vs Auxerre|04/09 20:00|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Lyon (82.1%) | Πιθανό Σκορ: 2-0 (14.1%)
+🏆 Turkey Super League|Basaksehir vs Galatasaray|04/09 20:00|Over 2.5 1.46 (68.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Galatasaray (76.4%) | Πιθανό Σκορ: 0-2 (12.2%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
