@@ -1,17 +1,12 @@
 STATS|78.2|22.1
-🏆 Αργεντινή Primera 🇦🇷|Belgrano de Cordoba vs Atlético Huracán|05/09 01:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Belgrano de Cordoba (97.7%) | Πιθανό Σκορ: 2-0 (23.4%)
-🏆 Αργεντινή Primera 🇦🇷|Platense vs Deportivo Riestra|05/09 01:00|Under 2.5 1.45 (69.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Platense (52.5%) | Πιθανό Σκορ: 0-0 (15.7%)
-🏆 Βραζιλία Série B 🇧🇷|Criciuma vs Cuiabá|05/09 01:33|Under 2.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Criciuma (94.5%) | Πιθανό Σκορ: 1-0 (27.5%)
-🏆 Βραζιλία Série B 🇧🇷|Athletic Club (MG) vs Vila Nova|05/09 02:30|Under 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Vila Nova (51.4%) | Πιθανό Σκορ: 0-0 (15.7%)
-🏆 MLS|New York City FC vs Nashville SC|05/09 02:30|Over 2.5 1.79 (55.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Nashville SC (61.0%) | Πιθανό Σκορ: 1-1 (9.9%)
-🏆 Βραζιλία Série B 🇧🇷|Clube de Regatas Brasil vs América Mineiro|05/09 03:30|Over 2.5 1.73 (57.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Clube de Regatas Brasil (80.8%) | Πιθανό Σκορ: 2-0 (13.6%)
-🏆 Primera División - Chile|Deportes Concepción vs Audax Italiano|05/09 03:30|Over 1.5 1.48 (67.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Deportes Concepción (64.8%) | Πιθανό Σκορ: 1-0 (14.9%)
-🏆 Liga MX|FC Juárez vs Pachuca|05/09 06:00|Over 2.5 1.97 (50.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Pachuca (66.1%) | Πιθανό Σκορ: 0-1 (12.0%)
 🏆 J League|Avispa Fukuoka vs Mito HollyHock|05/09 13:00|Over 1.5 1.43 (69.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Avispa Fukuoka (67.1%) | Πιθανό Σκορ: 1-0 (15.5%)
-🏆 K League 1|Bucheon FC 1995 vs Daejeon Citizen|05/09 13:00|Over 2.5 2.02 (49.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Daejeon Citizen (68.0%) | Πιθανό Σκορ: 0-1 (12.3%)
-🏆 K League 1|FC Seoul vs Incheon United|05/09 13:00|Over 1.5 1.44 (69.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Seoul (68.7%) | Πιθανό Σκορ: 1-0 (15.8%)
+🏆 K League 1|Bucheon FC 1995 vs Daejeon Citizen|05/09 13:00|Over 2.5 2.00 (50.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Daejeon Citizen (68.5%) | Πιθανό Σκορ: 0-1 (12.4%)
+🏆 K League 1|FC Seoul vs Incheon United|05/09 13:00|Over 2.5 2.02 (49.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Seoul (73.8%) | Πιθανό Σκορ: 1-0 (13.4%)
 🏆 Frauen-Bundesliga|Hamburger SV vs RB Leipzig|05/09 13:00|Over 2.5 1.71 (58.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: RB Leipzig (61.2%) | Πιθανό Σκορ: 1-1 (11.6%)
-🏆 K League 1|Jeju United FC vs Ulsan Hyundai FC|05/09 13:00|Over 2.5 1.86 (53.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Ulsan Hyundai FC (57.4%) | Πιθανό Σκορ: 1-1 (12.0%)
+🏆 K League 1|Jeju United FC vs Ulsan Hyundai FC|05/09 13:00|Over 2.5 1.86 (53.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Ulsan Hyundai FC (58.7%) | Πιθανό Σκορ: 1-1 (11.9%)
+🏆 K League 1|Jeonbuk Hyundai Motors vs Pohang Steelers|05/09 13:00|Over 1.5 1.50 (66.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Jeonbuk Hyundai Motors (70.3%) | Πιθανό Σκορ: 1-0 (16.2%)
+🏆 Γερμανία DFB Pokal 🇩🇪|1. FC Kaiserslautern vs SV Darmstadt 98|05/09 14:00|Over 2.5 1.56 (64.1%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: 1. FC Kaiserslautern (60.5%) | Πιθανό Σκορ: 1-1 (10.0%)
+🏆 Γερμανία DFB Pokal 🇩🇪|Holstein Kiel vs 1. FC Nürnberg|05/09 14:00|Over 2.5 1.53 (65.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Holstein Kiel (57.2%) | Πιθανό Σκορ: 1-1 (10.2%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
