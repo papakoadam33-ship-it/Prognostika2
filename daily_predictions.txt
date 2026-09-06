@@ -1,17 +1,12 @@
 STATS|78.2|22.1
-🏆 Brazil Série A|Sao Paulo vs Atletico Mineiro|06/09 00:30|Under 2.5 1.03 (97.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Sao Paulo (96.3%) | Πιθανό Σκορ: 1-0 (28.0%)
-🏆 Βραζιλία Série B 🇧🇷|Ceará vs Sport Recife|06/09 00:30|Under 2.5 1.03 (97.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Ceará (99.0%) | Πιθανό Σκορ: 1-0 (28.8%)
-🏆 Primera División - Chile|Everton de Viña del Mar vs Universidad Católica (CHI)|06/09 00:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Universidad Católica (CHI) (99.6%) | Πιθανό Σκορ: 0-2 (24.3%)
-🏆 Αργεντινή Primera 🇦🇷|San Lorenzo vs Talleres|06/09 01:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: San Lorenzo (99.0%) | Πιθανό Σκορ: 2-0 (24.0%)
-🏆 Liga MX|Atlético San Luis vs Guadalajara|06/09 02:02|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Guadalajara (96.8%) | Πιθανό Σκορ: 0-2 (23.0%)
-🏆 MLS|Inter Miami CF vs Atlanta United FC|06/09 02:30|Over 2.5 1.21 (82.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Inter Miami CF (87.0%) | Πιθανό Σκορ: 2-0 (15.8%)
-🏆 MLS|Philadelphia Union vs CF Montreal|06/09 02:30|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Philadelphia Union (82.4%) | Πιθανό Σκορ: 2-0 (14.2%)
-🏆 MLS|Charlotte FC vs Houston Dynamo|06/09 02:30|Over 2.5 1.71 (58.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Charlotte FC (60.1%) | Πιθανό Σκορ: 1-1 (10.0%)
-🏆 MLS|Toronto FC vs Chicago Fire|06/09 02:30|Over 2.5 1.54 (64.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Chicago Fire (53.7%) | Πιθανό Σκορ: 1-1 (10.4%)
-🏆 MLS|Columbus Crew SC vs Colorado Rapids|06/09 02:30|Over 2.5 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Columbus Crew SC (64.9%) | Πιθανό Σκορ: 1-0 (11.8%)
-🏆 MLS|FC Cincinnati vs D.C. United|06/09 02:30|Over 2.5 1.37 (73.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Cincinnati (73.6%) | Πιθανό Σκορ: 2-0 (11.3%)
-🏆 MLS|Orlando City SC vs San Diego FC|06/09 02:30|Over 2.5 1.37 (73.0%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Orlando City SC (55.9%) | Πιθανό Σκορ: 1-1 (10.3%)
-🏆 Primera División - Chile|Universidad de Chile vs Coquimbo Unido|06/09 03:00|Over 1.5 1.50 (66.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Universidad de Chile (67.5%) | Πιθανό Σκορ: 1-0 (15.6%)
+🏆 J League|Nagoya Grampus vs FC Machida Zelvia|06/09 12:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Machida Zelvia (57.0%) | Πιθανό Σκορ: 1-1 (12.0%)
+🏆 J League|Fagiano Okayama vs Hiroshima Sanfrecce FC|06/09 12:00|Over 2.5 2.04 (49.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Hiroshima Sanfrecce FC (67.9%) | Πιθανό Σκορ: 0-1 (12.3%)
+🏆 J League|JEF United Chiba vs Gamba Osaka|06/09 12:00|Over 2.5 1.84 (54.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Gamba Osaka (64.2%) | Πιθανό Σκορ: 0-1 (11.7%)
+🏆 J League|Kashima Antlers vs Urawa Red Diamonds|06/09 12:00|Over 2.5 1.78 (56.2%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Kashima Antlers (70.8%) | Πιθανό Σκορ: 2-0 (10.4%)
+🏆 J League|Cerezo Osaka vs Tokyo Verdy|06/09 13:00|Over 1.5 1.46 (68.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Cerezo Osaka (74.5%) | Πιθανό Σκορ: 1-0 (17.2%)
+🏆 K League 1|FC Anyang vs Gangwon FC|06/09 13:00|Over 1.5 1.51 (66.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Gangwon FC (61.4%) | Πιθανό Σκορ: 0-1 (14.2%)
+🏆 K League 1|Sangju Sangmu FC vs Gwangju FC|06/09 13:00|Over 2.5 1.83 (54.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Sangju Sangmu FC (79.4%) | Πιθανό Σκορ: 2-0 (15.4%)
+🏆 J League|Kashiwa Reysol vs Yokohama F Marinos|06/09 13:00|Over 2.5 1.82 (54.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Kashiwa Reysol (72.3%) | Πιθανό Σκορ: 1-0 (13.1%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
