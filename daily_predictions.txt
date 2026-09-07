@@ -1,12 +1,13 @@
 STATS|78.2|22.1
-🏆 Super League - Greece|Asteras Tripolis vs Iraklis FC|07/09 18:00|Over 1.5 1.55 (64.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Asteras Tripolis (70.5%) | Πιθανό Σκορ: 1-0 (16.3%)
-🏆 Saudi Pro League|Al-Khaleej vs Al-Riyadh|07/09 18:30|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Khaleej (57.8%) | Πιθανό Σκορ: 1-1 (11.9%)
-🏆 Frauen-Bundesliga|Union Berlin vs Eintracht Frankfurt|07/09 19:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Eintracht Frankfurt (69.9%) | Πιθανό Σκορ: 0-1 (12.7%)
-🏆 Ekstraklasa - Poland|Wieczysta Kraków vs Zagłębie Lubin|07/09 19:00|Over 2.5 1.75 (57.1%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Wieczysta Kraków (63.5%) | Πιθανό Σκορ: 2-1 (9.8%)
-🏆 Serie A - Italy|Cagliari vs Lecce|07/09 19:30|Under 2.5 1.59 (62.9%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Cagliari (67.1%) | Πιθανό Σκορ: 1-0 (19.5%)
-🏆 Premier League - Russia|Rubin Kazan vs FC Akhmat Grozny|07/09 19:30|Under 2.5 1.54 (64.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Akhmat Grozny (50.9%) | Πιθανό Σκορ: 0-0 (15.7%)
-🏆 Allsvenskan - Sweden|Malmo FF vs AIK|07/09 20:00|Over 2.5 1.45 (69.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Malmo FF (72.3%) | Πιθανό Σκορ: 2-0 (10.9%)
+🏆 Super League - Greece|Asteras Tripolis vs Iraklis FC|07/09 18:00|Over 2.5 1.60 (62.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Iraklis FC (69.2%) | Πιθανό Σκορ: 0-2 (10.0%)
+🏆 Saudi Pro League|Al-Khaleej vs Al-Riyadh|07/09 18:30|Over 1.5 1.35 (74.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Khaleej (63.6%) | Πιθανό Σκορ: 1-0 (14.7%)
+🏆 Frauen-Bundesliga|Union Berlin vs Eintracht Frankfurt|07/09 19:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Eintracht Frankfurt (69.3%) | Πιθανό Σκορ: 0-1 (12.6%)
+🏆 Ekstraklasa - Poland|Wieczysta Kraków vs Zagłębie Lubin|07/09 19:00|Over 2.5 1.78 (56.2%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Wieczysta Kraków (67.7%) | Πιθανό Σκορ: 2-1 (9.9%)
+🏆 Serie A - Italy|Cagliari vs Lecce|07/09 19:30|Over 1.5 1.60 (62.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Cagliari (67.1%) | Πιθανό Σκορ: 1-0 (15.5%)
+🏆 Premier League - Russia|Rubin Kazan vs FC Akhmat Grozny|07/09 19:30|Under 2.5 1.54 (64.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Akhmat Grozny (50.5%) | Πιθανό Σκορ: 0-0 (15.7%)
+🏆 Allsvenskan - Sweden|Malmo FF vs AIK|07/09 20:00|Over 2.5 1.57 (63.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Malmo FF (73.2%) | Πιθανό Σκορ: 2-0 (11.2%)
 🏆 Turkey Super League|Çaykur Rizespor vs Alanyaspor|07/09 20:00|Over 1.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Çaykur Rizespor (72.6%) | Πιθανό Σκορ: 1-0 (16.7%)
+🏆 Ισπανία LaLiga 2 🇪🇸|Getafe vs Celta Vigo|07/09 20:00|Under 2.5 1.33 (75.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Getafe (56.7%) | Πιθανό Σκορ: 1-0 (16.5%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
