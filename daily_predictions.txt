@@ -1,12 +1,12 @@
 STATS|78.2|22.1
-🏆 K League 1|Daejeon Citizen vs FC Anyang|09/09 13:30|Over 2.5 1.73 (57.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Daejeon Citizen (79.7%) | Πιθανό Σκορ: 2-0 (13.3%)
-🏆 K League 1|Gangwon FC vs Jeonbuk Hyundai Motors|09/09 13:30|Over 1.5 1.65 (60.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Jeonbuk Hyundai Motors (55.0%) | Πιθανό Σκορ: 1-1 (13.1%)
-🏆 K League 1|Gwangju FC vs Jeju United FC|09/09 13:30|Over 2.5 2.00 (50.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Jeju United FC (69.9%) | Πιθανό Σκορ: 0-1 (12.7%)
-🏆 K League 1|Pohang Steelers vs Sangju Sangmu FC|09/09 13:30|Under 2.5 1.63 (61.3%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Pohang Steelers (51.4%) | Πιθανό Σκορ: 0-0 (15.7%)
-🏆 Veikkausliiga - Finland|HJK Helsinki vs FC Inter Turku|09/09 18:00|Over 2.5 2.00 (50.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Inter Turku (50.9%) | Πιθανό Σκορ: 1-1 (12.2%)
-🏆 Saudi Pro League|Al-Kholood vs Al-Shabab|09/09 18:55|Over 2.5 1.74 (57.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Shabab (53.4%) | Πιθανό Σκορ: 1-1 (12.2%)
-🏆 UEFA Champions League|Barcelona vs Feyenoord|09/09 19:45|Over 2.5 1.15 (87.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Barcelona (96.0%) | Πιθανό Σκορ: 3-0 (19.7%)
-🏆 Dutch Eredivisie|FC Twente Enschede vs SC Telstar|09/09 19:45|Over 2.5 1.28 (78.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Twente Enschede (89.0%) | Πιθανό Σκορ: 2-0 (16.5%)
+🏆 Veikkausliiga - Finland|HJK Helsinki vs FC Inter Turku|09/09 18:00|Over 2.5 1.88 (53.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: HJK Helsinki (53.2%) | Πιθανό Σκορ: 1-1 (12.2%)
+🏆 Saudi Pro League|Al-Kholood vs Al-Shabab|09/09 18:55|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Al-Shabab (55.2%) | Πιθανό Σκορ: 1-1 (10.3%)
+🏆 UEFA Champions League|Barcelona vs Feyenoord|09/09 19:45|Over 2.5 1.13 (88.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Barcelona (96.7%) | Πιθανό Σκορ: 3-0 (20.1%)
+🏆 Dutch Eredivisie|FC Twente Enschede vs SC Telstar|09/09 19:45|Over 2.5 1.28 (78.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Twente Enschede (90.3%) | Πιθανό Σκορ: 2-0 (17.0%)
+🏆 UEFA Champions League|VfB Stuttgart vs Viking FK|09/09 19:45|Over 2.5 1.24 (80.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: VfB Stuttgart (89.4%) | Πιθανό Σκορ: 2-0 (16.7%)
+🏆 Superettan - Sweden|Landskrona BoIS vs Helsingborgs IF|09/09 20:00|Over 2.5 1.80 (55.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Landskrona BoIS (71.0%) | Πιθανό Σκορ: 1-0 (12.9%)
+🏆 Superettan - Sweden|Nordic United FC vs IFK Värnamo|09/09 20:00|Over 2.5 1.71 (58.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Nordic United FC (61.4%) | Πιθανό Σκορ: 1-1 (9.9%)
+🏆 Superettan - Sweden|Sandvikens IF vs IK Oddevold|09/09 20:00|Over 2.5 1.82 (54.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Sandvikens IF (62.6%) | Πιθανό Σκορ: 1-1 (11.5%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
