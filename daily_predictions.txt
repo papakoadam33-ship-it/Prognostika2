@@ -1,12 +1,12 @@
 STATS|78.2|22.1
-🏆 UEFA Champions League|Fenerbahce vs AS Roma|10/09 19:45|Over 2.5 1.62 (61.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: AS Roma (62.5%) | Πιθανό Σκορ: 1-1 (9.8%)
-🏆 UEFA Champions League|PSV Eindhoven vs Shakhtar Donetsk|10/09 19:45|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: PSV Eindhoven (80.5%) | Πιθανό Σκορ: 2-0 (13.5%)
-🏆 Superettan - Sweden|Falkenbergs FF vs Östers IF|10/09 20:00|Over 2.5 1.72 (58.1%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Falkenbergs FF (68.0%) | Πιθανό Σκορ: 2-1 (9.9%)
-🏆 Superettan - Sweden|GIF Sundsvall vs Örebro SK|10/09 20:00|Over 2.5 1.86 (53.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Örebro SK (64.9%) | Πιθανό Σκορ: 0-1 (11.8%)
-🏆 Superettan - Sweden|Varbergs BoIS vs IFK Norrkoping|10/09 20:00|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: IFK Norrkoping (63.2%) | Πιθανό Σκορ: 1-2 (9.8%)
-🏆 Superettan - Sweden|Östersunds FK vs IK Brage|10/09 20:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Östersunds FK (67.4%) | Πιθανό Σκορ: 1-0 (12.2%)
-🏆 Super League - Greece|Panathinaikos vs AE Kifisia FC|10/09 21:15|Over 2.5 1.57 (63.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Panathinaikos (89.0%) | Πιθανό Σκορ: 2-0 (16.5%)
-🏆 UEFA Champions League|Bayern Munich vs Bodø/Glimt|10/09 22:00|Over 2.5 1.14 (87.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bayern Munich (95.4%) | Πιθανό Σκορ: 3-0 (19.3%)
+🏆 UEFA Champions League|Fenerbahce vs AS Roma|10/09 19:45|Over 2.5 1.60 (62.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: AS Roma (64.5%) | Πιθανό Σκορ: 1-2 (9.9%)
+🏆 UEFA Champions League|PSV Eindhoven vs Shakhtar Donetsk|10/09 19:45|Over 2.5 1.45 (69.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: PSV Eindhoven (80.9%) | Πιθανό Σκορ: 2-0 (13.7%)
+🏆 Superettan - Sweden|Falkenbergs FF vs Östers IF|10/09 20:00|Over 2.5 1.64 (61.0%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Falkenbergs FF (67.1%) | Πιθανό Σκορ: 2-1 (9.9%)
+🏆 Superettan - Sweden|GIF Sundsvall vs Örebro SK|10/09 20:00|Over 2.5 1.94 (51.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Örebro SK (63.6%) | Πιθανό Σκορ: 0-1 (11.5%)
+🏆 Superettan - Sweden|Varbergs BoIS vs IFK Norrkoping|10/09 20:00|Over 2.5 1.72 (58.1%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: IFK Norrkoping (61.8%) | Πιθανό Σκορ: 1-1 (9.9%)
+🏆 Superettan - Sweden|Östersunds FK vs IK Brage|10/09 20:00|Over 2.5 2.00 (50.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Östersunds FK (72.9%) | Πιθανό Σκορ: 1-0 (13.2%)
+🏆 Super League - Greece|Panathinaikos vs AE Kifisia FC|10/09 21:15|Over 2.5 1.55 (64.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Panathinaikos (89.0%) | Πιθανό Σκορ: 2-0 (16.5%)
+🏆 UEFA Champions League|Bayern Munich vs Bodø/Glimt|10/09 22:00|Over 2.5 1.12 (89.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bayern Munich (96.3%) | Πιθανό Σκορ: 3-0 (19.9%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
