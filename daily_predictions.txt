@@ -1,12 +1,12 @@
 STATS|78.2|22.1
-🏆 J League|Vissel Kobe vs Kashima Antlers|11/09 13:00|Over 1.5 1.51 (66.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Vissel Kobe (58.1%) | Πιθανό Σκορ: 1-0 (13.4%)
-🏆 J League|Kyoto Purple Sanga vs Kashiwa Reysol|11/09 13:00|Over 2.5 1.79 (55.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Kashiwa Reysol (72.8%) | Πιθανό Σκορ: 0-2 (11.1%)
-🏆 Premier League - Russia|Kryliya Sovetov vs Rodina Moscow|11/09 18:00|Over 2.5 1.83 (54.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Kryliya Sovetov (67.7%) | Πιθανό Σκορ: 1-0 (12.3%)
-🏆 Saudi Pro League|Al-Qadsiah vs Al-Ettifaq|11/09 18:25|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Qadsiah (88.8%) | Πιθανό Σκορ: 2-0 (19.3%)
-🏆 Saudi Pro League|Al-Faisaly KSA FC vs Al-Ittihad|11/09 18:45|Over 2.5 1.42 (70.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Ittihad (77.9%) | Πιθανό Σκορ: 0-2 (12.7%)
-🏆 Ekstraklasa - Poland|Raków Częstochowa vs Motor Lublin|11/09 19:00|Over 2.5 1.63 (61.3%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Raków Częstochowa (65.2%) | Πιθανό Σκορ: 2-1 (9.9%)
-🏆 Γερμανία DFB Pokal 🇩🇪|1. FC Nürnberg vs Hannover 96|11/09 19:30|Over 2.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Hannover 96 (51.0%) | Πιθανό Σκορ: 1-1 (10.4%)
-🏆 Γερμανία DFB Pokal 🇩🇪|SV Darmstadt 98 vs Arminia Bielefeld|11/09 19:30|Over 2.5 1.57 (63.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Arminia Bielefeld (57.4%) | Πιθανό Σκορ: 1-1 (10.2%)
+🏆 Premier League - Russia|Kryliya Sovetov vs Rodina Moscow|11/09 18:00|Over 2.5 1.84 (54.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Kryliya Sovetov (69.3%) | Πιθανό Σκορ: 1-0 (12.6%)
+🏆 Saudi Pro League|Al-Qadsiah vs Al-Ettifaq|11/09 18:25|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Qadsiah (88.1%) | Πιθανό Σκορ: 2-0 (19.0%)
+🏆 Saudi Pro League|Al-Faisaly KSA FC vs Al-Ittihad|11/09 18:45|Over 2.5 1.57 (63.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Ittihad (80.0%) | Πιθανό Σκορ: 0-2 (13.4%)
+🏆 Ekstraklasa - Poland|Raków Częstochowa vs Motor Lublin|11/09 19:00|Over 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Raków Częstochowa (66.3%) | Πιθανό Σκορ: 2-1 (9.9%)
+🏆 Γερμανία DFB Pokal 🇩🇪|1. FC Nürnberg vs Hannover 96|11/09 19:30|Over 2.5 1.30 (76.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: 1. FC Nürnberg (53.4%) | Πιθανό Σκορ: 1-1 (10.4%)
+🏆 Γερμανία DFB Pokal 🇩🇪|SV Darmstadt 98 vs Arminia Bielefeld|11/09 19:30|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Arminia Bielefeld (56.6%) | Πιθανό Σκορ: 1-1 (10.3%)
+🏆 Frauen-Bundesliga|Werder Bremen vs Hamburger SV|11/09 19:30|Over 2.5 1.60 (62.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Werder Bremen (82.5%) | Πιθανό Σκορ: 2-0 (14.2%)
+🏆 Denmark Superliga|FC Copenhagen vs AC Horsens|11/09 20:00|Over 2.5 1.64 (61.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Copenhagen (88.7%) | Πιθανό Σκορ: 2-0 (16.4%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
