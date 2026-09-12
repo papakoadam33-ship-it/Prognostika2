@@ -1,13 +1,15 @@
 STATS|78.2|22.1
-🏆 Αργεντινή Primera 🇦🇷|Defensa y Justicia vs Gimnasia Mendoza|12/09 01:15|Over 2.5 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Defensa y Justicia (97.8%) | Πιθανό Σκορ: 2-0 (23.4%)
-🏆 Brazil Série A|Coritiba vs Atletico Paranaense|12/09 03:00|Over 1.5 1.57 (63.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Atletico Paranaense (55.7%) | Πιθανό Σκορ: 1-1 (13.1%)
-🏆 Αργεντινή Primera 🇦🇷|Boca Juniors vs Central Córdoba|12/09 03:30|Over 1.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Boca Juniors (84.4%) | Πιθανό Σκορ: 1-0 (19.5%)
-🏆 Liga MX|Necaxa vs Puebla|12/09 04:00|Over 2.5 1.73 (57.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Necaxa (63.3%) | Πιθανό Σκορ: 2-1 (9.8%)
-🏆 Liga MX|Atlante FC vs Pachuca|12/09 06:00|Over 2.5 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Pachuca (55.0%) | Πιθανό Σκορ: 1-1 (12.1%)
-🏆 Liga MX|Tijuana vs Querétaro|12/09 06:10|Over 2.5 1.98 (50.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Tijuana (64.8%) | Πιθανό Σκορ: 1-0 (11.8%)
-🏆 K League 1|Bucheon FC 1995 vs Jeju United FC|12/09 10:30|Over 1.5 1.48 (67.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Jeju United FC (52.0%) | Πιθανό Σκορ: 1-1 (13.2%)
-🏆 K League 1|Jeonbuk Hyundai Motors vs FC Seoul|12/09 10:30|Over 2.5 1.92 (52.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Seoul (54.4%) | Πιθανό Σκορ: 1-1 (12.2%)
-🏆 K League 1|Ulsan Hyundai FC vs Incheon United|12/09 10:30|Over 2.5 1.94 (51.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Ulsan Hyundai FC (59.3%) | Πιθανό Σκορ: 1-1 (11.8%)
+🏆 K League 1|Bucheon FC 1995 vs Jeju United FC|12/09 10:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Jeju United FC (52.7%) | Πιθανό Σκορ: 1-1 (12.2%)
+🏆 K League 1|Jeonbuk Hyundai Motors vs FC Seoul|12/09 10:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Seoul (58.2%) | Πιθανό Σκορ: 1-1 (11.9%)
+🏆 K League 1|Ulsan Hyundai FC vs Incheon United|12/09 10:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Ulsan Hyundai FC (59.6%) | Πιθανό Σκορ: 1-1 (11.8%)
+🏆 J League|Mito HollyHock vs Kawasaki Frontale|12/09 12:00|Over 2.5 1.79 (55.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Kawasaki Frontale (58.8%) | Πιθανό Σκορ: 1-1 (10.1%)
+🏆 J League|Shimizu S Pulse vs Avispa Fukuoka|12/09 12:30|Under 2.5 1.60 (62.5%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Avispa Fukuoka (52.3%) | Πιθανό Σκορ: 0-0 (15.7%)
+🏆 Frauen-Bundesliga|RB Leipzig vs 1. FC Nürnberg|12/09 13:00|Over 2.5 1.53 (65.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: RB Leipzig (69.3%) | Πιθανό Σκορ: 2-0 (10.0%)
+🏆 J League|Hiroshima Sanfrecce FC vs Cerezo Osaka|12/09 13:00|Over 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Hiroshima Sanfrecce FC (74.5%) | Πιθανό Σκορ: 2-0 (11.6%)
+🏆 K League 1|Daejeon Citizen vs Pohang Steelers|12/09 13:00|Over 2.5 1.99 (50.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Daejeon Citizen (71.2%) | Πιθανό Σκορ: 1-0 (12.9%)
+🏆 J League|FC Machida Zelvia vs Yokohama F Marinos|12/09 13:00|Over 2.5 2.00 (50.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Machida Zelvia (67.5%) | Πιθανό Σκορ: 1-0 (12.3%)
+🏆 J League|Gamba Osaka vs FC Tokyo|12/09 13:00|Over 2.5 1.73 (57.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: FC Tokyo (67.5%) | Πιθανό Σκορ: 1-2 (9.9%)
+🏆 J League|V-Varen Nagasaki vs Nagoya Grampus|12/09 13:00|Over 2.5 1.73 (57.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Nagoya Grampus (64.5%) | Πιθανό Σκορ: 1-2 (9.9%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
