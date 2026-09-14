@@ -1,12 +1,14 @@
 STATS|78.2|22.1
-🏆 Veikkausliiga - Finland|FC Inter Turku vs VPS Vaasa|14/09 18:00|Over 2.5 2.06 (48.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Inter Turku (77.7%) | Πιθανό Σκορ: 2-0 (14.8%)
-🏆 Frauen-Bundesliga|Bayer Leverkusen vs Bayern Munich|14/09 19:00|Over 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bayern Munich (80.6%) | Πιθανό Σκορ: 0-2 (13.5%)
-🏆 Serie A - Italy|Torino vs AS Roma|14/09 19:30|Over 2.5 1.76 (56.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: AS Roma (68.4%) | Πιθανό Σκορ: 0-1 (12.4%)
-🏆 Serie A - Italy|Como vs Parma|14/09 19:30|Over 2.5 1.67 (59.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Como (79.4%) | Πιθανό Σκορ: 2-0 (13.2%)
-🏆 Eliteserien - Norway|Bodø/Glimt vs Sandefjord|14/09 20:00|Over 2.5 1.24 (80.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bodø/Glimt (93.7%) | Πιθανό Σκορ: 2-0 (18.3%)
-🏆 Denmark Superliga|FC Midtjylland vs Brondby IF|14/09 20:00|Over 2.5 1.62 (61.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: FC Midtjylland (71.1%) | Πιθανό Σκορ: 2-0 (10.5%)
-🏆 Allsvenskan - Sweden|IK Sirius vs Degerfors IF|14/09 20:00|Over 2.5 1.57 (63.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: IK Sirius (83.2%) | Πιθανό Σκορ: 2-0 (14.5%)
-🏆 Allsvenskan - Sweden|Djurgardens IF vs GAIS|14/09 20:00|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Djurgardens IF (81.1%) | Πιθανό Σκορ: 2-0 (13.7%)
+🏆 Veikkausliiga - Finland|FC Inter Turku vs VPS Vaasa|14/09 18:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Inter Turku (69.3%) | Πιθανό Σκορ: 1-0 (12.6%)
+🏆 Frauen-Bundesliga|Bayer Leverkusen vs Bayern Munich|14/09 19:02|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bayern Munich (82.2%) | Πιθανό Σκορ: 0-2 (16.6%)
+🏆 Serie A - Italy|Torino vs AS Roma|14/09 19:30|Over 2.5 1.71 (58.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: AS Roma (79.5%) | Πιθανό Σκορ: 0-2 (13.2%)
+🏆 Serie A - Italy|Como vs Parma|14/09 19:30|Over 2.5 1.55 (64.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Como (91.4%) | Πιθανό Σκορ: 2-0 (17.4%)
+🏆 Eliteserien - Norway|Bodø/Glimt vs Sandefjord|14/09 20:00|Over 2.5 1.19 (84.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bodø/Glimt (95.3%) | Πιθανό Σκορ: 3-0 (19.3%)
+🏆 Denmark Superliga|FC Midtjylland vs Brondby IF|14/09 20:00|Over 2.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: FC Midtjylland (69.2%) | Πιθανό Σκορ: 2-0 (10.0%)
+🏆 Allsvenskan - Sweden|IK Sirius vs Degerfors IF|14/09 20:00|Over 2.5 1.57 (63.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: IK Sirius (83.6%) | Πιθανό Σκορ: 2-0 (14.6%)
+🏆 Allsvenskan - Sweden|Djurgardens IF vs GAIS|14/09 20:00|Over 2.5 1.57 (63.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Djurgardens IF (82.9%) | Πιθανό Σκορ: 2-0 (14.3%)
+🏆 Turkey Super League|Gazişehir Gaziantep vs Fenerbahce|14/09 20:00|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Fenerbahce (80.9%) | Πιθανό Σκορ: 0-2 (13.7%)
+🏆 Superettan - Sweden|Örebro SK vs Nordic United FC|14/09 20:00|Over 2.5 1.80 (55.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Örebro SK (56.8%) | Πιθανό Σκορ: 1-1 (12.0%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
