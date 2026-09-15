@@ -1,12 +1,12 @@
 STATS|78.2|22.1
-🏆 Coppa Italia|Genoa vs Südtirol|15/09 19:00|Over 2.5 1.97 (50.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Genoa (79.4%) | Πιθανό Σκορ: 2-0 (15.5%)
-🏆 Ekstraklasa - Poland|Raków Częstochowa vs Zagłębie Lubin|15/09 19:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Raków Częstochowa (70.0%) | Πιθανό Σκορ: 1-0 (12.7%)
-🏆 Γερμανία DFB Pokal 🇩🇪|FC Würzburger Kickers vs Alemannia Aachen|15/09 20:00|Over 2.5 1.56 (64.1%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Alemannia Aachen (63.9%) | Πιθανό Σκορ: 1-2 (9.8%)
-🏆 Ισπανία LaLiga 2 🇪🇸|Rayo Vallecano vs Espanyol|15/09 20:00|Over 2.5 2.01 (49.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Rayo Vallecano (57.5%) | Πιθανό Σκορ: 1-1 (12.0%)
-🏆 Swiss Superleague|Grasshopper Zürich vs FC Sion|15/09 20:00|Over 2.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: FC Sion (67.8%) | Πιθανό Σκορ: 1-2 (9.9%)
-🏆 Γερμανία DFB Pokal 🇩🇪|SV Meppen vs FC Viktoria Köln 1904|15/09 20:00|Over 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: FC Viktoria Köln 1904 (52.6%) | Πιθανό Σκορ: 1-1 (10.4%)
-🏆 Γερμανία DFB Pokal 🇩🇪|Jahn Regensburg vs Fortuna Düsseldorf|15/09 20:00|Over 2.5 1.55 (64.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Fortuna Düsseldorf (58.0%) | Πιθανό Σκορ: 1-1 (10.2%)
-🏆 Superettan - Sweden|Landskrona BoIS vs GIF Sundsvall|15/09 20:00|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Landskrona BoIS (86.5%) | Πιθανό Σκορ: 2-0 (15.6%)
+🏆 Coppa Italia|Genoa vs Südtirol|15/09 19:00|Over 2.5 1.97 (50.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Genoa (81.2%) | Πιθανό Σκορ: 2-0 (16.2%)
+🏆 Ekstraklasa - Poland|Raków Częstochowa vs Zagłębie Lubin|15/09 19:00|Over 2.5 1.89 (52.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Raków Częstochowa (64.7%) | Πιθανό Σκορ: 1-0 (11.7%)
+🏆 Γερμανία DFB Pokal 🇩🇪|FC Würzburger Kickers vs Alemannia Aachen|15/09 20:00|Over 2.5 1.55 (64.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Alemannia Aachen (63.4%) | Πιθανό Σκορ: 1-2 (9.8%)
+🏆 Ισπανία LaLiga 2 🇪🇸|Rayo Vallecano vs Espanyol|15/09 20:00|Over 2.5 2.01 (49.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Rayo Vallecano (55.3%) | Πιθανό Σκορ: 1-1 (12.1%)
+🏆 Swiss Superleague|Grasshopper Zürich vs FC Sion|15/09 20:00|Over 2.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: FC Sion (68.2%) | Πιθανό Σκορ: 1-2 (9.9%)
+🏆 Γερμανία DFB Pokal 🇩🇪|SV Meppen vs FC Viktoria Köln 1904|15/09 20:00|Over 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: FC Viktoria Köln 1904 (54.9%) | Πιθανό Σκορ: 1-1 (10.3%)
+🏆 Γερμανία DFB Pokal 🇩🇪|Jahn Regensburg vs Fortuna Düsseldorf|15/09 20:00|Over 2.5 1.56 (64.1%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Fortuna Düsseldorf (56.0%) | Πιθανό Σκορ: 1-1 (10.3%)
+🏆 Superettan - Sweden|Landskrona BoIS vs GIF Sundsvall|15/09 20:00|Over 2.5 1.74 (57.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Landskrona BoIS (86.5%) | Πιθανό Σκορ: 2-0 (15.6%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
