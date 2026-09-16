@@ -1,12 +1,12 @@
 STATS|78.2|22.1
-🏆 Premier League - Russia|Spartak Moscow vs FC Fakel Voronezh|16/09 18:30|Over 2.5 1.80 (55.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Spartak Moscow (85.6%) | Πιθανό Σκορ: 2-0 (17.9%)
-🏆 Premier League - Russia|Rodina Moscow vs Rubin Kazan|16/09 18:30|Over 1.5 1.41 (71.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Rubin Kazan (57.6%) | Πιθανό Σκορ: 0-1 (13.3%)
-🏆 UEFA Europa League|Omonoia FC vs Celta Vigo|16/09 19:45|Over 1.5 1.42 (70.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Celta Vigo (69.2%) | Πιθανό Σκορ: 0-1 (16.0%)
-🏆 UEFA Europa League|FC Ararat-Armenia vs Sparta Prague|16/09 19:45|Over 2.5 1.74 (57.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Sparta Prague (76.8%) | Πιθανό Σκορ: 0-2 (12.3%)
-🏆 Γερμανία DFB Pokal 🇩🇪|SC Preußen Münster vs 1. FC Saarbrücken|16/09 20:00|Over 2.5 1.60 (62.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: 1. FC Saarbrücken (53.5%) | Πιθανό Σκορ: 1-1 (10.4%)
+🏆 Premier League - Russia|Spartak Moscow vs FC Fakel Voronezh|16/09 18:30|Over 2.5 1.76 (56.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Spartak Moscow (87.8%) | Πιθανό Σκορ: 2-0 (16.1%)
+🏆 Premier League - Russia|Rodina Moscow vs Rubin Kazan|16/09 18:30|Over 1.5 1.38 (72.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Rubin Kazan (56.0%) | Πιθανό Σκορ: 1-1 (13.1%)
+🏆 UEFA Europa League|Omonoia FC vs Celta Vigo|16/09 19:45|Over 1.5 1.42 (70.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Celta Vigo (71.6%) | Πιθανό Σκορ: 0-1 (16.5%)
+🏆 UEFA Europa League|FC Ararat-Armenia vs Sparta Prague|16/09 19:45|Over 2.5 1.67 (59.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Sparta Prague (73.2%) | Πιθανό Σκορ: 0-2 (11.2%)
+🏆 Γερμανία DFB Pokal 🇩🇪|SC Preußen Münster vs 1. FC Saarbrücken|16/09 20:00|Over 2.5 1.60 (62.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: 1. FC Saarbrücken (51.8%) | Πιθανό Σκορ: 1-1 (10.4%)
 🏆 Allsvenskan - Sweden|AIK vs Mjällby AIF|16/09 20:00|Over 2.5 1.76 (56.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: AIK (56.1%) | Πιθανό Σκορ: 1-1 (12.1%)
-🏆 Ισπανία LaLiga 2 🇪🇸|Atlético Madrid vs CA Osasuna|16/09 20:00|Over 2.5 1.75 (57.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Atlético Madrid (86.0%) | Πιθανό Σκορ: 2-0 (15.4%)
-🏆 Ισπανία LaLiga 2 🇪🇸|Deportivo La Coruña vs Sevilla|16/09 20:00|Over 1.5 1.64 (61.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Deportivo La Coruña (54.8%) | Πιθανό Σκορ: 1-1 (13.1%)
+🏆 Ισπανία LaLiga 2 🇪🇸|Atlético Madrid vs CA Osasuna|16/09 20:00|Over 2.5 1.77 (56.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Atlético Madrid (85.7%) | Πιθανό Σκορ: 2-0 (18.0%)
+🏆 Ισπανία LaLiga 2 🇪🇸|Deportivo La Coruña vs Sevilla|16/09 20:00|Over 1.5 1.54 (64.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Deportivo La Coruña (53.7%) | Πιθανό Σκορ: 1-1 (13.2%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
