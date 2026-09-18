@@ -1,12 +1,12 @@
 STATS|78.2|22.1
-🏆 Copa Sudamericana|Montevideo City Torque vs Club Cienciano|18/09 03:30|Over 2.5 1.64 (61.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Montevideo City Torque (79.6%) | Πιθανό Σκορ: 2-0 (13.2%)
-🏆 Copa Libertadores|Flamengo-RJ vs Independiente del Valle|18/09 03:30|Over 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Flamengo-RJ (90.6%) | Πιθανό Σκορ: 2-0 (17.1%)
-🏆 Super League - China|Zhejiang vs Wuhan Three Towns|18/09 14:35|Over 2.5 1.33 (75.2%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Zhejiang (62.4%) | Πιθανό Σκορ: 1-1 (9.8%)
-🏆 Veikkausliiga - Finland|FC Lahti vs Jaro|18/09 18:00|Over 2.5 1.74 (57.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Lahti (78.3%) | Πιθανό Σκορ: 2-0 (12.8%)
-🏆 Veikkausliiga - Finland|SJK Seinäjoki vs IFK Mariehamn|18/09 18:00|Over 2.5 1.75 (57.1%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: SJK Seinäjoki (70.6%) | Πιθανό Σκορ: 2-0 (10.4%)
-🏆 Veikkausliiga - Finland|AC Oulu vs FC Inter Turku|18/09 19:00|Over 1.5 1.46 (68.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Inter Turku (71.7%) | Πιθανό Σκορ: 0-1 (16.5%)
-🏆 Veikkausliiga - Finland|IF Gnistan vs HJK Helsinki|18/09 19:00|Over 2.5 1.55 (64.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: HJK Helsinki (69.9%) | Πιθανό Σκορ: 0-2 (10.2%)
-🏆 Ekstraklasa - Poland|Widzew Łódź vs Wieczysta Kraków|18/09 19:00|Over 2.5 1.56 (64.1%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Widzew Łódź (65.7%) | Πιθανό Σκορ: 2-1 (9.9%)
+🏆 Super League - China|Zhejiang vs Wuhan Three Towns|18/09 14:35|Over 2.5 1.30 (76.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Zhejiang (62.2%) | Πιθανό Σκορ: 1-1 (9.8%)
+🏆 Veikkausliiga - Finland|FC Lahti vs Jaro|18/09 18:00|Over 2.5 1.83 (54.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Lahti (78.5%) | Πιθανό Σκορ: 2-0 (15.1%)
+🏆 Veikkausliiga - Finland|SJK Seinäjoki vs IFK Mariehamn|18/09 18:00|Over 2.5 1.78 (56.2%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: SJK Seinäjoki (71.0%) | Πιθανό Σκορ: 2-0 (10.5%)
+🏆 Veikkausliiga - Finland|AC Oulu vs FC Inter Turku|18/09 19:00|Over 1.5 1.53 (65.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Inter Turku (68.8%) | Πιθανό Σκορ: 0-1 (15.9%)
+🏆 Veikkausliiga - Finland|IF Gnistan vs HJK Helsinki|18/09 19:00|Over 2.5 1.55 (64.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: HJK Helsinki (72.1%) | Πιθανό Σκορ: 0-2 (10.8%)
+🏆 Ekstraklasa - Poland|Widzew Łódź vs Wieczysta Kraków|18/09 19:00|Over 2.5 1.62 (61.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Widzew Łódź (66.3%) | Πιθανό Σκορ: 2-1 (9.9%)
+🏆 Γερμανία DFB Pokal 🇩🇪|Greuther Fürth vs 1. FC Magdeburg|18/09 19:30|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: 1. FC Magdeburg (56.8%) | Πιθανό Σκορ: 1-1 (10.2%)
+🏆 Frauen-Bundesliga|FSV Mainz 05 vs Eintracht Frankfurt|18/09 19:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Eintracht Frankfurt (92.6%) | Πιθανό Σκορ: 0-2 (21.0%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
