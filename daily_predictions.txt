@@ -1,12 +1,12 @@
 STATS|78.2|22.1
-🏆 UEFA Champions League Women|Inter Milan vs BK Hacken|22/09 19:45|Over 2.5 1.68 (59.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Inter Milan (56.8%) | Πιθανό Σκορ: 1-1 (12.0%)
-🏆 UEFA Champions League Women|Bayern Munich vs Manchester City|22/09 19:45|Over 2.5 1.36 (73.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Bayern Munich (59.4%) | Πιθανό Σκορ: 1-1 (10.1%)
-🏆 FA Cup|Worksop Town FC vs AFC Telford United|22/09 21:45|Over 2.5 1.78 (56.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Worksop Town FC (61.3%) | Πιθανό Σκορ: 1-1 (11.6%)
-🏆 FA Cup|Dagenham and Redbridge FC vs Waltham Abbey FC|22/09 21:45|Over 2.5 1.49 (67.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Dagenham and Redbridge FC (83.1%) | Πιθανό Σκορ: 2-0 (14.4%)
-🏆 FA Cup|Gainsborough Trinity FC vs Leamington FC|22/09 21:45|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Gainsborough Trinity FC (68.1%) | Πιθανό Σκορ: 2-1 (9.9%)
-🏆 FA Cup|Truro City FC vs Merthyr Town FC|22/09 21:45|Over 2.5 1.60 (62.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Truro City FC (75.4%) | Πιθανό Σκορ: 2-0 (11.9%)
-🏆 UEFA Champions League Women|Arsenal vs HB Køge|22/09 22:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Arsenal (95.9%) | Πιθανό Σκορ: 2-0 (22.5%)
-🏆 UEFA Champions League Women|Juventus vs Benfica|22/09 22:00|Over 2.5 1.55 (64.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Juventus (72.8%) | Πιθανό Σκορ: 2-0 (11.1%)
+🏆 UEFA Champions League Women|Inter Milan vs BK Hacken|22/09 19:45|Over 2.5 1.72 (58.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Inter Milan (60.7%) | Πιθανό Σκορ: 1-1 (11.7%)
+🏆 UEFA Champions League Women|Bayern Munich vs Manchester City|22/09 19:45|Over 2.5 1.30 (76.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Bayern Munich (59.1%) | Πιθανό Σκορ: 1-1 (10.1%)
+🏆 FA Cup|Worksop Town FC vs AFC Telford United|22/09 21:45|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Worksop Town FC (55.8%) | Πιθανό Σκορ: 1-1 (12.1%)
+🏆 FA Cup|Dagenham and Redbridge FC vs Waltham Abbey FC|22/09 21:45|Over 2.5 1.52 (65.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Dagenham and Redbridge FC (81.5%) | Πιθανό Σκορ: 2-0 (13.9%)
+🏆 FA Cup|Farnborough FC vs Uxbridge FC|22/09 21:45|Over 2.5 1.46 (68.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Farnborough FC (75.0%) | Πιθανό Σκορ: 2-0 (11.8%)
+🏆 FA Cup|Gainsborough Trinity FC vs Leamington FC|22/09 21:45|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Gainsborough Trinity FC (65.8%) | Πιθανό Σκορ: 1-0 (11.9%)
+🏆 FA Cup|Wingate and Finchley FC vs Hemel Hempstead Town FC|22/09 21:45|Over 2.5 1.57 (63.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Hemel Hempstead Town FC (75.7%) | Πιθανό Σκορ: 0-2 (12.0%)
+🏆 FA Cup|Truro City FC vs Merthyr Town FC|22/09 21:45|Over 2.5 1.58 (63.3%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Truro City FC (71.2%) | Πιθανό Σκορ: 2-0 (10.6%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
