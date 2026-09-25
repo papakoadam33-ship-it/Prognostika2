@@ -1,12 +1,20 @@
 STATS|78.2|22.1
-🏆 UEFA Nations League|Armenia vs Latvia|25/09 19:00|Over 1.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Armenia (71.5%) | Πιθανό Σκορ: 1-0 (16.5%)
-🏆 UEFA Nations League|Georgia vs Northern Ireland|25/09 19:00|Over 1.5 1.50 (66.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Georgia (68.4%) | Πιθανό Σκορ: 1-0 (15.8%)
-🏆 Γερμανία DFB Pokal 🇩🇪|TSV Havelse vs SC Fortuna Köln|25/09 20:00|Over 2.5 1.67 (59.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: TSV Havelse (51.1%) | Πιθανό Σκορ: 1-1 (10.4%)
-🏆 Ισπανία LaLiga 2 🇪🇸|Girona FC vs Albacete|25/09 21:30|Over 2.5 1.75 (57.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Girona FC (80.2%) | Πιθανό Σκορ: 2-0 (13.4%)
-🏆 UEFA Nations League|Italy vs Belgium|25/09 21:45|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Italy (59.0%) | Πιθανό Σκορ: 1-1 (10.1%)
-🏆 UEFA Nations League|Poland vs Bosnia & Herzegovina|25/09 21:45|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Poland (78.6%) | Πιθανό Σκορ: 2-0 (15.1%)
-🏆 UEFA Nations League|Montenegro vs Cyprus|25/09 21:45|Over 1.5 1.36 (73.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Montenegro (73.0%) | Πιθανό Σκορ: 1-0 (16.8%)
-🏆 UEFA Nations League|Turkey vs France|25/09 21:45|Over 2.5 1.33 (75.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: France (85.6%) | Πιθανό Σκορ: 0-2 (15.3%)
+🏆 Ισπανία LaLiga 2 🇪🇸|Girona FC vs Albacete|25/09 21:29|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Girona FC (97.2%) | Πιθανό Σκορ: 2-0 (23.1%)
+🏆 UEFA Nations League|Italy vs Belgium|25/09 21:45|Over 2.5 1.60 (62.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Belgium (83.4%) | Πιθανό Σκορ: 0-2 (14.5%)
+🏆 UEFA Nations League|Turkey vs France|25/09 21:45|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: France (81.9%) | Πιθανό Σκορ: 0-2 (16.4%)
+🏆 League of Ireland|Galway United vs Shelbourne Dublin|25/09 21:45|Over 1.5 1.51 (66.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Galway United (79.8%) | Πιθανό Σκορ: 1-0 (18.4%)
+🏆 UEFA Nations League|Sweden vs Romania|25/09 21:45|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Sweden (92.5%) | Πιθανό Σκορ: 2-0 (21.0%)
+🏆 UEFA Nations League|Poland vs Bosnia & Herzegovina|25/09 21:47|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Poland (75.8%) | Πιθανό Σκορ: 2-0 (14.1%)
+🏆 UEFA Nations League|Montenegro vs Cyprus|25/09 21:47|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Montenegro (78.6%) | Πιθανό Σκορ: 2-0 (15.1%)
+🏆 UEFA Nations League|Hungary vs Ukraine|25/09 21:49|Over 1.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Ukraine (79.2%) | Πιθανό Σκορ: 0-1 (18.3%)
+🏆 Βραζιλία Série B 🇧🇷|Grêmio Novorizontino vs São Bernardo|26/09 01:30|Over 2.5 1.86 (53.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Grêmio Novorizontino (81.2%) | Πιθανό Σκορ: 2-0 (16.2%)
+🏆 Βραζιλία Série B 🇧🇷|Vila Nova vs Londrina|26/09 02:30|Over 1.5 1.51 (66.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Vila Nova (76.3%) | Πιθανό Σκορ: 1-0 (17.6%)
+🏆 Liga MX|Atlante FC vs Monterrey|26/09 04:00|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Monterrey (62.6%) | Πιθανό Σκορ: 1-2 (9.8%)
+🏆 Liga MX|Tijuana vs Atlas|26/09 06:00|Over 2.5 1.77 (56.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Tijuana (65.5%) | Πιθανό Σκορ: 1-0 (11.9%)
+🏆 Ισπανία LaLiga 2 🇪🇸|AD Ceuta FC vs Real Sociedad B|26/09 15:00|Over 2.5 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: AD Ceuta FC (52.9%) | Πιθανό Σκορ: 1-1 (12.2%)
+🏆 UEFA Nations League|Slovenia vs Scotland|26/09 16:00|Under 2.5 1.60 (62.5%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Slovenia (51.9%) | Πιθανό Σκορ: 0-0 (15.7%)
+🏆 League 2|Swindon Town vs Accrington Stanley|26/09 17:00|Over 2.5 1.81 (55.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Swindon Town (58.8%) | Πιθανό Σκορ: 1-1 (11.9%)
+🏆 League 2|Bristol Rovers vs Exeter City|26/09 17:00|Over 2.5 1.88 (53.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bristol Rovers (75.3%) | Πιθανό Σκορ: 2-0 (13.9%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
