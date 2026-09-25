@@ -1,19 +1,12 @@
 STATS|78.2|22.1
-🏆 UEFA Nations League|Norway vs Denmark|24/09 21:45|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Norway (91.0%) | Πιθανό Σκορ: 2-0 (20.3%)
-🏆 UEFA Nations League|Netherlands vs Germany|24/09 21:45|Over 2.5 1.48 (67.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Germany (73.9%) | Πιθανό Σκορ: 0-2 (11.4%)
-🏆 UEFA Nations League|Portugal vs Wales|24/09 21:45|Over 2.5 1.45 (69.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Portugal (97.5%) | Πιθανό Σκορ: 3-0 (20.6%)
-🏆 UEFA Nations League|Kosovo vs Republic of Ireland|24/09 21:46|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Kosovo (66.1%) | Πιθανό Σκορ: 1-0 (12.0%)
-🏆 UEFA Nations League|Liechtenstein vs Lithuania|24/09 21:46|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Lithuania (93.1%) | Πιθανό Σκορ: 0-2 (21.2%)
-🏆 UEFA Nations League|Serbia vs Greece|24/09 21:47|Over 2.5 1.79 (55.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Serbia (72.2%) | Πιθανό Σκορ: 1-0 (13.1%)
-🏆 UEFA Nations League|Austria vs Israel|24/09 21:49|Over 2.5 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Austria (93.1%) | Πιθανό Σκορ: 2-0 (21.2%)
-🏆 UEFA Nations League|Armenia vs Latvia|25/09 19:00|Over 2.5 1.91 (52.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Armenia (71.8%) | Πιθανό Σκορ: 1-0 (13.0%)
-🏆 UEFA Nations League|Georgia vs Northern Ireland|25/09 19:00|Over 1.5 1.43 (69.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Georgia (71.2%) | Πιθανό Σκορ: 1-0 (16.4%)
-🏆 Γερμανία DFB Pokal 🇩🇪|TSV Havelse vs SC Fortuna Köln|25/09 20:00|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: SC Fortuna Köln (56.8%) | Πιθανό Σκορ: 1-1 (12.0%)
-🏆 Ισπανία LaLiga 2 🇪🇸|Girona FC vs Albacete|25/09 21:30|Over 2.5 1.67 (59.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Girona FC (79.6%) | Πιθανό Σκορ: 2-0 (13.2%)
+🏆 UEFA Nations League|Armenia vs Latvia|25/09 19:00|Over 1.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Armenia (71.5%) | Πιθανό Σκορ: 1-0 (16.5%)
+🏆 UEFA Nations League|Georgia vs Northern Ireland|25/09 19:00|Over 1.5 1.43 (69.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Georgia (69.0%) | Πιθανό Σκορ: 1-0 (15.9%)
+🏆 Γερμανία DFB Pokal 🇩🇪|TSV Havelse vs SC Fortuna Köln|25/09 20:00|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: SC Fortuna Köln (57.0%) | Πιθανό Σκορ: 1-1 (12.0%)
+🏆 Ισπανία LaLiga 2 🇪🇸|Girona FC vs Albacete|25/09 21:30|Over 2.5 1.66 (60.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Girona FC (79.7%) | Πιθανό Σκορ: 2-0 (13.3%)
 🏆 UEFA Nations League|Italy vs Belgium|25/09 21:45|Over 2.5 1.75 (57.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Italy (58.7%) | Πιθανό Σκορ: 1-1 (11.9%)
-🏆 UEFA Nations League|Poland vs Bosnia & Herzegovina|25/09 21:45|Over 2.5 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Poland (74.4%) | Πιθανό Σκορ: 2-0 (13.6%)
+🏆 UEFA Nations League|Poland vs Bosnia & Herzegovina|25/09 21:45|Over 2.5 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Poland (74.8%) | Πιθανό Σκορ: 2-0 (13.7%)
 🏆 UEFA Nations League|Montenegro vs Cyprus|25/09 21:45|Over 2.5 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Montenegro (73.0%) | Πιθανό Σκορ: 1-0 (13.2%)
-🏆 UEFA Nations League|Turkey vs France|25/09 21:45|Over 2.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: France (84.6%) | Πιθανό Σκορ: 0-2 (14.9%)
+🏆 UEFA Nations League|Turkey vs France|25/09 21:45|Over 2.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: France (85.8%) | Πιθανό Σκορ: 0-2 (15.4%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
