@@ -1,12 +1,12 @@
 STATS|78.2|22.1
-🏆 UEFA Nations League|Armenia vs Latvia|25/09 19:00|Over 1.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Armenia (68.6%) | Πιθανό Σκορ: 1-0 (15.8%)
-🏆 UEFA Nations League|Georgia vs Northern Ireland|25/09 19:00|Over 1.5 1.50 (66.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Georgia (68.6%) | Πιθανό Σκορ: 1-0 (15.8%)
-🏆 Γερμανία DFB Pokal 🇩🇪|TSV Havelse vs SC Fortuna Köln|25/09 20:00|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: SC Fortuna Köln (56.6%) | Πιθανό Σκορ: 1-1 (12.0%)
-🏆 Ισπανία LaLiga 2 🇪🇸|Girona FC vs Albacete|25/09 21:30|Over 2.5 1.75 (57.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Girona FC (80.8%) | Πιθανό Σκορ: 2-0 (13.6%)
-🏆 UEFA Nations League|Italy vs Belgium|25/09 21:45|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Italy (58.1%) | Πιθανό Σκορ: 1-1 (10.2%)
-🏆 UEFA Nations League|Poland vs Bosnia & Herzegovina|25/09 21:45|Over 2.5 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Poland (75.8%) | Πιθανό Σκορ: 2-0 (14.1%)
-🏆 UEFA Nations League|Montenegro vs Cyprus|25/09 21:45|Over 1.5 1.36 (73.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Montenegro (70.6%) | Πιθανό Σκορ: 1-0 (16.3%)
-🏆 UEFA Nations League|Turkey vs France|25/09 21:45|Over 2.5 1.36 (73.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: France (87.0%) | Πιθανό Σκορ: 0-2 (15.8%)
+🏆 UEFA Nations League|Armenia vs Latvia|25/09 19:00|Over 1.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Armenia (71.5%) | Πιθανό Σκορ: 1-0 (16.5%)
+🏆 UEFA Nations League|Georgia vs Northern Ireland|25/09 19:00|Over 1.5 1.50 (66.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Georgia (68.4%) | Πιθανό Σκορ: 1-0 (15.8%)
+🏆 Γερμανία DFB Pokal 🇩🇪|TSV Havelse vs SC Fortuna Köln|25/09 20:00|Over 2.5 1.67 (59.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: TSV Havelse (51.1%) | Πιθανό Σκορ: 1-1 (10.4%)
+🏆 Ισπανία LaLiga 2 🇪🇸|Girona FC vs Albacete|25/09 21:30|Over 2.5 1.75 (57.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Girona FC (80.2%) | Πιθανό Σκορ: 2-0 (13.4%)
+🏆 UEFA Nations League|Italy vs Belgium|25/09 21:45|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Italy (59.0%) | Πιθανό Σκορ: 1-1 (10.1%)
+🏆 UEFA Nations League|Poland vs Bosnia & Herzegovina|25/09 21:45|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Poland (78.6%) | Πιθανό Σκορ: 2-0 (15.1%)
+🏆 UEFA Nations League|Montenegro vs Cyprus|25/09 21:45|Over 1.5 1.36 (73.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Montenegro (73.0%) | Πιθανό Σκορ: 1-0 (16.8%)
+🏆 UEFA Nations League|Turkey vs France|25/09 21:45|Over 2.5 1.33 (75.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: France (85.6%) | Πιθανό Σκορ: 0-2 (15.3%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
