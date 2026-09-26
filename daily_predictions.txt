@@ -1,14 +1,17 @@
 STATS|78.2|22.1
-🏆 Ισπανία LaLiga 2 🇪🇸|AD Ceuta FC vs Real Sociedad B|26/09 15:01|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: AD Ceuta FC (98.7%) | Πιθανό Σκορ: 2-0 (23.9%)
-🏆 UEFA Nations League|Slovenia vs Scotland|26/09 16:03|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Slovenia (57.4%) | Πιθανό Σκορ: 1-1 (12.0%)
-🏆 League 2|Swindon Town vs Accrington Stanley|26/09 17:00|Over 2.5 1.81 (55.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Swindon Town (60.8%) | Πιθανό Σκορ: 1-1 (11.7%)
-🏆 League 2|Bristol Rovers vs Exeter City|26/09 17:00|Over 1.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bristol Rovers (73.8%) | Πιθανό Σκορ: 1-0 (17.0%)
-🏆 League 1|Plymouth Argyle vs Burton Albion|26/09 17:00|Over 2.5 1.64 (61.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Plymouth Argyle (81.6%) | Πιθανό Σκορ: 2-0 (13.9%)
-🏆 League 1|Cambridge United vs Wimbledon|26/09 17:00|Over 2.5 1.82 (54.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Cambridge United (74.7%) | Πιθανό Σκορ: 2-0 (13.7%)
-🏆 League 2|Cheltenham Town vs Chesterfield FC|26/09 17:00|Over 2.5 1.75 (57.1%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Chesterfield FC (63.2%) | Πιθανό Σκορ: 1-2 (9.8%)
-🏆 League 2|Shrewsbury Town vs Colchester United|26/09 17:00|Over 1.5 1.46 (68.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Shrewsbury Town (53.2%) | Πιθανό Σκορ: 1-1 (13.2%)
-🏆 League 2|Rotherham United vs Crewe Alexandra|26/09 17:00|Over 2.5 1.81 (55.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Rotherham United (60.8%) | Πιθανό Σκορ: 1-1 (11.7%)
-🏆 League 2|Fleetwood Town vs Rochdale|26/09 17:00|Over 2.5 1.93 (51.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Fleetwood Town (68.6%) | Πιθανό Σκορ: 1-0 (12.4%)
+🏆 UEFA Nations League|Czech Republic vs Croatia|26/09 21:45|Over 2.5 1.88 (53.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Croatia (67.6%) | Πιθανό Σκορ: 0-1 (12.3%)
+🏆 UEFA Nations League|England vs Spain|26/09 21:45|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Spain (60.3%) | Πιθανό Σκορ: 1-1 (11.7%)
+🏆 UEFA Nations League|Slovakia vs Moldova|26/09 21:45|Over 2.5 1.55 (64.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Slovakia (92.8%) | Πιθανό Σκορ: 2-0 (18.0%)
+🏆 UEFA Nations League|North Macedonia vs Switzerland|26/09 21:48|Over 2.5 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Switzerland (88.9%) | Πιθανό Σκορ: 0-2 (19.4%)
+🏆 UEFA Nations League|Albania vs Belarus|26/09 21:50|Over 1.5 1.56 (64.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Albania (76.8%) | Πιθανό Σκορ: 1-0 (17.7%)
+🏆 Βραζιλία Série B 🇧🇷|Operario PR vs Ceará|26/09 22:30|Over 1.5 1.57 (63.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Operario PR (63.4%) | Πιθανό Σκορ: 1-0 (14.6%)
+🏆 Βραζιλία Série B 🇧🇷|Nautico PE vs Sport Recife|26/09 22:30|Over 1.5 1.51 (66.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Nautico PE (59.4%) | Πιθανό Σκορ: 1-0 (13.7%)
+🏆 Βραζιλία Série B 🇧🇷|Goiás vs Atletico Goianiense|27/09 00:30|Under 2.5 1.60 (62.5%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Goiás (52.1%) | Πιθανό Σκορ: 0-0 (15.7%)
+🏆 Liga MX|Cruz Azul vs Toluca|27/09 01:50|Over 2.5 1.66 (60.2%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Toluca (50.4%) | Πιθανό Σκορ: 1-1 (10.4%)
+🏆 Liga MX|Guadalajara vs Querétaro|27/09 02:07|Over 2.5 1.72 (58.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Guadalajara (78.6%) | Πιθανό Σκορ: 2-0 (12.9%)
+🏆 MLS|Atlanta United FC vs New York City FC|27/09 02:30|Over 2.5 1.69 (59.2%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Atlanta United FC (51.9%) | Πιθανό Σκορ: 1-1 (10.4%)
+🏆 MLS|CF Montreal vs FC Cincinnati|27/09 02:30|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: FC Cincinnati (54.3%) | Πιθανό Σκορ: 1-1 (10.4%)
+🏆 MLS|Charlotte FC vs Chicago Fire|27/09 02:30|Over 2.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Charlotte FC (57.4%) | Πιθανό Σκορ: 1-1 (10.2%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
