@@ -1,18 +1,12 @@
 STATS|78.2|22.1
-🏆 Liga MX|Cruz Azul vs Toluca|27/09 01:49|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Cruz Azul (79.8%) | Πιθανό Σκορ: 2-0 (15.6%)
-🏆 Liga MX|Guadalajara vs Querétaro|27/09 02:08|Over 2.5 1.74 (57.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Querétaro (55.2%) | Πιθανό Σκορ: 1-1 (10.3%)
-🏆 MLS|Atlanta United FC vs New York City FC|27/09 02:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: New York City FC (50.5%) | Πιθανό Σκορ: 1-1 (12.2%)
-🏆 MLS|CF Montreal vs FC Cincinnati|27/09 02:30|Over 2.5 2.00 (50.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Cincinnati (57.6%) | Πιθανό Σκορ: 1-1 (12.0%)
-🏆 MLS|Charlotte FC vs Chicago Fire|27/09 02:30|Over 1.5 1.46 (68.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Charlotte FC (52.7%) | Πιθανό Σκορ: 1-1 (13.2%)
-🏆 MLS|Philadelphia Union vs Orlando City SC|27/09 02:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Philadelphia Union (96.4%) | Πιθανό Σκορ: 2-0 (22.8%)
-🏆 MLS|Austin FC vs San Diego FC|27/09 03:30|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: San Diego FC (51.9%) | Πιθανό Σκορ: 1-1 (10.4%)
-🏆 MLS|FC Dallas vs Los Angeles FC|27/09 03:30|Over 2.5 1.97 (50.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Dallas (59.6%) | Πιθανό Σκορ: 1-1 (11.8%)
-🏆 MLS|Houston Dynamo vs Sporting Kansas City|27/09 03:30|Over 2.5 1.64 (61.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Houston Dynamo (76.7%) | Πιθανό Σκορ: 2-0 (12.3%)
-🏆 MLS|Seattle Sounders FC vs Minnesota United FC|27/09 03:30|Over 2.5 1.52 (65.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Seattle Sounders FC (61.8%) | Πιθανό Σκορ: 1-1 (9.9%)
-🏆 MLS|Nashville SC vs Toronto FC|27/09 03:30|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Nashville SC (86.0%) | Πιθανό Σκορ: 2-0 (15.4%)
-🏆 MLS|Real Salt Lake vs New England Revolution|27/09 04:30|Over 2.5 1.52 (65.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Real Salt Lake (59.2%) | Πιθανό Σκορ: 1-1 (10.1%)
-🏆 MLS|LA Galaxy vs Colorado Rapids|27/09 05:30|Over 2.5 1.67 (59.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: LA Galaxy (57.6%) | Πιθανό Σκορ: 1-1 (10.2%)
-🏆 MLS|Vancouver Whitecaps FC vs D.C. United|27/09 05:30|Over 2.5 1.35 (74.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Vancouver Whitecaps FC (90.4%) | Πιθανό Σκορ: 2-0 (17.1%)
+🏆 K League 1|Gangwon FC vs Incheon United|27/09 13:00|Under 2.5 1.60 (62.5%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Gangwon FC (61.9%) | Πιθανό Σκορ: 1-0 (18.0%)
+🏆 Ισπανία LaLiga 2 🇪🇸|Real Valladolid CF vs Córdoba|27/09 15:00|Over 2.5 1.84 (54.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Real Valladolid CF (55.1%) | Πιθανό Σκορ: 1-1 (12.1%)
+🏆 UEFA Nations League|Lithuania vs Azerbaijan|27/09 16:00|Under 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Lithuania (59.1%) | Πιθανό Σκορ: 1-0 (17.2%)
+🏆 Βραζιλία Série B 🇧🇷|Criciuma vs Avai|27/09 17:00|Under 2.5 1.57 (63.7%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Criciuma (78.8%) | Πιθανό Σκορ: 1-0 (22.9%)
+🏆 Ισπανία LaLiga 2 🇪🇸|Mallorca vs Almería|27/09 17:15|Over 2.5 2.06 (48.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Mallorca (65.1%) | Πιθανό Σκορ: 1-0 (11.8%)
+🏆 UEFA Nations League|Gibraltar vs Andorra|27/09 19:00|Under 2.5 1.25 (80.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Andorra (59.3%) | Πιθανό Σκορ: 0-1 (17.3%)
+🏆 UEFA Nations League|Austria vs Kosovo|27/09 19:00|Over 2.5 1.95 (51.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Austria (79.7%) | Πιθανό Σκορ: 2-0 (15.6%)
+🏆 UEFA Nations League|Denmark vs Wales|27/09 19:00|Over 2.5 1.51 (66.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Denmark (84.7%) | Πιθανό Σκορ: 2-0 (15.0%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
