@@ -1,18 +1,13 @@
 STATS|78.2|22.1
-🏆 Liga MX|Pumas vs Atlético San Luis|27/09 20:59|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Atlético San Luis (82.8%) | Πιθανό Σκορ: 0-2 (16.8%)
-🏆 UEFA Nations League|Germany vs Greece|27/09 21:45|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Germany (83.5%) | Πιθανό Σκορ: 2-0 (17.1%)
-🏆 UEFA Nations League|Israel vs Republic of Ireland|27/09 21:45|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Republic of Ireland (98.2%) | Πιθανό Σκορ: 0-2 (23.6%)
-🏆 UEFA Nations League|Norway vs Portugal|27/09 21:45|Over 2.5 1.43 (69.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Portugal (71.9%) | Πιθανό Σκορ: 0-2 (10.8%)
-🏆 Βραζιλία Série B 🇧🇷|Clube de Regatas Brasil vs Cuiabá|27/09 22:01|Over 2.5 1.53 (65.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Clube de Regatas Brasil (92.9%) | Πιθανό Σκορ: 2-0 (18.0%)
-🏆 Ισπανία LaLiga 2 🇪🇸|Oviedo vs Sporting Gijón|27/09 22:02|Over 2.5 1.89 (52.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Oviedo (83.9%) | Πιθανό Σκορ: 2-0 (17.3%)
-🏆 Βραζιλία Série B 🇧🇷|Fortaleza vs Athletic Club (MG)|28/09 00:30|Over 1.5 1.53 (65.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Fortaleza (80.1%) | Πιθανό Σκορ: 1-0 (18.5%)
-🏆 MLS|Columbus Crew SC vs Inter Miami CF|28/09 02:00|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Inter Miami CF (54.3%) | Πιθανό Σκορ: 1-1 (10.4%)
-🏆 Liga MX|León vs FC Juárez|28/09 04:00|Over 2.5 1.75 (57.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: León (79.6%) | Πιθανό Σκορ: 2-0 (13.2%)
-🏆 Liga MX|Necaxa vs América|28/09 06:10|Over 2.5 1.76 (56.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: América (64.6%) | Πιθανό Σκορ: 1-2 (9.9%)
+🏆 MLS|Columbus Crew SC vs Inter Miami CF|28/09 02:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Inter Miami CF (54.1%) | Πιθανό Σκορ: 1-1 (12.2%)
+🏆 Liga MX|León vs FC Juárez|28/09 04:00|Over 2.5 1.80 (55.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: León (80.8%) | Πιθανό Σκορ: 2-0 (13.6%)
+🏆 Liga MX|Necaxa vs América|28/09 06:10|Over 2.5 1.75 (57.1%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: América (66.9%) | Πιθανό Σκορ: 1-2 (9.9%)
 🏆 UEFA Nations League|Armenia vs Montenegro|28/09 19:00|Over 1.5 1.50 (66.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Montenegro (52.9%) | Πιθανό Σκορ: 1-1 (13.2%)
 🏆 UEFA Nations League|Latvia vs Cyprus|28/09 19:00|Under 2.5 1.60 (62.5%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Latvia (51.9%) | Πιθανό Σκορ: 0-0 (15.7%)
 🏆 UEFA Nations League|Georgia vs Ukraine|28/09 19:00|Over 1.5 1.46 (68.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Georgia (50.0%) | Πιθανό Σκορ: 1-1 (13.3%)
-🏆 Ισπανία LaLiga 2 🇪🇸|Leganés vs CD Castellón|28/09 21:30|Over 2.5 1.96 (51.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: CD Castellón (57.9%) | Πιθανό Σκορ: 1-1 (11.9%)
+🏆 Ισπανία LaLiga 2 🇪🇸|Leganés vs CD Castellón|28/09 21:30|Over 2.5 1.94 (51.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: CD Castellón (58.3%) | Πιθανό Σκορ: 1-1 (11.9%)
+🏆 UEFA Nations League|Belgium vs France|28/09 21:45|Over 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: France (66.1%) | Πιθανό Σκορ: 1-2 (9.9%)
+🏆 UEFA Nations League|Romania vs Bosnia & Herzegovina|28/09 21:45|Over 1.5 1.39 (72.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Romania (60.9%) | Πιθανό Σκορ: 1-0 (14.0%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
