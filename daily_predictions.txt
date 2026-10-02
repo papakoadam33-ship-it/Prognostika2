@@ -1,12 +1,20 @@
 STATS|78.2|22.1
-🏆 UEFA Nations League|Kazakhstan vs Moldova|02/10 17:00|Under 2.5 1.53 (65.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Kazakhstan (70.1%) | Πιθανό Σκορ: 1-0 (20.4%)
-🏆 UEFA Nations League|Cyprus vs Armenia|02/10 19:00|Over 1.5 1.39 (72.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Cyprus (61.2%) | Πιθανό Σκορ: 1-0 (14.1%)
-🏆 UEFA Nations League|Latvia vs Montenegro|02/10 19:00|Over 1.5 1.44 (69.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Montenegro (73.5%) | Πιθανό Σκορ: 0-1 (17.0%)
-🏆 Frauen-Bundesliga|Bayer Leverkusen vs Werder Bremen|02/10 19:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bayer Leverkusen (70.7%) | Πιθανό Σκορ: 1-0 (12.8%)
-🏆 Ισπανία LaLiga 2 🇪🇸|CD Eldense vs Oviedo|02/10 21:30|Under 2.5 1.59 (62.9%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: CD Eldense (54.4%) | Πιθανό Σκορ: 1-0 (15.8%)
-🏆 UEFA Nations League|Belgium vs Turkey|02/10 21:45|Over 2.5 1.43 (69.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Belgium (78.3%) | Πιθανό Σκορ: 2-0 (12.8%)
-🏆 League of Ireland|Dundalk vs Bohemians|02/10 21:45|Over 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Bohemians (68.3%) | Πιθανό Σκορ: 1-2 (9.9%)
-🏆 UEFA Nations League|Bosnia & Herzegovina vs Sweden|02/10 21:45|Over 2.5 1.62 (61.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Sweden (53.8%) | Πιθανό Σκορ: 1-1 (10.4%)
+🏆 Ισπανία LaLiga 2 🇪🇸|CD Eldense vs Oviedo|02/10 21:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: CD Eldense (98.8%) | Πιθανό Σκορ: 2-0 (23.9%)
+🏆 UEFA Nations League|Belgium vs Turkey|02/10 21:45|Over 2.5 1.42 (70.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Belgium (98.3%) | Πιθανό Σκορ: 3-0 (21.2%)
+🏆 League of Ireland|Dundalk vs Bohemians|02/10 21:45|Over 2.5 1.88 (53.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bohemians (99.6%) | Πιθανό Σκορ: 0-2 (24.3%)
+🏆 UEFA Nations League|France vs Italy|02/10 21:45|Over 2.5 1.52 (65.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: France (76.2%) | Πιθανό Σκορ: 2-0 (12.1%)
+🏆 UEFA Nations League|Ukraine vs Northern Ireland|02/10 21:45|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Northern Ireland (97.9%) | Πιθανό Σκορ: 0-2 (23.5%)
+🏆 UEFA Nations League|Bosnia & Herzegovina vs Sweden|02/10 21:46|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Sweden (93.3%) | Πιθανό Σκορ: 0-2 (21.3%)
+🏆 UEFA Nations League|Faroe Islands vs Slovakia|02/10 21:46|Over 1.5 1.39 (72.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Slovakia (63.7%) | Πιθανό Σκορ: 0-1 (14.7%)
+🏆 UEFA Nations League|Hungary vs Georgia|02/10 21:46|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Hungary (95.3%) | Πιθανό Σκορ: 2-0 (22.3%)
+🏆 Αργεντινή Primera 🇦🇷|Independiente vs Instituto de Córdoba|03/10 01:15|Under 2.5 1.46 (68.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Independiente (56.0%) | Πιθανό Σκορ: 1-0 (16.3%)
+🏆 Βραζιλία Série B 🇧🇷|São Bernardo vs Clube de Regatas Brasil|03/10 01:30|Over 1.5 1.46 (68.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Clube de Regatas Brasil (55.0%) | Πιθανό Σκορ: 1-1 (13.1%)
+🏆 Primera División - Chile|Universidad de Concepción vs Huachipato|03/10 02:00|Over 2.5 1.84 (54.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Universidad de Concepción (62.0%) | Πιθανό Σκορ: 1-1 (11.5%)
+🏆 Brazil Série A|Sao Paulo vs Santos|03/10 02:00|Over 1.5 1.57 (63.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Sao Paulo (67.6%) | Πιθανό Σκορ: 1-0 (15.6%)
+🏆 Βραζιλία Série B 🇧🇷|Londrina vs Criciuma|03/10 02:30|Under 2.5 1.69 (59.2%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Criciuma (56.9%) | Πιθανό Σκορ: 0-1 (16.6%)
+🏆 Βραζιλία Série B 🇧🇷|Juventude vs Operario PR|03/10 02:45|Over 1.5 1.61 (62.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Juventude (75.2%) | Πιθανό Σκορ: 1-0 (17.3%)
+🏆 Αργεντινή Primera 🇦🇷|Boca Juniors vs Union Santa Fe|03/10 03:30|Over 2.5 1.81 (55.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Boca Juniors (82.7%) | Πιθανό Σκορ: 2-0 (16.8%)
+🏆 Αργεντινή Primera 🇦🇷|Independiente Rivadavia vs Gimnasia La Plata|03/10 03:30|Over 1.5 1.53 (65.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Independiente Rivadavia (63.3%) | Πιθανό Σκορ: 1-0 (14.6%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
