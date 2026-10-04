@@ -1,12 +1,18 @@
 STATS|78.2|22.1
-🏆 Frauen-Bundesliga|VfL Wolfsburg vs Hamburger SV|04/10 14:45|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: VfL Wolfsburg (91.1%) | Πιθανό Σκορ: 2-0 (20.3%)
-🏆 Ισπανία LaLiga 2 🇪🇸|Real Sociedad B vs Granada CF|04/10 15:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Real Sociedad B (50.4%) | Πιθανό Σκορ: 1-1 (12.2%)
-🏆 UEFA Nations League|Azerbaijan vs Lithuania|04/10 16:00|Under 2.5 1.49 (67.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Azerbaijan (57.2%) | Πιθανό Σκορ: 1-0 (16.7%)
-🏆 Frauen-Bundesliga|VfB Stuttgart vs Union Berlin|04/10 17:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Union Berlin (54.1%) | Πιθανό Σκορ: 1-1 (12.2%)
-🏆 Ισπανία LaLiga 2 🇪🇸|Sporting Gijón vs Celta Fortuna|04/10 17:15|Over 2.5 1.91 (52.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Sporting Gijón (73.2%) | Πιθανό Σκορ: 1-0 (13.3%)
-🏆 UEFA Nations League|Malta vs Andorra|04/10 19:00|Under 2.5 1.41 (70.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Malta (79.7%) | Πιθανό Σκορ: 1-0 (23.2%)
-🏆 UEFA Nations League|Kosovo vs Austria|04/10 19:00|Over 2.5 1.93 (51.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Austria (62.2%) | Πιθανό Σκορ: 1-1 (11.5%)
-🏆 Frauen-Bundesliga|1. FC Nürnberg vs TSG Hoffenheim|04/10 19:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: TSG Hoffenheim (59.2%) | Πιθανό Σκορ: 1-1 (11.8%)
+🏆 Αργεντινή Primera 🇦🇷|Atlético Huracán vs Aldosivi Mar del Plata|04/10 20:45|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Atlético Huracán (97.1%) | Πιθανό Σκορ: 2-0 (23.1%)
+🏆 UEFA Nations League|Wales vs Denmark|04/10 21:45|Over 2.5 1.91 (52.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Denmark (65.4%) | Πιθανό Σκορ: 0-1 (11.9%)
+🏆 UEFA Nations League|Greece vs Germany|04/10 21:45|Over 2.5 1.72 (58.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Germany (70.6%) | Πιθανό Σκορ: 0-1 (12.8%)
+🏆 UEFA Nations League|Netherlands vs Serbia|04/10 21:45|Over 2.5 1.33 (75.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Netherlands (91.7%) | Πιθανό Σκορ: 2-0 (17.6%)
+🏆 UEFA Nations League|Portugal vs Norway|04/10 21:45|Over 2.5 1.36 (73.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Portugal (73.2%) | Πιθανό Σκορ: 2-0 (11.2%)
+🏆 UEFA Nations League|Republic of Ireland vs Israel|04/10 21:46|Over 2.5 1.91 (52.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Republic of Ireland (63.0%) | Πιθανό Σκορ: 1-1 (11.4%)
+🏆 Ισπανία LaLiga 2 🇪🇸|Sabadell FC vs Andorra CF|04/10 22:00|Over 1.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Sabadell FC (66.5%) | Πιθανό Σκορ: 1-0 (15.3%)
+🏆 Ισπανία LaLiga 2 🇪🇸|Girona FC vs Mallorca|04/10 22:00|Over 2.5 2.02 (49.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Girona FC (54.4%) | Πιθανό Σκορ: 1-1 (12.2%)
+🏆 Αργεντινή Primera 🇦🇷|Talleres vs Belgrano de Cordoba|04/10 23:00|Under 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Talleres (51.4%) | Πιθανό Σκορ: 0-0 (15.7%)
+🏆 Αργεντινή Primera 🇦🇷|Argentinos Juniors vs CA Tigre BA|05/10 01:15|Under 2.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Argentinos Juniors (73.8%) | Πιθανό Σκορ: 1-0 (21.5%)
+🏆 Αργεντινή Primera 🇦🇷|Estudiantes de Río Cuarto vs Racing Club|05/10 03:30|Under 2.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Racing Club (68.3%) | Πιθανό Σκορ: 0-1 (19.9%)
+🏆 UEFA Nations League|Cyprus vs Latvia|05/10 19:00|Over 1.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Cyprus (77.8%) | Πιθανό Σκορ: 1-0 (17.9%)
+🏆 Ισπανία LaLiga 2 🇪🇸|Córdoba vs Tenerife|05/10 21:30|Over 2.5 1.91 (52.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Córdoba (68.3%) | Πιθανό Σκορ: 1-0 (12.4%)
+🏆 UEFA Nations League|Montenegro vs Armenia|05/10 21:45|Over 2.5 1.77 (56.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Montenegro (78.3%) | Πιθανό Σκορ: 2-0 (15.0%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
