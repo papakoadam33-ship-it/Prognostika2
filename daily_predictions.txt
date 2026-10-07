@@ -1,15 +1,12 @@
 STATS|78.2|22.1
-🏆 Βραζιλία Série B 🇧🇷|Goiás vs Athletic Club (MG)|07/10 02:30|Over 1.5 1.54 (64.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Goiás (61.1%) | Πιθανό Σκορ: 1-0 (14.1%)
-🏆 MLS|Chicago Fire vs Vancouver Whitecaps FC|07/10 03:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Chicago Fire (73.3%) | Πιθανό Σκορ: 1-0 (13.3%)
-🏆 Βραζιλία Série B 🇧🇷|Ponte Preta vs Juventude|07/10 03:35|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Juventude (87.3%) | Πιθανό Σκορ: 0-2 (18.7%)
-🏆 Veikkausliiga - Finland|IF Gnistan vs FC Inter Turku|07/10 19:00|Over 2.5 1.78 (56.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Inter Turku (67.9%) | Πιθανό Σκορ: 0-1 (12.3%)
-🏆 Βραζιλία Série B 🇧🇷|Avai vs Londrina|08/10 01:30|Over 1.5 1.60 (62.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Avai (63.6%) | Πιθανό Σκορ: 1-0 (14.7%)
-🏆 Βραζιλία Série B 🇧🇷|Operario PR vs Botafogo-SP|08/10 01:30|Over 1.5 1.55 (64.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Operario PR (66.6%) | Πιθανό Σκορ: 1-0 (15.3%)
-🏆 Brazil Série A|Bragantino-SP vs Mirassol|08/10 01:30|Over 2.5 1.74 (57.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bragantino-SP (69.4%) | Πιθανό Σκορ: 1-0 (12.6%)
-🏆 Brazil Série A|Internacional vs Corinthians|08/10 01:30|Over 1.5 1.48 (67.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Internacional (60.4%) | Πιθανό Σκορ: 1-0 (13.9%)
-🏆 Brazil Série A|Remo vs Grêmio|08/10 01:30|Over 2.5 1.88 (53.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Remo (56.0%) | Πιθανό Σκορ: 1-1 (12.1%)
-🏆 Brazil Série A|Vitoria vs Chapecoense|08/10 02:00|Over 2.5 1.83 (54.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Vitoria (75.3%) | Πιθανό Σκορ: 2-0 (13.9%)
-🏆 Βραζιλία Série B 🇧🇷|América Mineiro vs Fortaleza|08/10 02:30|Over 1.5 1.46 (68.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Fortaleza (68.2%) | Πιθανό Σκορ: 0-1 (15.7%)
+🏆 Veikkausliiga - Finland|IF Gnistan vs FC Inter Turku|07/10 19:00|Over 2.5 1.69 (59.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Inter Turku (73.5%) | Πιθανό Σκορ: 0-2 (11.3%)
+🏆 Βραζιλία Série B 🇧🇷|Avai vs Londrina|08/10 01:30|Under 2.5 1.70 (58.8%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Avai (63.4%) | Πιθανό Σκορ: 1-0 (18.5%)
+🏆 Βραζιλία Série B 🇧🇷|Operario PR vs Botafogo-SP|08/10 01:30|Under 2.5 1.66 (60.2%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Operario PR (70.7%) | Πιθανό Σκορ: 1-0 (20.6%)
+🏆 Brazil Série A|Bragantino-SP vs Mirassol|08/10 01:30|Over 2.5 1.74 (57.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bragantino-SP (70.1%) | Πιθανό Σκορ: 1-0 (12.7%)
+🏆 Brazil Série A|Internacional vs Corinthians|08/10 01:30|Over 1.5 1.56 (64.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Internacional (60.2%) | Πιθανό Σκορ: 1-0 (13.9%)
+🏆 Brazil Série A|Remo vs Grêmio|08/10 01:30|Over 2.5 1.88 (53.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Remo (62.3%) | Πιθανό Σκορ: 1-1 (11.5%)
+🏆 Brazil Série A|Vitoria vs Chapecoense|08/10 02:00|Over 2.5 1.83 (54.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Vitoria (78.8%) | Πιθανό Σκορ: 2-0 (15.2%)
+🏆 Βραζιλία Série B 🇧🇷|América Mineiro vs Fortaleza|08/10 02:30|Over 1.5 1.50 (66.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Fortaleza (68.5%) | Πιθανό Σκορ: 0-1 (15.8%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
