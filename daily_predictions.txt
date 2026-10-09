@@ -1,14 +1,14 @@
 STATS|78.2|22.1
-🏆 Brazil Série A|Palmeiras vs Bahia|09/10 03:30|Over 2.5 2.06 (48.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Palmeiras (94.7%) | Πιθανό Σκορ: 2-0 (22.0%)
-🏆 Brazil Série A|Fluminense vs Coritiba|09/10 03:30|Under 2.5 1.76 (56.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Fluminense (96.4%) | Πιθανό Σκορ: 2-0 (24.7%)
-🏆 K League 1|Daejeon Citizen vs Jeonbuk Hyundai Motors|09/10 08:00|Over 2.5 1.83 (54.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Daejeon Citizen (57.0%) | Πιθανό Σκορ: 1-1 (12.0%)
-🏆 K League 1|Gangwon FC vs Bucheon FC 1995|09/10 10:30|Over 1.5 1.58 (63.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Gangwon FC (73.6%) | Πιθανό Σκορ: 1-0 (17.0%)
-🏆 K League 1|Incheon United vs Pohang Steelers|09/10 10:30|Under 2.5 1.60 (62.5%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Incheon United (58.6%) | Πιθανό Σκορ: 1-0 (17.0%)
-🏆 J League|Kashima Antlers vs Gamba Osaka|09/10 13:00|Over 2.5 1.62 (61.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Kashima Antlers (70.7%) | Πιθανό Σκορ: 2-0 (10.4%)
-🏆 J League|Kashiwa Reysol vs Vissel Kobe|09/10 13:00|Over 2.5 1.93 (51.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Kashiwa Reysol (59.7%) | Πιθανό Σκορ: 1-1 (11.8%)
-🏆 Super League - China|Qingdao Hainiu FC vs Beijing FC|09/10 14:35|Over 2.5 1.36 (73.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Beijing FC (84.4%) | Πιθανό Σκορ: 0-2 (14.9%)
-🏆 Super League - China|Shenzhen Peng City FC vs Henan FC|09/10 14:35|Over 2.5 1.67 (59.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Henan FC (54.6%) | Πιθανό Σκορ: 1-1 (10.3%)
-🏆 Super League - China|Zhejiang vs Shanghai SIPG FC|09/10 15:00|Over 2.5 1.36 (73.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Zhejiang (51.0%) | Πιθανό Σκορ: 1-1 (10.4%)
+🏆 J League|Kashima Antlers vs Gamba Osaka|09/10 13:00|Over 2.5 1.96 (51.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Kashima Antlers (91.6%) | Πιθανό Σκορ: 2-0 (20.6%)
+🏆 J League|Kashiwa Reysol vs Vissel Kobe|09/10 13:00|Over 2.5 1.96 (51.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Kashiwa Reysol (83.7%) | Πιθανό Σκορ: 2-0 (17.2%)
+🏆 Super League - China|Qingdao Hainiu FC vs Beijing FC|09/10 14:35|Over 2.5 1.36 (73.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Beijing FC (84.3%) | Πιθανό Σκορ: 0-2 (14.8%)
+🏆 Super League - China|Shenzhen Peng City FC vs Henan FC|09/10 14:35|Over 2.5 1.72 (58.1%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Shenzhen Peng City FC (50.4%) | Πιθανό Σκορ: 1-1 (10.4%)
+🏆 Super League - China|Zhejiang vs Shanghai SIPG FC|09/10 15:00|Over 2.5 1.25 (80.0%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Zhejiang (50.2%) | Πιθανό Σκορ: 1-1 (10.4%)
+🏆 Saudi Pro League|Al-Kholood vs Al-Qadsiah|09/10 16:50|Over 2.5 1.54 (64.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Qadsiah (82.0%) | Πιθανό Σκορ: 0-2 (14.0%)
+🏆 Saudi Pro League|Al-Fateh vs Al-Ahli|09/10 17:55|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Ahli (80.7%) | Πιθανό Σκορ: 0-2 (16.0%)
+🏆 Veikkausliiga - Finland|SJK Seinäjoki vs FC Lahti|09/10 18:00|Over 2.5 1.83 (54.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: SJK Seinäjoki (50.4%) | Πιθανό Σκορ: 1-1 (12.2%)
+🏆 Ekstraklasa - Poland|Wieczysta Kraków vs Wisła Płock|09/10 19:00|Over 2.5 1.67 (59.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Wieczysta Kraków (59.2%) | Πιθανό Σκορ: 1-1 (10.1%)
+🏆 Γερμανία DFB Pokal 🇩🇪|1. FC Heidenheim vs 1. FC Kaiserslautern|09/10 19:30|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: 1. FC Heidenheim (68.4%) | Πιθανό Σκορ: 2-1 (9.9%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
