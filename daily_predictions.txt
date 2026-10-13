@@ -1,12 +1,19 @@
 STATS|78.2|22.1
-🏆 UEFA Champions League|RC Lens vs Sporting Lisbon|13/10 19:45|Over 2.5 1.58 (63.3%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: RC Lens (51.5%) | Πιθανό Σκορ: 1-1 (10.4%)
-🏆 UEFA Champions League|Sabah FK vs Slavia Praha|13/10 19:45|Over 2.5 1.58 (63.3%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Slavia Praha (66.3%) | Πιθανό Σκορ: 1-2 (9.9%)
-🏆 Γερμανία DFB Pokal 🇩🇪|1. FC Saarbrücken vs MSV Duisburg|13/10 20:00|Over 2.5 1.59 (62.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: 1. FC Saarbrücken (50.3%) | Πιθανό Σκορ: 1-1 (10.4%)
-🏆 Γερμανία DFB Pokal 🇩🇪|TSV Havelse vs FC Würzburger Kickers|13/10 20:00|Over 2.5 1.55 (64.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: FC Würzburger Kickers (52.7%) | Πιθανό Σκορ: 1-1 (10.4%)
-🏆 Superettan - Sweden|IFK Norrkoping vs GIF Sundsvall|13/10 20:00|Over 2.5 1.33 (75.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: IFK Norrkoping (93.0%) | Πιθανό Σκορ: 2-0 (18.0%)
-🏆 Γερμανία DFB Pokal 🇩🇪|Hansa Rostock vs SV Meppen|13/10 20:00|Over 2.5 1.45 (69.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Hansa Rostock (73.8%) | Πιθανό Σκορ: 2-0 (11.4%)
-🏆 Γερμανία DFB Pokal 🇩🇪|Rot-Weiss Essen vs SC Fortuna Köln|13/10 20:00|Over 2.5 1.52 (65.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Rot-Weiss Essen (80.9%) | Πιθανό Σκορ: 2-0 (13.7%)
-🏆 Γερμανία DFB Pokal 🇩🇪|VfB Stuttgart II vs TSG Hoffenheim II|13/10 20:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: TSG Hoffenheim II (58.1%) | Πιθανό Σκορ: 1-1 (11.9%)
+🏆 UEFA Champions League|Viking FK vs Bayern Munich|13/10 22:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bayern Munich (55.7%) | Πιθανό Σκορ: 1-1 (12.1%)
+🏆 Αγγλία Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿|Birmingham City vs Preston North End|13/10 22:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Birmingham City (96.3%) | Πιθανό Σκορ: 2-0 (22.7%)
+🏆 UEFA Champions League|Inter Milan vs Club Brugge|13/10 22:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Club Brugge (98.7%) | Πιθανό Σκορ: 0-2 (23.9%)
+🏆 Αγγλία Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿|Stoke City vs Middlesbrough|13/10 22:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Middlesbrough (99.7%) | Πιθανό Σκορ: 0-2 (24.3%)
+🏆 UEFA Champions League|Galatasaray vs Barcelona|13/10 22:01|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Barcelona (97.1%) | Πιθανό Σκορ: 0-2 (23.1%)
+🏆 UEFA Champions League|RB Leipzig vs PSV Eindhoven|13/10 22:01|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: RB Leipzig (99.3%) | Πιθανό Σκορ: 2-0 (24.2%)
+🏆 UEFA Champions League|Atlético Madrid vs Manchester United|13/10 22:02|Under 2.5 1.04 (96.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Atlético Madrid (97.1%) | Πιθανό Σκορ: 1-0 (28.3%)
+🏆 Βραζιλία Série B 🇧🇷|Athletic Club (MG) vs Londrina|14/10 01:30|Over 1.5 1.55 (64.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Athletic Club (MG) (68.5%) | Πιθανό Σκορ: 1-0 (15.8%)
+🏆 Copa Sudamericana|Boca Juniors vs Vasco da Gama|14/10 03:30|Under 2.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Boca Juniors (71.3%) | Πιθανό Σκορ: 1-0 (20.7%)
+🏆 UEFA Champions League|Feyenoord vs Como|14/10 19:45|Over 2.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Como (65.5%) | Πιθανό Σκορ: 1-2 (9.9%)
+🏆 UEFA Champions League|LASK vs Liverpool|14/10 19:45|Over 2.5 1.36 (73.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Liverpool (88.9%) | Πιθανό Σκορ: 0-2 (16.5%)
+🏆 Γερμανία DFB Pokal 🇩🇪|Wehen Wiesbaden vs Alemannia Aachen|14/10 20:00|Over 2.5 1.57 (63.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Wehen Wiesbaden (55.1%) | Πιθανό Σκορ: 1-1 (10.3%)
+🏆 Γερμανία DFB Pokal 🇩🇪|Waldhof Mannheim vs FC Ingolstadt 04|14/10 20:00|Over 2.5 1.46 (68.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Waldhof Mannheim (63.2%) | Πιθανό Σκορ: 2-1 (9.8%)
+🏆 Γερμανία DFB Pokal 🇩🇪|FC Viktoria Köln 1904 vs SG Sonnenhof Großaspach|14/10 20:00|Over 2.5 1.42 (70.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Viktoria Köln 1904 (76.8%) | Πιθανό Σκορ: 2-0 (12.3%)
+🏆 Γερμανία DFB Pokal 🇩🇪|SC Preußen Münster vs Fortuna Düsseldorf|14/10 20:00|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Fortuna Düsseldorf (54.5%) | Πιθανό Σκορ: 1-1 (10.3%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
