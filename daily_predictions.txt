@@ -1,13 +1,12 @@
 STATS|78.2|22.1
-🏆 Αργεντινή Primera 🇦🇷|Atlético Huracán vs Gimnasia La Plata|16/10 01:59|Over 1.5 1.43 (70.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Gimnasia La Plata (77.1%) | Πιθανό Σκορ: 0-1 (17.8%)
-🏆 Copa Libertadores|Estudiantes La Plata vs Flamengo-RJ|16/10 03:30|Under 2.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Flamengo-RJ (66.1%) | Πιθανό Σκορ: 0-1 (19.2%)
-🏆 A-League|Sydney FC vs Western Sydney Wanderers|16/10 12:00|Over 2.5 1.74 (57.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Sydney FC (56.4%) | Πιθανό Σκορ: 1-1 (10.3%)
-🏆 Super League - China|Henan FC vs Tianjin Jinmen Tiger FC|16/10 14:35|Over 1.5 1.43 (70.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Henan FC (71.3%) | Πιθανό Σκορ: 1-0 (16.4%)
-🏆 Saudi Pro League|Al-Qadsiah vs Abha Club|16/10 16:15|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Qadsiah (94.9%) | Πιθανό Σκορ: 2-0 (22.0%)
+🏆 A-League|Sydney FC vs Western Sydney Wanderers|16/10 12:00|Over 2.5 1.56 (64.1%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Sydney FC (55.8%) | Πιθανό Σκορ: 1-1 (10.3%)
+🏆 Super League - China|Henan FC vs Tianjin Jinmen Tiger FC|16/10 14:35|Over 2.5 2.02 (49.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Henan FC (63.9%) | Πιθανό Σκορ: 1-0 (11.6%)
+🏆 Saudi Pro League|Al-Qadsiah vs Abha Club|16/10 16:15|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Qadsiah (95.1%) | Πιθανό Σκορ: 2-0 (22.1%)
 🏆 Saudi Pro League|Al-Riyadh vs Al-Hilal|16/10 18:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Hilal (93.1%) | Πιθανό Σκορ: 0-2 (21.2%)
-🏆 Ekstraklasa - Poland|Wieczysta Kraków vs Raków Częstochowa|16/10 19:00|Over 2.5 1.46 (68.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Wieczysta Kraków (60.7%) | Πιθανό Σκορ: 1-1 (10.0%)
-🏆 Γερμανία DFB Pokal 🇩🇪|FC Energie Cottbus vs 1. FC Nürnberg|16/10 19:30|Over 2.5 1.36 (73.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: 1. FC Nürnberg (61.0%) | Πιθανό Σκορ: 1-1 (9.9%)
-🏆 Γερμανία DFB Pokal 🇩🇪|Holstein Kiel vs Hertha Berlin|16/10 19:30|Over 2.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Hertha Berlin (54.8%) | Πιθανό Σκορ: 1-1 (10.3%)
+🏆 Ekstraklasa - Poland|Wieczysta Kraków vs Raków Częstochowa|16/10 19:00|Over 2.5 1.52 (65.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Wieczysta Kraków (61.0%) | Πιθανό Σκορ: 1-1 (9.9%)
+🏆 Γερμανία DFB Pokal 🇩🇪|FC Energie Cottbus vs 1. FC Nürnberg|16/10 19:30|Over 2.5 1.30 (76.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: 1. FC Nürnberg (67.5%) | Πιθανό Σκορ: 1-2 (9.9%)
+🏆 Γερμανία DFB Pokal 🇩🇪|Holstein Kiel vs Hertha Berlin|16/10 19:30|Over 2.5 1.36 (73.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Hertha Berlin (57.8%) | Πιθανό Σκορ: 1-1 (10.2%)
+🏆 Frauen-Bundesliga|SC Freiburg vs RB Leipzig|16/10 19:30|Over 2.5 1.56 (64.1%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: RB Leipzig (52.0%) | Πιθανό Σκορ: 1-1 (10.4%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
