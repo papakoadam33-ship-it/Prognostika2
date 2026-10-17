@@ -1,16 +1,15 @@
 STATS|78.2|22.1
-🏆 Αργεντινή Primera 🇦🇷|Defensa y Justicia vs Instituto de Córdoba|17/10 01:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Instituto de Córdoba (93.5%) | Πιθανό Σκορ: 0-2 (21.4%)
-🏆 Βραζιλία Série B 🇧🇷|Ponte Preta vs Atletico Goianiense|17/10 01:29|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Ponte Preta (67.2%) | Πιθανό Σκορ: 1-0 (12.2%)
-🏆 Brazil Série A|Mirassol vs Internacional|17/10 02:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Mirassol (88.4%) | Πιθανό Σκορ: 2-0 (19.1%)
-🏆 Βραζιλία Série B 🇧🇷|Sport Recife vs Fortaleza|17/10 02:36|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Sport Recife (61.3%) | Πιθανό Σκορ: 1-1 (11.6%)
-🏆 Αργεντινή Primera 🇦🇷|Boca Juniors vs Talleres|17/10 03:30|Over 1.5 1.46 (68.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Boca Juniors (85.8%) | Πιθανό Σκορ: 1-0 (19.8%)
-🏆 Liga MX|Necaxa vs Atlas|17/10 04:00|Over 2.5 1.57 (63.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Atlas (60.2%) | Πιθανό Σκορ: 1-1 (10.0%)
-🏆 Liga MX|Atlante FC vs Pumas|17/10 06:00|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Pumas (52.4%) | Πιθανό Σκορ: 1-1 (10.4%)
-🏆 Liga MX|Tijuana vs Puebla|17/10 06:05|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Tijuana (74.0%) | Πιθανό Σκορ: 2-0 (11.4%)
-🏆 A-League|Auckland FC vs Melbourne City|17/10 07:00|Over 2.5 1.98 (50.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Auckland FC (53.8%) | Πιθανό Σκορ: 1-1 (12.2%)
-🏆 J League|Shimizu S Pulse vs Gamba Osaka|17/10 07:00|Over 2.5 2.00 (50.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Shimizu S Pulse (57.3%) | Πιθανό Σκορ: 1-1 (12.0%)
-🏆 J League|Tokyo Verdy vs FC Tokyo|17/10 08:00|Over 1.5 1.51 (66.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Tokyo (77.3%) | Πιθανό Σκορ: 0-1 (17.8%)
-🏆 J League|Hiroshima Sanfrecce FC vs Kyoto Purple Sanga|17/10 08:00|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Hiroshima Sanfrecce FC (86.1%) | Πιθανό Σκορ: 2-0 (15.5%)
+🏆 J League|Cerezo Osaka vs Kawasaki Frontale|17/10 09:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Kawasaki Frontale (99.0%) | Πιθανό Σκορ: 0-2 (24.0%)
+🏆 J League|Mito HollyHock vs Urawa Red Diamonds|17/10 10:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Urawa Red Diamonds (92.8%) | Πιθανό Σκορ: 0-2 (21.1%)
+🏆 K League 1|Ulsan Hyundai FC vs Bucheon FC 1995|17/10 10:30|Over 2.5 1.74 (57.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Bucheon FC 1995 (54.4%) | Πιθανό Σκορ: 1-1 (10.4%)
+🏆 A-League|Central Coast Mariners vs Newcastle Jets FC|17/10 11:40|Over 2.5 1.39 (71.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Newcastle Jets FC (67.9%) | Πιθανό Σκορ: 1-2 (9.9%)
+🏆 Frauen-Bundesliga|1. FC Köln vs Hamburger SV|17/10 13:00|Over 2.5 1.57 (63.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: 1. FC Köln (81.9%) | Πιθανό Σκορ: 2-0 (14.0%)
+🏆 J League|Kashiwa Reysol vs Nagoya Grampus|17/10 13:00|Over 2.5 1.64 (61.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Kashiwa Reysol (76.1%) | Πιθανό Σκορ: 2-0 (12.1%)
+🏆 Turkey Super League|Erzurum BB vs Eyüpspor|17/10 13:30|Over 1.5 1.46 (68.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Erzurum BB (82.1%) | Πιθανό Σκορ: 1-0 (18.9%)
+🏆 Γερμανία DFB Pokal 🇩🇪|VfL Wolfsburg vs 1. FC Heidenheim|17/10 14:00|Over 2.5 1.30 (76.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: VfL Wolfsburg (72.9%) | Πιθανό Σκορ: 2-0 (11.1%)
+🏆 Γερμανία DFB Pokal 🇩🇪|1. FC Kaiserslautern vs VfL Bochum|17/10 14:00|Over 2.5 1.67 (59.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: 1. FC Kaiserslautern (56.8%) | Πιθανό Σκορ: 1-1 (10.2%)
+🏆 Super League - China|Dalian Yingbo vs Shenzhen Peng City FC|17/10 14:00|Over 2.5 1.68 (59.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Dalian Yingbo (76.4%) | Πιθανό Σκορ: 2-0 (12.2%)
+🏆 Γερμανία DFB Pokal 🇩🇪|Greuther Fürth vs Eintracht Braunschweig|17/10 14:00|Over 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Greuther Fürth (59.9%) | Πιθανό Σκορ: 1-1 (10.0%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
