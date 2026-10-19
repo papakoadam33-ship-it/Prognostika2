@@ -1,12 +1,16 @@
 STATS|78.2|22.1
-🏆 Saudi Pro League|Al-Fayha vs Al-Ahli|19/10 18:05|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Ahli (85.7%) | Πιθανό Σκορ: 0-2 (18.0%)
-🏆 Frauen-Bundesliga|Bayern Munich vs VfB Stuttgart|19/10 19:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bayern Munich (96.1%) | Πιθανό Σκορ: 2-0 (22.6%)
-🏆 Serie A - Italy|Monza vs Cagliari|19/10 19:30|Over 1.5 1.45 (69.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Monza (59.1%) | Πιθανό Σκορ: 1-0 (13.6%)
-🏆 Premier League - Russia|Rodina Moscow vs Gazovik Orenburg|19/10 19:30|Over 2.5 1.78 (56.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Gazovik Orenburg (54.7%) | Πιθανό Σκορ: 1-1 (12.1%)
-🏆 Turkey Super League|Trabzonspor vs Besiktas JK|19/10 20:00|Over 2.5 1.49 (67.1%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Trabzonspor (50.8%) | Πιθανό Σκορ: 1-1 (10.4%)
-🏆 Allsvenskan - Sweden|Degerfors IF vs Kalmar FF|19/10 20:00|Over 1.5 1.51 (66.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Kalmar FF (54.6%) | Πιθανό Σκορ: 1-1 (13.1%)
-🏆 Denmark Superliga|Viborg FF vs FC Midtjylland|19/10 20:00|Over 2.5 1.52 (65.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: FC Midtjylland (57.4%) | Πιθανό Σκορ: 1-1 (10.2%)
-🏆 Ekstraklasa - Poland|Wisła Płock vs Radomiak Radom|19/10 20:00|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Wisła Płock (67.3%) | Πιθανό Σκορ: 2-1 (9.9%)
+🏆 Saudi Pro League|Al-Fayha vs Al-Ahli|19/10 18:05|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Ahli (98.5%) | Πιθανό Σκορ: 0-2 (23.8%)
+🏆 Frauen-Bundesliga|Bayern Munich vs VfB Stuttgart|19/10 19:01|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bayern Munich (58.5%) | Πιθανό Σκορ: 1-1 (11.9%)
+🏆 Serie A - Italy|Monza vs Cagliari|19/10 19:30|Over 1.5 1.45 (69.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Monza (54.4%) | Πιθανό Σκορ: 1-1 (13.2%)
+🏆 Premier League - Russia|Rodina Moscow vs Gazovik Orenburg|19/10 19:30|Over 1.5 1.45 (69.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Gazovik Orenburg (58.7%) | Πιθανό Σκορ: 0-1 (13.5%)
+🏆 Turkey Super League|Trabzonspor vs Besiktas JK|19/10 20:00|Over 2.5 1.42 (70.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Besiktas JK (52.1%) | Πιθανό Σκορ: 1-1 (10.4%)
+🏆 Allsvenskan - Sweden|Degerfors IF vs Kalmar FF|19/10 20:00|Over 1.5 1.54 (64.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Kalmar FF (56.3%) | Πιθανό Σκορ: 1-1 (13.0%)
+🏆 Denmark Superliga|Viborg FF vs FC Midtjylland|19/10 20:00|Over 2.5 1.52 (65.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: FC Midtjylland (53.7%) | Πιθανό Σκορ: 1-1 (10.4%)
+🏆 Ekstraklasa - Poland|Wisła Płock vs Radomiak Radom|19/10 20:00|Over 2.5 1.73 (57.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Wisła Płock (68.9%) | Πιθανό Σκορ: 2-0 (9.9%)
+🏆 Superettan - Sweden|Varbergs BoIS vs Helsingborgs IF|19/10 20:05|Over 2.5 1.91 (52.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Varbergs BoIS (70.3%) | Πιθανό Σκορ: 1-0 (12.8%)
+🏆 Saudi Pro League|Al-Shabab vs Al-Faisaly KSA FC|19/10 21:00|Over 2.5 1.59 (62.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Shabab (75.2%) | Πιθανό Σκορ: 2-0 (11.8%)
+🏆 Saudi Pro League|Al-Hilal vs Al-Hazem|19/10 21:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Hilal (96.7%) | Πιθανό Σκορ: 2-0 (22.9%)
+🏆 Ισπανία LaLiga 2 🇪🇸|Celta Fortuna vs Tenerife|19/10 21:30|Over 1.5 1.51 (66.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Tenerife (51.9%) | Πιθανό Σκορ: 1-1 (13.2%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
