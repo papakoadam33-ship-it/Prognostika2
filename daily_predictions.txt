@@ -1,12 +1,15 @@
 STATS|78.2|22.1
-🏆 Saudi Pro League|Diriyah Club vs Al-Riyadh|20/10 18:00|Over 2.5 1.79 (55.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Diriyah Club (67.9%) | Πιθανό Σκορ: 1-0 (12.3%)
-🏆 Saudi Pro League|Al-Taawoun vs Al-Qadsiah|20/10 18:10|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Qadsiah (82.8%) | Πιθανό Σκορ: 0-2 (16.8%)
-🏆 UEFA Champions League|Sabah FK vs Borussia Dortmund|20/10 19:45|Over 2.5 1.43 (69.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Borussia Dortmund (88.8%) | Πιθανό Σκορ: 0-2 (16.4%)
-🏆 UEFA Champions League|Fenerbahce vs Slavia Praha|20/10 19:45|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Fenerbahce (78.4%) | Πιθανό Σκορ: 2-0 (12.8%)
-🏆 Superettan - Sweden|IFK Norrkoping vs Örebro SK|20/10 20:00|Over 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: IFK Norrkoping (78.4%) | Πιθανό Σκορ: 2-0 (12.8%)
-🏆 Saudi Pro League|Al-Ettifaq vs Al-Ittihad|20/10 21:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Ittihad (66.4%) | Πιθανό Σκορ: 0-1 (12.1%)
-🏆 Saudi Pro League|Al-Nassr vs Neom|20/10 21:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Nassr (82.8%) | Πιθανό Σκορ: 2-0 (16.8%)
-🏆 League 2|York City vs Accrington Stanley|20/10 21:45|Over 2.5 1.55 (64.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: York City (72.9%) | Πιθανό Σκορ: 2-0 (11.1%)
+🏆 UEFA Champions League|Sabah FK vs Borussia Dortmund|20/10 19:45|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Borussia Dortmund (86.7%) | Πιθανό Σκορ: 0-2 (18.4%)
+🏆 UEFA Champions League|Fenerbahce vs Slavia Praha|20/10 19:45|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Fenerbahce (93.2%) | Πιθανό Σκορ: 2-0 (21.3%)
+🏆 Superettan - Sweden|IFK Norrkoping vs Örebro SK|20/10 20:00|Over 2.5 1.56 (64.1%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Örebro SK (56.9%) | Πιθανό Σκορ: 1-1 (10.2%)
+🏆 Saudi Pro League|Al-Ettifaq vs Al-Ittihad|20/10 21:00|Over 2.5 1.57 (63.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Al-Ittihad (70.2%) | Πιθανό Σκορ: 0-2 (10.3%)
+🏆 Saudi Pro League|Al-Nassr vs Neom|20/10 21:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Nassr (84.5%) | Πιθανό Σκορ: 2-0 (17.5%)
+🏆 League 2|York City vs Accrington Stanley|20/10 21:45|Over 2.5 1.55 (64.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: York City (82.8%) | Πιθανό Σκορ: 2-0 (14.3%)
+🏆 FA Cup|Tadley Calleva FC vs Aldershot Town FC|20/10 21:45|Over 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Aldershot Town FC (76.4%) | Πιθανό Σκορ: 0-2 (12.2%)
+🏆 FA Cup|FC United of Manchester vs Altrincham FC|20/10 21:45|Over 2.5 1.59 (62.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Altrincham FC (62.8%) | Πιθανό Σκορ: 1-2 (9.8%)
+🏆 FA Cup|Alvechurch FC vs Spalding United FC|20/10 21:45|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Spalding United FC (55.6%) | Πιθανό Σκορ: 1-1 (12.1%)
+🏆 FA Cup|Anstey Nomads FC vs Macclesfield Town|20/10 21:45|Over 2.5 1.72 (58.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Macclesfield Town (55.8%) | Πιθανό Σκορ: 1-1 (12.1%)
+🏆 League 2|Barnet vs Swindon Town|20/10 21:45|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Barnet (81.4%) | Πιθανό Σκορ: 2-0 (13.8%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
