@@ -1,14 +1,12 @@
 STATS|78.2|22.1
-🏆 Βραζιλία Série B 🇧🇷|Londrina vs Cuiabá|21/10 01:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Londrina (97.7%) | Πιθανό Σκορ: 2-0 (23.4%)
-🏆 Liga MX|Guadalajara vs Necaxa|21/10 03:11|Over 2.5 1.30 (76.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Guadalajara (86.7%) | Πιθανό Σκορ: 2-0 (15.7%)
-🏆 Copa Sudamericana|Vasco da Gama vs Boca Juniors|21/10 03:30|Under 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Vasco da Gama (54.0%) | Πιθανό Σκορ: 0-0 (15.7%)
-🏆 Liga MX|FC Juárez vs Atlante FC|21/10 04:00|Over 2.5 1.75 (57.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Atlante FC (60.5%) | Πιθανό Σκορ: 1-1 (11.7%)
-🏆 Liga MX|Atlético San Luis vs Querétaro|21/10 04:00|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Atlético San Luis (58.8%) | Πιθανό Σκορ: 1-1 (10.1%)
-🏆 Liga MX|Tigres vs León|21/10 06:10|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Tigres (64.5%) | Πιθανό Σκορ: 1-0 (11.7%)
-🏆 J League|Avispa Fukuoka vs Gamba Osaka|21/10 13:00|Over 1.5 1.44 (69.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Avispa Fukuoka (51.4%) | Πιθανό Σκορ: 1-1 (13.2%)
-🏆 J League|Nagoya Grampus vs Cerezo Osaka|21/10 13:00|Over 2.5 1.71 (58.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Nagoya Grampus (55.6%) | Πιθανό Σκορ: 1-1 (10.3%)
-🏆 J League|Shimizu S Pulse vs FC Machida Zelvia|21/10 13:00|Over 1.5 1.57 (63.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Machida Zelvia (63.2%) | Πιθανό Σκορ: 0-1 (14.6%)
-🏆 J League|FC Tokyo vs Kashiwa Reysol|21/10 13:00|Over 2.5 1.84 (54.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Tokyo (61.6%) | Πιθανό Σκορ: 1-1 (11.6%)
+🏆 J League|Avispa Fukuoka vs Gamba Osaka|21/10 13:00|Over 1.5 1.48 (67.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Avispa Fukuoka (51.8%) | Πιθανό Σκορ: 1-1 (13.2%)
+🏆 J League|Nagoya Grampus vs Cerezo Osaka|21/10 13:00|Over 2.5 1.78 (56.2%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Nagoya Grampus (56.6%) | Πιθανό Σκορ: 1-1 (10.3%)
+🏆 J League|Shimizu S Pulse vs FC Machida Zelvia|21/10 13:00|Under 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Machida Zelvia (67.9%) | Πιθανό Σκορ: 0-1 (19.8%)
+🏆 J League|FC Tokyo vs Kashiwa Reysol|21/10 13:00|Over 2.5 1.78 (56.2%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: FC Tokyo (69.0%) | Πιθανό Σκορ: 2-0 (9.9%)
+🏆 J League|Fagiano Okayama vs Mito HollyHock|21/10 13:00|Under 2.5 1.70 (58.8%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Fagiano Okayama (80.4%) | Πιθανό Σκορ: 1-0 (23.4%)
+🏆 J League|V-Varen Nagasaki vs Hiroshima Sanfrecce FC|21/10 13:00|Over 2.5 1.69 (59.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Hiroshima Sanfrecce FC (85.5%) | Πιθανό Σκορ: 0-2 (15.3%)
+🏆 J League|Kyoto Purple Sanga vs Kashima Antlers|21/10 13:00|Over 2.5 2.02 (49.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Kashima Antlers (69.5%) | Πιθανό Σκορ: 0-1 (12.6%)
+🏆 J League|Kawasaki Frontale vs Vissel Kobe|21/10 13:00|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Vissel Kobe (57.2%) | Πιθανό Σκορ: 1-1 (10.2%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
