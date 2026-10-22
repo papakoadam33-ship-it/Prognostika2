@@ -1,12 +1,15 @@
 STATS|78.2|22.1
-🏆 Saudi Pro League|Al-Hazem vs Al-Fayha|22/10 16:40|Over 2.5 1.77 (56.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Hazem (60.4%) | Πιθανό Σκορ: 1-1 (11.7%)
-🏆 UEFA Europa Conference League|FC Kairat vs Panathinaikos FC|22/10 17:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Panathinaikos FC (77.4%) | Πιθανό Σκορ: 0-2 (14.7%)
-🏆 Saudi Pro League|Al-Fateh vs Al-Shabab|22/10 17:45|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Shabab (61.4%) | Πιθανό Σκορ: 1-1 (11.6%)
-🏆 UEFA Europa League|FC Ararat-Armenia vs AZ Alkmaar|22/10 19:45|Over 2.5 1.53 (65.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: AZ Alkmaar (83.8%) | Πιθανό Σκορ: 0-2 (14.7%)
-🏆 UEFA Europa League|OFI Crete vs Bayer Leverkusen|22/10 19:45|Over 2.5 1.33 (75.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bayer Leverkusen (91.1%) | Πιθανό Σκορ: 0-2 (17.3%)
-🏆 UEFA Europa Conference League|FK Jablonec vs Brighton and Hove Albion|22/10 19:45|Over 2.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Brighton and Hove Albion (93.4%) | Πιθανό Σκορ: 0-2 (18.2%)
-🏆 UEFA Europa League|Dinamo Zagreb vs NEC Nijmegen|22/10 19:45|Over 2.5 1.53 (65.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Dinamo Zagreb (79.3%) | Πιθανό Σκορ: 2-0 (13.1%)
-🏆 UEFA Europa Conference League|Red Star Belgrade vs FC Copenhagen|22/10 19:45|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Red Star Belgrade (57.2%) | Πιθανό Σκορ: 1-1 (10.2%)
+🏆 Saudi Pro League|Al-Hazem vs Al-Fayha|22/10 16:39|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Hazem (63.3%) | Πιθανό Σκορ: 1-0 (11.5%)
+🏆 UEFA Europa Conference League|FC Kairat vs Panathinaikos FC|22/10 17:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Panathinaikos FC (93.1%) | Πιθανό Σκορ: 0-2 (21.2%)
+🏆 Saudi Pro League|Al-Fateh vs Al-Shabab|22/10 17:46|Over 2.5 1.55 (64.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Al-Shabab (55.1%) | Πιθανό Σκορ: 1-1 (10.3%)
+🏆 UEFA Europa League|FC Ararat-Armenia vs AZ Alkmaar|22/10 19:45|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: AZ Alkmaar (85.2%) | Πιθανό Σκορ: 0-2 (15.1%)
+🏆 UEFA Europa League|OFI Crete vs Bayer Leverkusen|22/10 19:45|Over 2.5 1.30 (76.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bayer Leverkusen (91.5%) | Πιθανό Σκορ: 0-2 (17.5%)
+🏆 UEFA Europa Conference League|FK Jablonec vs Brighton and Hove Albion|22/10 19:45|Over 2.5 1.36 (73.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Brighton and Hove Albion (94.5%) | Πιθανό Σκορ: 0-3 (18.8%)
+🏆 UEFA Europa League|Dinamo Zagreb vs NEC Nijmegen|22/10 19:45|Over 2.5 1.53 (65.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Dinamo Zagreb (81.5%) | Πιθανό Σκορ: 2-0 (13.8%)
+🏆 UEFA Europa Conference League|Red Star Belgrade vs FC Copenhagen|22/10 19:45|Over 2.5 1.86 (53.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Red Star Belgrade (57.1%) | Πιθανό Σκορ: 1-1 (12.0%)
+🏆 UEFA Europa Conference League|FC Iberia 1999 vs Mjällby AIF|22/10 19:45|Over 2.5 1.96 (51.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Mjällby AIF (55.2%) | Πιθανό Σκορ: 1-1 (12.1%)
+🏆 UEFA Europa Conference League|Getafe vs FC Lugano|22/10 19:45|Over 1.5 1.62 (61.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Getafe (66.1%) | Πιθανό Σκορ: 1-0 (15.2%)
+🏆 UEFA Europa Conference League|FC Nordsjaelland vs PFC CSKA Sofia|22/10 19:45|Over 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Nordsjaelland (84.8%) | Πιθανό Σκορ: 2-0 (15.0%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
