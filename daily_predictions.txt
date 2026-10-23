@@ -1,12 +1,13 @@
 STATS|78.2|22.1
-🏆 A-League|Brisbane Roar vs Perth Glory|23/10 12:00|Over 2.5 1.87 (53.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Brisbane Roar (58.7%) | Πιθανό Σκορ: 1-1 (11.9%)
-🏆 Saudi Pro League|Al-Faisaly KSA FC vs Al-Nassr|23/10 16:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Nassr (90.0%) | Πιθανό Σκορ: 0-2 (19.8%)
-🏆 Saudi Pro League|Al-Ittihad vs Diriyah Club|23/10 18:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Ittihad (70.8%) | Πιθανό Σκορ: 1-0 (12.8%)
-🏆 Ekstraklasa - Poland|Motor Lublin vs Zagłębie Lubin|23/10 19:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Motor Lublin (66.2%) | Πιθανό Σκορ: 1-0 (12.0%)
-🏆 Frauen-Bundesliga|RB Leipzig vs Bayern Munich|23/10 19:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bayern Munich (92.5%) | Πιθανό Σκορ: 0-2 (21.0%)
+🏆 Saudi Pro League|Al-Faisaly KSA FC vs Al-Nassr|23/10 16:30|Over 2.5 1.83 (54.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Nassr (91.6%) | Πιθανό Σκορ: 0-2 (20.6%)
+🏆 Saudi Pro League|Al-Ittihad vs Diriyah Club|23/10 18:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Ittihad (69.6%) | Πιθανό Σκορ: 1-0 (12.6%)
+🏆 Ekstraklasa - Poland|Motor Lublin vs Zagłębie Lubin|23/10 19:00|Over 2.5 1.76 (56.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Motor Lublin (66.4%) | Πιθανό Σκορ: 2-1 (9.9%)
+🏆 Frauen-Bundesliga|RB Leipzig vs Bayern Munich|23/10 19:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bayern Munich (92.7%) | Πιθανό Σκορ: 0-2 (21.1%)
 🏆 Premier League - Russia|FC Akhmat Grozny vs Gazovik Orenburg|23/10 19:30|Over 2.5 1.84 (54.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Akhmat Grozny (63.4%) | Πιθανό Σκορ: 1-0 (11.5%)
-🏆 Γερμανία DFB Pokal 🇩🇪|SV Darmstadt 98 vs FC St. Pauli|23/10 19:30|Over 2.5 1.88 (53.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC St. Pauli (56.6%) | Πιθανό Σκορ: 1-1 (12.0%)
-🏆 Γερμανία DFB Pokal 🇩🇪|VfL Bochum vs VfL Wolfsburg|23/10 19:30|Over 2.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: VfL Wolfsburg (63.3%) | Πιθανό Σκορ: 1-2 (9.8%)
+🏆 Γερμανία DFB Pokal 🇩🇪|SV Darmstadt 98 vs FC St. Pauli|23/10 19:30|Over 2.5 1.88 (53.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC St. Pauli (57.7%) | Πιθανό Σκορ: 1-1 (12.0%)
+🏆 Γερμανία DFB Pokal 🇩🇪|VfL Bochum vs VfL Wolfsburg|23/10 19:30|Over 2.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: VfL Wolfsburg (59.4%) | Πιθανό Σκορ: 1-1 (10.1%)
+🏆 Turkey Super League|Alanyaspor vs Kocaelispor|23/10 20:00|Over 1.5 1.61 (62.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Alanyaspor (68.4%) | Πιθανό Σκορ: 1-0 (15.8%)
+🏆 Denmark Superliga|Randers FC vs Brondby IF|23/10 20:00|Over 2.5 1.53 (65.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Brondby IF (65.0%) | Πιθανό Σκορ: 1-2 (9.9%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
