@@ -1,14 +1,15 @@
 STATS|78.2|22.1
-🏆 Turkey Super League|Besiktas JK vs Basaksehir|26/10 18:00|Over 2.5 1.64 (61.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Besiktas JK (87.5%) | Πιθανό Σκορ: 2-0 (16.0%)
-🏆 Turkey Super League|Çaykur Rizespor vs Trabzonspor|26/10 18:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Çaykur Rizespor (58.2%) | Πιθανό Σκορ: 1-1 (11.9%)
-🏆 Denmark Superliga|FC Copenhagen vs OB Odense BK|26/10 20:00|Over 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Copenhagen (85.9%) | Πιθανό Σκορ: 2-0 (15.4%)
-🏆 Superettan - Sweden|Örebro SK vs Falkenbergs FF|26/10 20:05|Over 2.5 1.74 (57.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Falkenbergs FF (53.0%) | Πιθανό Σκορ: 1-1 (10.4%)
-🏆 Turkey Super League|Galatasaray vs Fenerbahce|26/10 20:30|Over 2.5 1.49 (67.1%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Galatasaray (64.2%) | Πιθανό Σκορ: 2-1 (9.9%)
-🏆 Primeira Liga - Portugal|Santa Clara vs Benfica|26/10 20:45|Over 2.5 1.62 (61.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Benfica (89.1%) | Πιθανό Σκορ: 0-2 (16.6%)
-🏆 Ισπανία LaLiga 2 🇪🇸|Andorra CF vs Burgos CF|26/10 21:30|Over 1.5 1.48 (67.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Andorra CF (66.1%) | Πιθανό Σκορ: 1-0 (15.2%)
-🏆 Ligue 1 - France|Paris Saint Germain vs Lyon|26/10 21:30|Over 2.5 1.37 (73.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Paris Saint Germain (87.0%) | Πιθανό Σκορ: 2-0 (15.8%)
-🏆 Ligue 2 - France|Boulogne vs Stade de Reims|26/10 21:45|Over 1.5 1.54 (64.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Stade de Reims (63.3%) | Πιθανό Σκορ: 0-1 (14.6%)
-🏆 Ligue 2 - France|Montpellier vs Red Star|26/10 21:45|Over 2.5 1.89 (52.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Montpellier (57.5%) | Πιθανό Σκορ: 1-1 (12.0%)
+🏆 Brazil Série A|Flamengo vs Atletico Mineiro|27/10 01:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Flamengo (71.4%) | Πιθανό Σκορ: 1-0 (13.0%)
+🏆 Βραζιλία Série B 🇧🇷|Juventude vs Nautico PE|27/10 01:34|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Juventude (98.9%) | Πιθανό Σκορ: 2-0 (24.0%)
+🏆 Αργεντινή Primera 🇦🇷|Instituto de Córdoba vs Deportivo Riestra|27/10 02:15|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Instituto de Córdoba (76.9%) | Πιθανό Σκορ: 2-0 (14.5%)
+🏆 Saudi Pro League|Abha Club vs Al-Faisaly KSA FC|27/10 14:40|Over 2.5 1.72 (58.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Abha Club (51.8%) | Πιθανό Σκορ: 1-1 (12.2%)
+🏆 Γερμανία DFB Pokal 🇩🇪|SG Sonnenhof Großaspach vs Augsburg|27/10 19:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Augsburg (86.7%) | Πιθανό Σκορ: 0-2 (18.4%)
+🏆 Γερμανία DFB Pokal 🇩🇪|Hamburger SV vs Eintracht Frankfurt|27/10 19:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Eintracht Frankfurt (57.5%) | Πιθανό Σκορ: 1-1 (12.0%)
+🏆 Γερμανία DFB Pokal 🇩🇪|VfL Bochum vs FSV Mainz 05|27/10 19:00|Over 2.5 1.54 (64.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: FSV Mainz 05 (71.7%) | Πιθανό Σκορ: 0-2 (10.7%)
+🏆 Γερμανία DFB Pokal 🇩🇪|Rot-Weiss Essen vs RB Leipzig|27/10 19:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: RB Leipzig (91.7%) | Πιθανό Σκορ: 0-2 (20.6%)
+🏆 Serie A - Italy|Sassuolo vs Lazio|27/10 19:30|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Lazio (60.0%) | Πιθανό Σκορ: 1-1 (10.0%)
+🏆 Allsvenskan - Sweden|AIK vs IF Elfsborg|27/10 20:00|Over 2.5 1.73 (57.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: IF Elfsborg (57.0%) | Πιθανό Σκορ: 1-1 (10.2%)
+🏆 Serie B - Italy|Benevento vs US Catanzaro 1929|27/10 20:00|Over 2.5 1.57 (63.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Benevento (73.3%) | Πιθανό Σκορ: 2-0 (11.2%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
