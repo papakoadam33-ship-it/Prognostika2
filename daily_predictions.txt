@@ -1,13 +1,12 @@
 STATS|78.2|22.1
-🏆 Βραζιλία Série B 🇧🇷|Ceará vs Goiás|28/10 01:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Ceará (52.2%) | Πιθανό Σκορ: 1-1 (12.2%)
-🏆 Veikkausliiga - Finland|AC Oulu vs VPS Vaasa|28/10 18:00|Over 2.5 1.89 (52.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: AC Oulu (54.5%) | Πιθανό Σκορ: 1-1 (12.1%)
-🏆 Γερμανία DFB Pokal 🇩🇪|Dynamo Dresden vs FC Schalke 04|28/10 19:00|Over 2.5 1.63 (61.3%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: FC Schalke 04 (59.4%) | Πιθανό Σκορ: 1-1 (10.1%)
-🏆 Γερμανία DFB Pokal 🇩🇪|SSV Jeddeloh vs Hertha Berlin|28/10 19:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Hertha Berlin (96.4%) | Πιθανό Σκορ: 0-2 (22.8%)
-🏆 Γερμανία DFB Pokal 🇩🇪|SC Freiburg vs VfL Wolfsburg|28/10 19:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: SC Freiburg (78.5%) | Πιθανό Σκορ: 2-0 (15.1%)
-🏆 Γερμανία DFB Pokal 🇩🇪|SC Paderborn vs VfB Stuttgart|28/10 19:00|Over 2.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: VfB Stuttgart (77.5%) | Πιθανό Σκορ: 0-2 (12.5%)
-🏆 Serie A - Italy|AC Milan vs Bologna|28/10 19:30|Over 2.5 1.83 (54.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: AC Milan (74.5%) | Πιθανό Σκορ: 2-0 (13.6%)
-🏆 Serie A - Italy|Venezia vs Inter Milan|28/10 19:30|Over 2.5 1.36 (73.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Inter Milan (84.9%) | Πιθανό Σκορ: 0-2 (15.1%)
-🏆 Serie A - Italy|Parma vs Udinese|28/10 19:30|Over 1.5 1.50 (66.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Udinese (51.1%) | Πιθανό Σκορ: 1-1 (13.3%)
+🏆 Veikkausliiga - Finland|AC Oulu vs VPS Vaasa|28/10 18:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: AC Oulu (53.1%) | Πιθανό Σκορ: 1-1 (12.2%)
+🏆 Γερμανία DFB Pokal 🇩🇪|Dynamo Dresden vs FC Schalke 04|28/10 19:00|Over 2.5 1.63 (61.3%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: FC Schalke 04 (61.1%) | Πιθανό Σκορ: 1-1 (9.9%)
+🏆 Γερμανία DFB Pokal 🇩🇪|SSV Jeddeloh vs Hertha Berlin|28/10 19:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Hertha Berlin (96.5%) | Πιθανό Σκορ: 0-2 (22.8%)
+🏆 Γερμανία DFB Pokal 🇩🇪|SC Freiburg vs VfL Wolfsburg|28/10 19:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: SC Freiburg (75.8%) | Πιθανό Σκορ: 2-0 (14.1%)
+🏆 Γερμανία DFB Pokal 🇩🇪|SC Paderborn vs VfB Stuttgart|28/10 19:00|Over 2.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: VfB Stuttgart (77.9%) | Πιθανό Σκορ: 0-2 (12.7%)
+🏆 Serie A - Italy|AC Milan vs Bologna|28/10 19:30|Over 1.5 1.44 (69.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: AC Milan (74.6%) | Πιθανό Σκορ: 1-0 (17.2%)
+🏆 Serie A - Italy|Venezia vs Inter Milan|28/10 19:30|Over 2.5 1.37 (73.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Inter Milan (85.5%) | Πιθανό Σκορ: 0-2 (15.2%)
+🏆 Serie A - Italy|Parma vs Udinese|28/10 19:30|Over 1.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Udinese (50.6%) | Πιθανό Σκορ: 1-1 (13.3%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
