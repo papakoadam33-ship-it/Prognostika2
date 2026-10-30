@@ -1,13 +1,13 @@
 STATS|78.2|22.1
-🏆 Brazil Série A|Grêmio vs Atletico Paranaense|30/10 02:30|Over 1.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Grêmio (80.5%) | Πιθανό Σκορ: 1-0 (18.6%)
-🏆 A-League|Brisbane Roar vs Auckland FC|30/10 11:00|Over 2.5 1.94 (51.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Auckland FC (53.6%) | Πιθανό Σκορ: 1-1 (12.2%)
-🏆 Saudi Pro League|Abha Club vs Al-Ittihad|30/10 14:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Ittihad (81.6%) | Πιθανό Σκορ: 0-2 (16.3%)
-🏆 Saudi Pro League|Diriyah Club vs Neom|30/10 16:50|Over 2.5 1.72 (58.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Neom (53.5%) | Πιθανό Σκορ: 1-1 (12.2%)
-🏆 Ekstraklasa - Poland|Cracovia Kraków vs Motor Lublin|30/10 19:00|Over 2.5 1.75 (57.1%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Cracovia Kraków (57.8%) | Πιθανό Σκορ: 1-1 (10.2%)
-🏆 Turkey Super League|Torku Konyaspor vs Galatasaray|30/10 19:00|Over 2.5 1.66 (60.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Galatasaray (78.7%) | Πιθανό Σκορ: 0-2 (12.9%)
-🏆 Γερμανία DFB Pokal 🇩🇪|Arminia Bielefeld vs Eintracht Braunschweig|30/10 19:30|Over 2.5 1.62 (61.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Arminia Bielefeld (68.2%) | Πιθανό Σκορ: 2-1 (9.9%)
-🏆 Γερμανία DFB Pokal 🇩🇪|FC Energie Cottbus vs VfL Bochum|30/10 19:30|Over 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: VfL Bochum (54.6%) | Πιθανό Σκορ: 1-1 (10.3%)
-🏆 Saudi Pro League|Al-Shabab vs Al-Ahli|30/10 20:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Ahli (70.7%) | Πιθανό Σκορ: 0-1 (12.8%)
+🏆 A-League|Brisbane Roar vs Auckland FC|30/10 11:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Auckland FC (96.6%) | Πιθανό Σκορ: 0-2 (22.9%)
+🏆 Saudi Pro League|Abha Club vs Al-Ittihad|30/10 14:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Ittihad (80.1%) | Πιθανό Σκορ: 0-2 (15.7%)
+🏆 Saudi Pro League|Diriyah Club vs Neom|30/10 16:50|Over 2.5 1.77 (56.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Neom (53.5%) | Πιθανό Σκορ: 1-1 (12.2%)
+🏆 Ekstraklasa - Poland|Cracovia Kraków vs Motor Lublin|30/10 19:00|Over 2.5 1.80 (55.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Cracovia Kraków (58.0%) | Πιθανό Σκορ: 1-1 (11.9%)
+🏆 Turkey Super League|Torku Konyaspor vs Galatasaray|30/10 19:00|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Galatasaray (76.8%) | Πιθανό Σκορ: 0-2 (12.3%)
+🏆 Γερμανία DFB Pokal 🇩🇪|Arminia Bielefeld vs Eintracht Braunschweig|30/10 19:30|Over 2.5 1.86 (53.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Arminia Bielefeld (64.9%) | Πιθανό Σκορ: 1-0 (11.8%)
+🏆 Γερμανία DFB Pokal 🇩🇪|FC Energie Cottbus vs VfL Bochum|30/10 19:30|Over 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: VfL Bochum (58.4%) | Πιθανό Σκορ: 1-1 (10.1%)
+🏆 Saudi Pro League|Al-Shabab vs Al-Ahli|30/10 20:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Ahli (70.8%) | Πιθανό Σκορ: 0-1 (12.9%)
+🏆 Eliteserien - Norway|Bodø/Glimt vs Viking FK|30/10 20:00|Over 2.5 1.29 (77.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bodø/Glimt (75.4%) | Πιθανό Σκορ: 2-0 (11.9%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
