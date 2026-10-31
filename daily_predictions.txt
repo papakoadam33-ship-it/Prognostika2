@@ -1,16 +1,13 @@
 STATS|78.2|22.1
-🏆 Αργεντινή Primera 🇦🇷|Racing Club vs Aldosivi Mar del Plata|31/10 02:15|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Racing Club (74.3%) | Πιθανό Σκορ: 2-0 (13.5%)
-🏆 Αργεντινή Primera 🇦🇷|Sarmiento de Junin vs Rosario Central|31/10 02:15|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Rosario Central (72.1%) | Πιθανό Σκορ: 0-1 (13.1%)
-🏆 Liga MX|Atlético San Luis vs Atlas|31/10 03:00|Over 1.5 1.43 (69.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Atlético San Luis (58.6%) | Πιθανό Σκορ: 1-0 (13.5%)
-🏆 Liga MX|FC Juárez vs Querétaro|31/10 03:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Juárez (75.2%) | Πιθανό Σκορ: 2-0 (13.9%)
-🏆 Liga MX|Puebla vs Pumas|31/10 05:00|Over 2.5 1.78 (56.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Pumas (63.8%) | Πιθανό Σκορ: 0-1 (11.6%)
-🏆 A-League|Newcastle Jets FC vs Wellington Phoenix FC|31/10 06:00|Over 2.5 1.52 (65.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Newcastle Jets FC (55.8%) | Πιθανό Σκορ: 1-1 (10.3%)
-🏆 K League 1|Jeonbuk Hyundai Motors vs Daejeon Citizen|31/10 07:00|Over 2.5 1.80 (55.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Jeonbuk Hyundai Motors (50.4%) | Πιθανό Σκορ: 1-1 (12.2%)
-🏆 J League|Fagiano Okayama vs FC Tokyo|31/10 07:00|Over 2.5 2.02 (49.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Tokyo (67.9%) | Πιθανό Σκορ: 0-1 (12.3%)
-🏆 J League|Mito HollyHock vs Hiroshima Sanfrecce FC|31/10 07:00|Over 2.5 1.67 (59.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Hiroshima Sanfrecce FC (86.2%) | Πιθανό Σκορ: 0-2 (15.5%)
-🏆 J League|Kyoto Purple Sanga vs Shimizu S Pulse|31/10 07:00|Over 1.5 1.46 (68.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Kyoto Purple Sanga (54.6%) | Πιθανό Σκορ: 1-1 (13.1%)
-🏆 J League|Kashima Antlers vs Cerezo Osaka|31/10 08:00|Over 2.5 1.62 (61.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Kashima Antlers (72.1%) | Πιθανό Σκορ: 2-0 (10.8%)
-🏆 A-League|Melbourne City vs Sydney FC|31/10 08:00|Over 2.5 1.96 (51.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Melbourne City (64.4%) | Πιθανό Σκορ: 1-0 (11.7%)
+🏆 A-League|Macarthur FC vs Western Sydney Wanderers|31/10 10:40|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Western Sydney Wanderers (57.1%) | Πιθανό Σκορ: 1-1 (12.0%)
+🏆 Turkey Super League|Erzurum BB vs Çorum FK|31/10 12:30|Over 1.5 1.53 (65.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Çorum FK (53.0%) | Πιθανό Σκορ: 1-1 (13.2%)
+🏆 Ekstraklasa - Poland|Wisła Płock vs Piast Gliwice|31/10 13:15|Over 2.5 1.76 (56.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Wisła Płock (57.0%) | Πιθανό Σκορ: 1-1 (10.2%)
+🏆 Γερμανία DFB Pokal 🇩🇪|1. FC Kaiserslautern vs Hertha Berlin|31/10 14:00|Over 2.5 1.62 (61.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Hertha Berlin (55.4%) | Πιθανό Σκορ: 1-1 (10.3%)
+🏆 Γερμανία DFB Pokal 🇩🇪|SV Darmstadt 98 vs 1. FC Magdeburg|31/10 14:00|Over 2.5 1.55 (64.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: 1. FC Magdeburg (55.6%) | Πιθανό Σκορ: 1-1 (10.3%)
+🏆 Superettan - Sweden|IFK Norrkoping vs Östersunds FK|31/10 14:00|Over 2.5 1.83 (54.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: IFK Norrkoping (55.0%) | Πιθανό Σκορ: 1-1 (12.1%)
+🏆 Γερμανία DFB Pokal 🇩🇪|VfL Wolfsburg vs VfL Osnabrück|31/10 14:00|Over 2.5 1.36 (73.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: VfL Wolfsburg (78.2%) | Πιθανό Σκορ: 2-0 (12.8%)
+🏆 Premier League - Russia|Rubin Kazan vs FC Fakel Voronezh|31/10 14:15|Under 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Rubin Kazan (64.9%) | Πιθανό Σκορ: 1-0 (18.9%)
+🏆 Αγγλία Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿|Lincoln City vs Birmingham City|31/10 14:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Birmingham City (60.7%) | Πιθανό Σκορ: 1-1 (11.7%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
