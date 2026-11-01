@@ -1,15 +1,14 @@
 STATS|78.2|22.1
-🏆 Βραζιλία Série B 🇧🇷|Nautico PE vs Avai|01/11 00:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Nautico PE (99.7%) | Πιθανό Σκορ: 2-0 (24.4%)
-🏆 Liga MX|Pachuca vs Tigres|01/11 01:00|Over 2.5 1.49 (67.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Pachuca (98.4%) | Πιθανό Σκορ: 3-0 (21.2%)
-🏆 Αργεντινή Primera 🇦🇷|Estudiantes vs Instituto de Córdoba|01/11 02:30|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Estudiantes (68.6%) | Πιθανό Σκορ: 2-1 (9.9%)
-🏆 Liga MX|Monterrey vs Tijuana|01/11 03:05|Over 2.5 1.55 (64.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Monterrey (77.9%) | Πιθανό Σκορ: 2-0 (12.7%)
-🏆 Liga MX|Guadalajara vs Atlante FC|01/11 03:07|Over 2.5 1.52 (65.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Guadalajara (81.8%) | Πιθανό Σκορ: 2-0 (14.0%)
-🏆 MLS|Colorado Rapids vs Chicago Fire|01/11 03:30|Over 2.5 1.64 (61.0%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Colorado Rapids (56.2%) | Πιθανό Σκορ: 1-1 (10.3%)
-🏆 Liga MX|América vs Toluca|01/11 05:10|Over 2.5 1.52 (65.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: América (57.6%) | Πιθανό Σκορ: 1-1 (10.2%)
-🏆 A-League|Melbourne Victory vs Central Coast Mariners|01/11 06:00|Over 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Melbourne Victory (84.7%) | Πιθανό Σκορ: 2-0 (15.0%)
-🏆 J League|Yokohama F Marinos vs Kawasaki Frontale|01/11 06:00|Over 2.5 1.55 (64.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Kawasaki Frontale (56.6%) | Πιθανό Σκορ: 1-1 (10.3%)
-🏆 J League|JEF United Chiba vs Avispa Fukuoka|01/11 07:00|Over 1.5 1.57 (63.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Avispa Fukuoka (55.8%) | Πιθανό Σκορ: 1-1 (13.1%)
-🏆 K League 1|Ulsan Hyundai FC vs Gangwon FC|01/11 07:00|Over 2.5 1.91 (52.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Ulsan Hyundai FC (60.5%) | Πιθανό Σκορ: 1-1 (11.7%)
+🏆 Premier League - Russia|Gazovik Orenburg vs CSKA Moscow|01/11 12:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: CSKA Moscow (59.4%) | Πιθανό Σκορ: 1-1 (11.8%)
+🏆 Turkey Super League|Amed SK vs Eyüpspor|01/11 12:29|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Amed SK (96.3%) | Πιθανό Σκορ: 2-0 (22.7%)
+🏆 Dutch Eredivisie|FC Zwolle vs ADO Den Haag|01/11 13:15|Over 2.5 1.51 (66.2%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: FC Zwolle (53.7%) | Πιθανό Σκορ: 1-1 (10.4%)
+🏆 Serie A - Italy|Como vs Venezia|01/11 13:30|Over 2.5 1.38 (72.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Como (87.1%) | Πιθανό Σκορ: 2-0 (15.8%)
+🏆 Superettan - Sweden|Varbergs BoIS vs Ljungskile SK|01/11 14:00|Over 2.5 1.69 (59.2%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Varbergs BoIS (61.8%) | Πιθανό Σκορ: 1-1 (9.9%)
+🏆 Premier League - Russia|FC Dynamo Makhachkala vs FK Rostov|01/11 14:15|Under 2.5 1.48 (67.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FK Rostov (57.8%) | Πιθανό Σκορ: 0-1 (16.8%)
+🏆 Γερμανία DFB Pokal 🇩🇪|FC St. Pauli vs 1. FC Nürnberg|01/11 14:30|Over 2.5 1.62 (61.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: FC St. Pauli (58.2%) | Πιθανό Σκορ: 1-1 (10.2%)
+🏆 Γερμανία DFB Pokal 🇩🇪|1. FC Saarbrücken vs Waldhof Mannheim|01/11 14:30|Over 2.5 1.45 (69.0%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: 1. FC Saarbrücken (56.7%) | Πιθανό Σκορ: 1-1 (10.3%)
+🏆 Belgium First Div|Cercle Brugge KSV vs Royal Antwerp|01/11 14:30|Over 2.5 1.82 (54.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Cercle Brugge KSV (61.3%) | Πιθανό Σκορ: 1-1 (11.6%)
+🏆 Γερμανία DFB Pokal 🇩🇪|Hannover 96 vs Dynamo Dresden|01/11 14:30|Over 2.5 1.60 (62.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Hannover 96 (60.0%) | Πιθανό Σκορ: 1-1 (10.0%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
