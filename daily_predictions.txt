@@ -1,12 +1,15 @@
 STATS|78.2|22.1
-🏆 Ισπανία LaLiga 2 🇪🇸|Tenerife vs Andorra CF|02/11 15:00|Over 1.5 1.44 (69.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Tenerife (61.5%) | Πιθανό Σκορ: 1-0 (14.2%)
-🏆 Premier League - Russia|Kryliya Sovetov vs Zenit St Petersburg|02/11 17:00|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Zenit St Petersburg (77.3%) | Πιθανό Σκορ: 0-2 (12.5%)
-🏆 Ισπανία LaLiga 2 🇪🇸|Oviedo vs Las Palmas|02/11 17:15|Over 2.5 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Oviedo (73.4%) | Πιθανό Σκορ: 1-0 (13.3%)
-🏆 Super League - Greece|Atromitos Athens vs Volos FC|02/11 18:00|Over 2.5 1.96 (51.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Atromitos Athens (67.8%) | Πιθανό Σκορ: 1-0 (12.3%)
-🏆 Veikkausliiga - Finland|FC Inter Turku vs IF Gnistan|02/11 18:00|Over 2.5 1.61 (62.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Inter Turku (85.3%) | Πιθανό Σκορ: 2-0 (15.2%)
-🏆 Veikkausliiga - Finland|VPS Vaasa vs HJK Helsinki|02/11 18:00|Over 2.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: HJK Helsinki (87.0%) | Πιθανό Σκορ: 0-2 (15.8%)
-🏆 Turkey Super League|Genclerbirligi SK vs Alanyaspor|02/11 19:00|Over 2.5 2.04 (49.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Alanyaspor (50.5%) | Πιθανό Σκορ: 1-1 (12.2%)
-🏆 Ekstraklasa - Poland|Zagłębie Lubin vs Korona Kielce|02/11 19:00|Over 2.5 2.00 (50.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Zagłębie Lubin (52.5%) | Πιθανό Σκορ: 1-1 (12.2%)
+🏆 Αργεντινή Primera 🇦🇷|Platense vs Central Córdoba|03/11 00:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Platense (82.0%) | Πιθανό Σκορ: 2-0 (16.5%)
+🏆 Αργεντινή Primera 🇦🇷|Defensa y Justicia vs Independiente|03/11 00:01|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Defensa y Justicia (55.7%) | Πιθανό Σκορ: 1-1 (12.1%)
+🏆 Brazil Série A|Bragantino-SP vs Santos|03/11 01:00|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bragantino-SP (77.0%) | Πιθανό Σκορ: 2-0 (12.4%)
+🏆 Βραζιλία Série B 🇧🇷|Goiás vs Clube de Regatas Brasil|03/11 01:30|Over 2.5 1.86 (53.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Goiás (62.2%) | Πιθανό Σκορ: 1-1 (11.5%)
+🏆 Primera División - Chile|Deportes Concepción vs Palestino|03/11 01:30|Over 2.5 1.88 (53.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Deportes Concepción (50.6%) | Πιθανό Σκορ: 1-1 (12.2%)
+🏆 Αργεντινή Primera 🇦🇷|Atlético Tucuman vs Argentinos Juniors|03/11 02:15|Under 2.5 1.49 (67.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Argentinos Juniors (53.2%) | Πιθανό Σκορ: 0-0 (15.7%)
+🏆 Αργεντινή Primera 🇦🇷|Independiente Rivadavia vs Banfield|03/11 02:15|Over 2.5 1.88 (53.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Independiente Rivadavia (79.3%) | Πιθανό Σκορ: 2-0 (15.4%)
+🏆 UEFA Champions League|Galatasaray vs VfB Stuttgart|03/11 19:45|Over 2.5 1.36 (73.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Galatasaray (57.6%) | Πιθανό Σκορ: 1-1 (10.2%)
+🏆 UEFA Champions League|Shakhtar Donetsk vs Sporting Lisbon|03/11 19:45|Over 2.5 1.67 (59.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Sporting Lisbon (64.5%) | Πιθανό Σκορ: 1-2 (9.9%)
+🏆 Copa del Rey|Anaitasuna vs Alavés|03/11 20:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Alavés (97.2%) | Πιθανό Σκορ: 0-2 (23.1%)
+🏆 Copa del Rey|CD Pamplona vs SD Eibar|03/11 20:00|Over 2.5 1.71 (58.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: SD Eibar (90.8%) | Πιθανό Σκορ: 0-2 (20.2%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
