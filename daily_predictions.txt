@@ -1,15 +1,12 @@
 STATS|78.2|22.1
-🏆 Αργεντινή Primera 🇦🇷|Lanus vs Gimnasia Mendoza|02/11 01:45|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Lanus (95.4%) | Πιθανό Σκορ: 2-0 (22.3%)
-🏆 MLS|New England Revolution vs Inter Miami CF|02/11 02:25|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Inter Miami CF (54.0%) | Πιθανό Σκορ: 1-1 (12.2%)
-🏆 Liga MX|Cruz Azul vs León|02/11 03:10|Over 2.5 1.69 (59.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Cruz Azul (74.3%) | Πιθανό Σκορ: 2-0 (11.5%)
-🏆 MLS|Los Angeles FC vs Minnesota United FC|02/11 03:30|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Los Angeles FC (71.4%) | Πιθανό Σκορ: 2-0 (10.6%)
-🏆 MLS|Portland Timbers vs Houston Dynamo|02/11 04:45|Over 2.5 1.63 (61.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Portland Timbers (71.9%) | Πιθανό Σκορ: 2-0 (10.8%)
-🏆 Ισπανία LaLiga 2 🇪🇸|Tenerife vs Andorra CF|02/11 15:00|Over 1.5 1.46 (68.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Tenerife (59.6%) | Πιθανό Σκορ: 1-0 (13.7%)
-🏆 Premier League - Russia|Kryliya Sovetov vs Zenit St Petersburg|02/11 17:00|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Zenit St Petersburg (77.8%) | Πιθανό Σκορ: 0-2 (12.6%)
-🏆 Ισπανία LaLiga 2 🇪🇸|Oviedo vs Las Palmas|02/11 17:15|Over 2.5 1.92 (52.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Oviedo (73.4%) | Πιθανό Σκορ: 1-0 (13.3%)
+🏆 Ισπανία LaLiga 2 🇪🇸|Tenerife vs Andorra CF|02/11 15:00|Over 1.5 1.44 (69.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Tenerife (61.5%) | Πιθανό Σκορ: 1-0 (14.2%)
+🏆 Premier League - Russia|Kryliya Sovetov vs Zenit St Petersburg|02/11 17:00|Over 2.5 1.65 (60.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Zenit St Petersburg (77.3%) | Πιθανό Σκορ: 0-2 (12.5%)
+🏆 Ισπανία LaLiga 2 🇪🇸|Oviedo vs Las Palmas|02/11 17:15|Over 2.5 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Oviedo (73.4%) | Πιθανό Σκορ: 1-0 (13.3%)
 🏆 Super League - Greece|Atromitos Athens vs Volos FC|02/11 18:00|Over 2.5 1.96 (51.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Atromitos Athens (67.8%) | Πιθανό Σκορ: 1-0 (12.3%)
-🏆 Veikkausliiga - Finland|FC Inter Turku vs IF Gnistan|02/11 18:00|Over 2.5 1.64 (61.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Inter Turku (84.1%) | Πιθανό Σκορ: 2-0 (14.8%)
-🏆 Veikkausliiga - Finland|VPS Vaasa vs HJK Helsinki|02/11 18:00|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: HJK Helsinki (84.4%) | Πιθανό Σκορ: 0-2 (14.9%)
+🏆 Veikkausliiga - Finland|FC Inter Turku vs IF Gnistan|02/11 18:00|Over 2.5 1.61 (62.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Inter Turku (85.3%) | Πιθανό Σκορ: 2-0 (15.2%)
+🏆 Veikkausliiga - Finland|VPS Vaasa vs HJK Helsinki|02/11 18:00|Over 2.5 1.40 (71.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: HJK Helsinki (87.0%) | Πιθανό Σκορ: 0-2 (15.8%)
+🏆 Turkey Super League|Genclerbirligi SK vs Alanyaspor|02/11 19:00|Over 2.5 2.04 (49.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Alanyaspor (50.5%) | Πιθανό Σκορ: 1-1 (12.2%)
+🏆 Ekstraklasa - Poland|Zagłębie Lubin vs Korona Kielce|02/11 19:00|Over 2.5 2.00 (50.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Zagłębie Lubin (52.5%) | Πιθανό Σκορ: 1-1 (12.2%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
