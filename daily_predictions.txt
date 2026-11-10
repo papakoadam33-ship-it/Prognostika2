@@ -1,12 +1,18 @@
 STATS|78.2|22.1
-🏆 UEFA Champions League Women|BK Hacken vs Chelsea|10/11 19:45|Over 2.5 1.45 (69.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Chelsea (90.9%) | Πιθανό Σκορ: 0-2 (17.2%)
-🏆 UEFA Champions League Women|Real Madrid vs Paris FC|10/11 19:45|Over 2.5 1.46 (68.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Real Madrid (79.7%) | Πιθανό Σκορ: 2-0 (13.2%)
-🏆 Copa del Rey|Anaitasuna vs Alavés|10/11 20:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Alavés (96.6%) | Πιθανό Σκορ: 0-2 (22.8%)
-🏆 Copa del Rey|CD Pamplona vs SD Eibar|10/11 20:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: SD Eibar (91.1%) | Πιθανό Σκορ: 0-2 (20.3%)
-🏆 Copa del Rey|CF Trival Valderas vs Leganés|10/11 21:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Leganés (93.1%) | Πιθανό Σκορ: 0-2 (21.2%)
-🏆 Copa del Rey|Mijas Las Lagunas vs Real Jaen|10/11 21:00|Over 2.5 1.89 (52.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Real Jaen (67.5%) | Πιθανό Σκορ: 0-1 (12.3%)
-🏆 Copa del Rey|SD Amorebieta vs UD Logroñés|10/11 21:00|Over 2.5 1.80 (55.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: UD Logroñés (60.6%) | Πιθανό Σκορ: 1-1 (11.7%)
-🏆 UEFA Champions League Women|AS Roma vs Servette FC|10/11 22:00|Over 2.5 1.32 (75.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: AS Roma (87.7%) | Πιθανό Σκορ: 2-0 (16.0%)
+🏆 EFL Trophy|Bromley FC vs Milton Keynes Dons|10/11 21:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Milton Keynes Dons (95.6%) | Πιθανό Σκορ: 0-2 (22.4%)
+🏆 EFL Trophy|Colchester United vs Ipswich Town U21|10/11 21:45|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Colchester United (62.8%) | Πιθανό Σκορ: 1-1 (11.4%)
+🏆 UEFA Champions League Women|AS Roma vs Servette FC|10/11 22:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: AS Roma (96.9%) | Πιθανό Σκορ: 2-0 (23.0%)
+🏆 UEFA Champions League Women|Paris Saint Germain vs Bayern Munich|10/11 22:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bayern Munich (96.9%) | Πιθανό Σκορ: 0-2 (23.0%)
+🏆 UEFA Champions League Women|Inter Milan vs Manchester City|10/11 22:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Manchester City (99.6%) | Πιθανό Σκορ: 0-2 (24.3%)
+🏆 Copa del Rey|UE Tavernes vs Valencia|10/11 22:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: UE Tavernes (58.5%) | Πιθανό Σκορ: 1-1 (11.9%)
+🏆 UEFA Champions League Women|Leuven vs HB Køge|11/11 19:45|Over 2.5 1.53 (65.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: HB Køge (73.2%) | Πιθανό Σκορ: 0-2 (11.2%)
+🏆 EFL Trophy|Sheffield Wednesday vs Accrington Stanley|11/11 21:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Sheffield Wednesday (77.2%) | Πιθανό Σκορ: 2-0 (14.6%)
+🏆 EFL Trophy|Barnsley vs Oldham Athletic|11/11 21:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Barnsley (66.5%) | Πιθανό Σκορ: 1-0 (12.1%)
+🏆 UEFA Champions League Women|Benfica vs Austria Wien|11/11 22:00|Over 2.5 1.56 (64.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Benfica (75.6%) | Πιθανό Σκορ: 2-0 (11.9%)
+🏆 UEFA Champions League Women|Juventus vs Lyon|11/11 22:00|Over 2.5 1.24 (80.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Lyon (94.1%) | Πιθανό Σκορ: 0-3 (18.6%)
+🏆 Βραζιλία Série B 🇧🇷|Londrina vs Nautico PE|12/11 00:00|Over 2.5 1.61 (62.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Londrina (77.1%) | Πιθανό Σκορ: 2-0 (12.4%)
+🏆 UEFA Nations League|Armenia vs Cyprus|12/11 19:00|Over 1.5 1.44 (69.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Armenia (56.3%) | Πιθανό Σκορ: 1-1 (13.0%)
+🏆 UEFA Nations League|Turkey vs Belgium|12/11 19:00|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Belgium (66.3%) | Πιθανό Σκορ: 1-2 (9.9%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
