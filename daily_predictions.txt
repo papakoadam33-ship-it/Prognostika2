@@ -1,12 +1,13 @@
 STATS|78.2|22.1
-🏆 Frauen-Bundesliga|TSG Hoffenheim vs SC Freiburg|14/11 13:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: TSG Hoffenheim (69.4%) | Πιθανό Σκορ: 1-0 (12.6%)
-🏆 League 2|Exeter City vs Cheltenham Town|14/11 14:30|Over 2.5 1.91 (52.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Exeter City (69.7%) | Πιθανό Σκορ: 1-0 (12.6%)
-🏆 Ισπανία LaLiga 2 🇪🇸|Real Valladolid CF vs CD Castellón|14/11 15:00|Over 2.5 1.73 (57.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: CD Castellón (56.2%) | Πιθανό Σκορ: 1-1 (10.3%)
-🏆 Coupe de France|FC Versailles vs Rodez AF|14/11 15:00|Over 2.5 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Rodez AF (58.1%) | Πιθανό Σκορ: 1-1 (11.9%)
-🏆 Coupe de France|Tourcoing vs Stade de Reims|14/11 15:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Stade de Reims (94.2%) | Πιθανό Σκορ: 0-2 (21.7%)
+🏆 Frauen-Bundesliga|TSG Hoffenheim vs SC Freiburg|14/11 13:00|Over 2.5 1.60 (62.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: TSG Hoffenheim (69.7%) | Πιθανό Σκορ: 2-0 (10.1%)
+🏆 League 2|Exeter City vs Cheltenham Town|14/11 14:30|Over 2.5 1.93 (51.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Exeter City (68.6%) | Πιθανό Σκορ: 1-0 (12.4%)
+🏆 Ισπανία LaLiga 2 🇪🇸|Real Valladolid CF vs CD Castellón|14/11 15:00|Over 2.5 1.57 (63.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: CD Castellón (58.9%) | Πιθανό Σκορ: 1-1 (10.1%)
+🏆 Coupe de France|FC Versailles vs Rodez AF|14/11 15:00|Over 2.5 1.88 (53.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Rodez AF (53.8%) | Πιθανό Σκορ: 1-1 (12.2%)
+🏆 Coupe de France|Tourcoing vs Stade de Reims|14/11 15:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Stade de Reims (94.8%) | Πιθανό Σκορ: 0-2 (22.0%)
 🏆 Frauen-Bundesliga|Werder Bremen vs Union Berlin|14/11 15:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Werder Bremen (60.2%) | Πιθανό Σκορ: 1-1 (11.7%)
-🏆 Coupe de France|CA Boulay vs Sochaux|14/11 15:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Sochaux (90.3%) | Πιθανό Σκορ: 0-2 (20.0%)
-🏆 UEFA Nations League|Kosovo vs Israel|14/11 16:00|Over 2.5 1.86 (53.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Kosovo (70.8%) | Πιθανό Σκορ: 1-0 (12.8%)
+🏆 Coupe de France|CA Boulay vs Sochaux|14/11 15:30|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Sochaux (88.6%) | Πιθανό Σκορ: 0-2 (19.2%)
+🏆 UEFA Nations League|Kosovo vs Israel|14/11 16:00|Over 2.5 1.86 (53.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Kosovo (71.8%) | Πιθανό Σκορ: 1-0 (13.0%)
+🏆 League 2|Port Vale vs Accrington Stanley|14/11 17:00|Over 1.5 1.51 (66.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Port Vale (61.0%) | Πιθανό Σκορ: 1-0 (14.1%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
