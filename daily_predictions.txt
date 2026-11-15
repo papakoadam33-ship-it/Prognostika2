@@ -1,13 +1,12 @@
 STATS|78.2|22.1
-🏆 Brazil Série A|Chapecoense vs Vasco da Gama|15/11 01:31|Under 2.5 1.06 (94.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Vasco da Gama (96.3%) | Πιθανό Σκορ: 0-1 (28.0%)
-🏆 Ισπανία LaLiga 2 🇪🇸|Tenerife vs AD Ceuta FC|15/11 15:00|Over 2.5 1.98 (50.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Tenerife (72.1%) | Πιθανό Σκορ: 1-0 (13.1%)
-🏆 Coupe de France|CS Sedan vs Bourges FC|15/11 15:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bourges FC (83.2%) | Πιθανό Σκορ: 0-2 (17.0%)
-🏆 Coupe de France|Paris 13 Atletico vs Red Star|15/11 15:00|Over 2.5 1.76 (56.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Red Star (76.5%) | Πιθανό Σκορ: 0-2 (14.3%)
+🏆 Ισπανία LaLiga 2 🇪🇸|Tenerife vs AD Ceuta FC|15/11 15:00|Over 2.5 2.01 (49.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Tenerife (71.5%) | Πιθανό Σκορ: 1-0 (13.0%)
+🏆 Coupe de France|CS Sedan vs Bourges FC|15/11 15:00|Over 2.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bourges FC (80.6%) | Πιθανό Σκορ: 0-2 (13.6%)
+🏆 Coupe de France|Paris 13 Atletico vs Red Star|15/11 15:00|Over 2.5 1.80 (55.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Red Star (75.2%) | Πιθανό Σκορ: 0-2 (13.8%)
 🏆 Coupe de France|AS Atlas Paillade vs Cannes|15/11 16:00|Over 2.5 1.45 (69.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Cannes (86.0%) | Πιθανό Σκορ: 0-2 (15.4%)
-🏆 UEFA Nations League|Latvia vs Armenia|15/11 16:00|Over 1.5 1.56 (64.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Armenia (55.9%) | Πιθανό Σκορ: 1-1 (13.1%)
-🏆 UEFA Nations League|Cyprus vs Montenegro|15/11 16:00|Over 2.5 1.91 (52.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Montenegro (59.0%) | Πιθανό Σκορ: 1-1 (11.9%)
-🏆 Coupe de France|GFA Rumilly Vallières vs Saint Etienne|15/11 16:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Saint Etienne (85.7%) | Πιθανό Σκορ: 0-2 (18.0%)
-🏆 Frauen-Bundesliga|1. FC Nürnberg vs 1. FC Köln|15/11 17:00|Over 2.5 1.53 (65.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: 1. FC Köln (68.0%) | Πιθανό Σκορ: 1-2 (9.9%)
+🏆 UEFA Nations League|Latvia vs Armenia|15/11 16:00|Under 2.5 1.62 (61.7%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Armenia (59.6%) | Πιθανό Σκορ: 0-1 (17.3%)
+🏆 UEFA Nations League|Cyprus vs Montenegro|15/11 16:00|Over 2.5 1.76 (56.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Montenegro (56.4%) | Πιθανό Σκορ: 1-1 (12.0%)
+🏆 Coupe de France|GFA Rumilly Vallières vs Saint Etienne|15/11 16:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Saint Etienne (84.0%) | Πιθανό Σκορ: 0-2 (17.3%)
+🏆 Frauen-Bundesliga|1. FC Nürnberg vs 1. FC Köln|15/11 17:00|Over 2.5 1.53 (65.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: 1. FC Köln (68.1%) | Πιθανό Σκορ: 1-2 (9.9%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
