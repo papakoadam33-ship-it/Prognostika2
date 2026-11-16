@@ -1,12 +1,12 @@
 STATS|78.2|22.1
-🏆 UEFA Nations League|Faroe Islands vs Moldova|16/11 17:00|Over 1.5 1.59 (62.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Faroe Islands (71.0%) | Πιθανό Σκορ: 1-0 (16.4%)
-🏆 UEFA Nations League|Kazakhstan vs Slovakia|16/11 17:00|Over 2.5 1.85 (54.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Slovakia (67.8%) | Πιθανό Σκορ: 0-1 (12.3%)
-🏆 Frauen-Bundesliga|VfB Stuttgart vs Bayer Leverkusen|16/11 19:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bayer Leverkusen (74.5%) | Πιθανό Σκορ: 0-2 (13.6%)
-🏆 UEFA Nations League|Estonia vs Bulgaria|16/11 19:00|Over 1.5 1.54 (64.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Estonia (69.0%) | Πιθανό Σκορ: 1-0 (15.9%)
-🏆 UEFA Nations League|Iceland vs Luxembourg|16/11 19:00|Over 2.5 1.71 (58.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Iceland (92.6%) | Πιθανό Σκορ: 2-0 (17.9%)
-🏆 UEFA Nations League|Lithuania vs Liechtenstein|16/11 19:00|Over 2.5 1.98 (50.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Lithuania (96.3%) | Πιθανό Σκορ: 2-0 (22.7%)
-🏆 Ισπανία LaLiga 2 🇪🇸|Albacete vs Celta Fortuna|16/11 21:30|Over 2.5 1.71 (58.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Albacete (77.2%) | Πιθανό Σκορ: 2-0 (12.5%)
-🏆 UEFA Nations League|Germany vs Netherlands|16/11 21:45|Over 2.5 1.41 (70.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Germany (65.3%) | Πιθανό Σκορ: 2-1 (9.9%)
+🏆 EFL Trophy|Luton vs Peterborough United|17/11 21:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Luton (75.8%) | Πιθανό Σκορ: 2-0 (14.1%)
+🏆 UEFA Nations League|Israel vs Austria|17/11 21:45|Over 2.5 1.68 (59.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Austria (69.2%) | Πιθανό Σκορ: 0-2 (10.0%)
+🏆 UEFA Nations League|Bosnia & Herzegovina vs Romania|17/11 21:45|Over 2.5 1.83 (54.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bosnia & Herzegovina (65.9%) | Πιθανό Σκορ: 1-0 (12.0%)
+🏆 UEFA Nations League|Denmark vs Norway|17/11 21:45|Over 2.5 1.46 (68.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Denmark (55.0%) | Πιθανό Σκορ: 1-1 (10.3%)
+🏆 UEFA Nations League|Ukraine vs Georgia|17/11 21:45|Under 2.5 1.66 (60.2%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Ukraine (60.4%) | Πιθανό Σκορ: 1-0 (17.6%)
+🏆 UEFA Nations League|Hungary vs Northern Ireland|17/11 21:45|Under 2.5 1.52 (65.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Hungary (67.0%) | Πιθανό Σκορ: 1-0 (19.5%)
+🏆 UEFA Nations League|Republic of Ireland vs Kosovo|17/11 21:45|Under 2.5 1.55 (64.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Republic of Ireland (63.9%) | Πιθανό Σκορ: 1-0 (18.6%)
+🏆 UEFA Nations League|Poland vs Sweden|17/11 21:45|Over 2.5 1.62 (61.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Poland (55.3%) | Πιθανό Σκορ: 1-1 (10.3%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
