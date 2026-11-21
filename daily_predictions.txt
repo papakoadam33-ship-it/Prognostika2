@@ -1,13 +1,15 @@
 STATS|78.2|22.1
-🏆 Primera División - Chile|Cobresal vs Audax Italiano|20/11 23:00|Over 2.5 1.73 (57.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Cobresal (98.4%) | Πιθανό Σκορ: 2-0 (23.7%)
-🏆 Αργεντινή Primera 🇦🇷|Velez Sarsfield BA vs Belgrano de Cordoba|21/11 01:00|Over 1.5 1.55 (64.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Velez Sarsfield BA (56.8%) | Πιθανό Σκορ: 1-0 (13.1%)
-🏆 Primera División - Chile|Palestino vs Union La Calera|21/11 01:30|Over 2.5 1.92 (52.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Palestino (66.4%) | Πιθανό Σκορ: 1-0 (12.0%)
-🏆 Liga MX|Puebla vs Atlético San Luis|21/11 03:00|Over 2.5 1.72 (58.1%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Puebla (51.5%) | Πιθανό Σκορ: 1-1 (10.4%)
-🏆 Liga MX|FC Juárez vs Atlas|21/11 05:00|Over 2.5 1.62 (61.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Atlas (63.6%) | Πιθανό Σκορ: 0-1 (11.5%)
-🏆 Liga MX|Tijuana vs Atlante FC|21/11 05:10|Over 2.5 1.57 (63.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Tijuana (76.9%) | Πιθανό Σκορ: 2-0 (12.3%)
-🏆 A-League|Auckland FC vs Melbourne Victory|21/11 06:00|Over 2.5 1.68 (59.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Auckland FC (50.8%) | Πιθανό Σκορ: 1-1 (12.2%)
-🏆 K League 1|Pohang Steelers vs FC Anyang|21/11 07:00|Over 1.5 1.48 (67.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Pohang Steelers (54.8%) | Πιθανό Σκορ: 1-1 (13.1%)
-🏆 J League|FC Machida Zelvia vs V-Varen Nagasaki|21/11 07:00|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Machida Zelvia (81.1%) | Πιθανό Σκορ: 2-0 (16.1%)
+🏆 Premier League - Russia|Gazovik Orenburg vs FC Baltika Kaliningrad|21/11 12:00|Under 2.5 1.00 (100.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Gazovik Orenburg (58.5%) | Πιθανό Σκορ: 1-0 (17.0%)
+🏆 Turkey Super League|Genclerbirligi SK vs Gazişehir Gaziantep|21/11 12:32|Over 2.5 1.98 (50.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Genclerbirligi SK (92.6%) | Πιθανό Σκορ: 2-0 (21.0%)
+🏆 Frauen-Bundesliga|Eintracht Frankfurt vs Hamburger SV|21/11 13:00|Under 2.5 1.49 (67.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Eintracht Frankfurt (82.7%) | Πιθανό Σκορ: 1-0 (24.1%)
+🏆 Γερμανία DFB Pokal 🇩🇪|1. FC Nürnberg vs Eintracht Braunschweig|21/11 14:00|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: 1. FC Nürnberg (71.0%) | Πιθανό Σκορ: 2-0 (10.5%)
+🏆 Superettan - Sweden|Enköpings SK vs Örebro SK|21/11 14:00|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Örebro SK (66.1%) | Πιθανό Σκορ: 0-1 (12.0%)
+🏆 Γερμανία DFB Pokal 🇩🇪|Hannover 96 vs Greuther Fürth|21/11 14:00|Over 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Hannover 96 (79.2%) | Πιθανό Σκορ: 2-0 (13.1%)
+🏆 Γερμανία DFB Pokal 🇩🇪|VfL Wolfsburg vs Holstein Kiel|21/11 14:00|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: VfL Wolfsburg (75.3%) | Πιθανό Σκορ: 2-0 (11.8%)
+🏆 Superettan - Sweden|Östersunds FK vs Varbergs BoIS|21/11 14:00|Under 2.5 1.51 (66.2%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Östersunds FK (66.4%) | Πιθανό Σκορ: 1-0 (19.3%)
+🏆 Premier League - Russia|FC Akron Tolyatti vs FC Fakel Voronezh|21/11 14:15|Over 1.5 1.41 (71.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Akron Tolyatti (60.4%) | Πιθανό Σκορ: 1-0 (13.9%)
+🏆 League 1|Blackpool vs Wigan Athletic|21/11 14:30|Over 2.5 1.79 (55.9%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Blackpool (58.3%) | Πιθανό Σκορ: 1-1 (10.1%)
+🏆 League 1|Reading vs Bromley FC|21/11 14:30|Over 2.5 1.58 (63.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Reading (85.0%) | Πιθανό Σκορ: 2-0 (15.1%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
