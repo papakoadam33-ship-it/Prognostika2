@@ -1,12 +1,12 @@
 STATS|78.2|22.1
-🏆 UEFA Champions League|Galatasaray vs Aston Villa|24/11 19:45|Over 2.5 1.44 (69.4%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Aston Villa (56.7%) | Πιθανό Σκορ: 1-1 (10.2%)
-🏆 UEFA Champions League|Bodø/Glimt vs LASK|24/11 19:45|Over 2.5 1.22 (82.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Bodø/Glimt (84.8%) | Πιθανό Σκορ: 2-0 (15.0%)
-🏆 Serie B - Italy|Juve Stabia vs US Catanzaro 1929|24/11 20:00|Over 2.5 1.67 (59.9%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Juve Stabia (64.6%) | Πιθανό Σκορ: 1-0 (11.7%)
-🏆 Serie B - Italy|Cesena FC vs Ascoli|24/11 21:00|Over 2.5 1.75 (57.1%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Ascoli (51.9%) | Πιθανό Σκορ: 1-1 (12.2%)
-🏆 Serie B - Italy|Benevento vs Empoli|24/11 21:00|Over 2.5 1.64 (61.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Benevento (82.0%) | Πιθανό Σκορ: 2-0 (14.0%)
-🏆 Serie B - Italy|Vicenza vs Carrarese|24/11 21:00|Over 1.5 1.36 (73.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Carrarese (58.7%) | Πιθανό Σκορ: 0-1 (13.5%)
-🏆 EFL Trophy|Tranmere Rovers vs Everton U21|24/11 21:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Tranmere Rovers (58.8%) | Πιθανό Σκορ: 1-1 (11.9%)
-🏆 EFL Trophy|Fleetwood Town vs Leeds United U21|24/11 21:00|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Fleetwood Town (77.0%) | Πιθανό Σκορ: 2-0 (14.5%)
+🏆 MLS|San Jose Earthquakes vs Houston Dynamo|25/11 05:00|Over 2.5 1.74 (57.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: San Jose Earthquakes (66.4%) | Πιθανό Σκορ: 2-1 (9.9%)
+🏆 J League|Avispa Fukuoka vs Yokohama F Marinos|25/11 12:00|Over 2.5 1.97 (50.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Yokohama F Marinos (58.0%) | Πιθανό Σκορ: 1-1 (11.9%)
+🏆 J League|FC Tokyo vs Hiroshima Sanfrecce FC|25/11 12:00|Over 2.5 1.74 (57.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: FC Tokyo (56.4%) | Πιθανό Σκορ: 1-1 (10.3%)
+🏆 J League|Fagiano Okayama vs Shimizu S Pulse|25/11 12:00|Under 2.5 1.68 (59.5%) 🔥 VALUE BET IDENTIFIED ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Fagiano Okayama (65.4%) | Πιθανό Σκορ: 1-0 (19.0%)
+🏆 J League|JEF United Chiba vs Nagoya Grampus|25/11 12:00|Over 2.5 2.02 (49.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Nagoya Grampus (58.6%) | Πιθανό Σκορ: 1-1 (11.9%)
+🏆 J League|V-Varen Nagasaki vs Kawasaki Frontale|25/11 12:00|Over 2.5 1.62 (61.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Kawasaki Frontale (67.6%) | Πιθανό Σκορ: 1-2 (9.9%)
+🏆 J League|Mito HollyHock vs Tokyo Verdy|25/11 12:00|Under 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Tokyo Verdy (54.4%) | Πιθανό Σκορ: 0-1 (15.8%)
+🏆 J League|Urawa Red Diamonds vs Cerezo Osaka|25/11 12:30|Over 2.5 1.61 (62.1%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Urawa Red Diamonds (68.3%) | Πιθανό Σκορ: 2-1 (9.9%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
