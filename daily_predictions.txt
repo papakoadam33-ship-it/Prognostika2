@@ -1,12 +1,13 @@
 STATS|78.2|22.1
-🏆 Saudi Pro League|Al-Fateh vs Al-Riyadh|26/11 16:25|Over 2.5 1.64 (61.0%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Al-Fateh (55.1%) | Πιθανό Σκορ: 1-1 (10.3%)
-🏆 Saudi Pro League|Abha Club vs Al-Shabab|26/11 17:05|Over 2.5 1.73 (57.8%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Shabab (68.5%) | Πιθανό Σκορ: 0-1 (12.4%)
-🏆 UEFA Europa Conference League|FC Kairat vs Mjällby AIF|26/11 17:30|Over 1.5 1.47 (68.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: FC Kairat (60.3%) | Πιθανό Σκορ: 1-0 (13.9%)
-🏆 Saudi Pro League|Al-Faisaly KSA FC vs Diriyah Club|26/11 19:30|Over 2.5 1.68 (59.5%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Diriyah Club (66.1%) | Πιθανό Σκορ: 1-2 (9.9%)
-🏆 UEFA Europa League|Olympiakos Piraeus vs AC Milan|26/11 19:45|Over 2.5 1.87 (53.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: AC Milan (51.9%) | Πιθανό Σκορ: 1-1 (12.2%)
-🏆 UEFA Europa Conference League|SK Brann vs AGF Aarhus|26/11 19:45|Over 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: SK Brann (61.2%) | Πιθανό Σκορ: 1-1 (9.9%)
-🏆 UEFA Europa Conference League|Hearts vs AS Monaco|26/11 19:45|Over 2.5 1.50 (66.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: AS Monaco (81.0%) | Πιθανό Σκορ: 0-2 (13.7%)
-🏆 UEFA Europa Conference League|Ajax vs FC Thun|26/11 19:45|Over 2.5 1.20 (83.3%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Ajax (93.9%) | Πιθανό Σκορ: 3-0 (18.4%)
+🏆 Brazil Série A|Sao Paulo vs Remo|27/11 01:00|Under 2.5 1.45 (69.0%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Sao Paulo (93.2%) | Πιθανό Σκορ: 1-0 (27.1%)
+🏆 Liga MX|Pachuca vs Guadalajara|27/11 03:00|Over 1.5 1.41 (70.7%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Guadalajara (57.5%) | Πιθανό Σκορ: 0-1 (13.3%)
+🏆 Liga MX|León vs Cruz Azul|27/11 05:10|Over 2.5 1.71 (58.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Cruz Azul (59.5%) | Πιθανό Σκορ: 1-1 (11.8%)
+🏆 A-League|Macarthur FC vs Melbourne City|27/11 10:40|Over 2.5 1.71 (58.5%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Melbourne City (61.5%) | Πιθανό Σκορ: 1-1 (11.6%)
+🏆 Saudi Pro League|Al-Kholood vs Al-Khaleej|27/11 14:15|Over 2.5 1.69 (59.2%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Al-Kholood (59.4%) | Πιθανό Σκορ: 1-1 (10.1%)
+🏆 Saudi Pro League|Al-Qadsiah vs Al-Fayha|27/11 16:20|Over 2.5 1.90 (52.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Al-Qadsiah (88.6%) | Πιθανό Σκορ: 2-0 (19.2%)
+🏆 Turkey Super League|Alanyaspor vs Torku Konyaspor|27/11 19:00|Over 1.5 1.62 (61.6%) ✨ 1ο Ημίχ. Over 0.5 (82.0%) | 1ο Γκολ: Torku Konyaspor (51.4%) | Πιθανό Σκορ: 1-1 (13.2%)
+🏆 Turkey Super League|Çaykur Rizespor vs Kasimpasa SK|27/11 19:00|Over 2.5 1.70 (58.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Çaykur Rizespor (65.0%) | Πιθανό Σκορ: 2-1 (9.9%)
+🏆 Ekstraklasa - Poland|Raków Częstochowa vs Piast Gliwice|27/11 19:00|Over 2.5 1.52 (65.8%) ✨ 1ο Ημίχ. Over 1.5 (74.1%) | 1ο Γκολ: Raków Częstochowa (67.6%) | Πιθανό Σκορ: 2-1 (9.9%)
 --- ΠΡΟΣΦΑΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ (RESULTS) ---
 🏁 Tigre vs Alianza Atletico | Score: 2-0 | Over 2.5 -> ❌ Χάθηκε στο γκολ
 🏁 America de Cali vs Macara | Score: 0-0 | Over 2.5 -> ❌ Κουβάς
